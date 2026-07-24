@@ -1,0 +1,119 @@
+{
+  "pageId": "RC-G01",
+  "title": "Rice Cooker Buying Guide",
+  "slug": "rice-cooker-buying-guide",
+  "canonicalPath": "/rice-cooker-buying-guide/",
+  "description": "Use this rice cooker buying guide to compare sizes, power, features, materials, budget and common buying mistakes.",
+  "pageType": "Buying Guide",
+  "priority": "P3",
+  "cluster": "Rice Cookers",
+  "parentPillar": "RC-HUB",
+  "primaryKeyword": "rice cooker buying guide",
+  "secondaryKeywords": [
+    "how to choose rice cooker",
+    "rice cooker buying guide features",
+    "rice cooker buying guide size",
+    "rice cooker buying guide wattage",
+    "rice cooker buying guide checklist"
+  ],
+  "searchIntent": "Informational",
+  "funnel": "TOFU/MOFU",
+  "targetLength": "2,200–3,500",
+  "monetization": "Medium — recommended examples",
+  "schemaRecommendation": "Article + BreadcrumbList",
+  "evidenceRequirement": "Primary-source/manual references where useful; calculations/examples; original explanation; safety caveats; no generic rewritten filler.",
+  "answerBlockBrief": "Definition and direct recommendation; criteria table; ranges and thresholds; decision tree; mistakes; links to commercial pages; concise FAQs.",
+  "requiredTables": "Feature thresholds; size/capacity chart; decision tree",
+  "ctaGuidance": "Contextual links to 2–4 relevant roundups/reviews",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Quick buying recommendation",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Quick buying recommendation”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Choose the right size or capacity",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Choose the right size or capacity”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Power and performance requirements",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Power and performance requirements”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Important features",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Important features”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Materials, safety and cleaning",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Materials, safety and cleaning”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Countertop space and storage",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Countertop space and storage”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Budget tiers and value",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Budget tiers and value”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Decision tree by user type",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Decision tree by user type”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Common buying mistakes",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Common buying mistakes”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Recommended products",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Recommended products”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "RC-HUB",
+    "RC-PIL",
+    "RC-G02",
+    "RC-G04",
+    "RC-G03"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

@@ -1,0 +1,98 @@
+{
+  "pageId": "CG-G03",
+  "title": "How to Clean a Burr Grinder",
+  "slug": "how-to-clean-a-burr-grinder",
+  "canonicalPath": "/how-to-clean-a-burr-grinder/",
+  "description": "Learn how to clean a burr grinder with clear steps, safety notes, troubleshooting advice and practical next actions.",
+  "pageType": "How-To",
+  "priority": "P4",
+  "cluster": "Coffee Grinders",
+  "parentPillar": "CG-HUB",
+  "primaryKeyword": "how to clean a burr grinder",
+  "secondaryKeywords": [
+    "how to clean a burr grinder explained",
+    "how to clean a burr grinder guide",
+    "how to clean a burr grinder FAQ",
+    "how to clean a burr grinder tips",
+    "how to clean a burr grinder common mistakes"
+  ],
+  "searchIntent": "Informational",
+  "funnel": "TOFU/MOFU",
+  "targetLength": "1,200–2,000",
+  "monetization": "Low/Medium — contextual product links only",
+  "schemaRecommendation": "HowTo only when steps are visible and eligible; otherwise Article + BreadcrumbList",
+  "evidenceRequirement": "Primary-source/manual references where useful; calculations/examples; original explanation; safety caveats; no generic rewritten filler.",
+  "answerBlockBrief": "Numbered steps; short answer at top; safety caveats; troubleshooting table; outcome checks; concise FAQs.",
+  "requiredTables": "Answer/condition table or troubleshooting table where useful",
+  "ctaGuidance": "Only contextual affiliate links when genuinely helpful",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Quick answer",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Quick answer”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "What you need",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “What you need”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Step-by-step instructions",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Step-by-step instructions”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "What to avoid",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “What to avoid”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Troubleshooting common problems",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Troubleshooting common problems”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Safety and manufacturer guidance",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Safety and manufacturer guidance”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "When replacement or service is better",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “When replacement or service is better”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "CG-HUB",
+    "CG-PIL",
+    "CG-G01",
+    "CG-G02",
+    "CG-G04"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

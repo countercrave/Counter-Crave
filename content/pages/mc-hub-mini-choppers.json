@@ -1,0 +1,99 @@
+{
+  "pageId": "MC-HUB",
+  "title": "Mini Chopper Reviews, Comparisons and Buying Guides",
+  "slug": "mini-choppers",
+  "canonicalPath": "/mini-choppers/",
+  "description": "Explore independent mini chopper reviews and buying guides, comparisons, buying guides and practical advice from CounterCrave.",
+  "pageType": "Category Hub",
+  "priority": "P3",
+  "cluster": "Mini Choppers",
+  "parentPillar": null,
+  "primaryKeyword": "mini chopper reviews and buying guides",
+  "secondaryKeywords": [
+    "mini chopper reviews and buying guides explained",
+    "mini chopper reviews and buying guides guide",
+    "mini chopper reviews and buying guides FAQ",
+    "mini chopper reviews and buying guides tips",
+    "mini chopper reviews and buying guides common mistakes"
+  ],
+  "searchIntent": "Mixed",
+  "funnel": "MOFU",
+  "targetLength": "1,500–2,200",
+  "monetization": "Indirect — distribute users to money pages",
+  "schemaRecommendation": "CollectionPage + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Original editorial context, source validation and clear author accountability.",
+  "answerBlockBrief": "40–60 word category summary; decision table; category taxonomy; links to best answers; methodology statement; concise FAQ answers.",
+  "requiredTables": "Best-by-use-case navigation table; latest content list",
+  "ctaGuidance": "Internal links first; minimal direct Amazon CTAs",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Quick answer: how to choose the right mini choppers",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Quick answer: how to choose the right mini choppers”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best picks by budget and use case",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best picks by budget and use case”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Browse all best-of roundups",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Browse all best-of roundups”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Latest individual reviews",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Latest individual reviews”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Head-to-head comparisons",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Head-to-head comparisons”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Buying guides and troubleshooting",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Buying guides and troubleshooting”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "How CounterCrave evaluates products",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “How CounterCrave evaluates products”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "MC-PIL",
+    "MC-R01",
+    "MC-R02",
+    "MC-R03",
+    "MC-C01",
+    "MC-G01"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

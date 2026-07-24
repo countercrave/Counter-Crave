@@ -1,0 +1,16 @@
+---
+description: CounterCrave architecture, SEO and affiliate rules
+alwaysApply: true
+---
+
+- Read AGENTS.md before writing code.
+- Use the documentation bundled in node_modules/next/dist/docs for Next.js APIs.
+- Prefer Server Components. A Client Component must have a clear interaction need.
+- Never expose unpublished draft content in the production sitemap or robots index.
+- Keep canonical URLs in the /slug/ format.
+- Generate every Amazon product link through the central affiliate utility.
+- The default Amazon Associate tag is visitbest07-20.
+- Never scrape Amazon product pages or images.
+- Do not hardcode volatile prices or Amazon customer review ratings.
+- Do not claim hands-on testing unless the content file contains verified evidence.
+- Keep output semantic, accessible and responsive.

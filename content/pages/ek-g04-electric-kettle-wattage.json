@@ -1,0 +1,99 @@
+{
+  "pageId": "EK-G04",
+  "title": "How Many Watts Does an Electric Kettle Use?",
+  "slug": "electric-kettle-wattage",
+  "canonicalPath": "/electric-kettle-wattage/",
+  "description": "Get a clear answer to electric kettle wattage, including key factors, practical examples, limitations and next steps.",
+  "pageType": "Informational",
+  "priority": "P3",
+  "cluster": "Electric Kettles",
+  "parentPillar": "EK-HUB",
+  "primaryKeyword": "electric kettle wattage",
+  "secondaryKeywords": [
+    "electric kettle wattage explained",
+    "electric kettle wattage guide",
+    "electric kettle wattage FAQ",
+    "electric kettle wattage tips",
+    "electric kettle wattage common mistakes"
+  ],
+  "searchIntent": "Informational",
+  "funnel": "TOFU/MOFU",
+  "targetLength": "1,200–2,200",
+  "monetization": "Low/Medium — contextual product links only",
+  "schemaRecommendation": "Article + BreadcrumbList",
+  "evidenceRequirement": "Primary-source/manual references where useful; calculations/examples; original explanation; safety caveats; no generic rewritten filler.",
+  "answerBlockBrief": "40–60 word direct answer; definitions; conditions/exceptions; practical table; next-step recommendation; concise FAQs.",
+  "requiredTables": "Answer/condition table or troubleshooting table where useful",
+  "ctaGuidance": "Only contextual affiliate links when genuinely helpful",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Direct answer",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Direct answer”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Why this happens or why it matters",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Why this happens or why it matters”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Key factors that change the answer",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Key factors that change the answer”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Practical examples",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Practical examples”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "What to do next",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “What to do next”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Important limitations and safety notes",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Important limitations and safety notes”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Related product recommendations",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Related product recommendations”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "EK-HUB",
+    "EK-PIL",
+    "EK-G02",
+    "EK-G05",
+    "EK-G06",
+    "EK-G07"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

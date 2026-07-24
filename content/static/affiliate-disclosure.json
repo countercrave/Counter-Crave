@@ -1,0 +1,47 @@
+{
+  "pageId": "STATIC-DISCLOSURE",
+  "title": "Affiliate Disclosure",
+  "slug": "affiliate-disclosure",
+  "canonicalPath": "/affiliate-disclosure/",
+  "description": "Understand how CounterCrave uses Amazon Associate and other affiliate links.",
+  "pageType": "Static",
+  "priority": "P0",
+  "cluster": "Legal",
+  "primaryKeyword": "CounterCrave affiliate disclosure",
+  "summary": "As an Amazon Associate I earn from qualifying purchases.",
+  "sections": [
+    {
+      "heading": "How affiliate links work",
+      "paragraphs": [
+        "Some CounterCrave links are affiliate links. When a reader follows one of these links and completes a qualifying purchase, CounterCrave may earn a commission.",
+        "The reader's purchase price is not increased because of this commission."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Editorial independence",
+      "paragraphs": [
+        "Affiliate relationships do not guarantee positive coverage or a recommendation. Products are assessed against the criteria described in our methodology.",
+        "CounterCrave aims to disclose meaningful drawbacks, suitable alternatives and situations in which a reader should not buy a product."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Amazon relationship",
+      "paragraphs": [
+        "Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates. CounterCrave is not Amazon and does not process Amazon orders, returns or customer service requests."
+      ],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "relatedPageIds": [
+    "STATIC-ABOUT",
+    "STATIC-HOW-WE-TEST"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "publishedAt": "2026-07-24",
+  "updatedAt": "2026-07-24",
+  "draft": false,
+  "noindex": false
+}

@@ -1,0 +1,47 @@
+{
+  "pageId": "STATIC-PRIVACY",
+  "title": "Privacy Policy",
+  "slug": "privacy",
+  "canonicalPath": "/privacy/",
+  "description": "Review the types of analytics, cookies and third-party services that may be used on CounterCrave.",
+  "pageType": "Static",
+  "priority": "P0",
+  "cluster": "Legal",
+  "primaryKeyword": "CounterCrave privacy policy",
+  "summary": "This starter privacy page explains the website's planned analytics and affiliate data flows and must be legally reviewed before launch.",
+  "sections": [
+    {
+      "heading": "Information the site may collect",
+      "paragraphs": [
+        "The website may process basic technical information such as browser type, device type, approximate region, referring page, viewed pages and interaction events.",
+        "Contact information is collected only when a visitor voluntarily submits it."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Analytics and affiliate services",
+      "paragraphs": [
+        "The implementation supports Google Analytics, Vercel Analytics and Amazon affiliate links. These providers may process information under their own privacy terms.",
+        "Cookie consent or additional disclosures may be required depending on the visitor's location and the final services enabled."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Before production launch",
+      "paragraphs": [
+        "Replace this starter text with a policy reviewed for the business entity, target markets, enabled analytics, consent system, contact process and data-retention practices."
+      ],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "relatedPageIds": [
+    "STATIC-TERMS",
+    "STATIC-CONTACT"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "publishedAt": "2026-07-24",
+  "updatedAt": "2026-07-24",
+  "draft": false,
+  "noindex": false
+}

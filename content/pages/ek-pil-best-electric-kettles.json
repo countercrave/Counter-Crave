@@ -1,0 +1,120 @@
+{
+  "pageId": "EK-PIL",
+  "title": "Best Electric Kettles for Tea, Coffee and Fast Boiling",
+  "slug": "best-electric-kettles",
+  "canonicalPath": "/best-electric-kettles/",
+  "description": "Compare best electric kettles with clear picks, decision criteria, trade-offs and an independent buying guide.",
+  "pageType": "Commercial Pillar",
+  "priority": "P2",
+  "cluster": "Electric Kettles",
+  "parentPillar": "EK-HUB",
+  "primaryKeyword": "best electric kettles",
+  "secondaryKeywords": [
+    "best electric kettles reviews",
+    "best electric kettles comparison",
+    "best electric kettles buying guide",
+    "best electric kettles for the money",
+    "top rated electric kettles"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "3,000–4,500",
+  "monetization": "High — product table + contextual CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Original selection methodology; spec verification; decision criteria; custom comparison table; explain exclusions; ideally hands-on notes or documented research.",
+  "answerBlockBrief": "Answer-first verdict; top-three table; measurable selection criteria; each pick has buy-if/skip-if; clear alternatives; short fact-based FAQs.",
+  "requiredTables": "Top picks table; full comparison table; selection criteria table; optional size/value decision table",
+  "ctaGuidance": "Disclosure → Check price on Amazon; contextual CTA after verdict; alternatives link",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Our top picks at a glance",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Our top picks at a glance”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Comparison table",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Comparison table”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "How we selected and evaluated the products",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “How we selected and evaluated the products”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best overall recommendation",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best overall recommendation”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best value recommendation",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best value recommendation”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best premium recommendation",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best premium recommendation”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best options by specific use case",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best options by specific use case”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "How to choose the right product",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “How to choose the right product”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Who should buy and who should skip",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Who should buy and who should skip”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Alternatives worth considering",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Alternatives worth considering”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "EK-HUB",
+    "EK-G01",
+    "EK-G03",
+    "EK-G02",
+    "EK-G04",
+    "EK-G05"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

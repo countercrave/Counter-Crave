@@ -1,0 +1,127 @@
+{
+  "pageId": "RC-V02",
+  "title": "Aroma Rice Cooker Review",
+  "slug": "aroma-rice-cooker-review",
+  "canonicalPath": "/aroma-rice-cooker-review/",
+  "description": "Read our independent aroma rice cooker review covering performance, usability, drawbacks, value and alternatives.",
+  "pageType": "Single Review",
+  "priority": "P4",
+  "cluster": "Rice Cookers",
+  "parentPillar": "RC-PIL",
+  "primaryKeyword": "aroma rice cooker review",
+  "secondaryKeywords": [
+    "aroma rice cooker pros and cons",
+    "is aroma rice cooker worth it",
+    "aroma rice cooker alternatives",
+    "aroma rice cooker performance",
+    "aroma rice cooker specifications"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "1,800–2,800",
+  "monetization": "High — primary product + alternatives",
+  "schemaRecommendation": "Product + Review + BreadcrumbList (only truthful first-party review data)",
+  "evidenceRequirement": "Hands-on testing preferred. Otherwise clearly disclose research-based review; add original analysis, test protocol, photos/data where available; never invent use.",
+  "answerBlockBrief": "One-paragraph verdict; scorecard with measurable criteria; evidence notes; pros/cons; alternatives; buy-if/skip-if; dated review update.",
+  "requiredTables": "Specs; scorecard; pros/cons; alternatives comparison",
+  "ctaGuidance": "Primary product CTA after verdict and value section; alternatives each get separate CTA",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Quick verdict",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Quick verdict”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Product specifications",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Product specifications”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Who this product is best for",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Who this product is best for”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Design and build quality",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Design and build quality”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Performance by key task",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Performance by key task”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Ease of use and cleaning",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Ease of use and cleaning”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Noise, power and countertop footprint",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Noise, power and countertop footprint”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Pros and cons",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Pros and cons”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Value for money",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Value for money”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best alternatives",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best alternatives”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Final recommendation",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Final recommendation”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "RC-PIL",
+    "RC-HUB",
+    "RC-V01",
+    "RC-R01",
+    "RC-R02",
+    "RC-R03"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

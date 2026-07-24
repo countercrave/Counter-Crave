@@ -1,0 +1,56 @@
+{
+  "pageId": "STATIC-EDITORIAL",
+  "title": "Editorial Policy",
+  "slug": "editorial-policy",
+  "canonicalPath": "/editorial-policy/",
+  "description": "Read CounterCrave's standards for research, reviews, corrections, affiliate independence and responsible AI assistance.",
+  "pageType": "Static",
+  "priority": "P0",
+  "cluster": "Trust",
+  "primaryKeyword": "CounterCrave editorial policy",
+  "summary": "CounterCrave publishes people-first content with accountable human editing, source checks and clear affiliate disclosures.",
+  "sections": [
+    {
+      "heading": "Accuracy and sourcing",
+      "paragraphs": [
+        "Writers must verify model names, dimensions, capacity, power, warranty and safety-related claims before publication.",
+        "Primary sources are preferred for technical facts. Unsupported superlatives and invented quotations are not allowed."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Reviews and recommendations",
+      "paragraphs": [
+        "Products are selected for relevance to the reader's use case, not merely because they offer a commission.",
+        "A recommendation must explain its limitations and identify readers for whom a different product would be a better fit."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Use of AI tools",
+      "paragraphs": [
+        "AI tools may assist with organization, drafting or quality checks, but they do not replace research, verification or accountable human review.",
+        "CounterCrave does not permit fabricated testing, sources, quotations, prices, ratings or product experience."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Corrections",
+      "paragraphs": [
+        "Readers may report errors through the contact page. Confirmed material errors are corrected, and meaningful updates receive an honest updated date."
+      ],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "relatedPageIds": [
+    "STATIC-HOW-WE-TEST",
+    "STATIC-CONTACT",
+    "STATIC-DISCLOSURE"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "publishedAt": "2026-07-24",
+  "updatedAt": "2026-07-24",
+  "draft": false,
+  "noindex": false
+}

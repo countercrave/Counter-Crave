@@ -1,0 +1,99 @@
+{
+  "pageId": "TO-HUB",
+  "title": "Toaster Oven Reviews, Comparisons and Buying Guides",
+  "slug": "toaster-ovens",
+  "canonicalPath": "/toaster-ovens/",
+  "description": "Explore independent toaster oven reviews and buying guides, comparisons, buying guides and practical advice from CounterCrave.",
+  "pageType": "Category Hub",
+  "priority": "P2",
+  "cluster": "Toaster Ovens",
+  "parentPillar": null,
+  "primaryKeyword": "toaster oven reviews and buying guides",
+  "secondaryKeywords": [
+    "toaster oven reviews and buying guides explained",
+    "toaster oven reviews and buying guides guide",
+    "toaster oven reviews and buying guides FAQ",
+    "toaster oven reviews and buying guides tips",
+    "toaster oven reviews and buying guides common mistakes"
+  ],
+  "searchIntent": "Mixed",
+  "funnel": "MOFU",
+  "targetLength": "1,500–2,200",
+  "monetization": "Indirect — distribute users to money pages",
+  "schemaRecommendation": "CollectionPage + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Original editorial context, source validation and clear author accountability.",
+  "answerBlockBrief": "40–60 word category summary; decision table; category taxonomy; links to best answers; methodology statement; concise FAQ answers.",
+  "requiredTables": "Best-by-use-case navigation table; latest content list",
+  "ctaGuidance": "Internal links first; minimal direct Amazon CTAs",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Quick answer: how to choose the right toaster ovens",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Quick answer: how to choose the right toaster ovens”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best picks by budget and use case",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best picks by budget and use case”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Browse all best-of roundups",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Browse all best-of roundups”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Latest individual reviews",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Latest individual reviews”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Head-to-head comparisons",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Head-to-head comparisons”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Buying guides and troubleshooting",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Buying guides and troubleshooting”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "How CounterCrave evaluates products",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “How CounterCrave evaluates products”. Keep the dominant intent (Mixed) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "TO-PIL",
+    "TO-R01",
+    "TO-R02",
+    "TO-R03",
+    "TO-R04",
+    "TO-R06"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

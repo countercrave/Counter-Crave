@@ -1,0 +1,127 @@
+{
+  "pageId": "AF-C01",
+  "title": "Ninja vs Cosori Air Fryer",
+  "slug": "ninja-vs-cosori-air-fryer",
+  "canonicalPath": "/ninja-vs-cosori-air-fryer/",
+  "description": "Compare ninja vs cosori air fryer by performance, capacity, ease of use, value and the user each option suits best.",
+  "pageType": "Comparison",
+  "priority": "P1",
+  "cluster": "Air Fryers",
+  "parentPillar": "AF-PIL",
+  "primaryKeyword": "ninja vs cosori air fryer",
+  "secondaryKeywords": [
+    "ninja vs cosori air fryer differences",
+    "ninja vs cosori air fryer which is better",
+    "ninja vs cosori air fryer performance",
+    "ninja vs cosori air fryer price",
+    "ninja vs cosori air fryer pros and cons"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "2,000–3,000",
+  "monetization": "High — both products + winner CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Side-by-side criteria, validated specs, task-based winner logic, price checked date, clear uncertainty.",
+  "answerBlockBrief": "Direct winner by use case; structured difference table; category-by-category winners; no forced single winner; concise decision summary.",
+  "requiredTables": "At-a-glance comparison; category winners; specifications",
+  "ctaGuidance": "Separate clearly labelled CTA for each product; do not bias without evidence",
+  "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
+  "summary": "",
+  "sections": [
+    {
+      "heading": "Quick verdict",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Quick verdict”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Side-by-side comparison table",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Side-by-side comparison table”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Key differences",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Key differences”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Design and capacity",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Design and capacity”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Performance comparison",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Performance comparison”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Ease of use and cleaning",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Ease of use and cleaning”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Noise, power and footprint",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Noise, power and footprint”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Price and value",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Price and value”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Choose option A if",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Choose option A if”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Choose option B if",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Choose option B if”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    },
+    {
+      "heading": "Best alternatives",
+      "level": 2,
+      "brief": "Write an original, evidence-led section for “Best alternatives”. Keep the dominant intent (Commercial Investigation) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
+      "paragraphs": [],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "productPageIds": [],
+  "relatedPageIds": [
+    "AF-PIL",
+    "AF-HUB",
+    "AF-C03",
+    "AF-C02",
+    "AF-C04",
+    "AF-C05"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "reviewer": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "heroImage": null,
+  "heroImageAlt": null,
+  "draft": true,
+  "noindex": true
+}

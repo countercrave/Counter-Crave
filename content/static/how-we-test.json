@@ -1,0 +1,63 @@
+{
+  "pageId": "CC-G01",
+  "title": "How CounterCrave Evaluates Kitchen Appliances",
+  "slug": "how-we-test",
+  "canonicalPath": "/how-we-test/",
+  "description": "See the research, comparison and testing standards CounterCrave uses for kitchen appliance recommendations.",
+  "pageType": "Static",
+  "priority": "P0",
+  "cluster": "Trust",
+  "primaryKeyword": "how CounterCrave tests kitchen appliances",
+  "summary": "CounterCrave evaluates products against task-specific criteria instead of relying on popularity alone. Every recommendation should explain its evidence, trade-offs, ideal user and meaningful limitations.",
+  "sections": [
+    {
+      "heading": "Our evidence hierarchy",
+      "paragraphs": [
+        "We begin with current manufacturer documentation, manuals, safety notices and verified specifications. We then compare competing models on criteria that matter to the page's search intent.",
+        "When a product has been tested directly, the article explains the test conditions. When direct testing has not occurred, the page must not imply otherwise."
+      ],
+      "bullets": [
+        "Primary manufacturer documentation and manuals",
+        "Hands-on measurements and observations when available",
+        "Cross-checked specifications and current model details",
+        "Original comparison tables and decision criteria",
+        "Clearly attributed expert or authoritative sources"
+      ]
+    },
+    {
+      "heading": "What we measure",
+      "paragraphs": [
+        "Criteria vary by product category. Common factors include usable capacity, performance for the intended task, consistency, controls, cleaning effort, noise, countertop footprint, materials, warranty and value.",
+        "A high score in one category does not automatically make a product the best choice for every reader."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "How recommendations are written",
+      "paragraphs": [
+        "Recommendation pages include a quick verdict, comparison context, who should buy, who should skip, important drawbacks and alternatives.",
+        "Prices and availability can change. CounterCrave normally uses a 'Check price on Amazon' link instead of hardcoding a price that may become inaccurate."
+      ],
+      "bullets": []
+    },
+    {
+      "heading": "Corrections and updates",
+      "paragraphs": [
+        "Meaningful content changes receive an updated date. A date is not changed simply to make an old article appear fresh.",
+        "Readers can report an error through the contact page. Material errors should be corrected promptly and transparently."
+      ],
+      "bullets": []
+    }
+  ],
+  "faqs": [],
+  "relatedPageIds": [
+    "STATIC-ABOUT",
+    "STATIC-EDITORIAL",
+    "STATIC-CONTACT"
+  ],
+  "author": "CounterCrave Editorial Team",
+  "publishedAt": "2026-07-24",
+  "updatedAt": "2026-07-24",
+  "draft": false,
+  "noindex": false
+}
