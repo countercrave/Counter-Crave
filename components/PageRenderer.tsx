@@ -190,8 +190,8 @@ export function PageRenderer({
       <RelatedContent pages={relatedPages} />
 
       {products.length ? (
-        <a className="mobile-sticky-cta" href="#detailed-product-picks">
-          Check Amazon picks
+        <a className="mobile-sticky-cta" href="#recommended-picks">
+          View detailed picks
         </a>
       ) : null}
     </main>

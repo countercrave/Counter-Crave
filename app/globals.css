@@ -1687,5 +1687,107 @@ tbody th {
   margin: 0.4rem 0 0.8rem;
 }
 
+/* Homepage Category & Featured Article Grids */
+.category-card-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-top-left-radius: var(--radius-sm);
+  border-top-right-radius: var(--radius-sm);
+}
+
+.category-card-image,
+.guide-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.cluster-card:hover .category-card-image,
+.homepage-guide-card:hover .guide-card-image {
+  transform: scale(1.04);
+}
+
+.cluster-card-copy {
+  padding: 1.25rem;
+}
+
+.homepage-guides-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.homepage-guide-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--paper);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s ease;
+}
+
+.homepage-guide-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.guide-card-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.guide-category-badge {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: rgba(15, 76, 70, 0.9);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  backdrop-filter: blur(8px);
+}
+
+.guide-card-body {
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.guide-card-body h3 {
+  margin: 0.4rem 0 0.6rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.guide-card-body h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.guide-card-body h3 a:hover {
+  color: var(--brand);
+}
+
+.guide-card-body p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  flex: 1;
+}
+
+
 
 

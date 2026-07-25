@@ -72,11 +72,24 @@ export default function HomePage() {
         <div className="cluster-grid">
           {categoryHubs.map((category) => (
             <article className="cluster-card" key={category.slug}>
-              <h3>
-                <Link href={`/${category.slug}/`}>{category.name}</Link>
-              </h3>
-              <p>{category.description}</p>
-              <Link href={`/${category.slug}/`}>Open guides</Link>
+              <div className="category-card-image-wrapper">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={category.heroImage}
+                  alt={category.name}
+                  className="category-card-image"
+                  width={400}
+                  height={225}
+                  loading="lazy"
+                />
+              </div>
+              <div className="cluster-card-copy">
+                <h3>
+                  <Link href={`/${category.slug}/`}>{category.name}</Link>
+                </h3>
+                <p>{category.description}</p>
+                <Link className="text-cta" href={`/${category.slug}/`}>Explore guides →</Link>
+              </div>
             </article>
           ))}
         </div>
@@ -85,28 +98,45 @@ export default function HomePage() {
       <section className="container section-block">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">Latest buying guides</span>
-            <h2>Start with these comparisons</h2>
+            <span className="eyebrow">Featured buying guides</span>
+            <h2>Start with these expert reviews</h2>
           </div>
         </div>
 
-        <div className="guide-list">
-          {latestGuides.map((page) => (
-            <article className="guide-row" key={page.pageId}>
-              <div>
-                <span className="eyebrow">
-                  {page.cluster} · {page.pageType}
-                </span>
-                <h3>
-                  <Link href={`/${page.slug}/`}>{page.title}</Link>
-                </h3>
-                <p>{page.description}</p>
-              </div>
-              <Link className="text-cta" href={`/${page.slug}/`}>
-                Read guide
-              </Link>
-            </article>
-          ))}
+        <div className="homepage-guides-grid">
+          {latestGuides.map((page) => {
+            const fallbackHero =
+              page.heroImage ||
+              categoryHubs.find((c) => c.name === page.cluster)?.heroImage ||
+              "/images/heroes/air-fryers.jpg";
+
+            return (
+              <article className="homepage-guide-card" key={page.pageId}>
+                <div className="guide-card-image-wrapper">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={fallbackHero}
+                    alt={page.title}
+                    className="guide-card-image"
+                    width={400}
+                    height={225}
+                    loading="lazy"
+                  />
+                  <span className="guide-category-badge">{page.cluster}</span>
+                </div>
+                <div className="guide-card-body">
+                  <span className="eyebrow">{page.pageType}</span>
+                  <h3>
+                    <Link href={`/${page.slug}/`}>{page.title}</Link>
+                  </h3>
+                  <p>{page.description}</p>
+                  <Link className="text-cta" href={`/${page.slug}/`}>
+                    Read full review →
+                  </Link>
+                </div>
+              </article>
+            );
+          })}
         </div>
       </section>
     </main>

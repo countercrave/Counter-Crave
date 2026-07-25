@@ -17,22 +17,20 @@ export function ProductCards({
 
   return (
     <section
-      id={compact ? "top-picks" : "detailed-product-picks"}
-      aria-labelledby={compact ? "top-picks-heading" : "detailed-picks-heading"}
+      id={compact ? "top-picks" : "recommended-picks"}
+      aria-labelledby={compact ? "top-picks-heading" : "recommended-picks-heading"}
     >
       <div className="section-kicker">
-        {compact ? "Quick recommendations" : "Full recommendations"}
+        {compact ? "Quick recommendations" : "Detailed product reviews"}
       </div>
-      <h2 id={compact ? "top-picks-heading" : "detailed-picks-heading"}>
+      <h2 id={compact ? "top-picks-heading" : "recommended-picks-heading"}>
         {compact
           ? "Top picks at a glance"
-          : "All recommended products — who each one is for"}
+          : "Detailed product reviews & buying advice"}
       </h2>
       {!compact ? (
         <p className="section-intro">
-          Best overall stays near the top. The full list below keeps specialty
-          winners too — value, compact, family, cleanup, and more — so you can
-          match the right Amazon pick to your kitchen.
+          Full breakdown of every recommended model with images, key specs, pros, cons, and who each model is best for.
         </p>
       ) : null}
 
@@ -56,7 +54,9 @@ export function ProductCards({
                     : ""
                 }`}
               >
-                {product.slotLabel}
+                {!compact && product.bestFor
+                  ? `${product.slotLabel} — ${product.bestFor}`
+                  : product.slotLabel}
               </span>
               {product.editorialScore !== null &&
               product.editorialScore !== undefined ? (
