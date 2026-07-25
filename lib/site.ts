@@ -1,6 +1,6 @@
 const configuredSiteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://countercrave.vercel.app";
+  "https://counter-crave.vercel.app";
 
 /** Flip to true (or set ALLOW_INDEXING=true) when ready for Google/Bing. */
 const allowIndexing = process.env.ALLOW_INDEXING === "true";
