@@ -80,20 +80,26 @@ export function ProductCards({
                   <strong>Best for:</strong> {product.bestFor}
                 </p>
               ) : null}
-              {product.shortVerdict ? <p>{product.shortVerdict}</p> : null}
+              {product.shortVerdict ? <p className="short-verdict">{product.shortVerdict}</p> : null}
 
               {!compact && product.keySpecs?.length ? (
-                <p className="key-specs">
-                  <strong>Key details:</strong>{" "}
-                  {product.keySpecs.slice(0, 4).join(" · ")}
-                </p>
+                <div className="key-specs-pills">
+                  <strong>Product specs:</strong>
+                  <div className="spec-pills-container">
+                    {product.keySpecs.map((spec) => (
+                      <span key={spec} className="spec-pill">
+                        {spec}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               ) : null}
 
               {!compact && product.pros?.length ? (
                 <div className="mini-list positive-list">
-                  <strong>What stands out</strong>
+                  <strong>About this item (Key features)</strong>
                   <ul>
-                    {product.pros.slice(0, 3).map((pro) => (
+                    {product.pros.map((pro) => (
                       <li key={pro}>✓ {pro}</li>
                     ))}
                   </ul>
@@ -104,7 +110,7 @@ export function ProductCards({
                 <div className="mini-list caution-list">
                   <strong>Consider before buying</strong>
                   <ul>
-                    {product.cons.slice(0, 2).map((con) => (
+                    {product.cons.map((con) => (
                       <li key={con}>✕ {con}</li>
                     ))}
                   </ul>
