@@ -34,13 +34,17 @@ export function ProductCards({
         </p>
       ) : null}
 
-      <div className={compact ? "quick-picks-grid" : "product-grid"}>
+      <div className={compact ? "quick-picks-grid" : "listicle-product-list"}>
         {products.map((product, index) => (
           <article
-            className={compact ? "quick-pick-card" : "product-card"}
+            className={compact ? "quick-pick-card" : "listicle-product-card"}
             id={product.slotId}
             key={product.trackingKey}
           >
+            {/* 1. HEADING FIRST */}
+            <h3 className="listicle-product-heading">{product.productName}</h3>
+
+            {/* 2. BADGE SECOND */}
             <div className="product-card-topline">
               <span className="rank-badge">#{product.rank ?? index + 1}</span>
               <span
@@ -55,7 +59,7 @@ export function ProductCards({
                 }`}
               >
                 {!compact && product.bestFor
-                  ? `${product.slotLabel} — ${product.bestFor}`
+                  ? `${product.slotLabel} — Best for ${product.bestFor}`
                   : product.slotLabel}
               </span>
               {product.editorialScore !== null &&
@@ -66,20 +70,31 @@ export function ProductCards({
               ) : null}
             </div>
 
-            <ProductImage
-              src={product.imageUrl}
-              alt={product.imageAlt || product.productName}
-              width={product.imageWidth}
-              height={product.imageHeight}
-            />
+            {/* 3. IMAGE THIRD */}
+            <div className="listicle-image-container">
+              <ProductImage
+                src={product.imageUrl}
+                alt={product.imageAlt || product.productName}
+                width={product.imageWidth}
+                height={product.imageHeight}
+              />
+            </div>
 
+            {/* 4. CHECK PRICE BUTTON FOURTH */}
+            <div className="listicle-cta-wrapper">
+              <AmazonLink
+                asin={product.asin}
+                pageId={pageId}
+                productName={product.productName}
+                placement={`${compact ? "quick" : "detail"}-${product.slotId}`}
+                className="button button-primary listicle-amazon-button"
+              >
+                Check today&apos;s price on Amazon
+              </AmazonLink>
+            </div>
+
+            {/* 5-9. SPECS, ABOUT THIS ITEM, CONS, BUY IF, SKIP IF */}
             <div className="product-card-copy">
-              <h3>{product.productName}</h3>
-              {product.bestFor ? (
-                <p className="best-for">
-                  <strong>Best for:</strong> {product.bestFor}
-                </p>
-              ) : null}
               {product.shortVerdict ? <p className="short-verdict">{product.shortVerdict}</p> : null}
 
               {!compact && product.keySpecs?.length ? (
@@ -120,27 +135,18 @@ export function ProductCards({
               {!compact && (product.buyIf || product.skipIf) ? (
                 <div className="who-should-buy">
                   {product.buyIf ? (
-                    <p>
+                    <p className="buy-if-row">
                       <strong>Buy if:</strong> {product.buyIf}
                     </p>
                   ) : null}
                   {product.skipIf ? (
-                    <p>
+                    <p className="skip-if-row">
                       <strong>Skip if:</strong> {product.skipIf}
                     </p>
                   ) : null}
                 </div>
               ) : null}
             </div>
-
-            <AmazonLink
-              asin={product.asin}
-              pageId={pageId}
-              productName={product.productName}
-              placement={`${compact ? "quick" : "detail"}-${product.slotId}`}
-            >
-              Check today&apos;s price on Amazon
-            </AmazonLink>
           </article>
         ))}
       </div>
