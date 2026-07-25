@@ -23,14 +23,6 @@ const ROUNDUP_SLOTS = [
   ["rank-10", "Best feature set"],
   ["rank-11", "Strong alternative"],
   ["rank-12", "Also worth considering"],
-  ["rank-13", "Best quiet model"],
-  ["rank-14", "Best heavy-duty"],
-  ["rank-15", "Best multi-function"],
-  ["rank-16", "Best space-saver"],
-  ["rank-17", "Best design & style"],
-  ["rank-18", "Great value runner-up"],
-  ["rank-19", "Reliable alternative"],
-  ["rank-20", "Honorable mention"],
 ];
 
 /** @type {Record<string, object>} */
@@ -581,8 +573,8 @@ function expandCsv() {
     if (!commercial.has(pageType)) continue;
 
     const asins = poolForPage(pageId, pageTitle, pageType);
-    // Ensure 20 rows
-    while (pageRows.length < 20) {
+    // Ensure 12 rows
+    while (pageRows.length < 12) {
       const index = pageRows.length;
       const [slotId, slotLabel] = ROUNDUP_SLOTS[index] || [
         `rank-${index + 1}`,
@@ -614,7 +606,12 @@ function expandCsv() {
       });
     }
 
-    for (let i = 0; i < 20; i += 1) {
+    // Trim excess if > 12
+    if (pageRows.length > 12) {
+      pageRows.length = 12;
+    }
+
+    for (let i = 0; i < 12; i += 1) {
       const [slotId, slotLabel] = ROUNDUP_SLOTS[i] || [
         pageRows[i].slotId,
         pageRows[i].slotLabel,
