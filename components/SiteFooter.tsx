@@ -56,6 +56,9 @@ export function SiteFooter() {
           <strong>Trust &amp; legal</strong>
           <ul>
             <li>
+              <Link href="/search/">Search guides</Link>
+            </li>
+            <li>
               <Link href="/how-we-test/">How we test</Link>
             </li>
             <li>

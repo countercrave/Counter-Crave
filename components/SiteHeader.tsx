@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SiteSearch } from "@/components/SiteSearch";
 import { categoryHubs } from "@/lib/categories";
 
 export function SiteHeader() {
@@ -18,7 +19,11 @@ export function SiteHeader() {
         <nav className="primary-nav" aria-label="Primary navigation">
           <ul className="nav-list">
             <li className="nav-item has-mega">
-              <button type="button" className="nav-trigger" aria-expanded="false">
+              <button
+                type="button"
+                className="nav-trigger"
+                aria-expanded="false"
+              >
                 Categories
               </button>
               <div className="mega-menu" role="menu">
@@ -41,17 +46,23 @@ export function SiteHeader() {
               <Link href="/best-blenders/">Best blenders</Link>
             </li>
             <li>
+              <Link href="/best-air-fryer-under-100/">Under $100</Link>
+            </li>
+            <li>
               <Link href="/how-we-test/">How we test</Link>
             </li>
             <li>
-              <Link href="/about/">About</Link>
+              <Link href="/search/">Search</Link>
             </li>
           </ul>
         </nav>
 
-        <Link className="header-cta" href="/affiliate-disclosure/">
-          Disclosure
-        </Link>
+        <div className="header-tools">
+          <SiteSearch compact />
+          <Link className="header-cta" href="/affiliate-disclosure/">
+            Disclosure
+          </Link>
+        </div>
       </div>
 
       <div className="category-bar" aria-label="All categories">
@@ -61,6 +72,9 @@ export function SiteHeader() {
               {category.short}
             </Link>
           ))}
+          <Link href="/search/" className="category-bar-search">
+            Search guides
+          </Link>
         </div>
       </div>
     </header>

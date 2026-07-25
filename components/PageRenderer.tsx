@@ -24,6 +24,13 @@ const affiliateTypes = new Set([
   "Category Hub",
 ]);
 
+/**
+ * Wide article shell:
+ * - left sticky TOC
+ * - right main column (verdict → top picks → table → full 20-product listicle → guide copy → FAQ)
+ * Amazon customer reviews/ratings are NOT scraped or republished (Associates policy).
+ * Each product CTA can open Amazon for live ratings.
+ */
 export function PageRenderer({
   page,
   relatedPages,
@@ -32,10 +39,10 @@ export function PageRenderer({
   const showDisclosure =
     affiliateTypes.has(page.pageType) || products.length > 0;
   const hasFaqs = Boolean(page.faqs?.length);
-  const quickPicks = products.slice(0, 4);
+  const quickPicks = products.slice(0, 5);
 
   return (
-    <main className="container main-content">
+    <main className="container-wide main-content">
       <Breadcrumbs title={page.title} />
 
       {page.draft ? (
@@ -46,86 +53,87 @@ export function PageRenderer({
         </aside>
       ) : null}
 
-      <article className="article-shell">
-        <header className="article-hero">
-          <div>
-            <span className="eyebrow">
-              {page.cluster} · {page.pageType}
-            </span>
-            <h1>{page.title}</h1>
-            <p className="dek">{page.description}</p>
+      <div className="content-layout content-layout-wide">
+        <aside className="content-sidebar">
+          <TableOfContents
+            sections={page.sections || []}
+            hasProducts={products.length > 0}
+            hasFaqs={hasFaqs}
+          />
+        </aside>
 
-            <div className="article-meta">
-              <span>By {page.author || "Navjeet Kamboj"}</span>
-              {page.reviewer ? <span>Reviewed by {page.reviewer}</span> : null}
-              {page.updatedAt ? <span>Updated {page.updatedAt}</span> : null}
+        <article className="article-shell article-main-column">
+          <header className="article-hero">
+            <div>
+              <span className="eyebrow">
+                {page.cluster} · {page.pageType}
+              </span>
+              <h1>{page.title}</h1>
+              <p className="dek">{page.description}</p>
+
+              <div className="article-meta">
+                <span>By {page.author || "Navjeet Kamboj"}</span>
+                {page.reviewer ? (
+                  <span>Reviewed by {page.reviewer}</span>
+                ) : null}
+                {page.updatedAt ? <span>Updated {page.updatedAt}</span> : null}
+              </div>
             </div>
-          </div>
 
-          <div className="article-hero-panel">
-            <span className="panel-label">What you will get</span>
-            <ul>
-              <li>Direct verdict and clear trade-offs</li>
-              <li>Top picks with Amazon images at a glance</li>
-              <li>Full specs, pros, cons and buy criteria</li>
-              <li>Who should buy—and who should skip</li>
-            </ul>
-          </div>
-        </header>
+            <div className="article-hero-panel">
+              <span className="panel-label">What you will get</span>
+              <ul>
+                <li>Top picks first for fast decisions</li>
+                <li>Up to 20 labeled product recommendations</li>
+                <li>Specs, about-this-item notes, buy-if / skip-if</li>
+                <li>Amazon links for live price and customer ratings</li>
+              </ul>
+            </div>
+          </header>
 
-        {page.heroImage ? (
-          <div className="featured-hero-image-wrapper">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={page.heroImage}
-              alt={page.heroImageAlt || page.title}
-              className="featured-hero-image"
-              width={1200}
-              height={600}
-              loading="eager"
+          {page.heroImage ? (
+            <div className="featured-hero-image-wrapper">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={page.heroImage}
+                alt={page.heroImageAlt || page.title}
+                className="featured-hero-image"
+                width={1200}
+                height={600}
+                loading="eager"
+              />
+            </div>
+          ) : null}
+
+          {showDisclosure ? <AffiliateDisclosure /> : null}
+
+          {page.summary ? (
+            <section className="answer-box" aria-label="Quick verdict">
+              <span className="answer-label">Quick verdict</span>
+              <p>{page.summary}</p>
+            </section>
+          ) : null}
+
+          <TrustPanel page={page} />
+
+          {quickPicks.length ? (
+            <ProductCards
+              pageId={page.pageId}
+              products={quickPicks}
+              compact
             />
-          </div>
-        ) : null}
+          ) : null}
 
-        {showDisclosure ? <AffiliateDisclosure /> : null}
-
-        {page.summary ? (
-          <section className="answer-box" aria-label="Quick verdict">
-            <span className="answer-label">Quick verdict</span>
-            <p>{page.summary}</p>
-          </section>
-        ) : null}
-
-        <TrustPanel page={page} />
-
-        {quickPicks.length ? (
-          <ProductCards
-            pageId={page.pageId}
-            products={quickPicks}
-            compact
-          />
-        ) : null}
-
-        {products.length > 1 ? (
-          <ProductComparisonTable
-            pageId={page.pageId}
-            products={products}
-          />
-        ) : null}
-
-        {/* High-conversion placement: Detailed product cards with images right after table & quick picks */}
-        {products.length ? (
-          <ProductCards pageId={page.pageId} products={products} />
-        ) : null}
-
-        <div className="content-layout">
-          <aside className="content-sidebar">
-            <TableOfContents
-              sections={page.sections || []}
-              hasProducts={products.length > 0}
-              hasFaqs={hasFaqs}
+          {products.length > 1 ? (
+            <ProductComparisonTable
+              pageId={page.pageId}
+              products={products}
             />
-          </aside>
+          ) : null}
+
+          {products.length ? (
+            <ProductCards pageId={page.pageId} products={products} />
+          ) : null}
 
           <div className="article">
             {(page.sections || []).map((section, index) => {
@@ -184,8 +192,8 @@ export function PageRenderer({
               </section>
             ) : null}
           </div>
-        </div>
-      </article>
+        </article>
+      </div>
 
       <RelatedContent pages={relatedPages} />
 

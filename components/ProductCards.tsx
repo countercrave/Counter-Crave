@@ -82,15 +82,36 @@ export function ProductCards({
 
             {/* 4. CHECK PRICE BUTTON FOURTH */}
             <div className="listicle-cta-wrapper">
-              <AmazonLink
-                asin={product.asin}
-                pageId={pageId}
-                productName={product.productName}
-                placement={`${compact ? "quick" : "detail"}-${product.slotId}`}
-                className="button button-primary listicle-amazon-button"
-              >
-                Check today&apos;s price on Amazon
-              </AmazonLink>
+<AmazonLink
+              asin={product.asin}
+              pageId={pageId}
+              productName={product.productName}
+              placement={`${compact ? "quick" : "detail"}-${product.slotId}`}
+              className="button button-primary listicle-amazon-button"
+            >
+              Check today&apos;s price on Amazon
+            </AmazonLink>
+
+            {!compact ? (
+              <div className="amazon-ratings-cta">
+                <div className="star-row" aria-hidden="true">
+                  <span>★★★★★</span>
+                </div>
+                <AmazonLink
+                  asin={product.asin}
+                  pageId={pageId}
+                  productName={product.productName}
+                  placement={`ratings-${product.slotId}`}
+                  className="text-cta ratings-link"
+                >
+                  See customer ratings &amp; reviews on Amazon
+                </AmazonLink>
+                <small>
+                  We do not copy Amazon star ratings or customer reviews onto
+                  CounterCrave. Open the listing for the latest shopper feedback.
+                </small>
+              </div>
+            ) : null}
             </div>
 
             {/* 5-9. SPECS, ABOUT THIS ITEM, CONS, BUY IF, SKIP IF */}

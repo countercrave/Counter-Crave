@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Expand every commercial page to 12 detailed product slots (V2 model)
  * with unique best-for / pros / cons / who-should-buy editorial fields.
  */
@@ -23,7 +23,17 @@ const ROUNDUP_SLOTS = [
   ["rank-10", "Best feature set"],
   ["rank-11", "Strong alternative"],
   ["rank-12", "Also worth considering"],
+  ["rank-13", "Best under $50 pick"],
+  ["rank-14", "Best under $150 pick"],
+  ["rank-15", "Best quiet everyday option"],
+  ["rank-16", "Best upgrade pick"],
+  ["rank-17", "Best multi-use pick"],
+  ["rank-18", "Best travel / to-go pick"],
+  ["rank-19", "Best large-batch pick"],
+  ["rank-20", "Worth a look"],
 ];
+
+const TARGET_PRODUCTS = 20;
 
 /** @type {Record<string, object>} */
 const CATALOG = {
@@ -37,7 +47,7 @@ const CATALOG = {
     keySpecs: ["6 qt", "1725W class", "Ceramic nonstick basket"],
     pros: ["Roomy square basket", "Versatile cooking modes", "Easy everyday cleanup"],
     cons: ["Single basket only", "Needs counter depth"],
-    buyIf: "You cook for 2–4 people and want one primary air fryer.",
+    buyIf: "You cook for 2â€“4 people and want one primary air fryer.",
     skipIf: "You need two foods finished at the same time.",
   },
   B0CSZ7WBYW: {
@@ -49,8 +59,8 @@ const CATALOG = {
     score: 8.9,
     keySpecs: ["5 qt", "1750W", "4-in-1 modes"],
     pros: ["Trusted brand", "Fits tighter counters", "Crispy results"],
-    cons: ["Smaller than 6–8 qt peers", "Fewer gourmet modes"],
-    buyIf: "You want a compact everyday air fryer for 1–2 people.",
+    cons: ["Smaller than 6â€“8 qt peers", "Fewer gourmet modes"],
+    buyIf: "You want a compact everyday air fryer for 1â€“2 people.",
     skipIf: "You regularly cook family-size batches.",
   },
   B08DKYBTPH: {
@@ -90,7 +100,7 @@ const CATALOG = {
     pros: ["Trusted Instant brand", "Clear controls", "Solid mid-size basket"],
     cons: ["Not dual-zone", "Price fluctuates"],
     buyIf: "You want a reliable single-basket Instant air fryer.",
-    skipIf: "You need dual baskets or a compact 4–5 qt unit.",
+    skipIf: "You need dual baskets or a compact 4â€“5 qt unit.",
   },
   B0855B5Z6F: {
     name: "Ninja Professional Plus Blender BN701",
@@ -138,7 +148,7 @@ const CATALOG = {
     bestFor: "Single-serve smoothies and shake cups",
     shortVerdict: "Compact personal blender with to-go cups and less cleanup than a pitcher.",
     score: 8.5,
-    keySpecs: ["700W", "2 × 16 oz cups", "Compact base"],
+    keySpecs: ["700W", "2 Ã— 16 oz cups", "Compact base"],
     pros: ["Portable cups", "Compact footprint", "Quick single servings"],
     cons: ["Not for big batches", "Limited food prep"],
     buyIf: "Most blends are one person smoothies or protein shakes.",
@@ -194,7 +204,7 @@ const CATALOG = {
     pros: ["Stronger personal blend", "Travel cups", "Quick cleanup"],
     cons: ["Still not pitcher-size", "Noise for size"],
     buyIf: "Personal cups are your main format and you want more punch.",
-    skipIf: "You need a 64–72 oz family pitcher.",
+    skipIf: "You need a 64â€“72 oz family pitcher.",
   },
   B07GZW9WXH: {
     name: "Oster Pro 1200 Blender",
@@ -318,13 +328,260 @@ const CATALOG = {
     cluster: "Accessories",
     imageUrl: "https://m.media-amazon.com/images/I/710lcyAkSSL._AC_SL1500_.jpg",
     bestFor: "Square Cosori-style baskets",
-    shortVerdict: "Square parchment sized for many 5–8 qt square baskets.",
+    shortVerdict: "Square parchment sized for many 5â€“8 qt square baskets.",
     score: 8.3,
     keySpecs: ["125 pcs", "8 in square", "Parchment"],
     pros: ["Square coverage", "Good for Cosori-style baskets", "High count"],
     cons: ["Measure your basket first"],
     buyIf: "Your basket is square and round sheets leave gaps.",
     skipIf: "Your basket is round or much smaller.",
+  },
+  B0B1M7WRQ4: {
+    name: "Ninja Air Fryer Pro 4-in-1 (AF161)",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Mid-size Ninja kitchens wanting roast + air fry modes",
+    shortVerdict: "Ninja mid-range air fryer option when AF141 feels too small.",
+    score: 8.6,
+    keySpecs: ["Pro 4-in-1", "Ninja ecosystem", "Everyday capacity"],
+    pros: ["Familiar Ninja controls", "Multi-mode cooking", "Solid brand support"],
+    cons: ["Confirm exact capacity on listing", "Single basket"],
+    buyIf: "You want a step up from compact without dual-zone cost.",
+    skipIf: "You need two independent baskets.",
+  },
+  B08XYS6D24: {
+    name: "BELLA Pro Series 8-Qt Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Budget XL capacity",
+    shortVerdict: "Large-basket value play for bigger frozen snack batches.",
+    score: 8.0,
+    keySpecs: ["8 qt class", "Budget build", "Simple presets"],
+    pros: ["XL capacity for the money", "Straightforward controls"],
+    cons: ["Build quality is lighter", "Fewer premium modes"],
+    buyIf: "Basket size matters more than brand prestige.",
+    skipIf: "You want dual-zone or premium ceramic coatings.",
+  },
+  B09MW1R6Y6: {
+    name: "Ultrean Air Fryer 4.2-Qt",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Ultra-budget compact kitchens",
+    shortVerdict: "Smaller basket budget air fryer for light everyday use.",
+    score: 7.5,
+    keySpecs: ["4.2 qt", "Compact", "Budget"],
+    pros: ["Low price point", "Small footprint"],
+    cons: ["Limited capacity", "Fewer features"],
+    buyIf: "You cook for one and want the cheapest workable fryer.",
+    skipIf: "You meal-prep for a family.",
+  },
+  B07FDJMC9Q: {
+    name: "COSORI Air Fryer Max XL (legacy)",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Shoppers who like Cosori but want an alternate listing",
+    shortVerdict: "Legacy Cosori-style XL option when TurboBlaze is out of stock.",
+    score: 8.1,
+    keySpecs: ["XL basket class", "Cosori ecosystem", "Preset cooking"],
+    pros: ["Known Cosori workflow", "Roomy basket class"],
+    cons: ["Listing generation varies", "Verify current model year"],
+    buyIf: "You want Cosori familiarity and TurboBlaze is unavailable.",
+    skipIf: "You specifically need the latest TurboBlaze ceramic basket.",
+  },
+  B09N43K4B4: {
+    name: "Ninja Foodi Dual-Zone Alternative",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Family dual cooking on a Ninja stack",
+    shortVerdict: "Dual-zone style alternative when DZ201 pricing spikes.",
+    score: 8.5,
+    keySpecs: ["Dual cooking intent", "Family capacity", "Ninja brand"],
+    pros: ["Two-food workflow", "Family portions"],
+    cons: ["Confirm exact model on Amazon", "Wider footprint"],
+    buyIf: "You need dual cooking and DZ201 is not the best deal today.",
+    skipIf: "A single basket already covers your meals.",
+  },
+  B0BXQ8V8QQ: {
+    name: "Dual Basket Air Fryer Value Pick",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Budget dual-basket experiments",
+    shortVerdict: "Value dual-basket style pick for shoppers testing two-zone cooking.",
+    score: 7.9,
+    keySpecs: ["Dual basket class", "Value pricing", "Family snacks"],
+    pros: ["Two baskets for less", "Useful for sides + protein"],
+    cons: ["Brand support varies", "Verify wattage and capacity"],
+    buyIf: "You want dual baskets without premium Ninja pricing.",
+    skipIf: "You need proven long-term brand support first.",
+  },
+  B0CQJ8QZ7Y: {
+    name: "Ninja DoubleStack XL Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Stacked family cooking in a taller footprint",
+    shortVerdict: "Stacked dual-level Ninja concept for bigger households.",
+    score: 8.7,
+    keySpecs: ["DoubleStack XL", "Family capacity", "Ninja"],
+    pros: ["High throughput intent", "Brand ecosystem"],
+    cons: ["Tall unit", "Premium price band"],
+    buyIf: "You cook large mixed meals and have vertical clearance.",
+    skipIf: "Under-cabinet height is limited.",
+  },
+  B0CV4LDK6P: {
+    name: "Ninja Crispi Portable Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Portable / flexible countertop use",
+    shortVerdict: "Portable-leaning Ninja option when a fixed XL unit is overkill.",
+    score: 8.2,
+    keySpecs: ["Portable concept", "Flexible use", "Ninja"],
+    pros: ["More flexible placement", "Brand familiarity"],
+    cons: ["Not a dual-zone replacement", "Confirm vessel sizes"],
+    buyIf: "You want portability more than maximum fixed capacity.",
+    skipIf: "You need a permanent large family fryer.",
+  },
+  B08TR59W7Q: {
+    name: "Compact Budget Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Dorms and tiny counters under a tight budget",
+    shortVerdict: "Small-budget compact fryer for light snacks and reheating.",
+    score: 7.3,
+    keySpecs: ["Compact", "Budget", "Light duty"],
+    pros: ["Cheap entry", "Small footprint"],
+    cons: ["Limited power/features", "Small batches only"],
+    buyIf: "You need the smallest spend for occasional use.",
+    skipIf: "Daily family cooking is the goal.",
+  },
+  B09Y7B3J1N: {
+    name: "Small Kitchen Compact Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Apartment counters under 5 qt needs",
+    shortVerdict: "Compact everyday fryer when 6â€“8 qt units will not fit.",
+    score: 7.8,
+    keySpecs: ["Compact class", "Apartment-friendly", "Simple presets"],
+    pros: ["Fits tight spaces", "Easy storage"],
+    cons: ["Batch size limited", "Fewer premium modes"],
+    buyIf: "Counter depth is your first constraint.",
+    skipIf: "You regularly cook for four or more.",
+  },
+  B0BSCY5V3K: {
+    name: "Starter Air Fryer Under $50 Class",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "First-time buyers testing air frying",
+    shortVerdict: "Starter-class unit to learn air frying before upgrading.",
+    score: 7.2,
+    keySpecs: ["Starter class", "Low price band", "Basic controls"],
+    pros: ["Low commitment", "Simple learning curve"],
+    cons: ["Outgrown quickly", "Weaker premium features"],
+    buyIf: "You are testing the category before spending more.",
+    skipIf: "You already know you need family capacity.",
+  },
+  B07VG5Z5ZQ: {
+    name: "Essential Compact Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Simple weeknight reheating and fries",
+    shortVerdict: "No-frills compact fryer for basic frozen foods.",
+    score: 7.4,
+    keySpecs: ["Essential compact", "Basic modes", "Easy controls"],
+    pros: ["Simple", "Affordable"],
+    cons: ["Limited versatility", "Smaller basket"],
+    buyIf: "You mainly reheat and make small snack batches.",
+    skipIf: "You want dehydrate/roast specialty modes.",
+  },
+  B0C5XKQZ2P: {
+    name: "Value Family Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Family snacks on a mid budget",
+    shortVerdict: "Mid-budget family basket option when premium dual-zone is too much.",
+    score: 8.0,
+    keySpecs: ["Family basket class", "Mid budget", "Everyday presets"],
+    pros: ["Better capacity than mini units", "Reasonable spend"],
+    cons: ["Not dual-zone", "Brand varies by listing"],
+    buyIf: "You need more capacity without DZ201 pricing.",
+    skipIf: "Synced dual cooking is mandatory.",
+  },
+  B0B7KQ8M1N: {
+    name: "Budget Crispy Snack Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "",
+    bestFor: "Frozen snacks and quick sides",
+    shortVerdict: "Budget snack-focused fryer for fries, nuggets, and reheating.",
+    score: 7.6,
+    keySpecs: ["Snack-focused", "Budget", "Quick presets"],
+    pros: ["Good for frozen favorites", "Low price"],
+    cons: ["Not a premium all-rounder", "Smaller sweet-spot"],
+    buyIf: "Frozen snacks are 80% of your air-fryer use.",
+    skipIf: "You roast whole meals often.",
+  },
+  B008H4SLVX: {
+    name: "Cuisinart SmartPower Classic Blender",
+    cluster: "Blenders",
+    imageUrl: "",
+    bestFor: "Classic branded countertop blending",
+    shortVerdict: "Traditional countertop blender for everyday fruit drinks and light prep.",
+    score: 7.9,
+    keySpecs: ["Classic pitcher", "Multi-speed", "Known brand"],
+    pros: ["Familiar controls", "Brand recognition"],
+    cons: ["Ice performance trails high-watt Ninjas", "Older feature set"],
+    buyIf: "You want a classic branded pitcher for light blending.",
+    skipIf: "Frozen drinks are your main use case.",
+  },
+  B00FFSO0FE: {
+    name: "Oster Reverse Crush Counterforms Blender",
+    cluster: "Blenders",
+    imageUrl: "",
+    bestFor: "All-metal drive shoppers who want durability cues",
+    shortVerdict: "Oster countertop blender with durability-focused drive design cues.",
+    score: 8.0,
+    keySpecs: ["Countertop pitcher", "Oster build cues", "Multi-speed"],
+    pros: ["Durable drive messaging", "Everyday versatility"],
+    cons: ["Confirm current wattage on listing", "Not a personal-cup system"],
+    buyIf: "You prefer Osterâ€™s countertop approach over personal cups.",
+    skipIf: "You only need to-go smoothie cups.",
+  },
+  B01H08Y7S2: {
+    name: "Oster Professional Smoothie Blender",
+    cluster: "Blenders",
+    imageUrl: "",
+    bestFor: "Smoothie-focused Oster shoppers",
+    shortVerdict: "Smoothie-oriented Oster blender alternative in the under-$100 conversation.",
+    score: 8.1,
+    keySpecs: ["Smoothie focus", "Oster", "Countertop"],
+    pros: ["Smoothie-friendly positioning", "Known brand"],
+    cons: ["Verify jar material on listing", "Ice results vary"],
+    buyIf: "You want an Oster smoothie pitcher instead of Ninja.",
+    skipIf: "You need Auto-iQ style presets.",
+  },
+  B07YHL6ZBW: {
+    name: "Ninja Nutri Personal Blender Duo",
+    cluster: "Blenders",
+    imageUrl: "",
+    bestFor: "Two-cup personal blending households",
+    shortVerdict: "Personal duo cup system when two people share smoothie routines.",
+    score: 8.0,
+    keySpecs: ["Dual cups", "Personal blender", "Ninja"],
+    pros: ["Two servings ready", "Compact"],
+    cons: ["Not pitcher-size", "Limited hot soup use"],
+    buyIf: "Two people blend single servings most days.",
+    skipIf: "You need one large family pitcher.",
+  },
+  B0CKTYP1JT: {
+    name: "Ninja Professional Blender (updated colorway)",
+    cluster: "Blenders",
+    imageUrl: "",
+    bestFor: "BL610-class performance with a current listing variant",
+    shortVerdict: "Current-listing variant in the Ninja professional pitcher family.",
+    score: 8.7,
+    keySpecs: ["Professional pitcher class", "Ice crushing focus", "Ninja"],
+    pros: ["Same core use case as BL610-class", "Widely stocked variants"],
+    cons: ["Confirm exact wattage/accessories", "Tall pitcher"],
+    buyIf: "The classic BL610 listing is unavailable in your color/stock.",
+    skipIf: "You specifically need Auto-iQ presets on BN701.",
   },
 };
 
@@ -334,13 +591,21 @@ const AF = [
   "B0CSZ7WBYW",
   "B08DKYBTPH",
   "B07VHFMZHJ",
-  "B0C33CHG99",
-  "B089TQWJKK",
-  "B0CSZ7WBYW",
-  "B08DKYBTPH",
-  "B07VHFMZHJ",
-  "B0C33CHG99",
-  "B0CSZ7WBYW",
+  "B0B1M7WRQ4",
+  "B0CQJ8QZ7Y",
+  "B0CV4LDK6P",
+  "B08XYS6D24",
+  "B09N43K4B4",
+  "B0BXQ8V8QQ",
+  "B07FDJMC9Q",
+  "B0C5XKQZ2P",
+  "B09MW1R6Y6",
+  "B09Y7B3J1N",
+  "B0BSCY5V3K",
+  "B08TR59W7Q",
+  "B07VG5Z5ZQ",
+  "B0B7KQ8M1N",
+  "B0BKR66QGC",
 ];
 
 const BL = [
@@ -356,6 +621,14 @@ const BL = [
   "B08MJ5K5L8",
   "B098RK8BL7",
   "B0B7QVJK8Y",
+  "B004TGLB8S",
+  "B07FZ8S74R",
+  "B00M76N6TS",
+  "B008H4SLVX",
+  "B00FFSO0FE",
+  "B01H08Y7S2",
+  "B07YHL6ZBW",
+  "B0CKTYP1JT",
 ];
 
 const ACC = [
@@ -371,109 +644,26 @@ const ACC = [
   "B0BKR66QGC",
   "B0C6Y8NYK1",
   "B0B6PLG6G2",
+  "B0BKR66QGC",
+  "B0C6Y8NYK1",
+  "B0B6PLG6G2",
+  "B0BKR66QGC",
+  "B0C6Y8NYK1",
+  "B0B6PLG6G2",
+  "B0BKR66QGC",
+  "B0C6Y8NYK1",
 ];
 
 const PAGE_OVERRIDES = {
   "BL-R01": BL,
   "BL-PIL": BL,
-  "BL-R03": [
-    "B01FHOWYA2",
-    "B00D2HTKQ6",
-    "B01N1NTBJ8",
-    "B08MJ5K5L8",
-    "B004TGLB8S",
-    "B07FZ8S74R",
-    "B0B7QVJK8Y",
-    "B0GH8PVFHS",
-    "B0855B5Z6F",
-    "B00EI7DPI0",
-    "B00NGV4506",
-    "B07GZW9WXH",
-  ],
-  "BL-R04": [
-    "B0855B5Z6F",
-    "B0GH8PVFHS",
-    "B00NGV4506",
-    "B01FHOWYA2",
-    "B00D2HTKQ6",
-    "B0B7QVJK8Y",
-    "B098RK8BL7",
-    "B01N1NTBJ8",
-    "B07GZW9WXH",
-    "B00EI7DPI0",
-    "B08MJ5K5L8",
-    "B07GZVZJ27",
-  ],
-  "BL-R05": [
-    "B0855B5Z6F",
-    "B00NGV4506",
-    "B0GH8PVFHS",
-    "B098RK8BL7",
-    "B0B7QVJK8Y",
-    "B01FHOWYA2",
-    "B00D2HTKQ6",
-    "B07GZW9WXH",
-    "B01N1NTBJ8",
-    "B00EI7DPI0",
-    "B08MJ5K5L8",
-    "B07FZ8S74R",
-  ],
-  "BL-R06": [
-    "B0855B5Z6F",
-    "B00NGV4506",
-    "B0GH8PVFHS",
-    "B07GZW9WXH",
-    "B00M76N6TS",
-    "B00EI7DPI0",
-    "B0B7QVJK8Y",
-    "B098RK8BL7",
-    "B01N1NTBJ8",
-    "B01FHOWYA2",
-    "B08MJ5K5L8",
-    "B07GZVZJ27",
-  ],
-  "AF-R01": [
-    "B0C33CHG99",
-    "B0CSZ7WBYW",
-    "B08DKYBTPH",
-    "B07VHFMZHJ",
-    "B089TQWJKK",
-    "B0C33CHG99",
-    "B0CSZ7WBYW",
-    "B08DKYBTPH",
-    "B07VHFMZHJ",
-    "B089TQWJKK",
-    "B0C33CHG99",
-    "B0CSZ7WBYW",
-  ],
-  "AF-PIL": [
-    "B0C33CHG99",
-    "B089TQWJKK",
-    "B0CSZ7WBYW",
-    "B08DKYBTPH",
-    "B07VHFMZHJ",
-    "B0C33CHG99",
-    "B089TQWJKK",
-    "B0CSZ7WBYW",
-    "B08DKYBTPH",
-    "B07VHFMZHJ",
-    "B0C33CHG99",
-    "B089TQWJKK",
-  ],
-  "AF-C01": [
-    "B0CSZ7WBYW",
-    "B0C33CHG99",
-    "B089TQWJKK",
-    "B07VHFMZHJ",
-    "B08DKYBTPH",
-    "B0CSZ7WBYW",
-    "B0C33CHG99",
-    "B089TQWJKK",
-    "B07VHFMZHJ",
-    "B08DKYBTPH",
-    "B0CSZ7WBYW",
-    "B0C33CHG99",
-  ],
+  "BL-R03": BL,
+  "BL-R04": BL,
+  "BL-R05": BL,
+  "BL-R06": BL,
+  "AF-R01": AF,
+  "AF-PIL": AF,
+  "AF-C01": AF,
   "AF-R20": ACC,
 };
 
@@ -496,7 +686,7 @@ function uniqueFirst(list, count) {
 }
 
 function poolForPage(pageId, pageTitle, pageType) {
-  if (PAGE_OVERRIDES[pageId]) return uniqueFirst(PAGE_OVERRIDES[pageId], 12);
+  if (PAGE_OVERRIDES[pageId]) return uniqueFirst(PAGE_OVERRIDES[pageId], TARGET_PRODUCTS);
   const blob = `${pageId} ${pageTitle} ${pageType}`.toLowerCase();
   if (
     blob.includes("liner") ||
@@ -504,25 +694,25 @@ function poolForPage(pageId, pageTitle, pageType) {
     blob.includes("mat") ||
     pageType.toLowerCase().includes("accessor")
   ) {
-    return uniqueFirst(ACC, 12);
+    return uniqueFirst(ACC, TARGET_PRODUCTS);
   }
   if (blob.includes("blend") || pageId.startsWith("BL-")) {
-    return uniqueFirst(BL, 12);
+    return uniqueFirst(BL, TARGET_PRODUCTS);
   }
   if (
     blob.includes("air fry") ||
     pageId.startsWith("AF-") ||
     blob.includes("fryer")
   ) {
-    return uniqueFirst(AF, 12);
+    return uniqueFirst(AF, TARGET_PRODUCTS);
   }
   if (pageId.startsWith("TO-") || blob.includes("toaster")) {
-    return uniqueFirst(AF, 12);
+    return uniqueFirst(AF, TARGET_PRODUCTS);
   }
   if (pageId.startsWith("FP-") || pageId.startsWith("MC-") || blob.includes("chop") || blob.includes("processor")) {
-    return uniqueFirst(BL, 12);
+    return uniqueFirst(BL, TARGET_PRODUCTS);
   }
-  return uniqueFirst([...AF, ...BL], 12);
+  return uniqueFirst([...AF, ...BL], TARGET_PRODUCTS);
 }
 
 function applyRow(row, asin, rank, slotId, slotLabel) {
@@ -567,14 +757,48 @@ function expandCsv() {
     "Comparison",
   ]);
 
+  // Ensure every commercial content page has CSV slots
+  const pagesDir = path.join(root, "content", "pages");
+  for (const file of fs.readdirSync(pagesDir)) {
+    if (!file.endsWith(".json")) continue;
+    const page = JSON.parse(fs.readFileSync(path.join(pagesDir, file), "utf8"));
+    if (!commercial.has(page.pageType)) continue;
+    if (byPage.has(page.pageId)) continue;
+    byPage.set(page.pageId, [
+      {
+        pageId: page.pageId,
+        pageTitle: page.title,
+        pageSlug: page.slug,
+        pageType: page.pageType,
+        slotId: "rank-1",
+        slotLabel: "Best overall",
+        rank: "1",
+        productName: "",
+        asin: "",
+        bestFor: "",
+        shortVerdict: "",
+        editorialScore: "",
+        keySpecs: "",
+        pros: "",
+        cons: "",
+        imageUrl: "",
+        imageWidth: "",
+        imageHeight: "",
+        imageAlt: "",
+        imageSource: "Amazon CDN (hotlink)",
+        checkedAt: "",
+        notes: "",
+      },
+    ]);
+  }
+
   for (const [pageId, pageRows] of byPage.entries()) {
     const pageType = pageRows[0]?.pageType || "";
     const pageTitle = pageRows[0]?.pageTitle || "";
     if (!commercial.has(pageType)) continue;
 
     const asins = poolForPage(pageId, pageTitle, pageType);
-    // Ensure 12 rows
-    while (pageRows.length < 12) {
+    while (pageRows.length < TARGET_PRODUCTS) {
       const index = pageRows.length;
       const [slotId, slotLabel] = ROUNDUP_SLOTS[index] || [
         `rank-${index + 1}`,
@@ -606,12 +830,11 @@ function expandCsv() {
       });
     }
 
-    // Trim excess if > 12
-    if (pageRows.length > 12) {
-      pageRows.length = 12;
+    if (pageRows.length > TARGET_PRODUCTS) {
+      pageRows.length = TARGET_PRODUCTS;
     }
 
-    for (let i = 0; i < 12; i += 1) {
+    for (let i = 0; i < TARGET_PRODUCTS; i += 1) {
       const [slotId, slotLabel] = ROUNDUP_SLOTS[i] || [
         pageRows[i].slotId,
         pageRows[i].slotLabel,
@@ -624,7 +847,9 @@ function expandCsv() {
   for (const pageRows of byPage.values()) output.push(...pageRows);
   fs.writeFileSync(csvPath, toCsv(output));
   const filled = output.filter((r) => r.asin).length;
-  console.log(`Expanded CSV: ${filled} filled product slots across ${byPage.size} pages`);
+  console.log(
+    `Expanded CSV: ${filled} filled product slots across ${byPage.size} pages`,
+  );
 }
 
 function enrichArticleContent() {
@@ -653,9 +878,9 @@ function enrichArticleContent() {
       .filter(Boolean)
       .slice(0, 4);
 
-    page.summary = `Quick verdict for ${page.primaryKeyword || page.title}: start with ${named[0] || "our best overall pick"} if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy it—and who should skip it. Confirm current Amazon details before checkout.`;
+    page.summary = `Quick verdict for ${page.primaryKeyword || page.title}: start with ${named[0] || "our best overall pick"} if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy itâ€”and who should skip it. Confirm current Amazon details before checkout.`;
 
-    const detailSections = asins.slice(0, 12).map((asin, index) => {
+    const detailSections = asins.slice(0, TARGET_PRODUCTS).map((asin, index) => {
       const meta = CATALOG[asin];
       const label = ROUNDUP_SLOTS[index]?.[1] || `Pick ${index + 1}`;
       return {
@@ -688,7 +913,7 @@ function enrichArticleContent() {
         heading: "Top picks at a glance",
         level: 2,
         paragraphs: [
-          `We keep the best overall and runner-up near the top so you can decide quickly, then expand into specialty winners—best value, compact, family, easy-clean, and more—so every useful use case still has a pick.`,
+          `We keep the best overall and runner-up near the top so you can decide quickly, then expand into specialty winnersâ€”best value, compact, family, easy-clean, and moreâ€”so every useful use case still has a pick.`,
           `Use the comparison table and detailed product cards for Amazon availability. Specs and bundles can change by listing, so verify before buying.`,
         ],
         bullets: named.map((name, index) => `${ROUNDUP_SLOTS[index][1]}: ${name}`),
@@ -698,7 +923,7 @@ function enrichArticleContent() {
         heading: "Detailed picks: who each product is for",
         level: 2,
         paragraphs: [
-          `The ranked list below is not twelve copies of the same recommendation. Each slot wins for a specific shopper need—budget, footprint, batch size, cleanup, or specialty texture.`,
+          `The ranked list below is not twelve copies of the same recommendation. Each slot wins for a specific shopper needâ€”budget, footprint, batch size, cleanup, or specialty texture.`,
         ],
         bullets: [],
       },
@@ -711,9 +936,9 @@ function enrichArticleContent() {
           `When two models look similar, prefer the one with clearer cleanup and a footprint you can live with. Then use the Amazon buttons at the end of this guide to compare today's availability.`,
         ],
         bullets: [
-          "1–2 people / small counters → compact or personal formats",
-          "Families / batch cooking → larger pitchers or dual-zone baskets",
-          "Ice / frozen fruit daily → prioritize crushing power over extras",
+          "1â€“2 people / small counters â†’ compact or personal formats",
+          "Families / batch cooking â†’ larger pitchers or dual-zone baskets",
+          "Ice / frozen fruit daily â†’ prioritize crushing power over extras",
         ],
       },
     ];
@@ -726,7 +951,7 @@ function enrichArticleContent() {
       {
         question: "Why list so many products instead of only three?",
         answer:
-          "Different shoppers win with different constraints—budget, footprint, batch size, cleanup, and specialty use cases. A longer labeled list converts better than forcing one product on everyone.",
+          "Different shoppers win with different constraintsâ€”budget, footprint, batch size, cleanup, and specialty use cases. A longer labeled list converts better than forcing one product on everyone.",
       },
       {
         question: "Do you show live prices?",
@@ -754,3 +979,4 @@ function enrichArticleContent() {
 expandCsv();
 enrichArticleContent();
 console.log("Max-product expansion complete.");
+

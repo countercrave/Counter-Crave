@@ -44,7 +44,7 @@ export function getProductsForPage(
           pageId, // associate with current hub page for tracking
         });
       }
-      if (unique.length >= 12) break;
+      if (unique.length >= 20) break;
     }
     return unique;
   }

@@ -26,13 +26,13 @@
   "requiredTables": "Top picks table; full comparison table; selection criteria table; optional size/value decision table",
   "ctaGuidance": "Disclosure → Check price on Amazon; contextual CTA after verdict; alternatives link",
   "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
-  "summary": "Quick verdict for best blender for protein shakes: start with Ninja Professional Plus Blender BN701 if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy it—and who should skip it. Confirm current Amazon details before checkout.",
+  "summary": "Quick verdict for best blender for protein shakes: start with Ninja Professional Plus Blender BN701 if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy itâ€”and who should skip it. Confirm current Amazon details before checkout.",
   "sections": [
     {
       "heading": "Top picks at a glance",
       "level": 2,
       "paragraphs": [
-        "We keep the best overall and runner-up near the top so you can decide quickly, then expand into specialty winners—best value, compact, family, easy-clean, and more—so every useful use case still has a pick.",
+        "We keep the best overall and runner-up near the top so you can decide quickly, then expand into specialty winnersâ€”best value, compact, family, easy-clean, and moreâ€”so every useful use case still has a pick.",
         "Use the comparison table and detailed product cards for Amazon availability. Specs and bundles can change by listing, so verify before buying."
       ],
       "bullets": [
@@ -82,9 +82,424 @@
       "heading": "Detailed picks: who each product is for",
       "level": 2,
       "paragraphs": [
-        "The ranked list below is not twelve copies of the same recommendation. Each slot wins for a specific shopper need—budget, footprint, batch size, cleanup, or specialty texture."
+        "The ranked list below is not twelve copies of the same recommendation. Each slot wins for a specific shopper needâ€”budget, footprint, batch size, cleanup, or specialty texture."
       ],
       "bullets": []
+    },
+    {
+      "heading": "1. Best overall: Ninja Professional Plus Blender BN701",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "1400-peak-watt pitcher blender with Auto-iQ presets for ice and smoothies.",
+        "Best for: Frozen drinks and family smoothie batches under $100",
+        "Buy if: You want a powerful full-size blender near the $100 mark.",
+        "Skip if: You only make single-serve smoothies."
+      ],
+      "bullets": [
+        "Pro: Strong ice crushing",
+        "Pro: Large batch pitcher",
+        "Pro: Preset programs",
+        "Con: Tall footprint",
+        "Con: Can be loud",
+        "Spec: 1400 peak watts",
+        "Spec: 72 oz pitcher",
+        "Spec: 3 Auto-iQ presets"
+      ]
+    },
+    {
+      "heading": "2. Runner-up: Ninja Professional Blender BL610",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Proven Ninja pitcher blender for ice, frozen fruit and everyday smoothies.",
+        "Best for: Classic Total Crushing pitcher blending on a budget",
+        "Buy if: You want a known Ninja pitcher without paying for newer presets.",
+        "Skip if: You need personal to-go cups as the main use case."
+      ],
+      "bullets": [
+        "Pro: Proven ice performance",
+        "Pro: Large pitcher",
+        "Pro: Widely available",
+        "Con: Fewer auto programs than BN701",
+        "Con: Bulky base",
+        "Spec: 1000W class",
+        "Spec: 72 oz pitcher",
+        "Spec: Total Crushing blades"
+      ]
+    },
+    {
+      "heading": "3. Best value: Ninja UltraCrush Professional Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "1000W pitcher blender aimed at crushing ice and frozen fruit smoothly.",
+        "Best for: Everyday ice and frozen fruit near $80",
+        "Buy if: You want a full pitcher blender without overspending.",
+        "Skip if: You mainly blend single servings to take on the go."
+      ],
+      "bullets": [
+        "Pro: Crushes ice well",
+        "Pro: Large pitcher",
+        "Pro: Solid value",
+        "Con: Loud",
+        "Con: Bulky on small counters",
+        "Spec: 1000W",
+        "Spec: 72 oz pitcher",
+        "Spec: Total Crushing style"
+      ]
+    },
+    {
+      "heading": "4. Best premium: Ninja Fit Compact Personal Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Compact personal blender with to-go cups and less cleanup than a pitcher.",
+        "Best for: Single-serve smoothies and shake cups",
+        "Buy if: Most blends are one person smoothies or protein shakes.",
+        "Skip if: You regularly make pitcher-size batches for a family."
+      ],
+      "bullets": [
+        "Pro: Portable cups",
+        "Pro: Compact footprint",
+        "Pro: Quick single servings",
+        "Con: Not for big batches",
+        "Con: Limited food prep",
+        "Spec: 700W",
+        "Spec: 2 Ã— 16 oz cups",
+        "Spec: Compact base"
+      ]
+    },
+    {
+      "heading": "5. Best compact: Hamilton Beach Power Elite Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Glass-jar classic for basic blending when price is the main constraint.",
+        "Best for: Tight budgets and soft-fruit drinks",
+        "Buy if: You need a basic blender and want to spend as little as possible.",
+        "Skip if: Ice crushing and frozen fruit are daily jobs."
+      ],
+      "bullets": [
+        "Pro: Inexpensive",
+        "Pro: Glass jar",
+        "Pro: Easy to find",
+        "Con: Weaker on hard ice",
+        "Con: Shorter expected lifespan",
+        "Spec: 700W class",
+        "Spec: 40 oz glass jar",
+        "Spec: Wave Action"
+      ]
+    },
+    {
+      "heading": "6. Best for families: NutriBullet Pro Personal Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Twist-and-blend personal cup system for quick smoothies with minimal parts.",
+        "Best for: Compact nutrient extraction and single-serve smoothies",
+        "Buy if: You want a personal blender workflow more than a countertop pitcher.",
+        "Skip if: You need large family batches or heavy ice cream loads."
+      ],
+      "bullets": [
+        "Pro: Simple operation",
+        "Pro: Fast single servings",
+        "Pro: Small footprint",
+        "Con: Not a full pitcher replacement",
+        "Con: Cup capacity limited",
+        "Spec: 900W class",
+        "Spec: Personal cups",
+        "Spec: Compact base"
+      ]
+    },
+    {
+      "heading": "7. Easiest to clean: NutriBullet Pro+ Personal Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Personal NutriBullet-style pick when you want more power than basic cups.",
+        "Best for: Higher-power personal blending under a mid budget",
+        "Buy if: Personal cups are your main format and you want more punch.",
+        "Skip if: You need a 64â€“72 oz family pitcher."
+      ],
+      "bullets": [
+        "Pro: Stronger personal blend",
+        "Pro: Travel cups",
+        "Pro: Quick cleanup",
+        "Con: Still not pitcher-size",
+        "Con: Noise for size",
+        "Spec: Higher-watt personal motor",
+        "Spec: Cup system",
+        "Spec: Compact"
+      ]
+    },
+    {
+      "heading": "8. Best for smoothies: Oster Pro 1200 Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Glass jar blender option for shoppers who dislike plastic pitchers.",
+        "Best for: Glass-jar blending with food-processor style extras",
+        "Buy if: You prefer glass and want more than a bare-bones blender.",
+        "Skip if: You only need a personal cup blender."
+      ],
+      "bullets": [
+        "Pro: Glass jar appeal",
+        "Pro: Known brand",
+        "Pro: Good everyday versatility",
+        "Con: Heavier jar",
+        "Con: Ice performance varies by recipe",
+        "Spec: 1200W class",
+        "Spec: Glass jar",
+        "Spec: Multi-speed controls"
+      ]
+    },
+    {
+      "heading": "9. Best for beginners: Oster Blender with Food Processor Attachment",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Hybrid pick when counter space is limited and you want blender + chopper utility.",
+        "Best for: Blending plus light chopping in one footprint",
+        "Buy if: You want blender convenience plus occasional chopping.",
+        "Skip if: You already own a strong dedicated food processor."
+      ],
+      "bullets": [
+        "Pro: Two jobs in one",
+        "Pro: Space-saving intent",
+        "Pro: Useful attachments",
+        "Con: Compromise vs dedicated tools",
+        "Con: More parts to store",
+        "Spec: Blender base",
+        "Spec: Processor attachment",
+        "Spec: Multi-use"
+      ]
+    },
+    {
+      "heading": "10. Best feature set: Ninja Personal Blender with Cups",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Personal Ninja cup blender for quick single servings and travel lids.",
+        "Best for: Ninja fans who mainly make to-go smoothies",
+        "Buy if: You want Ninja personal cups more than a pitcher.",
+        "Skip if: Family pitcher blending is the main need."
+      ],
+      "bullets": [
+        "Pro: Brand familiarity",
+        "Pro: To-go friendly",
+        "Pro: Fast smoothies",
+        "Con: Not for large batches",
+        "Con: Limited prep range",
+        "Spec: Personal cups",
+        "Spec: Ninja blade system",
+        "Spec: Compact"
+      ]
+    },
+    {
+      "heading": "11. Strong alternative: Ninja Foodi Smoothie Bowl Maker & Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Specialist pick when thick bowls matter more than thin drinkable smoothies.",
+        "Best for: Thick smoothie bowls and spoonable blends",
+        "Buy if: Smoothie bowls are a weekly habit.",
+        "Skip if: You only make thin drinkable smoothies."
+      ],
+      "bullets": [
+        "Pro: Better for thick textures",
+        "Pro: Versatile Ninja system",
+        "Pro: Clear use-case fit",
+        "Con: More specialized",
+        "Con: May cost more than basic pitchers",
+        "Spec: Bowl maker",
+        "Spec: Power pitcher options",
+        "Spec: Thick-blend focus"
+      ]
+    },
+    {
+      "heading": "12. Also worth considering: NutriBullet Combo Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Combo setup for shoppers who want both single-serve cups and a pitcher option.",
+        "Best for: Personal cups plus a small pitcher in one system",
+        "Buy if: You switch between personal cups and small batches.",
+        "Skip if: You want one simple dedicated pitcher only."
+      ],
+      "bullets": [
+        "Pro: Flexible formats",
+        "Pro: Good everyday range",
+        "Pro: Compact vs two machines",
+        "Con: More parts",
+        "Con: Not a high-end Vitamix substitute",
+        "Spec: Cup + pitcher system",
+        "Spec: NutriBullet style",
+        "Spec: Multi-vessel"
+      ]
+    },
+    {
+      "heading": "13. Best under $50 pick: Hamilton Beach Personal Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Entry personal blender when you want a travel cup without spending much.",
+        "Best for: Ultra-budget personal blending",
+        "Buy if: You want the cheapest workable personal blender.",
+        "Skip if: You blend frozen fruit or ice every day."
+      ],
+      "bullets": [
+        "Pro: Very affordable",
+        "Pro: Small footprint",
+        "Pro: Simple controls",
+        "Con: Limited power",
+        "Con: Not ideal for dense frozen loads",
+        "Spec: Personal jar",
+        "Spec: Compact motor",
+        "Spec: Budget build"
+      ]
+    },
+    {
+      "heading": "14. Best under $150 pick: Magic Bullet Mini Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Ultra-compact personal blender for light use and small counters.",
+        "Best for: Tiny kitchens and light smoothie habits",
+        "Buy if: Space and price matter more than crushing power.",
+        "Skip if: You blend ice-heavy recipes daily."
+      ],
+      "bullets": [
+        "Pro: Very small",
+        "Pro: Inexpensive",
+        "Pro: Simple",
+        "Con: Low power ceiling",
+        "Con: Not for dense frozen loads",
+        "Spec: Mini personal cups",
+        "Spec: Compact motor",
+        "Spec: Simple twist blend"
+      ]
+    },
+    {
+      "heading": "15. Best quiet everyday option: Hamilton Beach Wave Crusher Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Budget glass-jar blender aimed at icy drinks and basic smoothies.",
+        "Best for: Budget ice drinks with a glass jar",
+        "Buy if: You want glass on a tight budget.",
+        "Skip if: You need pro-level ice crushing consistency."
+      ],
+      "bullets": [
+        "Pro: Glass jar",
+        "Pro: Low price",
+        "Pro: Familiar controls",
+        "Con: Louder / less refined",
+        "Con: Durability varies",
+        "Spec: Glass jar",
+        "Spec: Wave Action style",
+        "Spec: Budget motor"
+      ]
+    },
+    {
+      "heading": "16. Best upgrade pick: Cuisinart SmartPower Classic Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Traditional countertop blender for everyday fruit drinks and light prep.",
+        "Best for: Classic branded countertop blending",
+        "Buy if: You want a classic branded pitcher for light blending.",
+        "Skip if: Frozen drinks are your main use case."
+      ],
+      "bullets": [
+        "Pro: Familiar controls",
+        "Pro: Brand recognition",
+        "Con: Ice performance trails high-watt Ninjas",
+        "Con: Older feature set",
+        "Spec: Classic pitcher",
+        "Spec: Multi-speed",
+        "Spec: Known brand"
+      ]
+    },
+    {
+      "heading": "17. Best multi-use pick: Oster Reverse Crush Counterforms Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Oster countertop blender with durability-focused drive design cues.",
+        "Best for: All-metal drive shoppers who want durability cues",
+        "Buy if: You prefer Osterâ€™s countertop approach over personal cups.",
+        "Skip if: You only need to-go smoothie cups."
+      ],
+      "bullets": [
+        "Pro: Durable drive messaging",
+        "Pro: Everyday versatility",
+        "Con: Confirm current wattage on listing",
+        "Con: Not a personal-cup system",
+        "Spec: Countertop pitcher",
+        "Spec: Oster build cues",
+        "Spec: Multi-speed"
+      ]
+    },
+    {
+      "heading": "18. Best travel / to-go pick: Oster Professional Smoothie Blender",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Smoothie-oriented Oster blender alternative in the under-$100 conversation.",
+        "Best for: Smoothie-focused Oster shoppers",
+        "Buy if: You want an Oster smoothie pitcher instead of Ninja.",
+        "Skip if: You need Auto-iQ style presets."
+      ],
+      "bullets": [
+        "Pro: Smoothie-friendly positioning",
+        "Pro: Known brand",
+        "Con: Verify jar material on listing",
+        "Con: Ice results vary",
+        "Spec: Smoothie focus",
+        "Spec: Oster",
+        "Spec: Countertop"
+      ]
+    },
+    {
+      "heading": "19. Best large-batch pick: Ninja Nutri Personal Blender Duo",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Personal duo cup system when two people share smoothie routines.",
+        "Best for: Two-cup personal blending households",
+        "Buy if: Two people blend single servings most days.",
+        "Skip if: You need one large family pitcher."
+      ],
+      "bullets": [
+        "Pro: Two servings ready",
+        "Pro: Compact",
+        "Con: Not pitcher-size",
+        "Con: Limited hot soup use",
+        "Spec: Dual cups",
+        "Spec: Personal blender",
+        "Spec: Ninja"
+      ]
+    },
+    {
+      "heading": "20. Worth a look: Ninja Professional Blender (updated colorway)",
+      "level": 2,
+      "brief": "",
+      "paragraphs": [
+        "Current-listing variant in the Ninja professional pitcher family.",
+        "Best for: BL610-class performance with a current listing variant",
+        "Buy if: The classic BL610 listing is unavailable in your color/stock.",
+        "Skip if: You specifically need Auto-iQ presets on BN701."
+      ],
+      "bullets": [
+        "Pro: Same core use case as BL610-class",
+        "Pro: Widely stocked variants",
+        "Con: Confirm exact wattage/accessories",
+        "Con: Tall pitcher",
+        "Spec: Professional pitcher class",
+        "Spec: Ice crushing focus",
+        "Spec: Ninja"
+      ]
     },
     {
       "heading": "How to choose without overbuying",
@@ -94,9 +509,9 @@
         "When two models look similar, prefer the one with clearer cleanup and a footprint you can live with. Then use the Amazon buttons at the end of this guide to compare today's availability."
       ],
       "bullets": [
-        "1–2 people / small counters → compact or personal formats",
-        "Families / batch cooking → larger pitchers or dual-zone baskets",
-        "Ice / frozen fruit daily → prioritize crushing power over extras"
+        "1â€“2 people / small counters â†’ compact or personal formats",
+        "Families / batch cooking â†’ larger pitchers or dual-zone baskets",
+        "Ice / frozen fruit daily â†’ prioritize crushing power over extras"
       ]
     }
   ],
@@ -107,7 +522,7 @@
     },
     {
       "question": "Why list so many products instead of only three?",
-      "answer": "Different shoppers win with different constraints—budget, footprint, batch size, cleanup, and specialty use cases. A longer labeled list converts better than forcing one product on everyone."
+      "answer": "Different shoppers win with different constraintsâ€”budget, footprint, batch size, cleanup, and specialty use cases. A longer labeled list converts better than forcing one product on everyone."
     },
     {
       "question": "Do you show live prices?",
