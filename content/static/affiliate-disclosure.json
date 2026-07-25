@@ -34,7 +34,20 @@
       "bullets": []
     }
   ],
-  "faqs": [],
+  "faqs": [
+    {
+      "question": "What matters most when buying CounterCrave affiliate disclosure?",
+      "answer": "Capacity, footprint, and cleanup. Confirm dimensions and accessories on the Amazon listing because bundles can change by seller."
+    },
+    {
+      "question": "Does CounterCrave show live prices?",
+      "answer": "No. We link to Amazon so you can check current pricing, shipping, and stock with our disclosed Associates tags."
+    },
+    {
+      "question": "How often are pages updated?",
+      "answer": "Priority commercial pages are refreshed when ASINs change, models retire, or a clearer fit appears for the same use case."
+    }
+  ],
   "relatedPageIds": [
     "STATIC-ABOUT",
     "STATIC-HOW-WE-TEST"

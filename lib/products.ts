@@ -18,6 +18,36 @@ export function getAllProductLinks(): ProductLink[] {
   return parsed;
 }
 
-export function getProductsForPage(pageId: string): ProductLink[] {
-  return getAllProductLinks().filter((product) => product.pageId === pageId);
+export function getProductsForPage(
+  pageId: string,
+  clusterPrefix?: string,
+): ProductLink[] {
+  const all = getAllProductLinks();
+  const direct = all.filter((product) => product.pageId === pageId);
+
+  if (direct.length > 0) return direct;
+
+  // Fallback for Hub pages or pages without direct slots: pull top products from the category cluster
+  const prefix = clusterPrefix || pageId.split("-")[0];
+  if (prefix) {
+    const clusterProducts = all.filter((p) =>
+      p.pageId.toUpperCase().startsWith(`${prefix.toUpperCase()}-`),
+    );
+    // Deduplicate by ASIN, taking highest ranked items first
+    const seen = new Set<string>();
+    const unique: ProductLink[] = [];
+    for (const prod of clusterProducts) {
+      if (!seen.has(prod.asin)) {
+        seen.add(prod.asin);
+        unique.push({
+          ...prod,
+          pageId, // associate with current hub page for tracking
+        });
+      }
+      if (unique.length >= 12) break;
+    }
+    return unique;
+  }
+
+  return [];
 }

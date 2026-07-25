@@ -1,110 +1,112 @@
 import Link from "next/link";
-import { getAllPages, canShowContentPlan } from "@/lib/content";
+import { categoryHubs } from "@/lib/categories";
+import { getAllPages } from "@/lib/content";
 
 export default function HomePage() {
-  const allPlannedPages = getAllPages({ includeDrafts: true });
-  const publishedPages = allPlannedPages.filter((page) => !page.draft);
-  const plannedContent = allPlannedPages.filter(
-    (page) => page.cluster !== "Trust" && page.cluster !== "Legal",
-  );
-
-  const clusters = Array.from(
-    plannedContent.reduce((map, page) => {
-      const current = map.get(page.cluster) || {
-        name: page.cluster,
-        total: 0,
-        p1: 0,
-        hubSlug: "",
-      };
-      current.total += 1;
-      if (page.priority === "P1") current.p1 += 1;
-      if (page.pageType === "Category Hub") current.hubSlug = page.slug;
-      map.set(page.cluster, current);
-      return map;
-    }, new Map<string, { name: string; total: number; p1: number; hubSlug: string }>()),
-  )
-    .map(([, value]) => value)
-    .sort((a, b) => b.p1 - a.p1 || b.total - a.total);
-
-  const showPlan = canShowContentPlan();
+  const latestGuides = getAllPages({ includeDrafts: false })
+    .filter(
+      (page) =>
+        !["Trust", "Legal"].includes(page.cluster) &&
+        ["Commercial Pillar", "Roundup", "Comparison", "Buying Guide"].includes(
+          page.pageType,
+        ),
+    )
+    .slice(0, 12);
 
   return (
     <main>
-      <section className="hero">
-        <div className="container hero-grid">
-          <div>
-            <span className="eyebrow">Independent kitchen gear research</span>
-            <h1>Choose countertop appliances with fewer compromises.</h1>
+      <section className="hero home-hero">
+        <div className="container home-hero-grid">
+          <div className="hero-copy">
+            <span className="eyebrow">CounterCrave</span>
+            <h1>Smart buying guides for countertop kitchen appliances.</h1>
             <p>
-              CounterCrave turns verified specifications, practical criteria
-              and clearly disclosed testing into useful buying decisions.
+              Clean, practical comparisons for shoppers choosing air fryers,
+              blenders, toaster ovens and more — with clear trade-offs and
+              disclosed Amazon recommendations.
             </p>
             <div className="button-row">
-              <Link className="button button-primary" href="/how-we-test/">
-                See our methodology
-              </Link>
-              <Link className="button button-secondary" href="/about/">
-                About CounterCrave
+              <a className="button button-primary" href="#categories">
+                Browse categories
+              </a>
+              <Link className="button button-secondary" href="/best-air-fryers/">
+                Best air fryers
               </Link>
             </div>
           </div>
-          <div className="hero-card">
-            <strong>Project foundation included</strong>
-            <ul>
-              <li>{plannedContent.length} planned content URLs</li>
-              <li>{clusters.length} topical clusters</li>
-              <li>Amazon tag: visitbest07-20</li>
-              <li>Draft-safe sitemap and indexing</li>
-            </ul>
+
+          <div className="decision-demo" aria-label="How CounterCrave helps">
+            <div className="demo-toolbar">
+              <span>Decision-first guides</span>
+              <span className="demo-status">Live</span>
+            </div>
+            <div className="demo-product-row">
+              <div className="demo-image" aria-hidden="true">
+                ◎
+              </div>
+              <div>
+                <span className="pick-label">Best overall</span>
+                <strong>Pick for your kitchen fit</strong>
+                <p>Capacity, cleanup and use case beat feature lists.</p>
+              </div>
+            </div>
+            <div className="demo-verdict">
+              <strong>Then check Amazon</strong>
+              <p>
+                Top picks appear early for decisions. Full commission product
+                cards sit at the end so you can compare and buy with disclosure.
+              </p>
+            </div>
           </div>
+        </div>
+      </section>
+
+      <section id="categories" className="container section-block">
+        <div className="section-heading">
+          <div>
+            <span className="eyebrow">Shop by category</span>
+            <h2>All CounterCrave categories</h2>
+          </div>
+        </div>
+
+        <div className="cluster-grid">
+          {categoryHubs.map((category) => (
+            <article className="cluster-card" key={category.slug}>
+              <h3>
+                <Link href={`/${category.slug}/`}>{category.name}</Link>
+              </h3>
+              <p>{category.description}</p>
+              <Link href={`/${category.slug}/`}>Open guides</Link>
+            </article>
+          ))}
         </div>
       </section>
 
       <section className="container section-block">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">Content architecture</span>
-            <h2>Kitchen appliance clusters</h2>
+            <span className="eyebrow">Latest buying guides</span>
+            <h2>Start with these comparisons</h2>
           </div>
-          {showPlan ? (
-            <Link href="/content-plan/">Open full local content plan</Link>
-          ) : null}
         </div>
 
-        <div className="cluster-grid">
-          {clusters.map((cluster) => (
-            <article className="cluster-card" key={cluster.name}>
-              <span className="cluster-count">{cluster.total} pages</span>
-              <h3>{cluster.name}</h3>
-              <p>{cluster.p1} high-priority P1 pages are mapped.</p>
-              {showPlan && cluster.hubSlug ? (
-                <Link href={`/${cluster.hubSlug}/`}>
-                  Preview local draft hub
-                </Link>
-              ) : (
-                <span className="muted">Publishing after editorial QA</span>
-              )}
+        <div className="guide-list">
+          {latestGuides.map((page) => (
+            <article className="guide-row" key={page.pageId}>
+              <div>
+                <span className="eyebrow">
+                  {page.cluster} · {page.pageType}
+                </span>
+                <h3>
+                  <Link href={`/${page.slug}/`}>{page.title}</Link>
+                </h3>
+                <p>{page.description}</p>
+              </div>
+              <Link className="text-cta" href={`/${page.slug}/`}>
+                Read guide
+              </Link>
             </article>
           ))}
-        </div>
-      </section>
-
-      <section className="container trust-strip">
-        <div>
-          <strong>{publishedPages.length}</strong>
-          <span>published trust pages</span>
-        </div>
-        <div>
-          <strong>Original</strong>
-          <span>analysis required</span>
-        </div>
-        <div>
-          <strong>Visible</strong>
-          <span>affiliate disclosure</span>
-        </div>
-        <div>
-          <strong>Tracked</strong>
-          <span>ASIN affiliate clicks</span>
         </div>
       </section>
     </main>

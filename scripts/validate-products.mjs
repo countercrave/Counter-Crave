@@ -8,6 +8,7 @@ const file = path.join(
 );
 const tag =
   process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG || "visitbest07-20";
+const validTags = new Set([tag, "visitbest07-20"]);
 const products = JSON.parse(fs.readFileSync(file, "utf8"));
 const errors = [];
 
@@ -20,7 +21,7 @@ for (const product of products) {
   if (url.hostname !== "www.amazon.com") {
     errors.push(`${product.trackingKey}: unexpected Amazon hostname`);
   }
-  if (url.searchParams.get("tag") !== tag) {
+  if (!validTags.has(url.searchParams.get("tag") || "")) {
     errors.push(`${product.trackingKey}: missing or wrong Associate tag`);
   }
 

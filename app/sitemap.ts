@@ -3,6 +3,10 @@ import { getAllPages } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  if (!siteConfig.allowIndexing) {
+    return [];
+  }
+
   const pages = getAllPages()
     .filter((page) => !page.draft && !page.noindex)
     .map((page) => ({

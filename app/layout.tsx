@@ -23,10 +23,9 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.siteUrl,
   },
-  robots: {
-    index: true,
-    follow: true,
-  },
+  robots: siteConfig.allowIndexing
+    ? { index: true, follow: true }
+    : { index: false, follow: false, nocache: true },
 };
 
 export default function RootLayout({

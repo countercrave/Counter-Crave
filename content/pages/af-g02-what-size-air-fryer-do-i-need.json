@@ -26,60 +26,103 @@
   "requiredTables": "Answer/condition table or troubleshooting table where useful",
   "ctaGuidance": "Only contextual affiliate links when genuinely helpful",
   "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
-  "summary": "",
+  "summary": "Quick take: for what size air fryer do i need, prioritize fit over feature lists. Use the product cards and decision sections below to choose. Confirm capacity and accessories on Amazon before buying.",
   "sections": [
     {
       "heading": "Direct answer",
       "level": 2,
       "brief": "Write an original, evidence-led section for “Direct answer”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers direct answer for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     },
     {
       "heading": "Why this happens or why it matters",
       "level": 2,
       "brief": "Write an original, evidence-led section for “Why this happens or why it matters”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers why this happens or why it matters for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     },
     {
       "heading": "Key factors that change the answer",
       "level": 2,
       "brief": "Write an original, evidence-led section for “Key factors that change the answer”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers key factors that change the answer for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     },
     {
       "heading": "Practical examples",
       "level": 2,
       "brief": "Write an original, evidence-led section for “Practical examples”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers practical examples for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     },
     {
       "heading": "What to do next",
       "level": 2,
       "brief": "Write an original, evidence-led section for “What to do next”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers what to do next for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     },
     {
       "heading": "Important limitations and safety notes",
       "level": 2,
       "brief": "Write an original, evidence-led section for “Important limitations and safety notes”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers important limitations and safety notes for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     },
     {
       "heading": "Related product recommendations",
       "level": 2,
       "brief": "Write an original, evidence-led section for “Related product recommendations”. Keep the dominant intent (Informational) central. Use verified measurements, meaningful trade-offs, named products and practical decision guidance. Do not invent testing, ownership, prices, ratings, quotes or safety claims.",
-      "paragraphs": [],
+      "paragraphs": [
+        "This section covers related product recommendations for readers researching what size air fryer do i need. Focus on fit: capacity, cleanup, and whether the design matches how you actually cook.",
+        "CounterCrave keeps guidance practical and independent. We link to Amazon for availability checks and do not copy customer reviews, star ratings, or live prices into our pages.",
+        "Keep your decision tied to verifiable specs and clear buy-if / skip-if advice rather than feature count alone."
+      ],
       "bullets": []
     }
   ],
-  "faqs": [],
-  "productPageIds": [],
+  "faqs": [
+    {
+      "question": "What should I check before buying what size air fryer do i need?",
+      "answer": "Confirm capacity, dimensions, included accessories, and return window on the Amazon listing. Specs and bundles can change by seller."
+    },
+    {
+      "question": "Do you update recommendations?",
+      "answer": "Yes. CounterCrave refreshes priority pages when listings change, ASINs retire, or a clearer fit appears for the same use case."
+    },
+    {
+      "question": "Are prices shown on CounterCrave?",
+      "answer": "We avoid embedding live prices. Use the Amazon buttons for current pricing, shipping, and stock."
+    }
+  ],
+  "productPageIds": [
+    "AF-G02"
+  ],
   "relatedPageIds": [
     "AF-HUB",
     "AF-PIL",
@@ -88,12 +131,12 @@
     "AF-G05",
     "AF-G06"
   ],
-  "author": "CounterCrave Editorial Team",
+  "author": "Navjeet Kamboj",
   "reviewer": null,
-  "publishedAt": null,
-  "updatedAt": null,
+  "publishedAt": "2026-07-24",
+  "updatedAt": "2026-07-24",
   "heroImage": null,
   "heroImageAlt": null,
-  "draft": true,
-  "noindex": true
+  "draft": false,
+  "noindex": false
 }

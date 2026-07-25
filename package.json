@@ -12,6 +12,7 @@
     "lint": "eslint .",
     "validate": "node scripts/validate-content.mjs && node scripts/validate-products.mjs",
     "products:generate": "node scripts/generate-product-links.mjs",
+    "site:bootstrap": "node scripts/bootstrap-site.mjs",
     "drafts:list": "node scripts/list-drafts.mjs",
     "amazon:link": "node scripts/make-amazon-link.mjs"
   },

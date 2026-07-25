@@ -44,6 +44,7 @@ function validateImageUrl(value) {
 const rows = parseCsv(fs.readFileSync(inputPath, "utf8"));
 const products = [];
 const errors = [];
+const rankByPage = new Map();
 
 for (const [index, row] of rows.entries()) {
   if (!String(row.asin || "").trim()) continue;
@@ -51,6 +52,13 @@ for (const [index, row] of rows.entries()) {
   try {
     const asin = normalizeAsin(row.asin);
     const imageUrl = validateImageUrl(row.imageUrl);
+    const nextRank = (rankByPage.get(row.pageId) || 0) + 1;
+    rankByPage.set(row.pageId, nextRank);
+
+    const slotLabel = row.slotLabel || `Pick ${nextRank}`;
+    const notes = String(row.notes || "");
+    const buyIf = notes.match(/buyIf:\s*(.*?)\s*\|\|\s*skipIf:/)?.[1]?.trim() || "";
+    const skipIf = notes.match(/skipIf:\s*(.*)$/)?.[1]?.trim() || "";
 
     products.push({
       pageId: row.pageId,
@@ -58,15 +66,41 @@ for (const [index, row] of rows.entries()) {
       pageSlug: row.pageSlug,
       pageType: row.pageType,
       slotId: row.slotId,
-      slotLabel: row.slotLabel,
+      slotLabel,
+      rank: nextRank,
       productName: row.productName || asin,
       asin,
       affiliateUrl: buildAmazonUrl(asin),
+      bestFor: row.bestFor || slotLabel,
+      shortVerdict:
+        row.shortVerdict ||
+        `${row.productName || asin} — check current Amazon details before buying.`,
+      editorialScore: row.editorialScore ? Number(row.editorialScore) : null,
+      keySpecs: row.keySpecs
+        ? String(row.keySpecs)
+            .split("|")
+            .map((part) => part.trim())
+            .filter(Boolean)
+        : [],
+      pros: row.pros
+        ? String(row.pros)
+            .split("|")
+            .map((part) => part.trim())
+            .filter(Boolean)
+        : [],
+      cons: row.cons
+        ? String(row.cons)
+            .split("|")
+            .map((part) => part.trim())
+            .filter(Boolean)
+        : [],
+      buyIf,
+      skipIf,
       imageUrl,
       imageWidth: row.imageWidth ? Number(row.imageWidth) : null,
       imageHeight: row.imageHeight ? Number(row.imageHeight) : null,
       imageAlt: row.imageAlt || row.productName || asin,
-      imageSource: row.imageSource || "Creators API or SiteStripe",
+      imageSource: row.imageSource || "Amazon CDN (hotlink)",
       checkedAt: row.checkedAt || "",
       trackingKey: `${row.pageId}:${row.slotId}:${asin}`,
     });

@@ -55,9 +55,18 @@ export type ProductLink = {
   pageType: string;
   slotId: string;
   slotLabel: string;
+  rank?: number;
   productName: string;
   asin: string;
   affiliateUrl: string;
+  bestFor?: string;
+  shortVerdict?: string;
+  editorialScore?: number | null;
+  keySpecs?: string[];
+  pros?: string[];
+  cons?: string[];
+  buyIf?: string;
+  skipIf?: string;
   imageUrl?: string;
   imageWidth?: number | null;
   imageHeight?: number | null;

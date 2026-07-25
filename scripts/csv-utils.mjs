@@ -44,3 +44,23 @@ export function parseCsv(text) {
     ),
   );
 }
+
+function escapeCsvField(value) {
+  const text = String(value ?? "");
+  if (/[",\n\r]/.test(text)) {
+    return `"${text.replace(/"/g, '""')}"`;
+  }
+  return text;
+}
+
+export function toCsv(rows) {
+  if (!rows.length) return "";
+  const headers = Object.keys(rows[0]);
+  const lines = [
+    headers.join(","),
+    ...rows.map((row) =>
+      headers.map((header) => escapeCsvField(row[header])).join(","),
+    ),
+  ];
+  return `${lines.join("\n")}\n`;
+}

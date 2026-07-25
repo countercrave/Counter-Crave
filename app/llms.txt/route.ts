@@ -2,6 +2,19 @@ import { getAllPages } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 
 export function GET() {
+  if (!siteConfig.allowIndexing) {
+    return new Response(
+      `# ${siteConfig.name}\n\nSitewide noindex is enabled. Content map withheld until indexing is turned on.\n`,
+      {
+        headers: {
+          "content-type": "text/plain; charset=utf-8",
+          "x-robots-tag": "noindex, nofollow",
+          "cache-control": "public, max-age=300",
+        },
+      },
+    );
+  }
+
   const published = getAllPages().filter(
     (page) => !page.draft && !page.noindex,
   );
