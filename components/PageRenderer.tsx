@@ -1,5 +1,6 @@
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { AuthorBio } from "@/components/AuthorBio";
+import { BrandProfiles } from "@/components/BrandProfiles";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCards } from "@/components/ProductCards";
 import { RelatedContent } from "@/components/RelatedContent";
@@ -8,6 +9,7 @@ import { TrustPanel } from "@/components/TrustPanel";
 import { headingId } from "@/lib/headings";
 import { getProductsForPage } from "@/lib/products";
 import type { ContentPage } from "@/types/content";
+import Link from "next/link";
 
 type PageRendererProps = {
   page: ContentPage;
@@ -35,8 +37,10 @@ export function PageRenderer({
   relatedPages,
 }: PageRendererProps) {
   const products = getProductsForPage(page.pageId, page.cluster);
+  const brandProfiles = page.brandProfiles || [];
+  const hasBrandProfiles = brandProfiles.length > 0;
   const showDisclosure =
-    affiliateTypes.has(page.pageType) || products.length > 0;
+    affiliateTypes.has(page.pageType) || products.length > 0 || hasBrandProfiles;
   const hasFaqs = Boolean(page.faqs?.length);
   const quickPicks = products.slice(0, 3);
 
@@ -56,8 +60,11 @@ export function PageRenderer({
         <aside className="content-sidebar">
           <TableOfContents
             sections={page.sections || []}
-            hasProducts={products.length > 0}
+            hasProducts={!hasBrandProfiles && products.length > 0}
+            hasBrandProfiles={hasBrandProfiles}
+            brandNames={brandProfiles.map((profile) => profile.brand)}
             hasFaqs={hasFaqs}
+            collectionPath={page.collectionPath}
           />
         </aside>
 
@@ -80,10 +87,21 @@ export function PageRenderer({
             <div className="article-hero-panel">
               <span className="panel-label">What you will get</span>
               <ul>
-                <li>Top three picks first for fast decisions</li>
-                <li>Up to 20 labeled product recommendations</li>
-                <li>Specs, about-this-item notes, buy-if / skip-if</li>
-                <li>Amazon links for live price and customer ratings</li>
+                {hasBrandProfiles ? (
+                  <>
+                    <li>Ranked brand profiles with flagship models</li>
+                    <li>Product image + brand logo on each brand block</li>
+                    <li>Filterable collections of all evidence products</li>
+                    <li>Amazon links for live price and ratings</li>
+                  </>
+                ) : (
+                  <>
+                    <li>Top three picks first for fast decisions</li>
+                    <li>Up to 20 labeled product recommendations</li>
+                    <li>Specs, about-this-item notes, buy-if / skip-if</li>
+                    <li>Amazon links for live price and customer ratings</li>
+                  </>
+                )}
               </ul>
             </div>
           </header>
@@ -113,7 +131,15 @@ export function PageRenderer({
 
           <TrustPanel page={page} />
 
-          {quickPicks.length ? (
+          {page.collectionPath ? (
+            <p className="collection-jump">
+              <Link className="button button-primary" href={page.collectionPath}>
+                Open product collections
+              </Link>
+            </p>
+          ) : null}
+
+          {!hasBrandProfiles && quickPicks.length ? (
             <ProductCards
               pageId={page.pageId}
               products={quickPicks}
@@ -121,7 +147,13 @@ export function PageRenderer({
             />
           ) : null}
 
-          {products.length ? (
+          {hasBrandProfiles ? (
+            <BrandProfiles
+              pageId={page.pageId}
+              profiles={brandProfiles}
+              collectionPath={page.collectionPath}
+            />
+          ) : products.length ? (
             <ProductCards pageId={page.pageId} products={products} />
           ) : null}
 
@@ -187,7 +219,11 @@ export function PageRenderer({
 
       <RelatedContent pages={relatedPages} />
 
-      {products.length ? (
+      {hasBrandProfiles ? (
+        <a className="mobile-sticky-cta" href="#brand-profiles">
+          View brand profiles
+        </a>
+      ) : products.length ? (
         <a className="mobile-sticky-cta" href="#recommended-picks">
           View detailed picks
         </a>

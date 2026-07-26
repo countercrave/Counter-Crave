@@ -11,6 +11,40 @@ export type FaqItem = {
   answer: string;
 };
 
+export type BrandProfileProduct = {
+  name: string;
+  asin: string;
+  imageUrl?: string;
+  listPrice?: string;
+  amazonRating?: string;
+  ratingCount?: string;
+  productType?: string;
+  capacity?: string;
+  bestFor?: string;
+  why?: string;
+  features?: string;
+};
+
+export type BrandProfile = {
+  brand: string;
+  brandSlug: string;
+  logoUrl?: string;
+  award?: string;
+  brandScore?: number | null;
+  rank?: number;
+  marketPosition?: string;
+  profile?: string;
+  summary?: string;
+  bestFor?: string;
+  strengths?: string[];
+  weaknesses?: string[];
+  coreTypes?: string;
+  signatureTech?: string;
+  warranty?: string;
+  officialWebsite?: string;
+  product: BrandProfileProduct;
+};
+
 export type ContentPage = {
   pageId: string;
   title: string;
@@ -36,6 +70,10 @@ export type ContentPage = {
   summary?: string;
   sections?: PageSection[];
   faqs?: FaqItem[];
+  /** Brand-directory roundups: logo + flagship product blocks. */
+  brandProfiles?: BrandProfile[];
+  /** Optional link to a filterable collection route. */
+  collectionPath?: string | null;
   productPageIds?: string[];
   relatedPageIds?: string[];
   author?: string;

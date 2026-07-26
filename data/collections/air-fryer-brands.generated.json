@@ -1,0 +1,2227 @@
+{
+  "pageId": "AF-COL-BRANDS",
+  "title": "Air Fryer Brand Product Collections",
+  "slug": "collections/air-fryers",
+  "updatedAt": "2026-07-26",
+  "brands": [
+    {
+      "brand": "COSORI",
+      "brandSlug": "cosori",
+      "logoUrl": "/images/brands/cosori.svg",
+      "award": "Best smart-value air fryer brand"
+    },
+    {
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "award": "Best overall air fryer brand"
+    },
+    {
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "award": "Best budget performance brand"
+    },
+    {
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "award": "Best practical everyday brand"
+    },
+    {
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "award": "Best warranty and durability brand"
+    },
+    {
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "logoUrl": "/images/brands/midea.ico",
+      "award": "Best dual-zone value innovator"
+    },
+    {
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "award": "Best retailer-value brand"
+    },
+    {
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "award": "Best precision-control oven brand"
+    },
+    {
+      "brand": "Breville",
+      "brandSlug": "breville",
+      "logoUrl": "/images/brands/breville.ico",
+      "award": "Best premium air-fryer oven brand"
+    },
+    {
+      "brand": "Philips",
+      "brandSlug": "philips",
+      "logoUrl": "/images/brands/philips.ico",
+      "award": "Best airflow technology brand"
+    },
+    {
+      "brand": "Typhur",
+      "brandSlug": "typhur",
+      "logoUrl": "/images/brands/typhur.svg",
+      "award": "Best luxury AI air fryer brand"
+    },
+    {
+      "brand": "BLACK+DECKER",
+      "brandSlug": "black-plusdecker",
+      "logoUrl": "/images/brands/black-plusdecker.svg",
+      "award": "Best affordable toaster-oven brand"
+    },
+    {
+      "brand": "Dreo",
+      "brandSlug": "dreo",
+      "logoUrl": "/images/brands/dreo.svg",
+      "award": "Best premium smart-cooking brand"
+    },
+    {
+      "brand": "Kalorik",
+      "brandSlug": "kalorik",
+      "logoUrl": "/images/brands/kalorik.png",
+      "award": "Best large-capacity oven brand"
+    }
+  ],
+  "collections": [
+    {
+      "id": "all",
+      "title": "All brand evidence products",
+      "description": "Every uploaded Amazon evidence product across ranked air fryer brands.",
+      "filter": {
+        "tags": [
+          "all"
+        ]
+      }
+    },
+    {
+      "id": "dual-basket",
+      "title": "Dual-basket & DualZone",
+      "description": "Two-basket / DualZone formats for mains + sides.",
+      "filter": {
+        "tags": [
+          "dual-basket"
+        ]
+      }
+    },
+    {
+      "id": "oven-style",
+      "title": "Air fryer toaster ovens",
+      "description": "Oven-style combos for toast, bake, broil, and air fry.",
+      "filter": {
+        "tags": [
+          "oven-style"
+        ]
+      }
+    },
+    {
+      "id": "smart",
+      "title": "Smart & connected",
+      "description": "App, probe, or smart-cooking language in the listing title.",
+      "filter": {
+        "tags": [
+          "smart"
+        ]
+      }
+    },
+    {
+      "id": "glass",
+      "title": "Glass air fryers",
+      "description": "Glass vessel / Crispi-style visibility picks in the sample.",
+      "filter": {
+        "tags": [
+          "glass"
+        ]
+      }
+    },
+    {
+      "id": "compact",
+      "title": "Compact & smaller baskets",
+      "description": "Smaller-capacity titles from the brand evidence set.",
+      "filter": {
+        "tags": [
+          "compact"
+        ]
+      }
+    },
+    {
+      "id": "large",
+      "title": "Large & family capacity",
+      "description": "XL / family-size titles from the brand evidence set.",
+      "filter": {
+        "tags": [
+          "large"
+        ]
+      }
+    },
+    {
+      "id": "under-100",
+      "title": "Under $100",
+      "description": "Snapshot prices under $100 (confirm live on Amazon).",
+      "filter": {
+        "tags": [
+          "under-100"
+        ]
+      }
+    },
+    {
+      "id": "under-150",
+      "title": "Under $150",
+      "description": "Snapshot prices under $150 (confirm live on Amazon).",
+      "filter": {
+        "tags": [
+          "under-150"
+        ]
+      }
+    },
+    {
+      "id": "premium",
+      "title": "Premium $200+",
+      "description": "Snapshot prices at $200 and up (confirm live on Amazon).",
+      "filter": {
+        "tags": [
+          "premium"
+        ]
+      }
+    },
+    {
+      "id": "cosori",
+      "title": "COSORI collection",
+      "description": "Uploaded evidence products for COSORI.",
+      "filter": {
+        "brandSlug": "cosori"
+      }
+    },
+    {
+      "id": "ninja",
+      "title": "Ninja collection",
+      "description": "Uploaded evidence products for Ninja.",
+      "filter": {
+        "brandSlug": "ninja"
+      }
+    },
+    {
+      "id": "chefman",
+      "title": "Chefman collection",
+      "description": "Uploaded evidence products for Chefman.",
+      "filter": {
+        "brandSlug": "chefman"
+      }
+    },
+    {
+      "id": "instant-pot",
+      "title": "Instant Pot collection",
+      "description": "Uploaded evidence products for Instant Pot.",
+      "filter": {
+        "brandSlug": "instant-pot"
+      }
+    },
+    {
+      "id": "cuisinart",
+      "title": "Cuisinart collection",
+      "description": "Uploaded evidence products for Cuisinart.",
+      "filter": {
+        "brandSlug": "cuisinart"
+      }
+    },
+    {
+      "id": "midea",
+      "title": "Midea collection",
+      "description": "Uploaded evidence products for Midea.",
+      "filter": {
+        "brandSlug": "midea"
+      }
+    },
+    {
+      "id": "gourmia",
+      "title": "Gourmia collection",
+      "description": "Uploaded evidence products for Gourmia.",
+      "filter": {
+        "brandSlug": "gourmia"
+      }
+    },
+    {
+      "id": "nuwave",
+      "title": "NuWave collection",
+      "description": "Uploaded evidence products for NuWave.",
+      "filter": {
+        "brandSlug": "nuwave"
+      }
+    },
+    {
+      "id": "breville",
+      "title": "Breville collection",
+      "description": "Uploaded evidence products for Breville.",
+      "filter": {
+        "brandSlug": "breville"
+      }
+    },
+    {
+      "id": "philips",
+      "title": "Philips collection",
+      "description": "Uploaded evidence products for Philips.",
+      "filter": {
+        "brandSlug": "philips"
+      }
+    },
+    {
+      "id": "typhur",
+      "title": "Typhur collection",
+      "description": "Uploaded evidence products for Typhur.",
+      "filter": {
+        "brandSlug": "typhur"
+      }
+    },
+    {
+      "id": "black-plusdecker",
+      "title": "BLACK+DECKER collection",
+      "description": "Uploaded evidence products for BLACK+DECKER.",
+      "filter": {
+        "brandSlug": "black-plusdecker"
+      }
+    },
+    {
+      "id": "dreo",
+      "title": "Dreo collection",
+      "description": "Uploaded evidence products for Dreo.",
+      "filter": {
+        "brandSlug": "dreo"
+      }
+    },
+    {
+      "id": "kalorik",
+      "title": "Kalorik collection",
+      "description": "Uploaded evidence products for Kalorik.",
+      "filter": {
+        "brandSlug": "kalorik"
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "B0DY11H2PJ",
+      "brand": "BLACK+DECKER",
+      "brandSlug": "black-plusdecker",
+      "logoUrl": "/images/brands/black-plusdecker.svg",
+      "asin": "B0DY11H2PJ",
+      "productName": "BLACK+DECKER 5-in-1 Microwave Oven Air Fryer Combo, 0.9 Cu.Ft, 900W",
+      "imageUrl": "https://m.media-amazon.com/images/I/61I3WGiwn4L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$180.99",
+      "priceValue": 180.99,
+      "amazonRating": "4.2",
+      "ratingValue": 4.2,
+      "ratingCount": "22565",
+      "ratingCountValue": 22565,
+      "affiliateUrl": "https://www.amazon.com/dp/B0DY11H2PJ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "black-plusdecker"
+      ]
+    },
+    {
+      "id": "B0CKLXZRMC",
+      "brand": "BLACK+DECKER",
+      "brandSlug": "black-plusdecker",
+      "logoUrl": "/images/brands/black-plusdecker.svg",
+      "asin": "B0CKLXZRMC",
+      "productName": "BLACK+DECKER 4-Slice Air Fry Toaster Oven, 5-in-1 Countertop Oven",
+      "imageUrl": "https://m.media-amazon.com/images/I/71VcblYrK6L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$61.99",
+      "priceValue": 61.99,
+      "amazonRating": "4.2",
+      "ratingValue": 4.2,
+      "ratingCount": "6661",
+      "ratingCountValue": 6661,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CKLXZRMC/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "black-plusdecker",
+        "oven-style",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0CXF9LRQK",
+      "brand": "BLACK+DECKER",
+      "brandSlug": "black-plusdecker",
+      "logoUrl": "/images/brands/black-plusdecker.svg",
+      "asin": "B0CXF9LRQK",
+      "productName": "BLACK+DECKER 12-in-1 Crisp 'N Bake Air Fryer Toaster Oven",
+      "imageUrl": "https://m.media-amazon.com/images/I/71kvcOciGRL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$149.99",
+      "priceValue": 149.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "1910",
+      "ratingCountValue": 1910,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CXF9LRQK/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "black-plusdecker",
+        "oven-style",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0B4T992R8",
+      "brand": "BLACK+DECKER",
+      "brandSlug": "black-plusdecker",
+      "logoUrl": "/images/brands/black-plusdecker.svg",
+      "asin": "B0B4T992R8",
+      "productName": "BLACK+DECKER 6-Slice Air Fry Toaster Oven, 5-in-1 Countertop Oven",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Llb1NzHNL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$79.99",
+      "priceValue": 79.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "1637",
+      "ratingCountValue": 1637,
+      "affiliateUrl": "https://www.amazon.com/dp/B0B4T992R8/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "black-plusdecker",
+        "oven-style",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B01N5UPTZS",
+      "brand": "Breville",
+      "brandSlug": "breville",
+      "logoUrl": "/images/brands/breville.ico",
+      "asin": "B01N5UPTZS",
+      "productName": "Breville BOV900BSS Smart Oven Air Fryer Pro, Brushed Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/51jCxzgxYwL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$399.95",
+      "priceValue": 399.95,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "12997",
+      "ratingCountValue": 12997,
+      "affiliateUrl": "https://www.amazon.com/dp/B01N5UPTZS/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "breville",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B085FTBLC6",
+      "brand": "Breville",
+      "brandSlug": "breville",
+      "logoUrl": "/images/brands/breville.ico",
+      "asin": "B085FTBLC6",
+      "productName": "Breville BOV860BSS Smart Oven Air Fryer, Brushed Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/713RPSdpLeL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$279.95",
+      "priceValue": 279.95,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "3204",
+      "ratingCountValue": 3204,
+      "affiliateUrl": "https://www.amazon.com/dp/B085FTBLC6/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "breville",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B081ZS7VSM",
+      "brand": "Breville",
+      "brandSlug": "breville",
+      "logoUrl": "/images/brands/breville.ico",
+      "asin": "B081ZS7VSM",
+      "productName": "Breville BMO870BSS Combi Wave 3-in-1, Brushed Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/81pA7bWvAbL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$499.95",
+      "priceValue": 499.95,
+      "amazonRating": "4",
+      "ratingValue": 4,
+      "ratingCount": "904",
+      "ratingCountValue": 904,
+      "affiliateUrl": "https://www.amazon.com/dp/B081ZS7VSM/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "breville",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0F49RLPS4",
+      "brand": "Breville",
+      "brandSlug": "breville",
+      "logoUrl": "/images/brands/breville.ico",
+      "asin": "B0F49RLPS4",
+      "productName": "Breville BOV680BSS Smart Oven Air Fryer Compact, Brushed Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71UsFr82mqL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$249.95",
+      "priceValue": 249.95,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "267",
+      "ratingCountValue": 267,
+      "affiliateUrl": "https://www.amazon.com/dp/B0F49RLPS4/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "breville",
+        "smart",
+        "compact",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0936FGLQS",
+      "brand": "COSORI",
+      "brandSlug": "cosori",
+      "logoUrl": "/images/brands/cosori.svg",
+      "asin": "B0936FGLQS",
+      "productName": "Cosori Air Fryer Pro LE 5 Qt, 9-in-1, Ceramic Coating, Shake Reminder, Grey",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jSDZe54mL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$89.99",
+      "priceValue": 89.99,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "35759",
+      "ratingCountValue": 35759,
+      "affiliateUrl": "https://www.amazon.com/dp/B0936FGLQS/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cosori",
+        "compact",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0C33CHG99",
+      "brand": "COSORI",
+      "brandSlug": "cosori",
+      "logoUrl": "/images/brands/cosori.svg",
+      "asin": "B0C33CHG99",
+      "productName": "Cosori TurboBlaze Air Fryer 6 Qt, PFAS-Free Ceramic Coating, Dark Gray",
+      "imageUrl": "https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$99.99",
+      "priceValue": 99.99,
+      "amazonRating": "4.8",
+      "ratingValue": 4.8,
+      "ratingCount": "21001",
+      "ratingCountValue": 21001,
+      "affiliateUrl": "https://www.amazon.com/dp/B0C33CHG99/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cosori",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0BDFRZX3F",
+      "brand": "COSORI",
+      "brandSlug": "cosori",
+      "logoUrl": "/images/brands/cosori.svg",
+      "asin": "B0BDFRZX3F",
+      "productName": "Cosori Lite 2.1 Qt Small Air Fryer, Max 400°F, 4-in-1, 97% less oil, Gray",
+      "imageUrl": "https://m.media-amazon.com/images/I/71ZnPeu+5wL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$49.99",
+      "priceValue": 49.99,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "8545",
+      "ratingCountValue": 8545,
+      "affiliateUrl": "https://www.amazon.com/dp/B0BDFRZX3F/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cosori",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0GGNT6YMT",
+      "brand": "COSORI",
+      "brandSlug": "cosori",
+      "logoUrl": "/images/brands/cosori.svg",
+      "asin": "B0GGNT6YMT",
+      "productName": "Cosori Air Fryer Oven, 13QT, 11-in-1, Rotisserie, Max 450°F, 6 Accessories",
+      "imageUrl": "https://m.media-amazon.com/images/I/81ritgoMc+L._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$139.99",
+      "priceValue": 139.99,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "2374",
+      "ratingCountValue": 2374,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GGNT6YMT/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cosori",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FJYK886N",
+      "brand": "COSORI",
+      "brandSlug": "cosori",
+      "logoUrl": "/images/brands/cosori.svg",
+      "asin": "B0FJYK886N",
+      "productName": "Cosori Iconic Stainless Steel Air Fryer, 6.5Qt, PFAS Free, Smart Control",
+      "imageUrl": "https://m.media-amazon.com/images/I/71bScBr5vcL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$249",
+      "priceValue": 249,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "189",
+      "ratingCountValue": 189,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FJYK886N/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cosori",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B08DL8WH9V",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B08DL8WH9V",
+      "productName": "CHEFMAN Multifunctional Digital Air Fryer+ Rotisserie, Dehydrator, Convection Oven, 17 Touch Screen Presets Fry, Roast, Dehydrate, Bake, XL 10L Family Size, Auto Shutoff, Large Easy-View Window, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71s8nikz44L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$84.99",
+      "priceValue": 84.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "51003",
+      "ratingCountValue": 51003,
+      "affiliateUrl": "https://www.amazon.com/dp/B08DL8WH9V/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0CGMFGX87",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0CGMFGX87",
+      "productName": "Chefman 12-Quart 5-in-1 Air Fryer Oven with Digital Timer, Touchscreen, and 12 Presets - Family Size Countertop Convection Oven, Dishwasher-Safe Parts",
+      "imageUrl": "https://m.media-amazon.com/images/I/81eOHKSRVDL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$129.99",
+      "priceValue": 129.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "51003",
+      "ratingCountValue": 51003,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CGMFGX87/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "large",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08DKYBTPH",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B08DKYBTPH",
+      "productName": "Chefman Air Fryer 8 Qt",
+      "imageUrl": "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$79.99",
+      "priceValue": 79.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "16458",
+      "ratingCountValue": 16458,
+      "affiliateUrl": "https://www.amazon.com/dp/B08DKYBTPH/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FWTG4DJP",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0FWTG4DJP",
+      "productName": "Chefman Air Fryer TurboFry 9-Qt, 6-in-1 High-Powered 450°F Cooking for Crispier French Fries, Chicken, and Onion Rings, XL Windowed Basket, Air Fry, Bake, Broil, Reheat, Dehydrate, Defrost – Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/81BaLTIsl9L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "",
+      "priceValue": null,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "3181",
+      "ratingCountValue": 3181,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FWTG4DJP/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "glass",
+        "large"
+      ]
+    },
+    {
+      "id": "B0CNY1YVDD",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0CNY1YVDD",
+      "productName": "Chefman Air Fryer – 6 QT Compact Airfryer for Quick & Easy Meals in Minutes, Features Hi-Fry Technology for Extra Crisp, Touchscreen Controls with 4 Presets, Nonstick & Dishwasher Safe Basket - Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71WCBoDBHsL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$69.99",
+      "priceValue": 69.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "2883",
+      "ratingCountValue": 2883,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CNY1YVDD/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "compact",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B09BZVP4VW",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B09BZVP4VW",
+      "productName": "Chefman TurboFry Touch Air Fryer, Large 5-Quart Family Size, One Touch Digital Control Presets, French Fries, Chicken, Meat, Fish, Nonstick Dishwasher-Safe Parts, Automatic Shutoff, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/716MZFPJgjL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$59.03",
+      "priceValue": 59.03,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "1873",
+      "ratingCountValue": 1873,
+      "affiliateUrl": "https://www.amazon.com/dp/B09BZVP4VW/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0DZ9VFWYN",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0DZ9VFWYN",
+      "productName": "Chefman Crispinator Air Fryer 6-in-1 with 8 Qt capacity, 450°F Max Temp with TurboFry Pro Technology for Fast and Even Results, Viewing Window, Nonstick Ceramic Basket",
+      "imageUrl": "https://m.media-amazon.com/images/I/711TmXmP68L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$99.94",
+      "priceValue": 99.94,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "649",
+      "ratingCountValue": 649,
+      "affiliateUrl": "https://www.amazon.com/dp/B0DZ9VFWYN/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "glass",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FZF445YL",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0FZF445YL",
+      "productName": "Chefman Air Fryer 9 Qt",
+      "imageUrl": "https://m.media-amazon.com/images/I/81TNVH2j5FL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$79.99",
+      "priceValue": 79.99,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "531",
+      "ratingCountValue": 531,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FZF445YL/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0GTBN7CS2",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0GTBN7CS2",
+      "productName": "Chefman Air Fryer 6-in-1, XL 14-Quart Multifunctional Airfryer with Touchscreen Controls, Rotisserie, Food Dehydrator, Convection Oven, Bake, Broil, and Reheat Functions, Windowed Door – Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/81lRxtBNtVL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$99.99",
+      "priceValue": 99.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "364",
+      "ratingCountValue": 364,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GTBN7CS2/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0G36T6J5V",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0G36T6J5V",
+      "productName": "Chefman TurboX 4-in-1 Air Fryer, 5-Quart Airfryer for Extra Crispy Chicken, Fries, Wings, and More, Air Fry, Bake, Reheat, and Frozen Functions, Digital Touch Controls, Dishwasher Safe",
+      "imageUrl": "https://m.media-amazon.com/images/I/61zcuyd10ML._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$67.46",
+      "priceValue": 67.46,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "239",
+      "ratingCountValue": 239,
+      "affiliateUrl": "https://www.amazon.com/dp/B0G36T6J5V/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FH32D8HQ",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0FH32D8HQ",
+      "productName": "Chefman TurboX 4-in-1 Air Fryer, 5-Quart Airfryer for Extra Crispy Chicken, Fries, Wings, and More, Air Fry, Bake, Reheat, and Frozen Functions, Digital Touch Controls, Dishwasher Safe - Gray",
+      "imageUrl": "https://m.media-amazon.com/images/I/61hWpaUTOdL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$51.26",
+      "priceValue": 51.26,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "222",
+      "ratingCountValue": 222,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FH32D8HQ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0DQBT595N",
+      "brand": "Chefman",
+      "brandSlug": "chefman",
+      "logoUrl": "/images/brands/chefman.png",
+      "asin": "B0DQBT595N",
+      "productName": "Chefman Air Fryer, TurboFry, 4.7 Liter, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71E-p9UrwLL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$105.29",
+      "priceValue": 105.29,
+      "amazonRating": "5",
+      "ratingValue": 5,
+      "ratingCount": "1",
+      "ratingCountValue": 1,
+      "affiliateUrl": "https://www.amazon.com/dp/B0DQBT595N/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "chefman",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B09HSWBTN4",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B09HSWBTN4",
+      "productName": "Cuisinart Air Fryer Toaster Oven, 1800W, 8-in-1 with Air Fry, Convection, Broil & Warm, 0.6 Cubic Feet, 60-Minute Timer, TOA-70NAS, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71UIRKGLtYL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$187.06",
+      "priceValue": 187.06,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "7610",
+      "ratingCountValue": 7610,
+      "affiliateUrl": "https://www.amazon.com/dp/B09HSWBTN4/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "oven-style"
+      ]
+    },
+    {
+      "id": "B0BYF8PT3L",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B0BYF8PT3L",
+      "productName": "Cuisinart Air Fryer, 6-Quart Basket Large Fryer with 5 Cooking Functions to Roast, Bake, Broil, Air Fry and Keep Warm, 5 Airfryer Presets, Dishwasher-Safe Parts, AIR-200NAS, Stainless Steel & Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71eNUemGxvL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$119.95",
+      "priceValue": 119.95,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "3555",
+      "ratingCountValue": 3555,
+      "affiliateUrl": "https://www.amazon.com/dp/B0BYF8PT3L/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0DPNCNJ43",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B0DPNCNJ43",
+      "productName": "Cuisinart Air Fryer, 9-Quart Basket Stainless Steel Fryer Oven with 6 Presets to Roast, Bake, Broil, Air Fry, Dehydrate and Keep Warm, Dishwasher-Safe Parts, Quick & Easy Meals, AIRX-221, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71fzELv0yhL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$219.95",
+      "priceValue": 219.95,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "3555",
+      "ratingCountValue": 3555,
+      "affiliateUrl": "https://www.amazon.com/dp/B0DPNCNJ43/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B09GL56L4T",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B09GL56L4T",
+      "productName": "Cuisinart Compact Air Fryer Toaster Oven, Stainless Steel Fryer with 6-in-1 Functions, Adjustable Temperature, Includes Oven Rack, Baking Pan and Air Fry Basket, TOA-26",
+      "imageUrl": "https://m.media-amazon.com/images/I/81vBm6LjSCL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$119.31",
+      "priceValue": 119.31,
+      "amazonRating": "4.1",
+      "ratingValue": 4.1,
+      "ratingCount": "2065",
+      "ratingCountValue": 2065,
+      "affiliateUrl": "https://www.amazon.com/dp/B09GL56L4T/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "oven-style",
+        "compact",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FPP4RCV3",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B0FPP4RCV3",
+      "productName": "Cuisinart 15-in-1 Extra-Large Digital Air Fryer Oven with 9\"x13\" 2-in-1 Pan, Air Fry 4 Lbs of Wings, Cook a 13 Lb Turkey or 5+ Lb Chicken, Toast 9 Slices of Bread, and Bake a 13\" Pizza, TOA-112",
+      "imageUrl": "https://m.media-amazon.com/images/I/81RveI7mqbL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$249.95",
+      "priceValue": 249.95,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "223",
+      "ratingCountValue": 223,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FPP4RCV3/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0GVPBSXXF",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B0GVPBSXXF",
+      "productName": "Cuisinart Air Fryer, Glass Basket & ClearView Window, 5 Functions, 4 Qt",
+      "imageUrl": "https://m.media-amazon.com/images/I/71m2lPJozaL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$139.95",
+      "priceValue": 139.95,
+      "amazonRating": "4.8",
+      "ratingValue": 4.8,
+      "ratingCount": "218",
+      "ratingCountValue": 218,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GVPBSXXF/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "glass",
+        "compact",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0GVT7MWY4",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B0GVT7MWY4",
+      "productName": "Cuisinart ClearView Large 9-Quart Basket Air Fryer with ClearView Window, Digital Control Panel, 5 Functions, 3 Air Fry Presets, 2 Custom Presets, Easy Clean, PFAS-Free, 3 -Year Warranty, AFC-9",
+      "imageUrl": "https://m.media-amazon.com/images/I/71NgQoxWT5L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$159.95",
+      "priceValue": 159.95,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "46",
+      "ratingCountValue": 46,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GVT7MWY4/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart"
+      ]
+    },
+    {
+      "id": "B0BG34Q495",
+      "brand": "Cuisinart",
+      "brandSlug": "cuisinart",
+      "logoUrl": "/images/brands/cuisinart.ico",
+      "asin": "B0BG34Q495",
+      "productName": "Cuisinart TOA-70 AirFryer Toaster Oven with Grill Stainless Steel Bundle with Deco Chef Pair of Red Heat Resistant Oven Mitt",
+      "imageUrl": "https://m.media-amazon.com/images/I/61WLpcAYr5L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$187.95",
+      "priceValue": 187.95,
+      "amazonRating": "5",
+      "ratingValue": 5,
+      "ratingCount": "1",
+      "ratingCountValue": 1,
+      "affiliateUrl": "https://www.amazon.com/dp/B0BG34Q495/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "cuisinart",
+        "oven-style"
+      ]
+    },
+    {
+      "id": "B0CH3XC7NP",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B0CH3XC7NP",
+      "productName": "Gourmia Air Fryer - 4 Qt Capacity, FryForce360º, Digital Display with 8 Presets, Roast, Bake, Broil, Dehydrate, Dishwasher Safe Accessories, Compact, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/7154P20kQvL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$53.26",
+      "priceValue": 53.26,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "5164",
+      "ratingCountValue": 5164,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CH3XC7NP/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "compact",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B09MR49K1D",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B09MR49K1D",
+      "productName": "Gourmia Air Fryer - 6 Qt Large Capacity, FryForce 360º, Digital Display with 12 Presets, Roast, Bake, Broil, Dehydrate, Dishwasher Safe Accessories, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71IQE5Y-GrL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$64.99",
+      "priceValue": 64.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "5164",
+      "ratingCountValue": 5164,
+      "affiliateUrl": "https://www.amazon.com/dp/B09MR49K1D/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08TSV54MG",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B08TSV54MG",
+      "productName": "Gourmia French Door Air Fryer Toaster Oven – 6-Slice Capacity, FryForce 360°, Digital Display with 17 Cooking Presets, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/91cFeqiRw-L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$114.99",
+      "priceValue": 114.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "3023",
+      "ratingCountValue": 3023,
+      "affiliateUrl": "https://www.amazon.com/dp/B08TSV54MG/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "oven-style",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08127JM2L",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B08127JM2L",
+      "productName": "Gourmia Air Fryer Toaster Combo - 6-in-1 Multi-function Countertop Oven Adjustable Temperature & Timer, Fry Basket, Baking Pan, Oven Rack & Pullout Crumb Tray, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71RblUKE94L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$69.99",
+      "priceValue": 69.99,
+      "amazonRating": "3.9",
+      "ratingValue": 3.9,
+      "ratingCount": "861",
+      "ratingCountValue": 861,
+      "affiliateUrl": "https://www.amazon.com/dp/B08127JM2L/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "oven-style",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B09MR7QWKZ",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B09MR7QWKZ",
+      "productName": "Gourmia Air Fryer - 8 Qt Extra Large Capacity, FryForce360º, Digital Display with 12 Presets, Roast, Bake, Broil, Dehydrate, Dishwasher Safe Accessories, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/7118aDcIa3L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$79.99",
+      "priceValue": 79.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "751",
+      "ratingCountValue": 751,
+      "affiliateUrl": "https://www.amazon.com/dp/B09MR7QWKZ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0BNDJN73L",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B0BNDJN73L",
+      "productName": "Gourmia Air Fryer - 14 Qt All-in-One Rotisserie Oven with Digital Display, 12 Presets, Roast, Bake, Broil, Dehydrate, Dishwasher Safe Accessories, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/81rKFilWWpL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$131.59",
+      "priceValue": 131.59,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "663",
+      "ratingCountValue": 663,
+      "affiliateUrl": "https://www.amazon.com/dp/B0BNDJN73L/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "compact",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FFHMQV8Q",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B0FFHMQV8Q",
+      "productName": "Gourmia Air Fryer - 14 Qt All-in-One Oven with Rotisserie, Digital Display with 12 Presets, Roast, Bake, Broil, Dehydrate, Dishwasher Safe Accessories, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71YVQyR7MsL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$109.05",
+      "priceValue": 109.05,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "663",
+      "ratingCountValue": 663,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FFHMQV8Q/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "compact",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0BCHD275D",
+      "brand": "Gourmia",
+      "brandSlug": "gourmia",
+      "logoUrl": "/images/brands/gourmia.ico",
+      "asin": "B0BCHD275D",
+      "productName": "Gourmia 4-Qt Digital Air Fryer with Guided Cooking, Easy Clean, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71CT1wlmAsL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "",
+      "priceValue": null,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "320",
+      "ratingCountValue": 320,
+      "affiliateUrl": "https://www.amazon.com/dp/B0BCHD275D/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "gourmia",
+        "compact"
+      ]
+    },
+    {
+      "id": "B07VHFMZHJ",
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "asin": "B07VHFMZHJ",
+      "productName": "Instant Pot 6QT VORTEX Plus Air Fryer, 6-in-1, Air Fry, Broil, Dehydrate, Crisp, Roast, Reheat, Bake, Dishwasher-Safe Airfryer basket, from the Makers of Instant Pot, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GPWtT61gL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$119.99",
+      "priceValue": 119.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "22004",
+      "ratingCountValue": 22004,
+      "affiliateUrl": "https://www.amazon.com/dp/B07VHFMZHJ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "instant-pot",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B07VM1FT8W",
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "asin": "B07VM1FT8W",
+      "productName": "Instant Pot Vortex 6QT XL Air Fryer, 4-in-1 Functions that Crisps, Roasts, Reheats, Bakes for Quick Easy Meals, 100+ In-App Recipes, is Dishwasher-Safe, from the Makers of Instant Pot, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71hBo84Hl+L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$99.9",
+      "priceValue": 99.9,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "20726",
+      "ratingCountValue": 20726,
+      "affiliateUrl": "https://www.amazon.com/dp/B07VM1FT8W/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "instant-pot",
+        "smart",
+        "large",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08R6KMBQT",
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "asin": "B08R6KMBQT",
+      "productName": "Instant Pot 4QT Vortex Plus 6-in-1 Mini Air Fryer, Custom Program Options, Crisps, Broils, Roasts, Dehydrates, Bakes, Reheats, 100+ In-App Recipes, Stainless Steel,4 Quarts",
+      "imageUrl": "https://m.media-amazon.com/images/I/71XyGxT1ITL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$69.97",
+      "priceValue": 69.97,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "13017",
+      "ratingCountValue": 13017,
+      "affiliateUrl": "https://www.amazon.com/dp/B08R6KMBQT/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "instant-pot",
+        "smart",
+        "compact",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B09K6MK5VN",
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "asin": "B09K6MK5VN",
+      "productName": "Instant Pot Vortex Plus XL 8QT ClearCook Air Fryer, Clear Windows, Custom Programming, 8-in-1 Functions that Crisps, Broils, Roasts, Dehydrates, Bakes, Reheats, from the Makers of Instant Pot, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71-OGBn2gIL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$129.99",
+      "priceValue": 129.99,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "6784",
+      "ratingCountValue": 6784,
+      "affiliateUrl": "https://www.amazon.com/dp/B09K6MK5VN/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "instant-pot",
+        "large",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08V57P86Z",
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "asin": "B08V57P86Z",
+      "productName": "Instant Pot Vortex 5.7QT Air Fryer, Custom Program Options, 4-in-1 Functions, EvenCrisp Technology that Crisps, Roasts, Bakes and Reheats, 100+ In-App Recipes, from the Makers of Instant Pot, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Y-wVzY4YL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$89.59",
+      "priceValue": 89.59,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "6683",
+      "ratingCountValue": 6683,
+      "affiliateUrl": "https://www.amazon.com/dp/B08V57P86Z/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "instant-pot",
+        "smart",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08PL327W4",
+      "brand": "Instant Pot",
+      "brandSlug": "instant-pot",
+      "logoUrl": "/images/brands/instant-pot.svg",
+      "asin": "B08PL327W4",
+      "productName": "Instant Pot Omni Plus 19QT/18L Toaster Oven Air Fryer, 10-in-1 Functions, Fits 12\" Pizza, Crisp, Broil, Bake, Roast, Toast, Warm, Convection, 100+ In-App Recipes, from the Makers of Instant Pot, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/81pKaE3chOL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$149.99",
+      "priceValue": 149.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "2863",
+      "ratingCountValue": 2863,
+      "affiliateUrl": "https://www.amazon.com/dp/B08PL327W4/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "instant-pot",
+        "oven-style",
+        "smart",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0872DQV7Z",
+      "brand": "Kalorik",
+      "brandSlug": "kalorik",
+      "logoUrl": "/images/brands/kalorik.png",
+      "asin": "B0872DQV7Z",
+      "productName": "Kalorik MAXX Air Fryer Oven, 26 Quart 10-in-1 Countertop Toaster Oven & Air Fryer Combo - Fry, Bake, Roast, Rotisserie, & More, Large Glass French Doors & 9 Accessories, 1700-Watts, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/81wUOSQomvL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$154.13",
+      "priceValue": 154.13,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "12424",
+      "ratingCountValue": 12424,
+      "affiliateUrl": "https://www.amazon.com/dp/B0872DQV7Z/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "kalorik",
+        "oven-style",
+        "glass"
+      ]
+    },
+    {
+      "id": "B0GSB2BBV2",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "logoUrl": "/images/brands/midea.ico",
+      "asin": "B0GSB2BBV2",
+      "productName": "Midea Flexify Slim 8-in-1 French Door Toaster Oven Air Fryer Combo, 25QT",
+      "imageUrl": "https://m.media-amazon.com/images/I/71COlQ+b1sL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$124.99",
+      "priceValue": 124.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "1875",
+      "ratingCountValue": 1875,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GSB2BBV2/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "midea",
+        "oven-style",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0D1BGLW25",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "logoUrl": "/images/brands/midea.ico",
+      "asin": "B0D1BGLW25",
+      "productName": "Midea Flexify Classic French Door Toaster Oven Air Fryer Combo, 26.4 QT",
+      "imageUrl": "https://m.media-amazon.com/images/I/71g52WV89QL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$159.82",
+      "priceValue": 159.82,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "1875",
+      "ratingCountValue": 1875,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D1BGLW25/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "midea",
+        "oven-style",
+        "compact"
+      ]
+    },
+    {
+      "id": "B0DHX8315K",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "logoUrl": "/images/brands/midea.ico",
+      "asin": "B0DHX8315K",
+      "productName": "Midea 4-in-1 Multifunctional Microwave Steam Oven, Combo Air Fryer, Steamer & Microwave Oven, 32 Auto Functions, Adjustable Power and Temperature, Color Screen Touch Control, 0.9CU.FT./23L",
+      "imageUrl": "https://m.media-amazon.com/images/I/71NZ-oy8yfL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$459",
+      "priceValue": 459,
+      "amazonRating": "4.1",
+      "ratingValue": 4.1,
+      "ratingCount": "50",
+      "ratingCountValue": 50,
+      "affiliateUrl": "https://www.amazon.com/dp/B0DHX8315K/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "midea",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0GZ2XJR6N",
+      "brand": "Midea",
+      "brandSlug": "midea",
+      "logoUrl": "/images/brands/midea.ico",
+      "asin": "B0GZ2XJR6N",
+      "productName": "Midea Neo Air Fryer Toaster Oven Combo, 12.7 Quarts, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71uGefTrQKL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$99.99",
+      "priceValue": 99.99,
+      "amazonRating": "4",
+      "ratingValue": 4,
+      "ratingCount": "50",
+      "ratingCountValue": 50,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GZ2XJR6N/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "midea",
+        "oven-style",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0D1CXL52G",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0D1CXL52G",
+      "productName": "Ninja Air Fryer Toaster Oven Combo",
+      "imageUrl": "https://m.media-amazon.com/images/I/81wOCABev4L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$149.94",
+      "priceValue": 149.94,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "29895",
+      "ratingCountValue": 29895,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D1CXL52G/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "oven-style",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B089TQWJKK",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B089TQWJKK",
+      "productName": "Ninja DZ201 Foodi 8 Quart 6-in-1 DualZone 2-Basket Air Fryer with 2 Independent Frying Baskets, Match Cook & Smart Finish to Roast, Broil, Dehydrate & More for Quick, Easy Meals, Grey",
+      "imageUrl": "https://m.media-amazon.com/images/I/61xMRA3NY4L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "",
+      "priceValue": null,
+      "amazonRating": "4.8",
+      "ratingValue": 4.8,
+      "ratingCount": "24929",
+      "ratingCountValue": 24929,
+      "affiliateUrl": "https://www.amazon.com/dp/B089TQWJKK/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "dual-basket",
+        "smart"
+      ]
+    },
+    {
+      "id": "B0D1GW9GMJ",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0D1GW9GMJ",
+      "productName": "Ninja Air Fryer Pro XL, 6.5 Qt, 7-in-1, Grey, AF182AMZ",
+      "imageUrl": "https://m.media-amazon.com/images/I/71yOdt2XBuL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$189.99",
+      "priceValue": 189.99,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "8321",
+      "ratingCountValue": 8321,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D1GW9GMJ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "compact",
+        "large"
+      ]
+    },
+    {
+      "id": "B0CSZ7WBYW",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0CSZ7WBYW",
+      "productName": "Ninja Air Fryer Pro, 5 Qt, 4-in-1, Grey, AF141",
+      "imageUrl": "https://m.media-amazon.com/images/I/71jfzcXideL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$129.99",
+      "priceValue": 129.99,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "8321",
+      "ratingCountValue": 8321,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CSZ7WBYW/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "compact",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B08BXX69K4",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B08BXX69K4",
+      "productName": "Ninja Air Fryer & Toaster Oven Combo",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$379.99",
+      "priceValue": 379.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "6625",
+      "ratingCountValue": 6625,
+      "affiliateUrl": "https://www.amazon.com/dp/B08BXX69K4/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "oven-style",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0B15Q3HCQ",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0B15Q3HCQ",
+      "productName": "Ninja Foodi Air Fryer, 10 Qt DualZone Smart XL, 6-in-1, Black, DZ550",
+      "imageUrl": "https://m.media-amazon.com/images/I/61FrvAw250L._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$249.99",
+      "priceValue": 249.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "6065",
+      "ratingCountValue": 6065,
+      "affiliateUrl": "https://www.amazon.com/dp/B0B15Q3HCQ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "dual-basket",
+        "smart",
+        "large",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0CS3V8M9H",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0CS3V8M9H",
+      "productName": "Ninja Air Fryer XL with MaxCrisp, 6.5 Qt, 6-in-1, Grey, AF181",
+      "imageUrl": "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$179.99",
+      "priceValue": 179.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "2015",
+      "ratingCountValue": 2015,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CS3V8M9H/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "compact",
+        "large"
+      ]
+    },
+    {
+      "id": "B0C768SVRN",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0C768SVRN",
+      "productName": "Ninja Foodi Air Fryer, 7 Qt MegaZone, 6-in-1, Black, DZ071",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Aeu-VNUJL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$199.99",
+      "priceValue": 199.99,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "1537",
+      "ratingCountValue": 1537,
+      "affiliateUrl": "https://www.amazon.com/dp/B0C768SVRN/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja"
+      ]
+    },
+    {
+      "id": "B0BRL9F8HV",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0BRL9F8HV",
+      "productName": "Ninja DCT451 12-in-1 Smart Double Oven with FlexDoor, Thermometer, FlavorSeal, Smart Finish, Rapid Top Convection and Air Fry Bottom , Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/81uek418PFL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$299.99",
+      "priceValue": 299.99,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "1208",
+      "ratingCountValue": 1208,
+      "affiliateUrl": "https://www.amazon.com/dp/B0BRL9F8HV/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0FLG6D6Z3",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0FLG6D6Z3",
+      "productName": "Ninja Crispi Pro Glass Air Fryer, 6-in-1, Cyberspace, AS101CY",
+      "imageUrl": "https://m.media-amazon.com/images/I/81NsZOh58WL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$299.95",
+      "priceValue": 299.95,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "1162",
+      "ratingCountValue": 1162,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FLG6D6Z3/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "glass",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0FM5KF34G",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0FM5KF34G",
+      "productName": "Ninja",
+      "imageUrl": "https://m.media-amazon.com/images/I/81Hw2PusFkL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$199.99",
+      "priceValue": 199.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "589",
+      "ratingCountValue": 589,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FM5KF34G/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja"
+      ]
+    },
+    {
+      "id": "B0GWFQKG5J",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0GWFQKG5J",
+      "productName": "Ninja",
+      "imageUrl": "https://m.media-amazon.com/images/I/817FioB+huL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$299.99",
+      "priceValue": 299.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "587",
+      "ratingCountValue": 587,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GWFQKG5J/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0D4R8G1FX",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0D4R8G1FX",
+      "productName": "Ninja Air Fryer & Toaster Oven Combo",
+      "imageUrl": "https://m.media-amazon.com/images/I/81c62Vvr33L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$229.99",
+      "priceValue": 229.99,
+      "amazonRating": "4.2",
+      "ratingValue": 4.2,
+      "ratingCount": "484",
+      "ratingCountValue": 484,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D4R8G1FX/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "oven-style",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0D4RDV53M",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0D4RDV53M",
+      "productName": "Ninja Air Fryer DoubleStack, 8 Qt, 6-in-1, Black, SL201",
+      "imageUrl": "https://m.media-amazon.com/images/I/51oNOzuO5tL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$219.95",
+      "priceValue": 219.95,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "481",
+      "ratingCountValue": 481,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D4RDV53M/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "dual-basket",
+        "large",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0CC6H1957",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0CC6H1957",
+      "productName": "Ninja DT202BK Foodi 8-in-1 XL Pro Air Fry Oven, Large Countertop Convection and Digital Toaster Oven, 1800 Watts, Black, 12 in.",
+      "imageUrl": "https://m.media-amazon.com/images/I/61Lx9c5+mLL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "",
+      "priceValue": null,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "417",
+      "ratingCountValue": 417,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CC6H1957/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "oven-style",
+        "large"
+      ]
+    },
+    {
+      "id": "B08TSQ3ML9",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B08TSQ3ML9",
+      "productName": "Ninja Foodi 9-in-1 Digital Oven Air Fry, Air Roast/ Broil, Bake, Bagel, Toast, Dehydrate, Keep Warm, and Reheat - Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/71GrezWrsBL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "",
+      "priceValue": null,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "403",
+      "ratingCountValue": 403,
+      "affiliateUrl": "https://www.amazon.com/dp/B08TSQ3ML9/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja"
+      ]
+    },
+    {
+      "id": "B0FB13MRPY",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0FB13MRPY",
+      "productName": "Ninja Foodi Air Fryer, 10 Qt DualZone Smart XL, 6-in-1, Grey, DZ550GY",
+      "imageUrl": "https://m.media-amazon.com/images/I/71iM782jitL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "",
+      "priceValue": null,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "346",
+      "ratingCountValue": 346,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FB13MRPY/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "dual-basket",
+        "smart",
+        "large"
+      ]
+    },
+    {
+      "id": "B0D6NM91VZ",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0D6NM91VZ",
+      "productName": "Ninja DoubleStack XL Smart Air Fryer, 10 Qt, 6-in-1, Grey, SL451",
+      "imageUrl": "https://m.media-amazon.com/images/I/618-61CMRRL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$269.99",
+      "priceValue": 269.99,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "238",
+      "ratingCountValue": 238,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D6NM91VZ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "dual-basket",
+        "smart",
+        "large",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0FKBXMPRF",
+      "brand": "Ninja",
+      "brandSlug": "ninja",
+      "logoUrl": "/images/brands/ninja.ico",
+      "asin": "B0FKBXMPRF",
+      "productName": "Ninja Crispi Microwave and Air Fryer with FusionCrisp, 14-in-1, 1000W, 0.9 Cu. Ft., Max Crisp, Roast, Bake, Broil, 8 Microwave Presets, Popcorn, Defrost, and more, PFAS-Free Glassware, Silver, MW101",
+      "imageUrl": "https://m.media-amazon.com/images/I/71gic+bYcUL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$449.99",
+      "priceValue": 449.99,
+      "amazonRating": "",
+      "ratingValue": null,
+      "ratingCount": "",
+      "ratingCountValue": 0,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FKBXMPRF/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "ninja",
+        "glass",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0CVRTB2JN",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B0CVRTB2JN",
+      "productName": "Nuwave Brio Plus 8 Qt Air Fryer, PFAS Free, New & Improved, 50-400°F in 5°F",
+      "imageUrl": "https://m.media-amazon.com/images/I/61CGkjztmvL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$139.99",
+      "priceValue": 139.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "9018",
+      "ratingCountValue": 9018,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CVRTB2JN/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "large",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B00IXBMS6M",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B00IXBMS6M",
+      "productName": "Nuwave Bravo Air Fryer Toaster Smart Oven, 12-in-1 Countertop Convection",
+      "imageUrl": "https://m.media-amazon.com/images/I/81UDiz1iWPL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$219.99",
+      "priceValue": 219.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "6954",
+      "ratingCountValue": 6954,
+      "affiliateUrl": "https://www.amazon.com/dp/B00IXBMS6M/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0C1LDRFSK",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B0C1LDRFSK",
+      "productName": "Nuwave Bravo Air Fryer Toaster Smart Oven, 10-in-1 Countertop Convection",
+      "imageUrl": "https://m.media-amazon.com/images/I/81O92juFNWL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$179.99",
+      "priceValue": 179.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "6248",
+      "ratingCountValue": 6248,
+      "affiliateUrl": "https://www.amazon.com/dp/B0C1LDRFSK/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "smart"
+      ]
+    },
+    {
+      "id": "B0D7D3CZ1S",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B0D7D3CZ1S",
+      "productName": "Nuwave Bravo XL Pro Air Fryer Toaster Oven w/Grill Combo, 2026 New System",
+      "imageUrl": "https://m.media-amazon.com/images/I/91FlivXjBCL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$229.99",
+      "priceValue": 229.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "2182",
+      "ratingCountValue": 2182,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D7D3CZ1S/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "oven-style",
+        "large",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0CJMV9RZK",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B0CJMV9RZK",
+      "productName": "Nuwave Bravo XL Pro Air Fryer Toaster Oven, Improved 100% Super Convection",
+      "imageUrl": "https://m.media-amazon.com/images/I/71QBhM7Q9HL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$219.99",
+      "priceValue": 219.99,
+      "amazonRating": "4.3",
+      "ratingValue": 4.3,
+      "ratingCount": "2013",
+      "ratingCountValue": 2013,
+      "affiliateUrl": "https://www.amazon.com/dp/B0CJMV9RZK/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "oven-style",
+        "large",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0D7N8HJRZ",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B0D7N8HJRZ",
+      "productName": "Nuwave Bravo Pro Smart 21QT Toaster Oven Air Fryer Combo, Convection Oven",
+      "imageUrl": "https://m.media-amazon.com/images/I/71e5Hu+5zJL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$179.99",
+      "priceValue": 179.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "1636",
+      "ratingCountValue": 1636,
+      "affiliateUrl": "https://www.amazon.com/dp/B0D7N8HJRZ/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "oven-style",
+        "smart"
+      ]
+    },
+    {
+      "id": "B0DCCY5JCP",
+      "brand": "NuWave",
+      "brandSlug": "nuwave",
+      "logoUrl": "/images/brands/nuwave.svg",
+      "asin": "B0DCCY5JCP",
+      "productName": "Nuwave Bravo Pro Smart Air Fryer Toaster Oven Combo, PFAS-Free, Black",
+      "imageUrl": "https://m.media-amazon.com/images/I/71-zyTGy9kL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$179.99",
+      "priceValue": 179.99,
+      "amazonRating": "4.4",
+      "ratingValue": 4.4,
+      "ratingCount": "1636",
+      "ratingCountValue": 1636,
+      "affiliateUrl": "https://www.amazon.com/dp/B0DCCY5JCP/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "nuwave",
+        "oven-style",
+        "smart"
+      ]
+    },
+    {
+      "id": "B0FJSDSZJ6",
+      "brand": "Philips",
+      "brandSlug": "philips",
+      "logoUrl": "/images/brands/philips.ico",
+      "asin": "B0FJSDSZJ6",
+      "productName": "Philips Air Fryer 2000 Series - 13-in-1 functions, 6.6 Quarts, Compact Design with Cooking Window, Black, (NA231/00)",
+      "imageUrl": "https://m.media-amazon.com/images/I/61zyQVznTcL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$89.95",
+      "priceValue": 89.95,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "78",
+      "ratingCountValue": 78,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FJSDSZJ6/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "philips",
+        "compact",
+        "under-100",
+        "under-150"
+      ]
+    },
+    {
+      "id": "B0FJSDQRR8",
+      "brand": "Philips",
+      "brandSlug": "philips",
+      "logoUrl": "/images/brands/philips.ico",
+      "asin": "B0FJSDQRR8",
+      "productName": "Philips Dual Basket Air Fryer 3000 Series — 8-in-1 functions, 9.5 Quarts Airfryer, 2 Drawers, Auto-sync Cooking Time, 90% Less Fat, Rapid Air Technology, HomeID App, Dishwasher Safe, Black (NA351/00)",
+      "imageUrl": "https://m.media-amazon.com/images/I/51IkTA86BPL._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$249.95",
+      "priceValue": 249.95,
+      "amazonRating": "4.9",
+      "ratingValue": 4.9,
+      "ratingCount": "14",
+      "ratingCountValue": 14,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FJSDQRR8/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "philips",
+        "dual-basket",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0GY7NWYJB",
+      "brand": "Typhur",
+      "brandSlug": "typhur",
+      "logoUrl": "/images/brands/typhur.svg",
+      "asin": "B0GY7NWYJB",
+      "productName": "Typhur Dome 2 Large AI Smart Air Fryer, 15-in-1 Dual Heating, Self-Cleaning",
+      "imageUrl": "https://m.media-amazon.com/images/I/61sRaDYpltL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$349.95",
+      "priceValue": 349.95,
+      "amazonRating": "4.5",
+      "ratingValue": 4.5,
+      "ratingCount": "1200",
+      "ratingCountValue": 1200,
+      "affiliateUrl": "https://www.amazon.com/dp/B0GY7NWYJB/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "typhur",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0FMYGX797",
+      "brand": "Typhur",
+      "brandSlug": "typhur",
+      "logoUrl": "/images/brands/typhur.svg",
+      "asin": "B0FMYGX797",
+      "productName": "Typhur Sync Oven with Smart AI Wireless Meat Thermometer Probe, 12‑in‑1 Countertop Air Fryer Toaster Oven Combo, 360° Turbo Convection, Dehydrator, Recipe & 5 Accessories, Large 27QT, Stainless Steel",
+      "imageUrl": "https://m.media-amazon.com/images/I/81uj+Di8s7L._AC_AIweblab1378949,T2_SF516.0,327.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$261.63",
+      "priceValue": 261.63,
+      "amazonRating": "4.6",
+      "ratingValue": 4.6,
+      "ratingCount": "380",
+      "ratingCountValue": 380,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FMYGX797/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "typhur",
+        "oven-style",
+        "smart",
+        "premium"
+      ]
+    },
+    {
+      "id": "B0FHHBVGQK",
+      "brand": "Typhur",
+      "brandSlug": "typhur",
+      "logoUrl": "/images/brands/typhur.svg",
+      "asin": "B0FHHBVGQK",
+      "productName": "Typhur Sync 8QT AI Smart Air Fryer with Built-in Wireless Meat Thermometer",
+      "imageUrl": "https://m.media-amazon.com/images/I/71tS8cQAutL._AC_AIweblab1378949,T2_SF480.0,480.0_PQ62_.jpg?aicid=productui-image-1",
+      "listPrice": "$159",
+      "priceValue": 159,
+      "amazonRating": "4.7",
+      "ratingValue": 4.7,
+      "ratingCount": "354",
+      "ratingCountValue": 354,
+      "affiliateUrl": "https://www.amazon.com/dp/B0FHHBVGQK/ref=nosim?tag=visitbest07-20",
+      "collectionTags": [
+        "all",
+        "by-brand",
+        "typhur",
+        "smart"
+      ]
+    }
+  ]
+}

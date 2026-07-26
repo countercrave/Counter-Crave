@@ -9,6 +9,9 @@ type TableOfContentsProps = {
   hasProducts: boolean;
   hasFaqs: boolean;
   hasMorePicks?: boolean;
+  hasBrandProfiles?: boolean;
+  brandNames?: string[];
+  collectionPath?: string | null;
 };
 
 /**
@@ -19,6 +22,9 @@ export function TableOfContents({
   hasProducts,
   hasFaqs,
   hasMorePicks = false,
+  hasBrandProfiles = false,
+  brandNames = [],
+  collectionPath,
 }: TableOfContentsProps) {
   const [activeId, setActiveId] = useState<string>("");
   const visibleSections = sections.filter((section) => section.level !== 3);
@@ -37,6 +43,9 @@ export function TableOfContents({
 
     const ids = [
       ...(hasProducts ? ["top-picks", "recommended-picks"] : []),
+      ...(hasBrandProfiles
+        ? ["brand-profiles", ...brandNames.map((name) => headingId(name))]
+        : []),
       ...visibleSections.map((s) => headingId(s.heading)),
       ...(hasMorePicks ? ["more-picks"] : []),
       ...(hasFaqs ? ["frequently-asked-questions"] : []),
@@ -48,7 +57,14 @@ export function TableOfContents({
     });
 
     return () => observer.disconnect();
-  }, [visibleSections, hasProducts, hasFaqs, hasMorePicks]);
+  }, [
+    visibleSections,
+    hasProducts,
+    hasFaqs,
+    hasMorePicks,
+    hasBrandProfiles,
+    brandNames,
+  ]);
 
   return (
     <nav className="toc sticky-toc" aria-label="On this page">
@@ -65,6 +81,26 @@ export function TableOfContents({
               <a href="#recommended-picks">Detailed reviews</a>
             </li>
           </>
+        ) : null}
+        {hasBrandProfiles ? (
+          <>
+            <li className={activeId === "brand-profiles" ? "active" : ""}>
+              <a href="#brand-profiles">Brand profiles</a>
+            </li>
+            {brandNames.map((name) => {
+              const id = headingId(name);
+              return (
+                <li key={name} className={activeId === id ? "active" : ""}>
+                  <a href={`#${id}`}>{name}</a>
+                </li>
+              );
+            })}
+          </>
+        ) : null}
+        {collectionPath ? (
+          <li>
+            <a href={collectionPath}>Collections grid</a>
+          </li>
         ) : null}
         {visibleSections.map((section) => {
           const id = headingId(section.heading);
