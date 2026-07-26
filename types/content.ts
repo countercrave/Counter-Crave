@@ -63,6 +63,8 @@ export type ProductLink = {
   shortVerdict?: string;
   editorialScore?: number | null;
   keySpecs?: string[];
+  /** Amazon "About this item" feature bullets (not editorial pros). */
+  aboutThisItem?: string[];
   pros?: string[];
   cons?: string[];
   buyIf?: string;
@@ -73,5 +75,11 @@ export type ProductLink = {
   imageAlt?: string;
   imageSource?: string;
   checkedAt?: string;
+  /** Snapshot list price from provided Amazon workbook/CSV (confirm live). */
+  listPrice?: string;
+  /** Snapshot Amazon customer rating (e.g. "4.7") from provided data. */
+  amazonRating?: string;
+  /** Snapshot review count from provided data. */
+  ratingCount?: string;
   trackingKey: string;
 };

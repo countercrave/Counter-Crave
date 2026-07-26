@@ -20,34 +20,40 @@ export function getAllProductLinks(): ProductLink[] {
 
 export function getProductsForPage(
   pageId: string,
-  clusterPrefix?: string,
+  _clusterName?: string,
 ): ProductLink[] {
   const all = getAllProductLinks();
-  const direct = all.filter((product) => product.pageId === pageId);
+  const direct = all
+    .filter((product) => product.pageId === pageId)
+    .sort((a, b) => (a.rank ?? 999) - (b.rank ?? 999));
 
   if (direct.length > 0) return direct;
 
-  // Fallback for Hub pages or pages without direct slots: pull top products from the category cluster
-  const prefix = clusterPrefix || pageId.split("-")[0];
-  if (prefix) {
-    const clusterProducts = all.filter((p) =>
-      p.pageId.toUpperCase().startsWith(`${prefix.toUpperCase()}-`),
-    );
-    // Deduplicate by ASIN, taking highest ranked items first
-    const seen = new Set<string>();
-    const unique: ProductLink[] = [];
-    for (const prod of clusterProducts) {
-      if (!seen.has(prod.asin)) {
-        seen.add(prod.asin);
-        unique.push({
-          ...prod,
-          pageId, // associate with current hub page for tracking
-        });
-      }
-      if (unique.length >= 20) break;
-    }
-    return unique;
-  }
+  // Hub / buying-guide fallback: use pageId prefix (SM-HUB → SM), never the
+  // human cluster name ("Stand Mixers"), which does not match pageIds.
+  const prefix = pageId.split("-")[0]?.toUpperCase();
+  if (!prefix) return [];
 
-  return [];
+  const clusterProducts = all
+    .filter((p) => p.pageId.toUpperCase().startsWith(`${prefix}-`))
+    .sort((a, b) => {
+      // Prefer pillar pages, then rank
+      const aPil = a.pageId.toUpperCase().endsWith("-PIL") ? 0 : 1;
+      const bPil = b.pageId.toUpperCase().endsWith("-PIL") ? 0 : 1;
+      if (aPil !== bPil) return aPil - bPil;
+      return (a.rank ?? 999) - (b.rank ?? 999);
+    });
+
+  const seen = new Set<string>();
+  const unique: ProductLink[] = [];
+  for (const prod of clusterProducts) {
+    if (seen.has(prod.asin)) continue;
+    seen.add(prod.asin);
+    unique.push({
+      ...prod,
+      pageId, // associate with current hub page for tracking
+    });
+    if (unique.length >= 20) break;
+  }
+  return unique;
 }
