@@ -1,0 +1,103 @@
+{
+  "pageId": "AF-R24",
+  "title": "Best Small Air Fryers",
+  "slug": "best-small-air-fryer",
+  "canonicalPath": "/best-small-air-fryer/",
+  "description": "Compare the best small air fryers for 1–2 people, dorms, RVs, and tight counters — Cosori Lite, Dash Tasti-Crisp, Instant Vortex Mini, Ninja AF101, Bella Slim, and more — with clear buy-if / skip-if notes.",
+  "pageType": "Roundup",
+  "priority": "P2",
+  "cluster": "Air Fryers",
+  "parentPillar": "AF-PIL",
+  "primaryKeyword": "best small air fryer",
+  "secondaryKeywords": [
+    "best mini air fryer",
+    "compact air fryer for small kitchen",
+    "small air fryer for 1 person",
+    "best 2 qt air fryer",
+    "dash air fryer small"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "2,500–4,000",
+  "monetization": "High — product cards + Amazon CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Size-first ranking from capacity and footprint fields; thoughtful buy-if / skip-if.",
+  "answerBlockBrief": "Answer-first small-kitchen verdict; true compact capacity first; full shortlist.",
+  "requiredTables": "Decision criteria; product shortlist",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "4–6 practical FAQs",
+  "summary": "For a small air fryer, prioritize real compact capacity (about 2–4 qt), a footprint that fits dorms and tight counters, and simple controls you will actually use. We ranked Cosori Lite 2.1 Qt, Dash Tasti-Crisp / Compact, Instant Vortex Mini 4 Qt, Ninja AF101, Bella Slim, Cuisinart compact, and COMFEE’ mini near the top. Larger 5–8 qt models stay on the list for comparison when you need a bit more space. Use Check Price to confirm today’s Amazon details before buying.",
+  "sections": [
+    {
+      "heading": "Who should buy and who should skip",
+      "level": 2,
+      "paragraphs": [
+        "Buy a small air fryer if you cook for 1–2 people, live in a dorm or RV, or need something that stores easily without dominating the counter.",
+        "Skip ultra-mini 2 qt baskets if you regularly cook family batches — step up to a 5–6 qt everyday fryer instead."
+      ],
+      "bullets": [
+        "1 person / snacks → 2–2.6 qt personal fryers",
+        "Couples / small kitchens → 4 qt mini / slim models",
+        "Occasional larger meals → keep a mid-size comparison pick"
+      ]
+    },
+    {
+      "heading": "What “small” means on this page",
+      "level": 2,
+      "paragraphs": [
+        "Small here means compact capacity and footprint first — typically about 2–4 qt baskets that suit 1–2 servings — not marketing that calls every air fryer “compact.”",
+        "A few larger units appear lower for shoppers comparing how much capacity they are willing to trade for space."
+      ],
+      "bullets": [
+        "True mini: ~2–2.6 qt",
+        "Small everyday: ~4 qt",
+        "Larger comparison models ranked lower"
+      ]
+    },
+    {
+      "heading": "How we ranked the products",
+      "level": 2,
+      "paragraphs": [
+        "Size class and capacity rank first, then ease of use, cleanup, and whether the model still crisps well for small batches. Brand prestige helps only when the format is genuinely compact.",
+        "Price, Amazon rating, and review counts on the cards can change — use Check Price for today’s details."
+      ],
+      "bullets": [
+        "2–2.6 qt personal models ranked highest for “small”",
+        "4 qt mini / slim units next",
+        "5–8 qt units kept for capacity comparison"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What size is a small air fryer?",
+      "answer": "Most shoppers mean about 2–4 quarts — enough for 1–2 servings without a large counter footprint. 5 qt and up is more of an everyday family size."
+    },
+    {
+      "question": "Is a 2 qt air fryer big enough?",
+      "answer": "Yes for snacks, sides, or one person’s meal. For two people eating together or meal-prep batches, a 4 qt mini is usually more comfortable."
+    },
+    {
+      "question": "Are small air fryers good for dorms and RVs?",
+      "answer": "They are often a strong fit because they heat food fast with less oil and take less space than a full oven. Always check your housing rules and available outlet power."
+    },
+    {
+      "question": "Should I buy slim 4 qt instead of mini 2 qt?",
+      "answer": "Choose slim 4 qt if you want more food variety without a huge footprint. Choose 2–2.6 qt if storage space and single servings matter most."
+    },
+    {
+      "question": "Are prices and ratings live?",
+      "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
+    }
+  ],
+  "productPageIds": ["AF-R24"],
+  "relatedPageIds": ["AF-PIL", "AF-R07", "AF-R22", "AF-R23", "AF-HUB"],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-07-26",
+  "updatedAt": "2026-07-26",
+  "heroImage": "/images/heroes/best-small-air-fryer.png",
+  "heroImageAlt": "Best Small Air Fryer — compact air fryer with crispy tots for small kitchens and dorms",
+  "draft": false,
+  "noindex": false
+}

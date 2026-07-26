@@ -5,170 +5,358 @@ import type { ProductLink } from "@/types/content";
 type ProductCardsProps = {
   pageId: string;
   products: ProductLink[];
-  compact?: boolean;
+  /** Max full-detail reviews shown (all products by default). */
+  detailLimit?: number;
 };
 
-export function ProductCards({
-  pageId,
-  products,
-  compact = false,
-}: ProductCardsProps) {
-  if (!products.length) return null;
+const DETAIL_LIMIT_DEFAULT = 100;
+
+function displayName(product: ProductLink) {
+  return product.productName.split("|")[0].trim();
+}
+
+/** Turn freeform or "Label: value" specs into clean table rows. */
+function parseSpecRow(spec: string): { label: string; value: string } {
+  const trimmed = spec.replace(/\s+/g, " ").trim();
+  if (!trimmed) return { label: "Detail", value: "—" };
+
+  const labeled = trimmed.match(/^([^:—|]{2,42})\s*[:—]\s*(.+)$/);
+  if (labeled) {
+    return {
+      label: labeled[1].trim(),
+      value: labeled[2].trim() || "—",
+    };
+  }
+
+  if (
+    /capacity|\bcups?\b|\bcup\b|\bl\b|\bliter/i.test(trimmed) &&
+    /\d/.test(trimmed)
+  ) {
+    return { label: "Capacity", value: trimmed };
+  }
+  if (/\d+\s*V|\d[\d,]*\s*W\b|watts?/i.test(trimmed)) {
+    return { label: "Power", value: trimmed };
+  }
+  if (/nonstick|ceramic|coating|inner pan|inner pot|\bmm\b/i.test(trimmed)) {
+    return { label: "Cookware", value: trimmed };
+  }
+  if (
+    /heater|heating|induction|micom|fuzzy|neuro|pressure|ih\b/i.test(trimmed)
+  ) {
+    return { label: "Heating", value: trimmed };
+  }
+  if (/timer|delay|clock|lcd|control|one-touch|digital/i.test(trimmed)) {
+    return { label: "Controls", value: trimmed };
+  }
+  if (
+    /keep-?warm|reheat|modes?|menu|steam|multi-cook|porridge/i.test(trimmed)
+  ) {
+    return { label: "Features", value: trimmed };
+  }
+  if (
+    /includes?|accessories|spatula|measuring|basket|lid|vent|cord/i.test(
+      trimmed,
+    )
+  ) {
+    return { label: "Includes", value: trimmed };
+  }
+  if (/^\d+(\.\d+)?\s*-\s*cup/i.test(trimmed) || /^\d+(\.\d+)?\s*cup/i.test(trimmed)) {
+    return { label: "Capacity", value: trimmed };
+  }
+
+  return { label: "Feature", value: trimmed };
+}
+
+function SpecTable({ specs }: { specs: string[] }) {
+  const rows = specs
+    .map((spec) => parseSpecRow(spec))
+    .filter((row) => row.value && row.value !== "—");
+
+  if (!rows.length) return null;
 
   return (
-    <section
-      id={compact ? "top-picks" : "recommended-picks"}
-      aria-labelledby={compact ? "top-picks-heading" : "recommended-picks-heading"}
+    <div className="product-info-table-wrap">
+      <strong>Product information</strong>
+      <table className="product-info-table">
+        <tbody>
+          {rows.map((row, index) => (
+            <tr key={`${row.label}-${row.value}-${index}`}>
+              <th scope="row">{row.label}</th>
+              <td>{row.value}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function analysisParagraphs(product: ProductLink): string[] {
+  const paragraphs: string[] = [];
+  const verdict = product.shortVerdict?.trim();
+  if (verdict) paragraphs.push(verdict);
+
+  if (product.keySpecs?.length) {
+    const highlight = product.keySpecs
+      .slice(0, 3)
+      .map((spec) => spec.trim())
+      .filter(Boolean)
+      .join("; ");
+    if (highlight) {
+      paragraphs.push(`Worth noting on this model: ${highlight}.`);
+    }
+  }
+
+  return [...new Set(paragraphs)].slice(0, 5);
+}
+
+/** Highlight "LABEL:" prefixes in About-this-item bullets (Amazon feature style). */
+function AboutBullet({ text }: { text: string }) {
+  const match = text.match(/^([^:]{2,48}):\s*(.+)$/);
+  if (match) {
+    return (
+      <li>
+        <strong className="about-item-label">{match[1].toUpperCase()}:</strong>{" "}
+        {match[2]}
+      </li>
+    );
+  }
+  return <li>{text}</li>;
+}
+
+function DetailedProductCard({
+  pageId,
+  product,
+  index,
+  showEditorsPick,
+}: {
+  pageId: string;
+  product: ProductLink;
+  index: number;
+  showEditorsPick: boolean;
+}) {
+  const name = displayName(product);
+  const rank = product.rank ?? index + 1;
+  const analysis = analysisParagraphs(product);
+  const about = (product.aboutThisItem || []).filter(Boolean);
+  const pros = (product.pros || []).filter(Boolean);
+  const cons = (product.cons || []).filter(Boolean);
+  const bestForQuote = product.bestFor?.trim().replace(/\.$/, "") || "";
+  const score =
+    product.editorialScore != null ? Number(product.editorialScore) : null;
+  const listPrice = product.listPrice?.trim() || "";
+  const amazonRating = product.amazonRating?.trim() || "";
+  const ratingCount = product.ratingCount?.trim() || "";
+  const hasMarketplaceSnapshot = Boolean(
+    listPrice || amazonRating || ratingCount,
+  );
+
+  return (
+    <article
+      className="listicle-product-card"
+      id={product.slotId}
+      key={product.trackingKey}
     >
-      <div className="section-kicker">
-        {compact ? "Quick recommendations" : "Detailed product reviews"}
+      <h3 className="listicle-product-heading">{name}</h3>
+
+      <div className="product-card-subhead">
+        <span className="product-rank-mark" aria-label={`Rank ${rank}`}>
+          #{rank}
+        </span>
+        {showEditorsPick ? (
+          <span className="editors-pick-ribbon">Editor&apos;s Pick</span>
+        ) : null}
       </div>
-      <h2 id={compact ? "top-picks-heading" : "recommended-picks-heading"}>
-        {compact
-          ? "Top picks at a glance"
-          : "Detailed product reviews & buying advice"}
-      </h2>
-      {!compact ? (
-        <p className="section-intro">
-          Full breakdown of every recommended model with images, key specs, pros, cons, and who each model is best for.
+
+      {bestForQuote ? (
+        <p className="product-best-for-quote">
+          <span className="product-best-for-mark" aria-hidden="true">
+            “
+          </span>
+          {bestForQuote}
+          <span className="product-best-for-mark" aria-hidden="true">
+            ”
+          </span>
         </p>
       ) : null}
 
-      <div className={compact ? "quick-picks-grid" : "listicle-product-list"}>
-        {products.map((product, index) => (
-          <article
-            className={compact ? "quick-pick-card" : "listicle-product-card"}
-            id={product.slotId}
-            key={product.trackingKey}
-          >
-            {/* 1. HEADING FIRST */}
-            <h3 className="listicle-product-heading">{product.productName}</h3>
+      <div className="listicle-image-container">
+        <ProductImage
+          src={product.imageUrl}
+          alt={product.imageAlt || name}
+          width={product.imageWidth}
+          height={product.imageHeight}
+        />
+      </div>
 
-            {/* 2. BADGE SECOND */}
-            <div className="product-card-topline">
-              <span className="rank-badge">#{product.rank ?? index + 1}</span>
-              <span
-                className={`pick-label ${
-                  /best overall/i.test(product.slotLabel)
-                    ? "pick-label-best-overall"
-                    : /best value|best budget/i.test(product.slotLabel)
-                    ? "pick-label-best-value"
-                    : /best premium/i.test(product.slotLabel)
-                    ? "pick-label-best-premium"
-                    : ""
-                }`}
-              >
-                {!compact && product.bestFor
-                  ? `${product.slotLabel} — Best for ${product.bestFor}`
-                  : product.slotLabel}
-              </span>
-              {product.editorialScore !== null &&
-              product.editorialScore !== undefined ? (
-                <span className="score-badge">
-                  {product.editorialScore}/10
-                </span>
-              ) : null}
+      {hasMarketplaceSnapshot ? (
+        <div className="product-market-snapshot">
+          {listPrice ? (
+            <div className="product-market-stat">
+              <span className="product-market-label">Price</span>
+              <span className="product-market-value">{listPrice}</span>
             </div>
+          ) : null}
+          {amazonRating ? (
+            <div className="product-market-stat">
+              <span className="product-market-label">Amazon rating</span>
+              <span className="product-market-value">
+                <span className="product-market-stars" aria-hidden="true">
+                  ★
+                </span>
+                {amazonRating}
+                <span className="product-market-out-of">/5</span>
+              </span>
+            </div>
+          ) : null}
+          {ratingCount ? (
+            <div className="product-market-stat">
+              <span className="product-market-label">Reviews</span>
+              <span className="product-market-value">{ratingCount}</span>
+            </div>
+          ) : null}
+          <p className="product-market-note">
+            Prices and ratings can change — check Amazon for today&apos;s offer.
+          </p>
+        </div>
+      ) : null}
 
-            {/* 3. IMAGE THIRD */}
-            <div className="listicle-image-container">
-              <ProductImage
-                src={product.imageUrl}
-                alt={product.imageAlt || product.productName}
-                width={product.imageWidth}
-                height={product.imageHeight}
+      <div className="listicle-cta-row">
+        <AmazonLink
+          asin={product.asin}
+          pageId={pageId}
+          productName={name}
+          placement={`detail-${product.slotId}`}
+          className="button button-primary listicle-amazon-button"
+        >
+          Check Price
+        </AmazonLink>
+        {score != null && !Number.isNaN(score) ? (
+          <div
+            className="product-score-meter"
+            title={`CounterCrave score ${score} out of 10`}
+            aria-label={`CounterCrave score ${score} out of 10`}
+          >
+            <div className="product-score-meter-copy">
+              <span className="product-score-meter-label">Our score</span>
+              <span className="product-score-meter-value">
+                {score}
+                <span className="product-score-meter-denom">/10</span>
+              </span>
+            </div>
+            <div className="product-score-meter-track" aria-hidden="true">
+              <span
+                className="product-score-meter-fill"
+                style={{
+                  width: `${Math.min(100, Math.max(0, score * 10))}%`,
+                }}
               />
             </div>
+          </div>
+        ) : null}
+      </div>
 
-            {/* 4. CHECK PRICE BUTTON FOURTH */}
-            <div className="listicle-cta-wrapper">
-<AmazonLink
-              asin={product.asin}
-              pageId={pageId}
-              productName={product.productName}
-              placement={`${compact ? "quick" : "detail"}-${product.slotId}`}
-              className="button button-primary listicle-amazon-button"
-            >
-              Check today&apos;s price on Amazon
-            </AmazonLink>
+      {product.keySpecs?.length ? <SpecTable specs={product.keySpecs} /> : null}
 
-            {!compact ? (
-              <div className="amazon-ratings-cta">
-                <div className="star-row" aria-hidden="true">
-                  <span>★★★★★</span>
-                </div>
-                <AmazonLink
-                  asin={product.asin}
-                  pageId={pageId}
-                  productName={product.productName}
-                  placement={`ratings-${product.slotId}`}
-                  className="text-cta ratings-link"
-                >
-                  See customer ratings &amp; reviews on Amazon
-                </AmazonLink>
-                <small>
-                  We do not copy Amazon star ratings or customer reviews onto
-                  CounterCrave. Open the listing for the latest shopper feedback.
-                </small>
-              </div>
-            ) : null}
-            </div>
+      {analysis.length ? (
+        <div className="product-analysis">
+          {analysis.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
+        </div>
+      ) : null}
 
-            {/* 5-9. SPECS, ABOUT THIS ITEM, CONS, BUY IF, SKIP IF */}
-            <div className="product-card-copy">
-              {product.shortVerdict ? <p className="short-verdict">{product.shortVerdict}</p> : null}
+      <div className="product-card-copy">
+        {about.length ? (
+          <div className="mini-list about-item-list">
+            <strong>About this item</strong>
+            <ul>
+              {about.map((item) => (
+                <AboutBullet key={item} text={item} />
+              ))}
+            </ul>
+          </div>
+        ) : null}
 
-              {!compact && product.keySpecs?.length ? (
-                <div className="key-specs-pills">
-                  <strong>Product specs:</strong>
-                  <div className="spec-pills-container">
-                    {product.keySpecs.map((spec) => (
-                      <span key={spec} className="spec-pill">
-                        {spec}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              ) : null}
+        {pros.length ? (
+          <div className="mini-list pros-list">
+            <strong>Pros</strong>
+            <ul>
+              {pros.map((pro) => (
+                <li key={pro}>
+                  <span className="list-icon list-icon-pro" aria-hidden="true">
+                    ✓
+                  </span>
+                  <span>{pro}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
 
-              {!compact && product.pros?.length ? (
-                <div className="mini-list positive-list">
-                  <strong>About this item (Key features)</strong>
-                  <ul>
-                    {product.pros.map((pro) => (
-                      <li key={pro}>✓ {pro}</li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
+        {cons.length ? (
+          <div className="mini-list cons-list">
+            <strong>Cons</strong>
+            <ul>
+              {cons.map((con) => (
+                <li key={con}>
+                  <span className="list-icon list-icon-con" aria-hidden="true">
+                    ✕
+                  </span>
+                  <span>{con}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
 
-              {!compact && product.cons?.length ? (
-                <div className="mini-list caution-list">
-                  <strong>Consider before buying</strong>
-                  <ul>
-                    {product.cons.map((con) => (
-                      <li key={con}>✕ {con}</li>
-                    ))}
-                  </ul>
-                </div>
-              ) : null}
+        {product.buyIf ? (
+          <p className="buy-if-line">
+            <strong>Buy if:</strong> {product.buyIf}
+          </p>
+        ) : null}
+        {product.skipIf ? (
+          <p className="skip-if-line">
+            <strong>Skip if:</strong> {product.skipIf}
+          </p>
+        ) : null}
+      </div>
+    </article>
+  );
+}
 
-              {!compact && (product.buyIf || product.skipIf) ? (
-                <div className="who-should-buy">
-                  {product.buyIf ? (
-                    <p className="buy-if-row">
-                      <strong>Buy if:</strong> {product.buyIf}
-                    </p>
-                  ) : null}
-                  {product.skipIf ? (
-                    <p className="skip-if-row">
-                      <strong>Skip if:</strong> {product.skipIf}
-                    </p>
-                  ) : null}
-                </div>
-              ) : null}
-            </div>
-          </article>
+/**
+ * Full listicle cards for every product on the page (no condensed table).
+ */
+export function ProductCards({
+  pageId,
+  products,
+  detailLimit = DETAIL_LIMIT_DEFAULT,
+}: ProductCardsProps) {
+  if (!products.length) return null;
+
+  const detailed = products.slice(0, detailLimit);
+
+  return (
+    <section
+      id="recommended-picks"
+      aria-labelledby="recommended-picks-heading"
+    >
+      <h2 id="recommended-picks-heading">Detailed product reviews</h2>
+      <p className="section-intro">
+        Full reviews for all {detailed.length} picks on this page — specs,
+        features, trade-offs, and who each model is for.
+      </p>
+
+      <div className="listicle-product-list">
+        {detailed.map((product, index) => (
+          <DetailedProductCard
+            key={product.trackingKey}
+            pageId={pageId}
+            product={product}
+            index={index}
+            showEditorsPick={index === 0}
+          />
         ))}
       </div>
     </section>
@@ -185,100 +373,11 @@ export function SingleProductCard({
   index?: number;
 }) {
   return (
-    <article
-      className="product-card product-card-inline"
-      id={product.slotId}
-      key={product.trackingKey}
-    >
-      <div className="product-card-topline">
-        <span className="rank-badge">#{product.rank ?? index + 1}</span>
-        <span
-          className={`pick-label ${
-            /best overall/i.test(product.slotLabel)
-              ? "pick-label-best-overall"
-              : /best value|best budget/i.test(product.slotLabel)
-              ? "pick-label-best-value"
-              : /best premium/i.test(product.slotLabel)
-              ? "pick-label-best-premium"
-              : ""
-          }`}
-        >
-          {product.slotLabel}
-        </span>
-        {product.editorialScore !== null &&
-        product.editorialScore !== undefined ? (
-          <span className="score-badge">{product.editorialScore}/10</span>
-        ) : null}
-      </div>
-
-      <ProductImage
-        src={product.imageUrl}
-        alt={product.imageAlt || product.productName}
-        width={product.imageWidth}
-        height={product.imageHeight}
-      />
-
-      <div className="product-card-copy">
-        <h3>{product.productName}</h3>
-        {product.bestFor ? (
-          <p className="best-for">
-            <strong>Best for:</strong> {product.bestFor}
-          </p>
-        ) : null}
-        {product.shortVerdict ? <p>{product.shortVerdict}</p> : null}
-
-        {product.keySpecs?.length ? (
-          <p className="key-specs">
-            <strong>Key details:</strong> {product.keySpecs.slice(0, 4).join(" · ")}
-          </p>
-        ) : null}
-
-        {product.pros?.length ? (
-          <div className="mini-list positive-list">
-            <strong>What stands out</strong>
-            <ul>
-              {product.pros.slice(0, 3).map((pro) => (
-                <li key={pro}>✓ {pro}</li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-
-        {product.cons?.length ? (
-          <div className="mini-list caution-list">
-            <strong>Consider before buying</strong>
-            <ul>
-              {product.cons.slice(0, 2).map((con) => (
-                <li key={con}>✕ {con}</li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-
-        {product.buyIf || product.skipIf ? (
-          <div className="who-should-buy">
-            {product.buyIf ? (
-              <p>
-                <strong>Buy if:</strong> {product.buyIf}
-              </p>
-            ) : null}
-            {product.skipIf ? (
-              <p>
-                <strong>Skip if:</strong> {product.skipIf}
-              </p>
-            ) : null}
-          </div>
-        ) : null}
-      </div>
-
-      <AmazonLink
-        asin={product.asin}
-        pageId={pageId}
-        productName={product.productName}
-        placement={`inline-${product.slotId}`}
-      >
-        Check today&apos;s price on Amazon
-      </AmazonLink>
-    </article>
+    <DetailedProductCard
+      pageId={pageId}
+      product={product}
+      index={index}
+      showEditorsPick={index === 0}
+    />
   );
 }

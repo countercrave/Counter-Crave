@@ -1,0 +1,103 @@
+{
+  "pageId": "AF-R23",
+  "title": "Best Non-Toxic Air Fryers",
+  "slug": "best-non-toxic-air-fryer",
+  "canonicalPath": "/best-non-toxic-air-fryer/",
+  "description": "Compare the best non-toxic air fryers — PFAS-free ceramic, glass baskets, and safer-coating picks from Cosori, Ninja Crispi, Nuwave, GreenPan, and GreenLife — with clear buy-if / skip-if notes.",
+  "pageType": "Roundup",
+  "priority": "P2",
+  "cluster": "Air Fryers",
+  "parentPillar": "AF-PIL",
+  "primaryKeyword": "best non toxic air fryer",
+  "secondaryKeywords": [
+    "pfas free air fryer",
+    "ceramic air fryer",
+    "glass air fryer non toxic",
+    "non toxic air fryer basket",
+    "greenpan air fryer pfas free"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "2,500–4,000",
+  "monetization": "High — product cards + Amazon CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Materials-first ranking from listing claims; not lab certification; thoughtful buy-if / skip-if.",
+  "answerBlockBrief": "Answer-first materials verdict; PFAS-free / glass / ceramic first; full shortlist.",
+  "requiredTables": "Decision criteria; product shortlist",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "4–6 practical FAQs",
+  "summary": "For a non-toxic air fryer, prioritize clear basket materials: PFAS-free ceramic coatings or glass cooking vessels. We ranked Cosori TurboBlaze PFAS-free ceramic, Ninja Crispi glass, Nuwave PFAS-free Brio, GreenLife/GreenPan ceramic, and other glass-basket models near the top. Standard nonstick units without clear materials language rank lower for comparison. Use Check Price to confirm today’s Amazon coating claims before buying.",
+  "sections": [
+    {
+      "heading": "Who should buy and who should skip",
+      "level": 2,
+      "paragraphs": [
+        "Buy a materials-focused air fryer if basket coatings matter as much as crisp results — especially if you want PFAS-free ceramic or a glass vessel.",
+        "Skip premium glass systems if you only need the cheapest everyday fryer and do not care about coating documentation."
+      ],
+      "bullets": [
+        "PFAS-free ceramic → Cosori / GreenLife / GreenPan / Nuwave",
+        "Glass basket preference → Ninja Crispi / Cuisinart glass / Kismile",
+        "Budget everyday → slim ceramic Bella-style picks"
+      ]
+    },
+    {
+      "heading": "What “non-toxic” means on this page",
+      "level": 2,
+      "paragraphs": [
+        "We are not a lab and we do not invent certifications. Ranking follows listing language shoppers search for: PFAS-free, PTFE-free, ceramic nonstick, glass baskets, and similar safer-materials marketing.",
+        "Always re-check the live Amazon bullets — coatings and claims can change by colorway and listing update."
+      ],
+      "bullets": [
+        "Prefer explicit PFAS-free / ceramic / glass callouts",
+        "Glass vessels avoid traditional nonstick films, with different care trade-offs",
+        "Full shortlist included — weaker materials docs rank lower"
+      ]
+    },
+    {
+      "heading": "How we ranked the products",
+      "level": 2,
+      "paragraphs": [
+        "Materials clarity ranks first, then whether the appliance is still a practical air fryer (capacity, cleanup, presets). Brand prestige helps only when it also carries a clear materials story.",
+        "Price, Amazon rating, and review counts on the cards can change — use Check Price for today’s details."
+      ],
+      "bullets": [
+        "PFAS-free ceramic and glass models ranked highest",
+        "Transparent-bowl and ceramic-glaze units next",
+        "Standard nonstick models kept lower for comparison"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I look for in a non-toxic air fryer?",
+      "answer": "Look for clear basket language: PFAS-free ceramic, PTFE-free coating, or a glass cooking vessel. Then confirm the same claims on the live Amazon page."
+    },
+    {
+      "question": "Is ceramic always safer than nonstick?",
+      "answer": "Ceramic coatings are popular for PFAS-free marketing, but quality and care vary. Glass baskets avoid traditional nonstick films entirely, with different durability and cleaning trade-offs."
+    },
+    {
+      "question": "Are glass air fryers better?",
+      "answer": "They can be a strong fit if you want to avoid coated metal baskets. They may be heavier, need careful handling, and still use other plastic or metal parts on the appliance body."
+    },
+    {
+      "question": "Do you lab-test these coatings?",
+      "answer": "No. This guide ranks public listing claims and product formats. Treat marketing language cautiously and verify before buying."
+    },
+    {
+      "question": "Are prices and ratings live?",
+      "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
+    }
+  ],
+  "productPageIds": ["AF-R23"],
+  "relatedPageIds": ["AF-PIL", "AF-R22", "AF-R15", "RC-R11", "AF-HUB"],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-07-26",
+  "updatedAt": "2026-07-26",
+  "heroImage": "/images/heroes/best-non-toxic-air-fryer.png",
+  "heroImageAlt": "Best Non-Toxic Air Fryer — healthy cooking with PFAS-free and safer materials",
+  "draft": false,
+  "noindex": false
+}

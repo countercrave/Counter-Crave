@@ -1,0 +1,103 @@
+{
+  "pageId": "AF-R27",
+  "title": "Best Large Air Fryers",
+  "slug": "best-large-air-fryer",
+  "canonicalPath": "/best-large-air-fryer/",
+  "description": "Compare the best large air fryers — Chefman 8–14 qt, Emeril French-door ovens, Philips dual basket, Ninja XL / DoubleStack, Gourmia XL, and more — ranked for family batches, party capacity, and versatile cooking.",
+  "pageType": "Roundup",
+  "priority": "P2",
+  "cluster": "Air Fryers",
+  "parentPillar": "AF-PIL",
+  "primaryKeyword": "best large air fryer",
+  "secondaryKeywords": [
+    "best xl air fryer",
+    "large capacity air fryer",
+    "best air fryer for family",
+    "dual basket large air fryer",
+    "14 qt air fryer"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "2,500–4,000",
+  "monetization": "High — product cards + Amazon CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Capacity-first ranking from quarts and large-capacity fit; thoughtful buy-if / skip-if.",
+  "answerBlockBrief": "Answer-first large-capacity verdict; XL baskets and oven-style units first; full shortlist.",
+  "requiredTables": "Decision criteria; product shortlist",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "4–6 practical FAQs",
+  "summary": "For a large air fryer, prioritize real capacity for family or party meals — about 8 qt and up for big baskets, or oven-style / dual-zone units for even more spread. We ranked Chefman XL Hi-Fry models, Emeril French-door ovens, Philips dual basket, Ninja XL and DoubleStack, and Gourmia large formats near the top of their fit. Smaller 5–6 qt units stay on the list only as capacity comparisons. Use Check Price to confirm today’s Amazon details before buying.",
+  "sections": [
+    {
+      "heading": "Who should buy and who should skip",
+      "level": 2,
+      "paragraphs": [
+        "Buy a large air fryer if you cook for 4+ people, meal prep big batches, or want whole chickens / sheet-style spreads without multiple rounds.",
+        "Skip XXL oven combos if you live alone, have a tiny counter, or mostly cook snack-size portions."
+      ],
+      "bullets": [
+        "Family dinners → 8–10 qt baskets or dual zone",
+        "Parties / whole meals → 12–26 qt oven-style units",
+        "Two foods at once → dual-basket large models"
+      ]
+    },
+    {
+      "heading": "What “large” means on this page",
+      "level": 2,
+      "paragraphs": [
+        "Large here means enough capacity for family servings in fewer batches — typically 8 qt+ baskets, dual zones, or air-fryer ovens with wide trays.",
+        "A 5–6 qt everyday fryer can still crisp well, but it is not a true large-capacity pick for big households."
+      ],
+      "bullets": [
+        "XL basket: ~8–10 qt",
+        "Family / dual zone: ~10–14 qt total",
+        "Oven-style: 20 qt+ French-door formats"
+      ]
+    },
+    {
+      "heading": "How we ranked the products",
+      "level": 2,
+      "paragraphs": [
+        "Capacity and large-capacity fit rank first, then versatility (dual zone, rotisserie, oven modes) and practical cleanup for bigger baskets.",
+        "Price, Amazon rating, and review counts on the cards can change — use Check Price for today’s details."
+      ],
+      "bullets": [
+        "Excellent / very good large-capacity fits ranked highest",
+        "Dual-basket and French-door ovens for party cooking",
+        "Limited-capacity models kept lower for comparison"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What size is a large air fryer?",
+      "answer": "Most shoppers mean about 8 quarts and up, or dual-zone / oven-style units that feed a family in one or two batches. 5–6 qt is more of an everyday mid-size."
+    },
+    {
+      "question": "Is dual basket better than one big drawer?",
+      "answer": "Dual baskets help when you want two temps or foods at once. One large drawer is simpler for a single big batch of the same food."
+    },
+    {
+      "question": "Do I need an air fryer oven instead?",
+      "answer": "Oven-style units shine for pizza, toast, and wider tray spreads. Basket XL models are usually faster to preheat and easier to shake for fries and wings."
+    },
+    {
+      "question": "Will a large air fryer fit my counter?",
+      "answer": "Measure width and depth before buying. XXL French-door models need more clearance than an 8 qt basket fryer."
+    },
+    {
+      "question": "Are prices and ratings live?",
+      "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
+    }
+  ],
+  "productPageIds": ["AF-R27"],
+  "relatedPageIds": ["AF-PIL", "AF-R06", "AF-R11", "AF-R22", "AF-HUB"],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-07-26",
+  "updatedAt": "2026-07-26",
+  "heroImage": "/images/heroes/best-large-air-fryer.png",
+  "heroImageAlt": "Best Large Air Fryer — XXL capacity air fryer with a whole roasted chicken and family meals",
+  "draft": false,
+  "noindex": false
+}

@@ -1,0 +1,103 @@
+{
+  "pageId": "AF-R25",
+  "title": "Best Air Fryers for Chicken Breast",
+  "slug": "best-air-fryer-for-chicken-breast",
+  "canonicalPath": "/best-air-fryer-for-chicken-breast/",
+  "description": "Compare the best air fryers for chicken breast — Cosori TurboBlaze, Chefman Hi-Fry, Instant Vortex, Ninja Pro / MaxCrisp, dual-basket and grill-style picks — ranked for juicy results, batch size, and meal prep.",
+  "pageType": "Roundup",
+  "priority": "P2",
+  "cluster": "Air Fryers",
+  "parentPillar": "AF-PIL",
+  "primaryKeyword": "best air fryer chicken breast",
+  "secondaryKeywords": [
+    "best air fryer for chicken breast",
+    "air fryer chicken breast juicy",
+    "meal prep air fryer chicken",
+    "air fryer boneless chicken breast",
+    "ninja air fryer chicken breast"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "2,500–4,000",
+  "monetization": "High — product cards + Amazon CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Chicken-breast batch and fit ranking from listing capacity and features; food thermometer guidance; thoughtful buy-if / skip-if.",
+  "answerBlockBrief": "Answer-first chicken-breast verdict; even heat + batch size first; full shortlist.",
+  "requiredTables": "Decision criteria; product shortlist",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "4–6 practical FAQs",
+  "summary": "For juicy air fryer chicken breast, prioritize a basket wide enough for a single layer, strong airflow, and enough capacity for your usual batch. We ranked Cosori TurboBlaze 6 Qt, Chefman 6 Qt / Hi-Fry XL, Instant Vortex Plus, Ninja Pro and MaxCrisp, plus dual-basket and grill-style options for meal prep near the top of their fit. Always finish with a food thermometer — listings do not prove doneness. Use Check Price to confirm today’s Amazon details before buying.",
+  "sections": [
+    {
+      "heading": "Who should buy and who should skip",
+      "level": 2,
+      "paragraphs": [
+        "Buy a chicken-breast-focused air fryer if you cook boneless breasts weekly for weeknights or meal prep and want even browning without a skillet.",
+        "Skip oversized dual-basket or grill combos if you only cook one or two breasts at a time and counter space is limited."
+      ],
+      "bullets": [
+        "1–3 breasts → 5–6 qt everyday baskets",
+        "Meal prep batches → 8 qt Hi-Fry / XL baskets",
+        "Chicken + sides together → dual-basket models"
+      ]
+    },
+    {
+      "heading": "What matters for air fryer chicken breast",
+      "level": 2,
+      "paragraphs": [
+        "Chicken breast needs even heat and space. Overlapping pieces cook unevenly; crowding traps steam and softens the exterior.",
+        "High max temps help browning at the end, but doneness still depends on thickness — use a thermometer, not presets alone."
+      ],
+      "bullets": [
+        "Arrange in one layer when possible",
+        "Pat dry and season lightly before cooking",
+        "Rest briefly after cooking for juicier slices"
+      ]
+    },
+    {
+      "heading": "How we ranked the products",
+      "level": 2,
+      "paragraphs": [
+        "Ranking follows chicken-breast fit and estimated breasts per batch from the product sheet, then capacity, high-heat / crisp features, and meal-prep usefulness.",
+        "Price, Amazon rating, and review counts on the cards can change — use Check Price for today’s details."
+      ],
+      "bullets": [
+        "Single-layer 5–6 qt everyday fryers ranked high",
+        "XL Hi-Fry and dual-basket units for bigger batches",
+        "Grill-style options for stronger sear preference"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What size air fryer is best for chicken breast?",
+      "answer": "A 5–6 qt basket usually fits about 3–5 average breasts in one layer. Choose 8 qt or dual-basket models for meal prep or cooking sides at the same time."
+    },
+    {
+      "question": "How do I keep air fryer chicken breast juicy?",
+      "answer": "Do not overcrowd, avoid overcooking, and check internal temperature with a thermometer. Slightly thicker pieces benefit from a short rest after cooking."
+    },
+    {
+      "question": "Do I need a probe or grill function?",
+      "answer": "A probe (built-in or separate) is the most reliable way to hit doneness. Grill modes can help browning but are optional for everyday chicken breast."
+    },
+    {
+      "question": "Can I meal prep chicken breast in an air fryer?",
+      "answer": "Yes — pick a larger basket or dual-zone model so you can cook more pieces without stacking. Cool, store, and reheat safely."
+    },
+    {
+      "question": "Are prices and ratings live?",
+      "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
+    }
+  ],
+  "productPageIds": ["AF-R25"],
+  "relatedPageIds": ["AF-PIL", "AF-R16", "AF-R22", "AF-R24", "AF-HUB"],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-07-26",
+  "updatedAt": "2026-07-26",
+  "heroImage": "/images/heroes/best-air-fryer-for-chicken-breast.png",
+  "heroImageAlt": "Best Air Fryer Chicken Breast — juicy sliced chicken breast with vegetables and an air fryer",
+  "draft": false,
+  "noindex": false
+}
