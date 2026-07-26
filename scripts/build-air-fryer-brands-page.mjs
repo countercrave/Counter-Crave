@@ -127,8 +127,8 @@ const page = {
   reviewer: null,
   publishedAt: "2026-07-26",
   updatedAt: "2026-07-26",
-  heroImage: "/images/heroes/air-fryers.jpg",
-  heroImageAlt: "Best air fryer brands and flagship models compared",
+  heroImage: "/images/heroes/best-air-fryer-brands.png",
+  heroImageAlt: "Best Air Fryer Brands — lineup of flagship air fryers with crispy fries, wings, vegetables, and muffins",
   draft: false,
   noindex: false,
 };
