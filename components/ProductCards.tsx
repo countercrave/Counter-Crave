@@ -7,6 +7,8 @@ type ProductCardsProps = {
   products: ProductLink[];
   /** Max full-detail reviews shown (all products by default). */
   detailLimit?: number;
+  /** Accepted for older call sites; full cards always render. */
+  compact?: boolean;
 };
 
 const DETAIL_LIMIT_DEFAULT = 100;
@@ -332,6 +334,7 @@ export function ProductCards({
   pageId,
   products,
   detailLimit = DETAIL_LIMIT_DEFAULT,
+  compact: _compact = false,
 }: ProductCardsProps) {
   if (!products.length) return null;
 
