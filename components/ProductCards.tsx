@@ -366,7 +366,7 @@ function DetailedProductCard({
 
 /**
  * Full listicle cards for every product on the page.
- * compact=true renders a short Top picks strip (no duplicate full reviews).
+ * compact=true renders a 3-card Top picks grid (no duplicate full reviews).
  */
 export function ProductCards({
   pageId,
@@ -377,15 +377,15 @@ export function ProductCards({
   if (!products.length) return null;
 
   if (compact) {
-    const picks = products.slice(0, Math.min(5, products.length));
+    const picks = products.slice(0, Math.min(3, products.length));
     return (
       <section id="top-picks" aria-labelledby="top-picks-heading">
         <h2 id="top-picks-heading">Top picks</h2>
         <p className="section-intro">
-          Highest Comparison Score picks first — open a detailed review below
-          or check today&apos;s Amazon offer.
+          Our three highest Comparison Score picks — jump to the full review
+          below or check today&apos;s Amazon offer.
         </p>
-        <ol className="top-picks-compact-list">
+        <ol className="top-picks-grid">
           {picks.map((product, index) => {
             const name = displayName(product);
             const rank = product.rank ?? index + 1;
@@ -403,32 +403,65 @@ export function ProductCards({
                 : editorialScore != null && !Number.isNaN(editorialScore)
                   ? editorialScore
                   : null;
+            const bestFor = product.bestFor?.trim().replace(/\.$/, "") || "";
+            const listPrice = product.listPrice?.trim() || "";
 
             return (
-              <li key={product.trackingKey} className="top-picks-compact-item">
-                <div className="top-picks-compact-main">
-                  <span className="top-picks-compact-rank">#{rank}</span>
-                  <div className="top-picks-compact-copy">
-                    <a href={`#${product.slotId}`}>{name}</a>
-                    {product.slotLabel ? (
-                      <span className="top-picks-compact-label">
-                        {product.slotLabel}
-                      </span>
-                    ) : null}
-                  </div>
+              <li
+                key={product.trackingKey}
+                className={`top-pick-card${index === 0 ? " top-pick-card-lead" : ""}`}
+              >
+                <div className="top-pick-card-topline">
+                  <span className="top-pick-card-rank" aria-label={`Rank ${rank}`}>
+                    #{rank}
+                  </span>
+                  {index === 0 ? (
+                    <span className="top-pick-card-badge">Best overall</span>
+                  ) : product.slotLabel ? (
+                    <span className="top-pick-card-badge top-pick-card-badge-muted">
+                      {product.slotLabel}
+                    </span>
+                  ) : null}
                   {score != null ? (
-                    <span className="top-picks-compact-score">{score}/10</span>
+                    <span className="top-pick-card-score">{score}/10</span>
                   ) : null}
                 </div>
-                <AmazonLink
-                  asin={product.asin}
-                  pageId={pageId}
-                  productName={name}
-                  placement={`top-${product.slotId}`}
-                  className="button button-primary top-picks-compact-cta"
-                >
-                  Buy on Amazon
-                </AmazonLink>
+
+                <a href={`#${product.slotId}`} className="top-pick-card-media">
+                  <ProductImage
+                    src={product.imageUrl}
+                    alt={product.imageAlt || name}
+                    width={product.imageWidth}
+                    height={product.imageHeight}
+                  />
+                </a>
+
+                <div className="top-pick-card-body">
+                  <h3 className="top-pick-card-title">
+                    <a href={`#${product.slotId}`}>{name}</a>
+                  </h3>
+                  {bestFor ? (
+                    <p className="top-pick-card-bestfor">{bestFor}</p>
+                  ) : null}
+                  {listPrice ? (
+                    <p className="top-pick-card-price">{listPrice}</p>
+                  ) : null}
+                </div>
+
+                <div className="top-pick-card-actions">
+                  <AmazonLink
+                    asin={product.asin}
+                    pageId={pageId}
+                    productName={name}
+                    placement={`top-${product.slotId}`}
+                    className="button button-primary top-pick-card-cta"
+                  >
+                    Buy on Amazon
+                  </AmazonLink>
+                  <a href={`#${product.slotId}`} className="top-pick-card-link">
+                    Full review
+                  </a>
+                </div>
               </li>
             );
           })}

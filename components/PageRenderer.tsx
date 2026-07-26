@@ -2,7 +2,6 @@ import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { AuthorBio } from "@/components/AuthorBio";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCards } from "@/components/ProductCards";
-import { ProductComparisonTable } from "@/components/ProductComparisonTable";
 import { RelatedContent } from "@/components/RelatedContent";
 import { TableOfContents } from "@/components/TableOfContents";
 import { TrustPanel } from "@/components/TrustPanel";
@@ -39,7 +38,7 @@ export function PageRenderer({
   const showDisclosure =
     affiliateTypes.has(page.pageType) || products.length > 0;
   const hasFaqs = Boolean(page.faqs?.length);
-  const quickPicks = products.slice(0, 5);
+  const quickPicks = products.slice(0, 3);
 
   return (
     <main className="container-wide main-content">
@@ -81,7 +80,7 @@ export function PageRenderer({
             <div className="article-hero-panel">
               <span className="panel-label">What you will get</span>
               <ul>
-                <li>Top picks first for fast decisions</li>
+                <li>Top three picks first for fast decisions</li>
                 <li>Up to 20 labeled product recommendations</li>
                 <li>Specs, about-this-item notes, buy-if / skip-if</li>
                 <li>Amazon links for live price and customer ratings</li>
@@ -119,13 +118,6 @@ export function PageRenderer({
               pageId={page.pageId}
               products={quickPicks}
               compact
-            />
-          ) : null}
-
-          {products.length > 1 ? (
-            <ProductComparisonTable
-              pageId={page.pageId}
-              products={products}
             />
           ) : null}
 

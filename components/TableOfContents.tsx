@@ -36,9 +36,7 @@ export function TableOfContents({
     );
 
     const ids = [
-      ...(hasProducts
-        ? ["top-picks", "comparison-table", "recommended-picks"]
-        : []),
+      ...(hasProducts ? ["top-picks", "recommended-picks"] : []),
       ...visibleSections.map((s) => headingId(s.heading)),
       ...(hasMorePicks ? ["more-picks"] : []),
       ...(hasFaqs ? ["frequently-asked-questions"] : []),
@@ -62,9 +60,6 @@ export function TableOfContents({
           <>
             <li className={activeId === "top-picks" ? "active" : ""}>
               <a href="#top-picks">Top picks</a>
-            </li>
-            <li className={activeId === "comparison-table" ? "active" : ""}>
-              <a href="#comparison-table">Comparison table</a>
             </li>
             <li className={activeId === "recommended-picks" ? "active" : ""}>
               <a href="#recommended-picks">Detailed reviews</a>
