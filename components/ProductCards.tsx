@@ -112,18 +112,28 @@ function analysisParagraphs(product: ProductLink): string[] {
   return [...new Set(paragraphs)].slice(0, 5);
 }
 
-/** Highlight "LABEL:" prefixes in About-this-item bullets (Amazon feature style). */
-function AboutBullet({ text }: { text: string }) {
-  const match = text.match(/^([^:]{2,48}):\s*(.+)$/);
+/** Format "LABEL: detail" with strong uppercase label. */
+function formatLabeledText(text: string) {
+  const clean = text
+    .replace(/â€“|â€”/g, "–")
+    .replace(/â€™/g, "'")
+    .replace(/â€œ|â€/g, '"')
+    .trim();
+  const match = clean.match(/^([^:]{2,48}):\s*(.+)$/);
   if (match) {
     return (
-      <li>
+      <>
         <strong className="about-item-label">{match[1].toUpperCase()}:</strong>{" "}
         {match[2]}
-      </li>
+      </>
     );
   }
-  return <li>{text}</li>;
+  return <>{clean}</>;
+}
+
+/** Highlight "LABEL:" prefixes in About-this-item bullets. */
+function LabeledBullet({ text }: { text: string }) {
+  return <li>{formatLabeledText(text)}</li>;
 }
 
 function DetailedProductCard({
@@ -143,6 +153,8 @@ function DetailedProductCard({
   const about = (product.aboutThisItem || []).filter(Boolean);
   const pros = (product.pros || []).filter(Boolean);
   const cons = (product.cons || []).filter(Boolean);
+  const chips = (product.comparisonChips || []).filter(Boolean);
+  const vsCompetitor = product.vsCompetitor?.trim() || "";
   const bestForQuote = product.bestFor?.trim().replace(/\.$/, "") || "";
   const score =
     product.editorialScore != null ? Number(product.editorialScore) : null;
@@ -180,6 +192,20 @@ function DetailedProductCard({
             ”
           </span>
         </p>
+      ) : null}
+
+      {vsCompetitor ? (
+        <p className="product-vs-competitor">
+          <strong>Vs closest peer:</strong> {vsCompetitor}
+        </p>
+      ) : null}
+
+      {chips.length ? (
+        <ul className="product-comparison-chips" aria-label="Key comparison points">
+          {chips.map((chip) => (
+            <li key={chip}>{chip}</li>
+          ))}
+        </ul>
       ) : null}
 
       <div className="listicle-image-container">
@@ -274,7 +300,7 @@ function DetailedProductCard({
             <strong>About this item</strong>
             <ul>
               {about.map((item) => (
-                <AboutBullet key={item} text={item} />
+                <LabeledBullet key={item} text={item} />
               ))}
             </ul>
           </div>
@@ -289,7 +315,7 @@ function DetailedProductCard({
                   <span className="list-icon list-icon-pro" aria-hidden="true">
                     ✓
                   </span>
-                  <span>{pro}</span>
+                  <span className="pros-text">{formatLabeledText(pro)}</span>
                 </li>
               ))}
             </ul>
@@ -305,7 +331,7 @@ function DetailedProductCard({
                   <span className="list-icon list-icon-con" aria-hidden="true">
                     ✕
                   </span>
-                  <span>{con}</span>
+                  <span>{con.replace(/â€“|â€”/g, "–").replace(/â€™/g, "'")}</span>
                 </li>
               ))}
             </ul>
@@ -314,12 +340,14 @@ function DetailedProductCard({
 
         {product.buyIf ? (
           <p className="buy-if-line">
-            <strong>Buy if:</strong> {product.buyIf}
+            <strong>Buy if:</strong>{" "}
+            {product.buyIf.replace(/â€“|â€”/g, "–").replace(/â€™/g, "'")}
           </p>
         ) : null}
         {product.skipIf ? (
           <p className="skip-if-line">
-            <strong>Skip if:</strong> {product.skipIf}
+            <strong>Skip if:</strong>{" "}
+            {product.skipIf.replace(/â€“|â€”/g, "–").replace(/â€™/g, "'")}
           </p>
         ) : null}
       </div>

@@ -81,5 +81,9 @@ export type ProductLink = {
   amazonRating?: string;
   /** Snapshot review count from provided data. */
   ratingCount?: string;
+  /** Sheet-backed vs nearest competitor callout. */
+  vsCompetitor?: string;
+  /** Short comparison chips for visual scanning. */
+  comparisonChips?: string[];
   trackingKey: string;
 };

@@ -41,6 +41,22 @@ function validateImageUrl(value) {
   return url.toString();
 }
 
+function fixMojibake(value) {
+  return String(value || "")
+    .replace(/\u00e2\u20ac\u201c|\u00e2\u20ac\u201d|â€“|â€”/g, "–")
+    .replace(/\u00e2\u20ac\u2122|â€™/g, "'")
+    .replace(/\u00e2\u20ac\u0153|\u00e2\u20ac\u009d|â€œ|â€/g, '"')
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function splitPipe(value) {
+  return String(value || "")
+    .split("|")
+    .map((part) => fixMojibake(part))
+    .filter(Boolean);
+}
+
 const rows = parseCsv(fs.readFileSync(inputPath, "utf8"));
 const products = [];
 const errors = [];
@@ -56,9 +72,21 @@ for (const [index, row] of rows.entries()) {
     rankByPage.set(row.pageId, nextRank);
 
     const slotLabel = row.slotLabel || `Pick ${nextRank}`;
-    const notes = String(row.notes || "");
-    const buyIf = notes.match(/buyIf:\s*(.*?)\s*\|\|\s*skipIf:/)?.[1]?.trim() || "";
-    const skipIf = notes.match(/skipIf:\s*(.*)$/)?.[1]?.trim() || "";
+    const notes = String(row.notes || "")
+      .replace(/\s*\|\|\s*resolvedAsin:[A-Z0-9]{10}/gi, "")
+      .trim();
+    const cleanEditorial = (value) =>
+      fixMojibake(
+        String(value || "")
+          .replace(/\s*\|\|\s*resolvedAsin:[A-Z0-9]{10}/gi, "")
+          .replace(/\s*resolvedAsin:[A-Z0-9]{10}/gi, ""),
+      );
+    const buyIf = cleanEditorial(
+      notes.match(/buyIf:\s*(.*?)\s*\|\|\s*skipIf:/)?.[1] || "",
+    );
+    const skipIf = cleanEditorial(
+      notes.match(/skipIf:\s*(.*)$/)?.[1] || "",
+    );
 
     products.push({
       pageId: row.pageId,
@@ -68,40 +96,32 @@ for (const [index, row] of rows.entries()) {
       slotId: row.slotId,
       slotLabel,
       rank: nextRank,
-      productName: row.productName || asin,
+      productName: fixMojibake(row.productName || asin),
       asin,
       affiliateUrl: buildAmazonUrl(asin),
-      bestFor: row.bestFor || slotLabel,
-      shortVerdict:
+      bestFor: fixMojibake(row.bestFor || slotLabel),
+      shortVerdict: fixMojibake(
         row.shortVerdict ||
-        `${row.productName || asin} — check current Amazon details before buying.`,
+          `${row.productName || asin} — check current Amazon details before buying.`,
+      ),
       editorialScore: row.editorialScore ? Number(row.editorialScore) : null,
-      keySpecs: row.keySpecs
-        ? String(row.keySpecs)
-            .split("|")
-            .map((part) => part.trim())
-            .filter(Boolean)
-        : [],
-      pros: row.pros
-        ? String(row.pros)
-            .split("|")
-            .map((part) => part.trim())
-            .filter(Boolean)
-        : [],
-      cons: row.cons
-        ? String(row.cons)
-            .split("|")
-            .map((part) => part.trim())
-            .filter(Boolean)
-        : [],
+      keySpecs: splitPipe(row.keySpecs),
+      aboutThisItem: splitPipe(row.aboutThisItem),
+      pros: splitPipe(row.pros),
+      cons: splitPipe(row.cons),
       buyIf,
       skipIf,
       imageUrl,
       imageWidth: row.imageWidth ? Number(row.imageWidth) : null,
       imageHeight: row.imageHeight ? Number(row.imageHeight) : null,
-      imageAlt: row.imageAlt || row.productName || asin,
+      imageAlt: fixMojibake(row.imageAlt || row.productName || asin),
       imageSource: row.imageSource || "Amazon CDN (hotlink)",
       checkedAt: row.checkedAt || "",
+      listPrice: String(row.listPrice || "").trim(),
+      amazonRating: String(row.amazonRating || "").trim(),
+      ratingCount: String(row.ratingCount || "").trim(),
+      vsCompetitor: fixMojibake(row.vsCompetitor || ""),
+      comparisonChips: splitPipe(row.comparisonChips),
       trackingKey: `${row.pageId}:${row.slotId}:${asin}`,
     });
   } catch (error) {

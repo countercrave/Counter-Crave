@@ -1599,13 +1599,23 @@ tbody th {
   display: block;
 }
 
-/* Sticky TOC & Active Scroll Spy */
+/* Sticky TOC & Active Scroll Spy — image-4 style with scroll when long */
 .sticky-toc {
   position: sticky;
   top: 100px;
   max-height: calc(100vh - 120px);
   overflow-y: auto;
-  padding-right: 0.5rem;
+  overscroll-behavior: contain;
+  padding-right: 0.35rem;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--brand) 45%, #c5d0cb) transparent;
+}
+.sticky-toc::-webkit-scrollbar {
+  width: 6px;
+}
+.sticky-toc::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--brand) 40%, #c5d0cb);
+  border-radius: 999px;
 }
 
 .sticky-toc ol li.active > a {
@@ -1981,7 +1991,360 @@ tbody th {
   font-weight: 600;
 }
 
+/* Sushi-style impactful product card details (rank, quote, market snapshot, score) */
+.editors-pick-ribbon {
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 0.25rem;
+  padding: 0.2rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
 
+.listicle-image-container {
+  margin: 0;
+  max-width: 420px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--border);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
+.listicle-image-container img {
+  max-height: 280px;
+  object-fit: contain;
+  width: auto;
+}
 
+.product-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
 
+.product-card-topline-calm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 0.15rem;
+}
+
+.product-card-subhead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.65rem 1rem;
+  margin: 0.15rem 0 0.35rem;
+}
+
+.product-rank-mark {
+  font-family: var(--font-display);
+  font-size: clamp(1.85rem, 2.6vw, 2.35rem);
+  font-weight: 750;
+  font-variation-settings: "SOFT" 40, "WONK" 0.9;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--brand);
+}
+
+.product-rank-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.35rem;
+  height: 2rem;
+  padding: 0 0.55rem;
+  border-radius: 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #fff;
+  background: var(--brand);
+}
+
+.product-best-for-quote {
+  margin: 0 0 0.55rem;
+  max-width: 42rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 1.5vw, 1.22rem);
+  font-weight: 550;
+  font-style: italic;
+  line-height: 1.45;
+  color: #2a3330;
+}
+
+.product-best-for-mark {
+  font-style: normal;
+  font-weight: 650;
+  color: var(--brand);
+  padding: 0 0.08em;
+}
+
+.listicle-cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.85rem 1.15rem;
+  margin: 0.35rem 0 0.15rem;
+}
+
+.product-market-snapshot {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem 0.85rem;
+  margin: 0.15rem 0 0.35rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--brand-soft) 55%, white),
+      #fff 55%
+    );
+  font-family: var(--font-sans), "Segoe UI", sans-serif;
+}
+
+.product-market-stat {
+  display: grid;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.product-market-label {
+  font-size: 0.66rem;
+  font-weight: 750;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.product-market-value {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.product-market-stars {
+  margin-right: 0.2rem;
+  color: #c4a035;
+  font-size: 0.95em;
+}
+
+.product-market-out-of {
+  margin-left: 0.12rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--muted);
+}
+
+.product-market-note {
+  grid-column: 1 / -1;
+  margin: 0.15rem 0 0;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  .product-market-snapshot {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-score-meter {
+  display: grid;
+  gap: 0.35rem;
+  min-width: min(100%, 11.5rem);
+  flex: 1 1 11.5rem;
+  max-width: 16rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--brand-soft) 70%, white),
+    #fff
+  );
+}
+
+.product-score-meter-copy {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.product-score-meter-label {
+  font-size: 0.68rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.product-score-meter-value {
+  font-family: var(--font-display), Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--brand-dark);
+  letter-spacing: -0.03em;
+}
+
+.product-score-meter-denom {
+  margin-left: 0.1rem;
+  font-size: 0.72rem;
+  font-weight: 650;
+  color: var(--muted);
+  letter-spacing: 0;
+}
+
+.product-score-meter-track {
+  height: 0.38rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--brand) 12%, #e8eeeb);
+}
+
+.product-score-meter-fill {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--brand) 75%, #0d3329),
+    var(--brand)
+  );
+}
+
+/* Legacy circle styles kept inert if referenced elsewhere */
+.product-score-circle {
+  display: none;
+}
+
+/* Competitor beat + comparison chips */
+.product-vs-competitor {
+  margin: 0.15rem 0 0.55rem;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid var(--brand);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: color-mix(in srgb, var(--brand-soft) 70%, white);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.product-vs-competitor strong {
+  color: var(--brand-dark);
+  margin-right: 0.25rem;
+}
+.product-comparison-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  margin: 0 0 0.85rem;
+  padding: 0;
+}
+.product-comparison-chips li {
+  padding: 0.28rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--brand) 28%, var(--border));
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brand-dark);
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+}
+
+/* Stronger pros / cons / buy-if presentation */
+.pros-list,
+.cons-list {
+  margin-top: 1.1rem;
+  padding: 1rem 1.05rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: #fff;
+}
+.pros-list {
+  border-color: color-mix(in srgb, #137333 28%, var(--border));
+  background: linear-gradient(180deg, #f3faf5, #fff 55%);
+}
+.cons-list {
+  border-color: color-mix(in srgb, #c5221f 22%, var(--border));
+  background: linear-gradient(180deg, #fff6f5, #fff 55%);
+}
+.pros-list > strong,
+.cons-list > strong,
+.about-item-list > strong {
+  display: block;
+  margin-bottom: 0.55rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.pros-list ul,
+.cons-list ul,
+.about-item-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.55rem;
+}
+.pros-list li,
+.cons-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.list-icon {
+  flex: 0 0 auto;
+  margin-top: 0.1rem;
+  font-weight: 800;
+}
+.list-icon-pro { color: #137333; }
+.list-icon-con { color: #c5221f; }
+.about-item-label {
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--brand-dark);
+}
+.pros-text { flex: 1; }
+.buy-if-line,
+.skip-if-line {
+  margin: 0.85rem 0 0;
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.buy-if-line {
+  background: color-mix(in srgb, #137333 8%, white);
+  border: 1px solid color-mix(in srgb, #137333 22%, var(--border));
+}
+.skip-if-line {
+  background: color-mix(in srgb, #c5221f 7%, white);
+  border: 1px solid color-mix(in srgb, #c5221f 18%, var(--border));
+}
+.buy-if-line strong { color: #137333; }
+.skip-if-line strong { color: #c5221f; }

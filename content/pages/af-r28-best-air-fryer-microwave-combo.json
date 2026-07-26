@@ -1,0 +1,103 @@
+{
+  "pageId": "AF-R28",
+  "title": "Best Air Fryer Microwave Combos",
+  "slug": "best-air-fryer-microwave-combo",
+  "canonicalPath": "/best-air-fryer-microwave-combo/",
+  "description": "Compare the best air fryer microwave combos — Toshiba OptiChef, GE, BLACK+DECKER, Frigidaire, Breville Combi Wave, Ninja Crispi microwave, Panasonic, and Samsung — ranked for countertop space-saving and crisp results.",
+  "pageType": "Roundup",
+  "priority": "P2",
+  "cluster": "Air Fryers",
+  "parentPillar": "AF-PIL",
+  "primaryKeyword": "best air fryer microwave combo",
+  "secondaryKeywords": [
+    "air fryer microwave combo",
+    "microwave with air fryer",
+    "toshiba air fryer microwave",
+    "countertop microwave air fryer",
+    "breville combi wave"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "BOFU",
+  "targetLength": "2,500–4,000",
+  "monetization": "High — product cards + Amazon CTAs",
+  "schemaRecommendation": "Article + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Combo-fit ranking from capacity, wattage, and cooking functions; thoughtful buy-if / skip-if.",
+  "answerBlockBrief": "Answer-first combo verdict; space-saving 2-in-1 first; full shortlist.",
+  "requiredTables": "Decision criteria; product shortlist",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "4–6 practical FAQs",
+  "summary": "For an air fryer microwave combo, prioritize real air-fry performance plus everyday microwave speed in one footprint. We ranked Toshiba OptiChef and inverter combos, GE and BLACK+DECKER 4–5-in-1 units, Frigidaire, Breville Combi Wave, Ninja Crispi microwave, Panasonic HomeChef, and Samsung convection models by capacity, functions, and practical cleanup. Use Check Price to confirm today’s Amazon details before buying.",
+  "sections": [
+    {
+      "heading": "Who should buy and who should skip",
+      "level": 2,
+      "paragraphs": [
+        "Buy a microwave + air fryer combo if you want one appliance for reheating and crisping without a separate air fryer on the counter.",
+        "Skip combos if you already love a dedicated basket air fryer and only need a basic microwave — two specialized tools can outperform one hybrid for heavy air frying."
+      ],
+      "bullets": [
+        "Small kitchens → compact 0.9–1.0 cu ft combos",
+        "Families → 1.2–1.5 cu ft convection / OptiChef models",
+        "Premium crisp + microwave → Breville / Panasonic / Ninja Crispi microwave"
+      ]
+    },
+    {
+      "heading": "What matters in an air fryer microwave combo",
+      "level": 2,
+      "paragraphs": [
+        "Look for dedicated air-fry or crisp modes, enough interior height for a crisp tray, and controls you will actually use for weeknight reheating.",
+        "Inverter models often reheat more evenly; convection + air fry helps browning for frozen foods and leftovers."
+      ],
+      "bullets": [
+        "Air fry / crisp mode + microwave in one body",
+        "Clear capacity (cu ft) and included crisp tray/basket",
+        "Easy-clean interior after oily air frying"
+      ]
+    },
+    {
+      "heading": "How we ranked the products",
+      "level": 2,
+      "paragraphs": [
+        "Ranking follows combo usefulness (listed air-fry functions), capacity, brand/feature clarity, and value. Specialty premium units rank high for performance; simpler digital air-fry microwaves rank high for everyday value.",
+        "Price, Amazon rating, and review counts on the cards can change — use Check Price for today’s details."
+      ],
+      "bullets": [
+        "True air-fry / crisp modes ranked highest",
+        "Inverter and larger cu ft models for families",
+        "Full shortlist included for comparison"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is an air fryer microwave combo as good as a basket air fryer?",
+      "answer": "Combos are excellent for space and convenience. Dedicated basket fryers often crisp larger batches faster — choose based on counter space and how often you air fry."
+    },
+    {
+      "question": "What size combo microwave should I buy?",
+      "answer": "About 0.9–1.0 cu ft fits most singles and couples. Choose 1.2 cu ft or larger if you reheat family plates or want more air-fry tray space."
+    },
+    {
+      "question": "Do I need an inverter model?",
+      "answer": "Inverter microwaves often reheat more evenly. They cost more, but help if you microwave leftovers and delicate foods often."
+    },
+    {
+      "question": "Can these replace my oven?",
+      "answer": "No — they handle microwave, air fry, and some bake/roast tasks, but not full-size oven capacity. Use Check Price and the listing functions before you buy."
+    },
+    {
+      "question": "Are prices and ratings live?",
+      "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
+    }
+  ],
+  "productPageIds": ["AF-R28"],
+  "relatedPageIds": ["AF-PIL", "AF-R12", "TO-R06", "AF-R22", "AF-HUB"],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-07-26",
+  "updatedAt": "2026-07-26",
+  "heroImage": "/images/heroes/best-air-fryer-microwave-combo.png",
+  "heroImageAlt": "Best Air Fryer Microwave Combo — countertop microwave with air fry crisping",
+  "draft": false,
+  "noindex": false
+}

@@ -42,6 +42,41 @@
       ]
     },
     {
+      "heading": "Glass comparison factors from the sheet",
+      "level": 2,
+      "paragraphs": [
+        "Decision factors pulled from the Glass Air Fryer Guide worksheet."
+      ],
+      "bullets": [
+        "Full Glass Vessel: look for A glass bowl, basket, container or pot that directly holds the food. Why it matters: This is different from a small viewing window in an otherwise conventional coated basket..",
+        "Viewing Window: look for A transparent panel built into a metal or coated drawer. Why it matters: Useful for monitoring food, but it does not reduce coated food-contact surfaces by itself..",
+        "Glass Type: look for Borosilicate or tempered glass when specifically stated. Why it matters: Named glass types provide more useful information than a generic glass claim, but manufacturer handling guidance still matters..",
+        "Thermal Shock: look for Instructions about cooling, washing and surface contact. Why it matters: Sudden temperature changes can damage glass; never assume hot glass can go directly onto a cold or wet surface..",
+        "Capacity: look for About 3–4 qt for one or two people; 5–7 qt for small families; 8+ qt for meal prep. Why it matters: Glass vessels can be heavier, so larger capacity also affects handling and storage..",
+        "PFAS / PTFE Claims: look for Look for explicit PFAS-free or PTFE-free wording. Why it matters: A glass vessel may reduce coated food-contact surfaces, but lids, racks or trays can still use other materials..",
+        "Dishwasher Safety: look for Confirm that the glass vessel and accessories are dishwasher-safe. Why it matters: The motorized lid, heating unit or electrical base must never be submerged..",
+        "Visibility: look for Full transparent bowl versus partial window. Why it matters: Full-bowl visibility makes it easier to monitor browning without opening the appliance..",
+        "Footprint: look for Measure bowl diameter, appliance height and lid clearance. Why it matters: Many glass-bowl or halogen models are wider than drawer-style air fryers..",
+        "Replacement Parts: look for Check availability of bowls, racks, lids and seals. Why it matters: A cracked glass vessel may make the appliance unusable without a compatible replacement.."
+      ]
+    },
+    {
+      "heading": "Sheet award snapshot",
+      "level": 2,
+      "paragraphs": [
+        "Awards from the Top Picks worksheet."
+      ],
+      "bullets": [
+        "Best Overall Glass Air Fryer: Ninja Crispi Glass Air Fryer, 4-in-1, Green, FN101SG",
+        "Best PFAS-Free Glass Option: Kismile 5QT Glass Air Fryer, 8 in 1 PFAS-Free Non Toxic AirFryers, Digital Touch Control, Portable Air Fryer with Precise Temperature Control & Timer, Up to 400°F, 95% Less Oil.(Black)",
+        "Best Value Glass Air Fryer: 8-1 ClearView Glass Air Fryer",
+        "Best Compact Glass Air Fryer: Cuisinart Air Fryer, Glass Basket & ClearView Window, 5 Functions, 4 Qt",
+        "Best for Families: NutriChef 5.8 Quart Air Fryer",
+        "Best Viewing-Window Model: Chefman Crispinator Air Fryer 6-in-1 with 8 Qt capacity, 450°F Max Temp with TurboFry Pro Technology for Fast and Even Results, Viewing Window, Nonstick Ceramic Basket",
+        "Best Premium Glass Option: Ninja Crispi Pro Glass Air Fryer, 6-in-1, Cyberspace, AS101CY"
+      ]
+    },
+    {
       "heading": "What “glass” means on this page",
       "level": 2,
       "paragraphs": [
@@ -90,8 +125,16 @@
       "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
     }
   ],
-  "productPageIds": ["AF-R26"],
-  "relatedPageIds": ["AF-PIL", "AF-R23", "AF-R22", "AF-R24", "AF-HUB"],
+  "productPageIds": [
+    "AF-R26"
+  ],
+  "relatedPageIds": [
+    "AF-PIL",
+    "AF-R23",
+    "AF-R22",
+    "AF-R24",
+    "AF-HUB"
+  ],
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-26",

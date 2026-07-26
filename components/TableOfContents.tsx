@@ -8,12 +8,17 @@ type TableOfContentsProps = {
   sections: PageSection[];
   hasProducts: boolean;
   hasFaqs: boolean;
+  hasMorePicks?: boolean;
 };
 
+/**
+ * Image-4 style TOC: numbered list, active left bar, scrolls when long.
+ */
 export function TableOfContents({
   sections,
   hasProducts,
   hasFaqs,
+  hasMorePicks = false,
 }: TableOfContentsProps) {
   const [activeId, setActiveId] = useState<string>("");
   const visibleSections = sections.filter((section) => section.level !== 3);
@@ -27,12 +32,15 @@ export function TableOfContents({
           }
         }
       },
-      { rootMargin: "-80px 0px -70% 0px" },
+      { rootMargin: "-100px 0px -65% 0px" },
     );
 
     const ids = [
-      ...(hasProducts ? ["top-picks", "comparison-table", "recommended-picks"] : []),
+      ...(hasProducts
+        ? ["top-picks", "comparison-table", "recommended-picks"]
+        : []),
       ...visibleSections.map((s) => headingId(s.heading)),
+      ...(hasMorePicks ? ["more-picks"] : []),
       ...(hasFaqs ? ["frequently-asked-questions"] : []),
     ];
 
@@ -42,7 +50,7 @@ export function TableOfContents({
     });
 
     return () => observer.disconnect();
-  }, [visibleSections, hasProducts, hasFaqs]);
+  }, [visibleSections, hasProducts, hasFaqs, hasMorePicks]);
 
   return (
     <nav className="toc sticky-toc" aria-label="On this page">
@@ -63,7 +71,7 @@ export function TableOfContents({
             </li>
           </>
         ) : null}
-        {visibleSections.slice(0, 12).map((section) => {
+        {visibleSections.map((section) => {
           const id = headingId(section.heading);
           return (
             <li key={section.heading} className={activeId === id ? "active" : ""}>
@@ -71,6 +79,11 @@ export function TableOfContents({
             </li>
           );
         })}
+        {hasMorePicks ? (
+          <li className={activeId === "more-picks" ? "active" : ""}>
+            <a href="#more-picks">More picks</a>
+          </li>
+        ) : null}
         {hasFaqs ? (
           <li className={activeId === "frequently-asked-questions" ? "active" : ""}>
             <a href="#frequently-asked-questions">FAQs</a>
