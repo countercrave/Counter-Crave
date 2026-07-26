@@ -14,14 +14,13 @@ export function RelatedContent({ pages }: RelatedContentProps) {
       <div className="card-grid">
         {pages.map((page) => (
           <article className="content-card" key={page.pageId}>
-            <span className="eyebrow">
-              {page.priority} · {page.pageType}
-            </span>
+            {page.cluster ? (
+              <span className="eyebrow">{page.cluster}</span>
+            ) : null}
             <h3>
               <Link href={`/${page.slug}/`}>{page.title}</Link>
             </h3>
             <p>{page.description}</p>
-            {page.draft ? <span className="draft-badge">Local draft</span> : null}
           </article>
         ))}
       </div>

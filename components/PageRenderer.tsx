@@ -65,9 +65,7 @@ export function PageRenderer({
         <article className="article-shell article-main-column">
           <header className="article-hero">
             <div>
-              <span className="eyebrow">
-                {page.cluster} · {page.pageType}
-              </span>
+              <span className="eyebrow">{page.cluster}</span>
               <h1>{page.title}</h1>
               <p className="dek">{page.description}</p>
 

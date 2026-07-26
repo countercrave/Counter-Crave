@@ -6,22 +6,50 @@ type AuthorBioProps = {
   updatedAt?: string | null;
 };
 
-export function AuthorBio({ author = "Navjeet Kamboj", reviewer, updatedAt }: AuthorBioProps) {
-  const isNavjeet = !author || author.includes("Navjeet") || author.includes("CounterCrave");
+const AUTHOR_PHOTO = "/images/authors/navjeet-kamboj.jpg";
+
+export function AuthorBio({
+  author = "Navjeet Kamboj",
+  reviewer,
+  updatedAt,
+}: AuthorBioProps) {
+  const isNavjeet =
+    !author || author.includes("Navjeet") || author.includes("CounterCrave");
   const authorName = isNavjeet ? "Navjeet Kamboj" : author;
 
   return (
     <section className="author-bio-card" aria-label="About the author">
       <div className="author-bio-inner">
-        <div className="author-avatar" aria-hidden="true">
-          <span>NK</span>
-        </div>
+        {isNavjeet ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={AUTHOR_PHOTO}
+            alt={`${authorName}, CounterCrave founder`}
+            className="author-avatar-photo"
+            width={96}
+            height={96}
+          />
+        ) : (
+          <div className="author-avatar" aria-hidden="true">
+            <span>
+              {authorName
+                .split(" ")
+                .map((part) => part[0])
+                .join("")
+                .slice(0, 2)
+                .toUpperCase()}
+            </span>
+          </div>
+        )}
+
         <div className="author-details">
           <div className="author-header">
             <div>
               <span className="author-label">Written by</span>
               <h3 className="author-name">{authorName}</h3>
-              <p className="author-title">Lead Kitchen Appliance Analyst &amp; Founder at CounterCrave</p>
+              <p className="author-title">
+                Founder &amp; lead kitchen appliance analyst at CounterCrave
+              </p>
             </div>
             <div className="author-socials">
               <a
@@ -37,7 +65,7 @@ export function AuthorBio({ author = "Navjeet Kamboj", reviewer, updatedAt }: Au
                 <span>LinkedIn</span>
               </a>
               <a
-                href="https://www.instagram.com/jeet_7.7/?__d=1%3F%2F"
+                href="https://www.instagram.com/jeet_7.7/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="social-link instagram"
@@ -50,14 +78,24 @@ export function AuthorBio({ author = "Navjeet Kamboj", reviewer, updatedAt }: Au
               </a>
             </div>
           </div>
+
           <p className="author-bio-text">
-            Navjeet tests and analyzes countertop kitchen appliances for CounterCrave, focusing on real-world daily usability, footprint efficiency, build quality, and value for money. Every guide follows strict E-E-A-T evaluation guidelines.
+            Navjeet builds CounterCrave around kitchen fit—not feature checklists.
+            He evaluates countertop appliances for capacity, footprint, cleanup,
+            noise and long-term value, then writes buy-if / skip-if guidance so
+            shoppers can decide quickly without copying Amazon reviews or prices
+            onto the page.
           </p>
+
           <div className="author-meta-footer">
-            {reviewer ? <span className="reviewer-tag">✓ Peer reviewed by {reviewer}</span> : null}
-            {updatedAt ? <span className="updated-tag">Updated {updatedAt}</span> : null}
-            <Link href="/editorial-policy/" className="editorial-link">
-              Read our testing methodology →
+            {reviewer ? (
+              <span className="reviewer-tag">Peer reviewed by {reviewer}</span>
+            ) : null}
+            {updatedAt ? (
+              <span className="updated-tag">Updated {updatedAt}</span>
+            ) : null}
+            <Link href="/how-we-test/" className="editorial-link">
+              How we evaluate products →
             </Link>
           </div>
         </div>

@@ -19,6 +19,7 @@ const EXTRA_COLS = [
   "ratingCount",
   "vsCompetitor",
   "comparisonChips",
+  "comparisonScore",
 ];
 
 const PAGE_SOURCES = {
@@ -286,7 +287,8 @@ function editorial(row, competitor, scoreKey) {
   const consRaw = splitList(row["Key Cons"]);
   const about = splitList(row["About this item"] || row["About this Item"])[0] || "";
   const sc = scoreOf(row, scoreKey);
-  const score = Math.min(9.7, Math.max(7.2, 7.2 + sc / 38)).toFixed(1);
+  // Keep sheet Comparison Score fidelity on a /10 meter (91.9 → 9.2).
+  const score = sc > 0 ? (Math.min(10, Math.max(0, sc / 10))).toFixed(1) : "8.0";
 
   let shortVerdict = about;
   const fitBits = [
@@ -396,6 +398,7 @@ for (const [pageId, meta] of Object.entries(PAGE_SOURCES)) {
     const competitor = pickCompetitor(source, ordered, meta.scoreKey);
     const ed = editorial(source, competitor, meta.scoreKey);
     const chips = buildChips(source, pageId);
+    const sheetScore = scoreOf(source, meta.scoreKey);
 
     catalog.push({
       pageId,
@@ -410,6 +413,7 @@ for (const [pageId, meta] of Object.entries(PAGE_SOURCES)) {
       bestFor: ed.bestFor,
       shortVerdict: ed.shortVerdict,
       editorialScore: ed.score,
+      comparisonScore: sheetScore > 0 ? String(sheetScore) : "",
       keySpecs: buildSpecs(source, pageId),
       aboutThisItem: aboutOf(source),
       pros: ed.pros.join(" | "),

@@ -62,6 +62,8 @@ export type ProductLink = {
   bestFor?: string;
   shortVerdict?: string;
   editorialScore?: number | null;
+  /** Raw workbook Comparison Score (typically 0–100) when provided. */
+  comparisonScore?: number | null;
   keySpecs?: string[];
   /** Amazon "About this item" feature bullets (not editorial pros). */
   aboutThisItem?: string[];

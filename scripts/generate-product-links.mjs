@@ -68,8 +68,15 @@ for (const [index, row] of rows.entries()) {
   try {
     const asin = normalizeAsin(row.asin);
     const imageUrl = validateImageUrl(row.imageUrl);
-    const nextRank = (rankByPage.get(row.pageId) || 0) + 1;
-    rankByPage.set(row.pageId, nextRank);
+    const csvRank = Number(row.rank);
+    const nextRank =
+      Number.isFinite(csvRank) && csvRank > 0
+        ? csvRank
+        : (rankByPage.get(row.pageId) || 0) + 1;
+    rankByPage.set(
+      row.pageId,
+      Math.max(rankByPage.get(row.pageId) || 0, nextRank),
+    );
 
     const slotLabel = row.slotLabel || `Pick ${nextRank}`;
     const notes = String(row.notes || "")
@@ -105,6 +112,7 @@ for (const [index, row] of rows.entries()) {
           `${row.productName || asin} — check current Amazon details before buying.`,
       ),
       editorialScore: row.editorialScore ? Number(row.editorialScore) : null,
+      comparisonScore: row.comparisonScore ? Number(row.comparisonScore) : null,
       keySpecs: splitPipe(row.keySpecs),
       aboutThisItem: splitPipe(row.aboutThisItem),
       pros: splitPipe(row.pros),

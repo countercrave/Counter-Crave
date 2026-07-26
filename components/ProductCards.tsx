@@ -156,8 +156,17 @@ function DetailedProductCard({
   const chips = (product.comparisonChips || []).filter(Boolean);
   const vsCompetitor = product.vsCompetitor?.trim() || "";
   const bestForQuote = product.bestFor?.trim().replace(/\.$/, "") || "";
-  const score =
+  const comparisonScore =
+    product.comparisonScore != null ? Number(product.comparisonScore) : null;
+  const editorialScore =
     product.editorialScore != null ? Number(product.editorialScore) : null;
+  // Prefer sheet Comparison Score mapped to /10; fall back to editorialScore.
+  const score =
+    comparisonScore != null && !Number.isNaN(comparisonScore)
+      ? Number((comparisonScore / 10).toFixed(1))
+      : editorialScore != null && !Number.isNaN(editorialScore)
+        ? editorialScore
+        : null;
   const listPrice = product.listPrice?.trim() || "";
   const amazonRating = product.amazonRating?.trim() || "";
   const ratingCount = product.ratingCount?.trim() || "";
@@ -217,6 +226,41 @@ function DetailedProductCard({
         />
       </div>
 
+      <div className="listicle-cta-row">
+        <AmazonLink
+          asin={product.asin}
+          pageId={pageId}
+          productName={name}
+          placement={`detail-${product.slotId}`}
+          className="button button-primary listicle-amazon-button"
+        >
+          Buy on Amazon
+        </AmazonLink>
+        {score != null ? (
+          <div
+            className="product-score-meter"
+            title={`Comparison score ${score} out of 10`}
+            aria-label={`Comparison score ${score} out of 10`}
+          >
+            <div className="product-score-meter-copy">
+              <span className="product-score-meter-label">Our score</span>
+              <span className="product-score-meter-value">
+                {score}
+                <span className="product-score-meter-denom">/10</span>
+              </span>
+            </div>
+            <div className="product-score-meter-track" aria-hidden="true">
+              <span
+                className="product-score-meter-fill"
+                style={{
+                  width: `${Math.min(100, Math.max(0, score * 10))}%`,
+                }}
+              />
+            </div>
+          </div>
+        ) : null}
+      </div>
+
       {hasMarketplaceSnapshot ? (
         <div className="product-market-snapshot">
           {listPrice ? (
@@ -248,41 +292,6 @@ function DetailedProductCard({
           </p>
         </div>
       ) : null}
-
-      <div className="listicle-cta-row">
-        <AmazonLink
-          asin={product.asin}
-          pageId={pageId}
-          productName={name}
-          placement={`detail-${product.slotId}`}
-          className="button button-primary listicle-amazon-button"
-        >
-          Check Price
-        </AmazonLink>
-        {score != null && !Number.isNaN(score) ? (
-          <div
-            className="product-score-meter"
-            title={`CounterCrave score ${score} out of 10`}
-            aria-label={`CounterCrave score ${score} out of 10`}
-          >
-            <div className="product-score-meter-copy">
-              <span className="product-score-meter-label">Our score</span>
-              <span className="product-score-meter-value">
-                {score}
-                <span className="product-score-meter-denom">/10</span>
-              </span>
-            </div>
-            <div className="product-score-meter-track" aria-hidden="true">
-              <span
-                className="product-score-meter-fill"
-                style={{
-                  width: `${Math.min(100, Math.max(0, score * 10))}%`,
-                }}
-              />
-            </div>
-          </div>
-        ) : null}
-      </div>
 
       {product.keySpecs?.length ? <SpecTable specs={product.keySpecs} /> : null}
 
@@ -356,15 +365,77 @@ function DetailedProductCard({
 }
 
 /**
- * Full listicle cards for every product on the page (no condensed table).
+ * Full listicle cards for every product on the page.
+ * compact=true renders a short Top picks strip (no duplicate full reviews).
  */
 export function ProductCards({
   pageId,
   products,
   detailLimit = DETAIL_LIMIT_DEFAULT,
-  compact: _compact = false,
+  compact = false,
 }: ProductCardsProps) {
   if (!products.length) return null;
+
+  if (compact) {
+    const picks = products.slice(0, Math.min(5, products.length));
+    return (
+      <section id="top-picks" aria-labelledby="top-picks-heading">
+        <h2 id="top-picks-heading">Top picks</h2>
+        <p className="section-intro">
+          Highest Comparison Score picks first — open a detailed review below
+          or check today&apos;s Amazon offer.
+        </p>
+        <ol className="top-picks-compact-list">
+          {picks.map((product, index) => {
+            const name = displayName(product);
+            const rank = product.rank ?? index + 1;
+            const comparisonScore =
+              product.comparisonScore != null
+                ? Number(product.comparisonScore)
+                : null;
+            const editorialScore =
+              product.editorialScore != null
+                ? Number(product.editorialScore)
+                : null;
+            const score =
+              comparisonScore != null && !Number.isNaN(comparisonScore)
+                ? Number((comparisonScore / 10).toFixed(1))
+                : editorialScore != null && !Number.isNaN(editorialScore)
+                  ? editorialScore
+                  : null;
+
+            return (
+              <li key={product.trackingKey} className="top-picks-compact-item">
+                <div className="top-picks-compact-main">
+                  <span className="top-picks-compact-rank">#{rank}</span>
+                  <div className="top-picks-compact-copy">
+                    <a href={`#${product.slotId}`}>{name}</a>
+                    {product.slotLabel ? (
+                      <span className="top-picks-compact-label">
+                        {product.slotLabel}
+                      </span>
+                    ) : null}
+                  </div>
+                  {score != null ? (
+                    <span className="top-picks-compact-score">{score}/10</span>
+                  ) : null}
+                </div>
+                <AmazonLink
+                  asin={product.asin}
+                  pageId={pageId}
+                  productName={name}
+                  placement={`top-${product.slotId}`}
+                  className="button button-primary top-picks-compact-cta"
+                >
+                  Buy on Amazon
+                </AmazonLink>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    );
+  }
 
   const detailed = products.slice(0, detailLimit);
 
