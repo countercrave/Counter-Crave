@@ -26,7 +26,7 @@
   "requiredTables": "Specs; scorecard; pros/cons; alternatives comparison",
   "ctaGuidance": "Primary product CTA after verdict and value section; alternatives each get separate CTA",
   "faqGuidance": "Use 4–8 visible, non-repetitive questions. Answer each in 40–80 words. Add schema only when valid and useful.",
-  "summary": "Quick verdict for aroma rice cooker review: start with Ninja Foodi DZ201 DualZone 8-Qt if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy itâ€”and who should skip it. Confirm current Amazon details before checkout.",
+  "summary": "Quick verdict for aroma rice cooker review: start with COSORI TurboBlaze 6-Qt Air Fryer if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy itâ€”and who should skip it. Confirm current Amazon details before checkout.",
   "sections": [
     {
       "heading": "Top picks at a glance",
@@ -36,10 +36,10 @@
         "Use the comparison table and detailed product cards for Amazon availability. Specs and bundles can change by listing, so verify before buying."
       ],
       "bullets": [
-        "Best overall: Ninja Foodi DZ201 DualZone 8-Qt",
-        "Runner-up: Ninja Air Fryer Pro 5-Qt (AF141)",
-        "Best value: Chefman TurboFry 8-Qt Air Fryer",
-        "Best premium: Instant Vortex Plus 6-Qt Air Fryer"
+        "Best overall: COSORI TurboBlaze 6-Qt Air Fryer",
+        "Runner-up: Ninja Foodi DZ201 DualZone 8-Qt",
+        "Best value: Ninja Air Fryer Pro 5-Qt (AF141)",
+        "Best premium: Chefman TurboFry 8-Qt Air Fryer"
       ]
     },
     {
@@ -77,7 +77,7 @@
   "faqs": [
     {
       "question": "What is the best aroma rice cooker review overall?",
-      "answer": "Ninja Foodi DZ201 DualZone 8-Qt is the best overall starting point for most kitchens, but specialty winners may fit you better if you need compact size, dual cooking, or personal cups."
+      "answer": "COSORI TurboBlaze 6-Qt Air Fryer is the best overall starting point for most kitchens, but specialty winners may fit you better if you need compact size, dual cooking, or personal cups."
     },
     {
       "question": "Why list so many products instead of only three?",
