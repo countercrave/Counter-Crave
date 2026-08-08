@@ -40,7 +40,7 @@ const CATALOG = {
   B01N5UPTZS: {
     name: "Breville Smart Oven Air Fryer Pro (BOV900BSS)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01N5UPTZS.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01N5UPTZS.01._SL1500_.jpg",
     bestFor: "Best overall wall oven replacement",
     shortVerdict: "Element iQ heating, 13 cooking functions, and 1 cubic foot capacity let it replace a wall oven, toaster, and air fryer in one.",
     score: 9.6,
@@ -53,7 +53,7 @@ const CATALOG = {
   B08BXX69K4: {
     name: "Ninja Foodi 10-in-1 XL Pro Air Fry Oven (DT201)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08BXX69K4.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08BXX69K4.01._SL1500_.jpg",
     bestFor: "Families & 2-level batch cooking",
     shortVerdict: "True Surround Convection cooks on 2 rack levels simultaneously without needing to rotate pans.",
     score: 9.3,
@@ -66,7 +66,7 @@ const CATALOG = {
   B01K0W8LTE: {
     name: "Cuisinart AirFryer Toaster Oven (TOA-60)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01K0W8LTE.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01K0W8LTE.01._SL1500_.jpg",
     bestFor: "Simple everyday use without digital menus",
     shortVerdict: "Classic 1800W workhorse with 3 simple dials for quick toast, bake, broil, and air frying.",
     score: 8.9,
@@ -79,7 +79,7 @@ const CATALOG = {
   B0895GS9NW: {
     name: "COSORI 13-in-1 Air Fryer Toaster Oven Combo 32QT (CS130-AO)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0895GS9NW.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0895GS9NW.01._SL1500_.jpg",
     bestFor: "Smart features, app control & rotisserie",
     shortVerdict: "Feature-packed 32QT combo with true rotisserie spit, dehydrator, and VeSync app smart recipes.",
     score: 9.1,
@@ -92,7 +92,7 @@ const CATALOG = {
   B07SCGY2H6: {
     name: "Ninja Foodi Digital Air Fry Oven (SP101)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07SCGY2H6.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07SCGY2H6.01._SL1500_.jpg",
     bestFor: "Small kitchens needing flip-away storage",
     shortVerdict: "Flips up against your backsplash after cooking to reclaim 50% counter space.",
     score: 8.8,
@@ -105,7 +105,7 @@ const CATALOG = {
   B0CLTK2JF8: {
     name: "Our Place Wonder Oven",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CLTK2JF8.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CLTK2JF8.01._SL1500_.jpg",
     bestFor: "Style-conscious buyers & couples",
     shortVerdict: "Compact 6-in-1 oven with steam infusion technology to keep bread and leftovers moist.",
     score: 8.6,
@@ -118,7 +118,7 @@ const CATALOG = {
   B08759QVN8: {
     name: "Hamilton Beach Sure-Crisp Air Fryer Toaster Oven (31413)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08759QVN8.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08759QVN8.01._SL1500_.jpg",
     bestFor: "Best budget pick under $100",
     shortVerdict: "Covers air frying, toasting, baking, and broiling at an unbeatable sub-$100 price point.",
     score: 8.2,
@@ -131,7 +131,7 @@ const CATALOG = {
   B0B15Q3HCQ: {
     name: "Ninja Foodi DZ550 10-Qt DualZone Smart XL Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0B15Q3HCQ.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0B15Q3HCQ.01._SL1500_.jpg",
     bestFor: "Best overall for family meals with smart thermometer",
     shortVerdict: "Two 5-quart independent baskets with Smart Finish and Foodi Smart Thermometer for automatic doneness.",
     score: 9.5,
@@ -144,7 +144,7 @@ const CATALOG = {
   B096X9LGJ1: {
     name: "Ninja Foodi DZ401 10-Qt DualZone XL 2-Basket Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096X9LGJ1.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096X9LGJ1.01._SL1500_.jpg",
     bestFor: "Best value 10-quart dual zone air fryer",
     shortVerdict: "Same 10-quart dual zone performance as the top pick minus the built-in thermometer for less money.",
     score: 9.3,
@@ -157,7 +157,7 @@ const CATALOG = {
   B0CZS6SS3Y: {
     name: "Ninja DoubleStack XL SL401 10-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CZS6SS3Y.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CZS6SS3Y.01._SL1500_.jpg",
     bestFor: "Small counter space with 10-quart capacity",
     shortVerdict: "Stacked 2-basket design saves 40% counter width while cooking up to 4 foods at once.",
     score: 9.1,
@@ -170,7 +170,7 @@ const CATALOG = {
   B0CKP6Y6KB: {
     name: "Typhur Dome 2 AI Smart Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CKP6Y6KB.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CKP6Y6KB.01._SL1500_.jpg",
     bestFor: "Best premium single-layer air frying",
     shortVerdict: "Flat wide dome chamber fits a 12-inch pizza or 6 steaks in a single crisping layer with dual heating elements.",
     score: 9.4,
@@ -183,7 +183,7 @@ const CATALOG = {
   B096MZHB7K: {
     name: "Instant Vortex Plus XL 8-Qt ClearCook Dual Basket Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096MZHB7K.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096MZHB7K.01._SL1500_.jpg",
     bestFor: "Best value 8-quart dual basket with windows",
     shortVerdict: "ClearCook see-through windows and interior lights let you monitor cooking without opening drawers.",
     score: 9.0,
@@ -196,7 +196,7 @@ const CATALOG = {
   B08DKYBTPH: {
     name: "Chefman TurboFry 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08DKYBTPH.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08DKYBTPH.01._SL1500_.jpg",
     bestFor: "Best budget 8-quart XL air fryer",
     shortVerdict: "Big 8-quart XL single basket with Hi-Fry 450°F crisp boost at an aggressive sub-$90 price.",
     score: 8.5,
@@ -234,7 +234,7 @@ const CATALOG = {
   B08DKYBTPH: {
     name: "Chefman TurboFry 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08DKYBTPH.01._SL1500_.jpg",
     bestFor: "Budget shoppers who still want XL capacity",
     shortVerdict: "Capacity-per-dollar pick when the basket size is the priority.",
     score: 8.4,
