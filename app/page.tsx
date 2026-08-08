@@ -43,26 +43,36 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className="decision-demo" aria-label="How CounterCrave helps">
-            <div className="demo-toolbar">
-              <span>Decision-First Architecture</span>
-              <span className="demo-status">E-E-A-T Verified</span>
+          <div className="hero-spotlight-card" aria-label="Editor's Top Pick Spotlight">
+            <div className="spotlight-header">
+              <span className="spotlight-tag">★ #1 Editor&apos;s Pick 2026</span>
+              <span className="spotlight-score">9.2 / 10 Rating</span>
             </div>
-            <div className="demo-product-row">
-              <div className="demo-image" aria-hidden="true">
-                ✓
+            <div className="spotlight-body">
+              <div className="spotlight-img-wrap">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_SL1500_.jpg"
+                  alt="COSORI TurboBlaze 6-Qt Air Fryer"
+                  width={110}
+                  height={110}
+                />
               </div>
-              <div>
-                <span className="pick-label">No Duplicate Writeups</span>
-                <strong>Ranked Product Cards</strong>
-                <p>Heading → Badge → Image → Price CTA → Specs → About this item</p>
+              <div className="spotlight-info">
+                <span className="pick-label pick-label-best-overall">Best Overall Air Fryer</span>
+                <h3>COSORI TurboBlaze 6-Qt</h3>
+                <p>Powerful 3600 RPM TurboBlaze fan speed with PFAS-free ceramic nonstick basket.</p>
+                <div className="spotlight-specs">
+                  <span>6 QT Capacity</span>
+                  <span>1725W Power</span>
+                  <span>Ceramic Nonstick</span>
+                </div>
               </div>
             </div>
-            <div className="demo-verdict">
-              <strong>Transparent Affiliate Disclosure</strong>
-              <p>
-                All Amazon links use official associate tags with clear price CTAs and zero invented ratings.
-              </p>
+            <div className="spotlight-footer">
+              <Link href="/ninja-vs-cosori-air-fryer/" className="spotlight-cta">
+                Read full Ninja vs Cosori review →
+              </Link>
             </div>
           </div>
         </div>
