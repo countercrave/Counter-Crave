@@ -1,8 +1,10 @@
 import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
+import { AmazonLink } from "@/components/AmazonLink";
 import { AuthorBio } from "@/components/AuthorBio";
 import { BrandProfiles } from "@/components/BrandProfiles";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ProductCards } from "@/components/ProductCards";
+import { ProductImage } from "@/components/ProductImage";
 import { RelatedContent } from "@/components/RelatedContent";
 import { TableOfContents } from "@/components/TableOfContents";
 import { TrustPanel } from "@/components/TrustPanel";
@@ -43,6 +45,11 @@ export function PageRenderer({
     affiliateTypes.has(page.pageType) || products.length > 0 || hasBrandProfiles;
   const hasFaqs = Boolean(page.faqs?.length);
   const quickPicks = products.slice(0, 3);
+  const croMode = Boolean(page.croOptimized || page.funnel === "Ads");
+  const topProduct = products[0] || null;
+  const topName = topProduct
+    ? topProduct.productName.split("|")[0].trim()
+    : "";
 
   return (
     <main className="container-wide main-content">
@@ -126,6 +133,60 @@ export function PageRenderer({
             <section className="answer-box" aria-label="Quick verdict">
               <span className="answer-label">Quick verdict</span>
               <p>{page.summary}</p>
+            </section>
+          ) : null}
+
+          {croMode && topProduct ? (
+            <section className="cro-deal-strip" aria-label="Top pick Buy Now">
+              <div className="cro-deal-strip-media">
+                <ProductImage
+                  src={topProduct.imageUrl}
+                  alt={topProduct.imageAlt || topName}
+                  width={topProduct.imageWidth}
+                  height={topProduct.imageHeight}
+                />
+              </div>
+              <div className="cro-deal-strip-copy">
+                <span className="cro-deal-kicker">Editor&apos;s #1 pick</span>
+                <h2 className="cro-deal-title">{topName}</h2>
+                {topProduct.bestFor ? (
+                  <p className="cro-deal-bestfor">{topProduct.bestFor}</p>
+                ) : null}
+                <div className="cro-deal-meta">
+                  {topProduct.listPrice ? (
+                    <strong className="cro-deal-price">
+                      {topProduct.listPrice}
+                    </strong>
+                  ) : null}
+                  {topProduct.amazonRating ? (
+                    <span>
+                      ★ {topProduct.amazonRating}
+                      {topProduct.ratingCount
+                        ? ` (${topProduct.ratingCount} ratings)`
+                        : ""}
+                    </span>
+                  ) : null}
+                </div>
+                <div className="cro-deal-actions">
+                  <AmazonLink
+                    asin={topProduct.asin}
+                    pageId={page.pageId}
+                    productName={topName}
+                    placement="hero-buy-now"
+                    hrefOverride={topProduct.affiliateUrl}
+                    className="button button-primary cro-buy-now"
+                  >
+                    Buy Now on Amazon
+                  </AmazonLink>
+                  <a className="cro-secondary-link" href={`#${topProduct.slotId}`}>
+                    See full review
+                  </a>
+                </div>
+                <p className="cro-deal-note">
+                  Price and availability can change — confirm on Amazon before
+                  checkout.
+                </p>
+              </div>
             </section>
           ) : null}
 
@@ -223,6 +284,19 @@ export function PageRenderer({
         <a className="mobile-sticky-cta" href="#brand-profiles">
           View brand profiles
         </a>
+      ) : croMode && topProduct ? (
+        <div className="mobile-sticky-cta mobile-sticky-cta--buy">
+          <AmazonLink
+            asin={topProduct.asin}
+            pageId={page.pageId}
+            productName={topName}
+            placement="sticky-buy-now"
+            hrefOverride={topProduct.affiliateUrl}
+            className="button button-primary sticky-buy-now-button"
+          >
+            Buy Now — {topName.split(" ").slice(0, 3).join(" ")}
+          </AmazonLink>
+        </div>
       ) : products.length ? (
         <a className="mobile-sticky-cta" href="#recommended-picks">
           View detailed picks

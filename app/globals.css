@@ -1532,6 +1532,20 @@ tbody th {
     font-weight: 800;
     text-decoration: none;
   }
+
+  .mobile-sticky-cta--buy {
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .sticky-buy-now-button {
+    width: 100%;
+    min-height: 52px;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    font-size: 1rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2933,5 +2947,107 @@ tbody th {
   .brand-profile-lists,
   .brand-profile-snapshot {
     grid-template-columns: 1fr;
+  }
+}
+
+/* CRO ads landing strip */
+.cro-deal-strip {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.25rem;
+  align-items: center;
+  margin: 1.25rem 0 1.5rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(15, 81, 50, 0.08), rgba(15, 81, 50, 0.02)),
+    #fff;
+  box-shadow: var(--shadow);
+}
+
+.cro-deal-strip-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
+  padding: 0.75rem;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--border);
+}
+
+.cro-deal-kicker {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  color: var(--brand);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cro-deal-title {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.25;
+}
+
+.cro-deal-bestfor {
+  margin: 0 0 0.65rem;
+  color: var(--muted);
+}
+
+.cro-deal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.95rem;
+}
+
+.cro-deal-price {
+  color: var(--ink);
+  font-size: 1.15rem;
+}
+
+.cro-deal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.cro-buy-now {
+  min-height: 48px;
+  padding-inline: 1.25rem;
+  font-size: 1.02rem;
+  font-weight: 800;
+}
+
+.cro-secondary-link {
+  color: var(--brand);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cro-secondary-link:hover {
+  text-decoration: underline;
+}
+
+.cro-deal-note {
+  margin: 0.65rem 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 720px) {
+  .cro-deal-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .cro-deal-strip-media {
+    max-width: 220px;
+    margin: 0 auto;
   }
 }

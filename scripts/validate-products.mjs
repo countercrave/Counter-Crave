@@ -18,7 +18,7 @@ for (const product of products) {
   }
 
   const url = new URL(product.affiliateUrl);
-  if (url.hostname !== "www.amazon.com") {
+  if (!["www.amazon.com", "www.amazon.in"].includes(url.hostname)) {
     errors.push(`${product.trackingKey}: unexpected Amazon hostname`);
   }
   if (!validTags.has(url.searchParams.get("tag") || "")) {

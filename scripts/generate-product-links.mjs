@@ -21,8 +21,11 @@ function normalizeAsin(value) {
   return asin;
 }
 
-function buildAmazonUrl(asin) {
-  const url = new URL(`https://www.amazon.com/dp/${asin}/ref=nosim`);
+function buildAmazonUrl(asin, listPrice = "") {
+  const marketplace = /₹|rs\.?|inr/i.test(String(listPrice || "")) ? "in" : "com";
+  const host =
+    marketplace === "in" ? "https://www.amazon.in" : "https://www.amazon.com";
+  const url = new URL(`${host}/dp/${asin}/ref=nosim`);
   url.searchParams.set("tag", associateTag);
   return url.toString();
 }
@@ -105,7 +108,7 @@ for (const [index, row] of rows.entries()) {
       rank: nextRank,
       productName: fixMojibake(row.productName || asin),
       asin,
-      affiliateUrl: buildAmazonUrl(asin),
+      affiliateUrl: buildAmazonUrl(asin, row.listPrice),
       bestFor: fixMojibake(row.bestFor || slotLabel),
       shortVerdict: fixMojibake(
         row.shortVerdict ||

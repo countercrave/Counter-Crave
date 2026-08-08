@@ -1,7 +1,7 @@
 "use client";
 
 import type { AnchorHTMLAttributes, ReactNode } from "react";
-import { buildAmazonProductUrl } from "@/lib/amazon";
+import { buildAmazonProductUrl, type AmazonMarketplace } from "@/lib/amazon";
 
 declare global {
   interface Window {
@@ -17,6 +17,9 @@ type AmazonLinkProps = Omit<
   pageId: string;
   productName: string;
   placement: string;
+  /** Prefer pre-built affiliate URL when marketplace differs (e.g. amazon.in). */
+  hrefOverride?: string;
+  marketplace?: AmazonMarketplace;
   children?: ReactNode;
 };
 
@@ -25,7 +28,9 @@ export function AmazonLink({
   pageId,
   productName,
   placement,
-  children = "Check price on Amazon",
+  hrefOverride,
+  marketplace = "com",
+  children = "Buy Now",
   className,
   onClick,
   ...props
@@ -33,7 +38,9 @@ export function AmazonLink({
   let href: string;
 
   try {
-    href = buildAmazonProductUrl(asin);
+    href =
+      hrefOverride?.trim() ||
+      buildAmazonProductUrl(asin, undefined, marketplace);
   } catch {
     return (
       <span className="button button-disabled" aria-disabled="true">

@@ -84,6 +84,8 @@ export type ContentPage = {
   heroImageAlt?: string | null;
   draft: boolean;
   noindex: boolean;
+  /** Ads / landing-page CRO mode: stronger Buy Now hierarchy. */
+  croOptimized?: boolean;
 };
 
 export type ProductLink = {

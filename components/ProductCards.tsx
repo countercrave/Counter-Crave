@@ -232,9 +232,10 @@ function DetailedProductCard({
           pageId={pageId}
           productName={name}
           placement={`detail-${product.slotId}`}
+          hrefOverride={product.affiliateUrl}
           className="button button-primary listicle-amazon-button"
         >
-          Buy on Amazon
+          Buy Now
         </AmazonLink>
         {score != null ? (
           <div
@@ -454,9 +455,10 @@ export function ProductCards({
                     pageId={pageId}
                     productName={name}
                     placement={`top-${product.slotId}`}
+                    hrefOverride={product.affiliateUrl}
                     className="button button-primary top-pick-card-cta"
                   >
-                    Buy on Amazon
+                    Buy Now
                   </AmazonLink>
                   <a href={`#${product.slotId}`} className="top-pick-card-link">
                     Full review

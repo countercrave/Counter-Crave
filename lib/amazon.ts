@@ -10,14 +10,23 @@ export function normalizeAsin(asin: string): string {
   return normalized;
 }
 
+export type AmazonMarketplace = "com" | "in";
+
+export function detectMarketplaceFromPrice(listPrice?: string): AmazonMarketplace {
+  return /₹|rs\.?|inr/i.test(String(listPrice || "")) ? "in" : "com";
+}
+
 export function buildAmazonProductUrl(
   asin: string,
   associateTag = siteConfig.amazonAssociateTag,
+  marketplace: AmazonMarketplace = "com",
 ): string {
   const normalizedAsin = normalizeAsin(asin);
-  const url = new URL(
-    `https://www.amazon.com/dp/${normalizedAsin}/ref=nosim`,
-  );
-  url.searchParams.set("tag", associateTag);
+  const host =
+    marketplace === "in" ? "https://www.amazon.in" : "https://www.amazon.com";
+  const url = new URL(`${host}/dp/${normalizedAsin}/ref=nosim`);
+  if (associateTag) {
+    url.searchParams.set("tag", associateTag);
+  }
   return url.toString();
 }

@@ -90,8 +90,17 @@
       "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
     }
   ],
-  "productPageIds": ["AF-R22"],
-  "relatedPageIds": ["AF-PIL", "AF-R11", "AF-R07", "AF-R01", "AF-C01", "AF-HUB"],
+  "productPageIds": [
+    "AF-R22"
+  ],
+  "relatedPageIds": [
+    "AF-PIL",
+    "AF-R11",
+    "AF-R07",
+    "AF-R01",
+    "AF-C01",
+    "AF-HUB"
+  ],
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-26",
