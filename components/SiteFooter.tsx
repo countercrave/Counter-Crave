@@ -7,7 +7,17 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="container footer-top">
         <div className="footer-brand">
-          <strong>CounterCrave</strong>
+          <div className="footer-logo-row">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.png"
+              alt="CounterCrave Logo"
+              className="footer-logo-img"
+              width={40}
+              height={40}
+            />
+            <strong>CounterCrave</strong>
+          </div>
           <p>
             Clean, practical buying guides for countertop kitchen appliances —
             clear trade-offs, disclosed Amazon links, and use-case fit first.

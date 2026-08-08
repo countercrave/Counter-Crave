@@ -7,9 +7,14 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="container header-inner">
         <Link className="brand" href="/" aria-label="CounterCrave home">
-          <span className="brand-mark" aria-hidden="true">
-            C
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.png"
+            alt="CounterCrave Logo"
+            className="brand-logo-img"
+            width={38}
+            height={38}
+          />
           <span>
             <strong>CounterCrave</strong>
             <small>Smart kitchen buying guides</small>

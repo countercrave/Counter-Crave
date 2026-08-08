@@ -23,6 +23,14 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     url: siteConfig.siteUrl,
   },
+  icons: {
+    icon: [
+      { url: "/logo.png", type: "image/png" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/logo.png",
+    apple: "/apple-icon.png",
+  },
   robots: siteConfig.allowIndexing
     ? { index: true, follow: true }
     : { index: false, follow: false, nocache: true },
