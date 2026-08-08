@@ -208,7 +208,7 @@ const CATALOG = {
   },
   B0C33CHG99: {
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0C33CHG99.01._SX450_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0C33CHG99.01._SL1500_.jpg",
     bestFor: "Everyday households wanting a roomy single basket",
     shortVerdict: "Strong all-rounder when capacity and cleanup matter more than dual zones.",
     score: 9.2,
@@ -832,6 +832,15 @@ const TO_R06 = [
   "B08759QVN8",
 ];
 
+const AF_R31 = [
+  "B0C33CHG99",
+  "B0CS3V8M9H",
+  "B0C5JHKGFP",
+  "B096N3FTZP",
+  "B0BD4BYR11",
+  "B0CDY277D3",
+];
+
 const AF_R27 = [
   "B0B15Q3HCQ",
   "B096X9LGJ1",
@@ -855,6 +864,7 @@ const PAGE_OVERRIDES = {
   "AF-R20": ACC,
   "TO-R06": TO_R06,
   "AF-R27": AF_R27,
+  "AF-R31": AF_R31,
 };
 
 function uniqueFirst(list, count) {

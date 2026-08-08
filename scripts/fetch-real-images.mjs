@@ -3,19 +3,12 @@ import path from "node:path";
 import https from "node:https";
 
 const asins = [
-  { asin: "B01N5UPTZS", name: "Breville Smart Oven Air Fryer Pro" },
-  { asin: "B08BXX69K4", name: "Ninja Foodi 10-in-1 XL Pro" },
-  { asin: "B01K0W8LTE", name: "Cuisinart AirFryer Toaster Oven" },
-  { asin: "B0895GS9NW", name: "COSORI 13-in-1 Combo 32QT" },
-  { asin: "B07SCGY2H6", name: "Ninja Foodi Digital Air Fry Oven" },
-  { asin: "B0CLTK2JF8", name: "Our Place Wonder Oven" },
-  { asin: "B08759QVN8", name: "Hamilton Beach Sure-Crisp" },
-  { asin: "B0B15Q3HCQ", name: "Ninja Foodi DZ550 10-Qt" },
-  { asin: "B096X9LGJ1", name: "Ninja Foodi DZ401 10-Qt" },
-  { asin: "B0CZS6SS3Y", name: "Ninja DoubleStack XL SL401" },
-  { asin: "B0CKP6Y6KB", name: "Typhur Dome 2 AI Smart Air Fryer" },
-  { asin: "B096MZHB7K", name: "Instant Vortex Plus XL 8-Qt" },
-  { asin: "B08DKYBTPH", name: "Chefman TurboFry 8-Qt" },
+  { asin: "B0C33CHG99", name: "COSORI TurboBlaze 6-Qt" },
+  { asin: "B0CS3V8M9H", name: "Ninja Air Fryer Pro XL AF181" },
+  { asin: "B0C5JHKGFP", name: "Dreo ChefMaker Combi Fryer" },
+  { asin: "B096N3FTZP", name: "Instant Vortex Plus 6-Qt ClearCook" },
+  { asin: "B0BD4BYR11", name: "COSORI Pro Gen 2 5.8-Qt" },
+  { asin: "B0CDY277D3", name: "Chefman 6-Qt Dual Basket" },
 ];
 
 function checkUrl(url) {
