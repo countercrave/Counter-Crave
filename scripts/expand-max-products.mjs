@@ -37,7 +37,99 @@ const TARGET_PRODUCTS = 20;
 
 /** @type {Record<string, object>} */
 const CATALOG = {
+  B01N5UPTZS: {
+    name: "Breville Smart Oven Air Fryer Pro (BOV900BSS)",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/81PjT3R65oL._AC_SL1500_.jpg",
+    bestFor: "Best overall wall oven replacement",
+    shortVerdict: "Element iQ heating, 13 cooking functions, and 1 cubic foot capacity let it replace a wall oven, toaster, and air fryer in one.",
+    score: 9.6,
+    keySpecs: ["1 cu ft capacity", "1800W super convection", "13 cooking functions", "5 quartz heating elements"],
+    pros: ["13 functions incl. dehydrate, slow cook, proof", "Huge interior fits 9x13 pan or 14 lb turkey", "Precise PID temperature control, no cold spots", "Bright LCD screen and interior light"],
+    cons: ["Premium price point", "Exterior gets hot during high-temp roasting", "Heavy 38.9 lb footprint"],
+    buyIf: "You cook whole family meals, bake daily, and want a full wall-oven replacement.",
+    skipIf: "Counter space or budget is strictly limited.",
+  },
+  B08BXX69K4: {
+    name: "Ninja Foodi 10-in-1 XL Pro Air Fry Oven (DT201)",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/81-k5C1nFwL._AC_SL1500_.jpg",
+    bestFor: "Families & 2-level batch cooking",
+    shortVerdict: "True Surround Convection cooks on 2 rack levels simultaneously without needing to rotate pans.",
+    score: 9.3,
+    keySpecs: ["2-level cooking", "1800W True Surround", "10 cooking functions", "90-sec preheat"],
+    pros: ["2-level even cooking without rotating pans", "Fast 90-second preheat for quick dinners", "Excellent toast and air fry crisping", "Illuminated handle display shows rack positions"],
+    cons: ["Large counter footprint", "Exterior runs hot and fan noise is audible"],
+    buyIf: "You regularly cook for 4+ people or make mains and sides together.",
+    skipIf: "Counter space is tight.",
+  },
+  B01K0W8LTE: {
+    name: "Cuisinart AirFryer Toaster Oven (TOA-60)",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/71p0WfC-HLL._AC_SL1500_.jpg",
+    bestFor: "Simple everyday use without digital menus",
+    shortVerdict: "Classic 1800W workhorse with 3 simple dials for quick toast, bake, broil, and air frying.",
+    score: 8.9,
+    keySpecs: ["0.6 cu ft capacity", "1800W power", "7 functions", "60-min timer with auto-off"],
+    pros: ["Dead-simple intuitive dial controls", "Strong 1800W air frying for its size", "Quiet operation with interior light", "Proven track record and easy cleanup"],
+    cons: ["Analog dials are less precise than digital screens", "No digital presets or dehydrate mode"],
+    buyIf: "You want simple dial controls and straightforward daily air frying.",
+    skipIf: "You prefer precise digital temp settings and specialized presets.",
+  },
+  B0895GS9NW: {
+    name: "COSORI 13-in-1 Air Fryer Toaster Oven Combo 32QT (CS130-AO)",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/81R4n91u1dL._AC_SL1500_.jpg",
+    bestFor: "Smart features, app control & rotisserie",
+    shortVerdict: "Feature-packed 32QT combo with true rotisserie spit, dehydrator, and VeSync app smart recipes.",
+    score: 9.1,
+    keySpecs: ["32 QT capacity", "1800W power", "13 functions + rotisserie", "80°F–450°F range"],
+    pros: ["Includes rotisserie spit set & dehydrate mode", "App & voice control with 100+ guided recipes", "Very wide 80°F to 450°F temp range", "Exceptional feature set per dollar"],
+    cons: ["Large 32-quart exterior takes up significant counter depth", "App features require setup"],
+    buyIf: "You want a rotisserie spit, dehydrator, and smart app control.",
+    skipIf: "You have a compact kitchen counter.",
+  },
+  B07SCGY2H6: {
+    name: "Ninja Foodi Digital Air Fry Oven (SP101)",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/710l9C3K1EL._AC_SL1500_.jpg",
+    bestFor: "Small kitchens needing flip-away storage",
+    shortVerdict: "Flips up against your backsplash after cooking to reclaim 50% counter space.",
+    score: 8.8,
+    keySpecs: ["Flip-away storage design", "1800W power", "8 functions", "60-sec preheat"],
+    pros: ["Flips upright to save ~50% counter space", "Ultra-fast 60-second preheat", "Removable back panel for deep cleaning", "Fits 13-inch pizza or sheet-pan meal"],
+    cons: ["Low interior clearance limits tall roasts or whole chickens", "No interior light"],
+    buyIf: "Counter space is tight and you want a wide sheet-pan air fryer that flips out of the way.",
+    skipIf: "You regularly roast tall whole chickens or thick roasts.",
+  },
+  B0CLTK2JF8: {
+    name: "Our Place Wonder Oven",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/61K56z-qEGL._AC_SL1500_.jpg",
+    bestFor: "Style-conscious buyers & couples",
+    shortVerdict: "Compact 6-in-1 oven with steam infusion technology to keep bread and leftovers moist.",
+    score: 8.6,
+    keySpecs: ["13 QT capacity", "6 functions + steam infusion", "PFAS-free nonstick", "Compact 11.6\" footprint"],
+    pros: ["Stunning compact design in modern colors", "Steam infusion prevents dry reheats", "Quick preheat & toxin-free materials", "Great for couples and small kitchens"],
+    cons: ["Small capacity not meant for families", "Analog dials lack digital precision"],
+    buyIf: "You want a stylish compact oven for 1–2 people with steam infusion.",
+    skipIf: "You need to cook large family-sized batches.",
+  },
+  B08759QVN8: {
+    name: "Hamilton Beach Sure-Crisp Air Fryer Toaster Oven (31413)",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/81eGgE4mI4L._AC_SL1500_.jpg",
+    bestFor: "Best budget pick under $100",
+    shortVerdict: "Covers air frying, toasting, baking, and broiling at an unbeatable sub-$100 price point.",
+    score: 8.2,
+    keySpecs: ["6-slice / 12\" pizza capacity", "4 cooking functions", "200°F–450°F range", "Includes air fry basket"],
+    pros: ["Unbeatable value under $100", "All accessories included (mesh basket, bake pan, rack)", "Fits a 12-inch pizza or 5 lb chicken", "Simple reliable operation"],
+    cons: ["Air frying takes slightly longer than high-end units", "No digital screen"],
+    buyIf: "You want a reliable air fryer toaster oven on a strict budget.",
+    skipIf: "You want ultra-fast multi-level convection or digital presets.",
+  },
   B0C33CHG99: {
+    name: "COSORI TurboBlaze 6-Qt Air Fryer",
     name: "COSORI TurboBlaze 6-Qt Air Fryer",
     cluster: "Air Fryers",
     imageUrl: "https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_SL1500_.jpg",
@@ -654,6 +746,16 @@ const ACC = [
   "B0C6Y8NYK1",
 ];
 
+const TO_R06 = [
+  "B01N5UPTZS",
+  "B08BXX69K4",
+  "B01K0W8LTE",
+  "B0895GS9NW",
+  "B07SCGY2H6",
+  "B0CLTK2JF8",
+  "B08759QVN8",
+];
+
 const PAGE_OVERRIDES = {
   "BL-R01": BL,
   "BL-PIL": BL,
@@ -665,6 +767,7 @@ const PAGE_OVERRIDES = {
   "AF-PIL": AF,
   "AF-C01": AF,
   "AF-R20": ACC,
+  "TO-R06": TO_R06,
 };
 
 function uniqueFirst(list, count) {
@@ -880,24 +983,6 @@ function enrichArticleContent() {
 
     page.summary = `Quick verdict for ${page.primaryKeyword || page.title}: start with ${named[0] || "our best overall pick"} if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy itâ€”and who should skip it. Confirm current Amazon details before checkout.`;
 
-    const detailSections = asins.slice(0, TARGET_PRODUCTS).map((asin, index) => {
-      const meta = CATALOG[asin];
-      const label = ROUNDUP_SLOTS[index]?.[1] || `Pick ${index + 1}`;
-      return {
-        heading: `${index + 1}. ${label}: ${meta.name}`,
-        level: 2,
-        brief: "",
-        paragraphs: [
-          meta.shortVerdict,
-          `Best for: ${meta.bestFor}`,
-          `Buy if: ${meta.buyIf}`,
-          `Skip if: ${meta.skipIf}`,
-        ],
-        bullets: [
-          ...(meta.pros || []).map((item) => `Pro: ${item}`),
-          ...(meta.cons || []).map((item) => `Con: ${item}`),
-          ...(meta.keySpecs || []).map((item) => `Spec: ${item}`),
-        ],
     const lead = (page.sections || []).filter(
       (section) =>
         /how we|method|criteria|quick pick|comparison|who should|final|faq|verdict/i.test(

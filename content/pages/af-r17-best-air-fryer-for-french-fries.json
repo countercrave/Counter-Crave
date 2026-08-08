@@ -26,8 +26,22 @@
   "requiredTables": "Decision criteria; product shortlist",
   "ctaGuidance": "Disclosure → Amazon price check",
   "faqGuidance": "4–6 practical FAQs",
-  "summary": "For crispy air fryer french fries, prioritize strong airflow, a basket you can shake mid-cook, and enough space so fries are not piled wet. We ranked Cosori TurboBlaze and Pro LE, Chefman Hi-Fry XL, Ninja DualZone and Pro, Gourmia FryForce, Instant Vortex, and larger family baskets near the top of their fit. Use Check Price to confirm today’s Amazon details before buying.",
+  "summary": "Quick verdict for best air fryer french fries: start with COSORI TurboBlaze 6-Qt Air Fryer if it matches your kitchen fit, then compare the runner-up and specialty picks below. Every product is labeled for who should buy itâ€”and who should skip it. Confirm current Amazon details before checkout.",
   "sections": [
+    {
+      "heading": "Top picks at a glance",
+      "level": 2,
+      "paragraphs": [
+        "We keep the best overall and runner-up near the top so you can decide quickly, then expand into specialty winnersâ€”best value, compact, family, easy-clean, and moreâ€”so every useful use case still has a pick.",
+        "Use the comparison table and detailed product cards for Amazon availability. Specs and bundles can change by listing, so verify before buying."
+      ],
+      "bullets": [
+        "Best overall: COSORI TurboBlaze 6-Qt Air Fryer",
+        "Runner-up: Ninja Foodi DZ201 DualZone 8-Qt",
+        "Best value: Ninja Air Fryer Pro 5-Qt (AF141)",
+        "Best premium: Chefman TurboFry 8-Qt Air Fryer"
+      ]
+    },
     {
       "heading": "Who should buy and who should skip",
       "level": 2,
@@ -42,19 +56,6 @@
       ]
     },
     {
-      "heading": "What matters for air fryer french fries",
-      "level": 2,
-      "paragraphs": [
-        "Fries need hot moving air and room to dry out. Overcrowding steams them soft; shaking or tossing halfway helps browning.",
-        "Frozen fries are the easiest starting point. Fresh-cut fries usually need a light oil toss and a bit more attention to timing."
-      ],
-      "bullets": [
-        "Cook in a single layer when possible",
-        "Shake the basket halfway through",
-        "Salt after cooking for better crunch"
-      ]
-    },
-    {
       "heading": "How we ranked the products",
       "level": 2,
       "paragraphs": [
@@ -66,28 +67,37 @@
         "Medium and family batch sizes next",
         "Mini and oven-style units for specialty fits"
       ]
+    },
+    {
+      "heading": "How to choose without overbuying",
+      "level": 2,
+      "paragraphs": [
+        "Match capacity and format to your real weekly cooking first. A compact personal blender beats a large pitcher you never leave on the counter, and a dual-zone air fryer only pays off if you cook two foods together often.",
+        "When two models look similar, prefer the one with clearer cleanup and a footprint you can live with. Then use the Amazon buttons at the end of this guide to compare today's availability."
+      ],
+      "bullets": [
+        "1â€“2 people / small counters â†’ compact or personal formats",
+        "Families / batch cooking â†’ larger pitchers or dual-zone baskets",
+        "Ice / frozen fruit daily â†’ prioritize crushing power over extras"
+      ]
     }
   ],
   "faqs": [
     {
-      "question": "What size air fryer is best for french fries?",
-      "answer": "A 5–6 qt basket handles most weeknight fry portions. Choose 8 qt or DualZone models for family batches so fries are not stacked."
+      "question": "What is the best best air fryer french fries overall?",
+      "answer": "COSORI TurboBlaze 6-Qt Air Fryer is the best overall starting point for most kitchens, but specialty winners may fit you better if you need compact size, dual cooking, or personal cups."
     },
     {
-      "question": "How do I get crispy air fryer fries?",
-      "answer": "Avoid overcrowding, shake halfway, and use a light oil coating for fresh-cut fries. Frozen fries usually crisp well with less oil."
+      "question": "Why list so many products instead of only three?",
+      "answer": "Different shoppers win with different constraintsâ€”budget, footprint, batch size, cleanup, and specialty use cases. A longer labeled list converts better than forcing one product on everyone."
     },
     {
-      "question": "Are dual baskets better for fries?",
-      "answer": "They help when you want two batch sizes, staggered timing, or fries plus another food. A strong single basket is simpler for one fry batch."
+      "question": "Do you show live prices?",
+      "answer": "No. Prices change often on Amazon, so we use Check today's price CTAs instead of embedding stale numbers."
     },
     {
-      "question": "Can I cook fresh-cut and frozen fries the same way?",
-      "answer": "Frozen fries are more forgiving. Fresh-cut fries often need drying, a light oil toss, and slightly adjusted time and temperature."
-    },
-    {
-      "question": "Are prices and ratings live?",
-      "answer": "Prices and ratings shown on cards can change. Confirm today’s offer on Amazon with Check Price."
+      "question": "How should I use the pros and cons?",
+      "answer": "Read best-for, buy-if, and skip-if first. Pros/cons explain the trade-off after you confirm the product matches your kitchen."
     }
   ],
   "productPageIds": [
@@ -103,7 +113,7 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-26",
-  "updatedAt": "2026-07-26",
+  "updatedAt": "2026-08-08",
   "heroImage": "/images/heroes/best-air-fryer-for-french-fries.png",
   "heroImageAlt": "Best Air Fryer French Fries — crispy golden fries with an air fryer and ketchup",
   "draft": false,
