@@ -1,3 +1,5 @@
+"use client";
+
 type ProductImageProps = {
   src?: string;
   alt: string;
