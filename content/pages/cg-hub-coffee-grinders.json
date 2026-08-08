@@ -121,6 +121,6 @@
   "updatedAt": "2026-07-24",
   "heroImage": "/images/heroes/coffee-grinders.jpg",
   "heroImageAlt": "Best coffee grinders for espresso and drip coffee",
-  "draft": true,
+  "draft": false,
   "noindex": false
 }

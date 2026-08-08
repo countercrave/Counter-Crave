@@ -1817,11 +1817,48 @@ tbody th {
 }
 
 /* Homepage Category & Featured Article Grids */
+/* Category & Article Visual Grid System */
+.cluster-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .cluster-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cluster-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cluster-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--paper);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cluster-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
 .category-card-image-wrapper {
   position: relative;
   width: 100%;
   aspect-ratio: 16 / 9;
   overflow: hidden;
+  background: var(--surface);
   border-top-left-radius: var(--radius-sm);
   border-top-right-radius: var(--radius-sm);
 }
@@ -1842,13 +1879,50 @@ tbody th {
 
 .cluster-card-copy {
   padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cluster-card-copy h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.cluster-card-copy h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.cluster-card-copy h3 a:hover {
+  color: var(--brand);
+}
+
+.cluster-card-copy p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.45;
+  margin-bottom: 1rem;
+  flex: 1;
 }
 
 .homepage-guides-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
   margin-top: 1.5rem;
+}
+
+@media (max-width: 992px) {
+  .homepage-guides-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .homepage-guides-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .homepage-guide-card {
