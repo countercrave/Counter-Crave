@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Expand every commercial page to 12 detailed product slots (V2 model)
  * with unique best-for / pros / cons / who-should-buy editorial fields.
  */
@@ -898,9 +898,6 @@ function enrichArticleContent() {
           ...(meta.cons || []).map((item) => `Con: ${item}`),
           ...(meta.keySpecs || []).map((item) => `Spec: ${item}`),
         ],
-      };
-    });
-
     const lead = (page.sections || []).filter(
       (section) =>
         /how we|method|criteria|quick pick|comparison|who should|final|faq|verdict/i.test(
@@ -919,15 +916,6 @@ function enrichArticleContent() {
         bullets: named.map((name, index) => `${ROUNDUP_SLOTS[index][1]}: ${name}`),
       },
       ...lead.slice(0, 3),
-      {
-        heading: "Detailed picks: who each product is for",
-        level: 2,
-        paragraphs: [
-          `The ranked list below is not twelve copies of the same recommendation. Each slot wins for a specific shopper needâ€”budget, footprint, batch size, cleanup, or specialty texture.`,
-        ],
-        bullets: [],
-      },
-      ...detailSections,
       {
         heading: "How to choose without overbuying",
         level: 2,
