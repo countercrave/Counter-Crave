@@ -128,9 +128,85 @@ const CATALOG = {
     buyIf: "You want a reliable air fryer toaster oven on a strict budget.",
     skipIf: "You want ultra-fast multi-level convection or digital presets.",
   },
+  B0B15Q3HCQ: {
+    name: "Ninja Foodi DZ550 10-Qt DualZone Smart XL Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "https://m.media-amazon.com/images/I/81k3b-c2v7L._AC_SL1500_.jpg",
+    bestFor: "Best overall for family meals with smart thermometer",
+    shortVerdict: "Two 5-quart independent baskets with Smart Finish and Foodi Smart Thermometer for automatic doneness.",
+    score: 9.5,
+    keySpecs: ["10 qt total", "2 x 5 qt baskets", "Smart Cook thermometer", "Match Cook & IQ Boost"],
+    pros: ["Smart thermometer stops cooking automatically at target temp", "Two independent 5 qt baskets finish main and side together", "True 10-quart family capacity fits 6 lb chicken", "Dishwasher-safe nonstick crisper plates"],
+    cons: ["Wide footprint takes up counter space", "Deep baskets benefit from mid-cook shaking"],
+    buyIf: "You cook whole family meals, proteins, and sides simultaneously.",
+    skipIf: "You have a narrow or crowded countertop.",
+  },
+  B096X9LGJ1: {
+    name: "Ninja Foodi DZ401 10-Qt DualZone XL 2-Basket Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "https://m.media-amazon.com/images/I/81vJ6C03X0L._AC_SL1500_.jpg",
+    bestFor: "Best value 10-quart dual zone air fryer",
+    shortVerdict: "Same 10-quart dual zone performance as the top pick minus the built-in thermometer for less money.",
+    score: 9.3,
+    keySpecs: ["10 qt total", "2 x 5 qt baskets", "6 cooking functions", "IQ Boost power sharing"],
+    pros: ["Top-tier dual basket performance for less money", "Smart Finish syncs main and side finish times", "PFAS-free nonstick coating & easy cleanup", "Over 10,000 top-rated Amazon reviews"],
+    cons: ["No built-in meat probe", "Wide 2-basket footprint"],
+    buyIf: "You want a 10-quart dual basket air fryer for family dinners at a lower price point.",
+    skipIf: "You want an integrated smart probe.",
+  },
+  B0CZS6SS3Y: {
+    name: "Ninja DoubleStack XL SL401 10-Qt Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "https://m.media-amazon.com/images/I/81E1w3z-zNL._AC_SL1500_.jpg",
+    bestFor: "Small counter space with 10-quart capacity",
+    shortVerdict: "Stacked 2-basket design saves 40% counter width while cooking up to 4 foods at once.",
+    score: 9.1,
+    keySpecs: ["10 qt total", "2 stacked 5 qt baskets", "Meal racks included", "40% slimmer footprint"],
+    pros: ["Half the counter width of side-by-side dual basket fryers", "Removable racks let you cook up to 4 foods simultaneously", "Fits under standard upper kitchen cabinets", "Holds a 5 lb whole chicken"],
+    cons: ["Tall build requires upper cabinet clearance check", "Top and bottom baskets brown slightly differently"],
+    buyIf: "Counter space is tight but you still need 10-quart dual-zone cooking.",
+    skipIf: "You have low-hanging upper cabinets.",
+  },
+  B0CKP6Y6KB: {
+    name: "Typhur Dome 2 AI Smart Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "https://m.media-amazon.com/images/I/71Yf21p+m5L._AC_SL1500_.jpg",
+    bestFor: "Best premium single-layer air frying",
+    shortVerdict: "Flat wide dome chamber fits a 12-inch pizza or 6 steaks in a single crisping layer with dual heating elements.",
+    score: 9.4,
+    keySpecs: ["Flat 12\" pizza capacity", "Dual top & bottom heat", "Self-cleaning mode", "Whisper-quiet fan"],
+    pros: ["Flat single-layer chamber crisps evenly without flipping", "Fits a full 12-inch pizza or 6 steaks flat", "Self-cleaning cycle & whisper-quiet operation", "PFAS-free ceramic cooking surface"],
+    cons: ["Premium price tag", "Wide low footprint requires deep counter space"],
+    buyIf: "You want ultra-even single-layer crisping, 12-inch pizza fit, and self-cleaning.",
+    skipIf: "You are on a tight budget.",
+  },
+  B096MZHB7K: {
+    name: "Instant Vortex Plus XL 8-Qt ClearCook Dual Basket Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "https://m.media-amazon.com/images/I/81jP+pCgEEL._AC_SL1500_.jpg",
+    bestFor: "Best value 8-quart dual basket with windows",
+    shortVerdict: "ClearCook see-through windows and interior lights let you monitor cooking without opening drawers.",
+    score: 9.0,
+    keySpecs: ["8 qt total", "2 x 4 qt drawers", "ClearCook windows", "SyncCook & SyncFinish"],
+    pros: ["See-through windows with interior lights to monitor browning", "SyncFinish lands two different foods at the same time", "EvenCrisp airflow for 95% less oil", "Frequent sales under $150"],
+    cons: ["4-quart drawers are smaller than Ninja 5-quart baskets", "No smart probe"],
+    buyIf: "You want a dual basket air fryer with viewing windows for under $150.",
+    skipIf: "You need 5-quart capacity per drawer for large roasts.",
+  },
+  B08DKYBTPH: {
+    name: "Chefman TurboFry 8-Qt Air Fryer",
+    cluster: "Air Fryers",
+    imageUrl: "https://m.media-amazon.com/images/I/71z1H-t5fBL._AC_SL1500_.jpg",
+    bestFor: "Best budget 8-quart XL air fryer",
+    shortVerdict: "Big 8-quart XL single basket with Hi-Fry 450°F crisp boost at an aggressive sub-$90 price.",
+    score: 8.5,
+    keySpecs: ["8 qt XL basket", "4 cooking functions", "Hi-Fry 450°F boost", "Dishwasher-safe nonstick"],
+    pros: ["Generous 8-quart capacity for under $90", "Hi-Fry 450°F finish mode for extra crispiness", "Frozen mode defrosts then crisps", "Dishwasher-safe nonstick basket"],
+    cons: ["Basic 4 functions without digital presets", "No viewing window"],
+    buyIf: "You want a large 8-quart air fryer on a strict budget.",
+    skipIf: "You want dual baskets or advanced digital presets.",
+  },
   B0C33CHG99: {
-    name: "COSORI TurboBlaze 6-Qt Air Fryer",
-    name: "COSORI TurboBlaze 6-Qt Air Fryer",
     cluster: "Air Fryers",
     imageUrl: "https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_SL1500_.jpg",
     bestFor: "Everyday households wanting a roomy single basket",
@@ -756,6 +832,16 @@ const TO_R06 = [
   "B08759QVN8",
 ];
 
+const AF_R27 = [
+  "B0B15Q3HCQ",
+  "B096X9LGJ1",
+  "B0CZS6SS3Y",
+  "B0CKP6Y6KB",
+  "B096MZHB7K",
+  "B0C33CHG99",
+  "B08DKYBTPH",
+];
+
 const PAGE_OVERRIDES = {
   "BL-R01": BL,
   "BL-PIL": BL,
@@ -768,6 +854,7 @@ const PAGE_OVERRIDES = {
   "AF-C01": AF,
   "AF-R20": ACC,
   "TO-R06": TO_R06,
+  "AF-R27": AF_R27,
 };
 
 function uniqueFirst(list, count) {
@@ -900,8 +987,15 @@ function expandCsv() {
     const pageTitle = pageRows[0]?.pageTitle || "";
     if (!commercial.has(pageType)) continue;
 
+    const overrideList = PAGE_OVERRIDES[pageId];
+    const targetCount = overrideList ? overrideList.length : TARGET_PRODUCTS;
     const asins = poolForPage(pageId, pageTitle, pageType);
-    while (pageRows.length < TARGET_PRODUCTS) {
+
+    if (pageRows.length > targetCount) {
+      pageRows.length = targetCount;
+    }
+
+    while (pageRows.length < targetCount) {
       const index = pageRows.length;
       const [slotId, slotLabel] = ROUNDUP_SLOTS[index] || [
         `rank-${index + 1}`,
@@ -933,11 +1027,7 @@ function expandCsv() {
       });
     }
 
-    if (pageRows.length > TARGET_PRODUCTS) {
-      pageRows.length = TARGET_PRODUCTS;
-    }
-
-    for (let i = 0; i < TARGET_PRODUCTS; i += 1) {
+    for (let i = 0; i < targetCount; i += 1) {
       const [slotId, slotLabel] = ROUNDUP_SLOTS[i] || [
         pageRows[i].slotId,
         pageRows[i].slotLabel,

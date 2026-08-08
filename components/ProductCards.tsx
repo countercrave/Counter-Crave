@@ -414,9 +414,6 @@ export function ProductCards({
                   {bestFor ? (
                     <p className="top-pick-card-bestfor">{bestFor}</p>
                   ) : null}
-                  {listPrice ? (
-                    <p className="top-pick-card-price">{listPrice}</p>
-                  ) : null}
                 </div>
 
                 <div className="top-pick-card-actions">
