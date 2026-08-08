@@ -262,37 +262,7 @@ function DetailedProductCard({
         ) : null}
       </div>
 
-      {hasMarketplaceSnapshot ? (
-        <div className="product-market-snapshot">
-          {listPrice ? (
-            <div className="product-market-stat">
-              <span className="product-market-label">Price</span>
-              <span className="product-market-value">{listPrice}</span>
-            </div>
-          ) : null}
-          {amazonRating ? (
-            <div className="product-market-stat">
-              <span className="product-market-label">Amazon rating</span>
-              <span className="product-market-value">
-                <span className="product-market-stars" aria-hidden="true">
-                  ★
-                </span>
-                {amazonRating}
-                <span className="product-market-out-of">/5</span>
-              </span>
-            </div>
-          ) : null}
-          {ratingCount ? (
-            <div className="product-market-stat">
-              <span className="product-market-label">Reviews</span>
-              <span className="product-market-value">{ratingCount}</span>
-            </div>
-          ) : null}
-          <p className="product-market-note">
-            Prices and ratings can change — check Amazon for today&apos;s offer.
-          </p>
-        </div>
-      ) : null}
+
 
       {product.keySpecs?.length ? <SpecTable specs={product.keySpecs} /> : null}
 

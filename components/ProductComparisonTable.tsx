@@ -28,7 +28,7 @@ export function ProductComparisonTable({
               <th scope="col">Best for</th>
               <th scope="col">Score</th>
               <th scope="col">Key details</th>
-              <th scope="col">Price</th>
+              <th scope="col">Amazon Link</th>
             </tr>
           </thead>
           <tbody>

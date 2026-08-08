@@ -2,8 +2,8 @@ const configuredSiteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
   "https://countercrave.com";
 
-/** Sitewide indexing enabled for production. */
-const allowIndexing = process.env.ALLOW_INDEXING !== "false";
+/** Sitewide indexing enabled for production (dofollow & indexable). */
+const allowIndexing = true;
 
 export const siteConfig = {
   name: "CounterCrave",
