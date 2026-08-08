@@ -31,6 +31,9 @@ export const metadata: Metadata = {
     shortcut: "/logo.png",
     apple: "/apple-icon.png",
   },
+  verification: {
+    google: "_8MvCmYYFYlif4Q4XLs45uiEkbNeCbNjEc-b9g14xvY",
+  },
   robots: siteConfig.allowIndexing
     ? { index: true, follow: true }
     : { index: false, follow: false, nocache: true },

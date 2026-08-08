@@ -1,9 +1,9 @@
 const configuredSiteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://counter-crave.vercel.app";
+  "https://countercrave.com";
 
-/** Flip to true (or set ALLOW_INDEXING=true) when ready for Google/Bing. */
-const allowIndexing = process.env.ALLOW_INDEXING === "true";
+/** Sitewide indexing enabled for production. */
+const allowIndexing = process.env.ALLOW_INDEXING !== "false";
 
 export const siteConfig = {
   name: "CounterCrave",
@@ -16,6 +16,6 @@ export const siteConfig = {
   amazonAssociateTag:
     process.env.NEXT_PUBLIC_AMAZON_ASSOCIATE_TAG || "visitbest07-20",
   isPreview: process.env.VERCEL_ENV === "preview",
-  /** Sitewide noindex until explicitly enabled. */
+  /** Sitewide indexing enabled. */
   allowIndexing,
 } as const;
