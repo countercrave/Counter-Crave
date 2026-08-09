@@ -85,4 +85,11 @@ export const categoryHubs: CategoryHub[] = [
     description: "LiDAR mapping, anti-tangle brushes, pet hair and self-empty docks.",
     heroImage: "/images/heroes/robot-vacuums.jpg",
   },
+  {
+    name: "Handheld Vacuums",
+    slug: "handheld-vacuums",
+    short: "Handheld Vacuums",
+    description: "Lightweight cordless hand vacs for cars, stairs, pet hair, and quick spot cleanups.",
+    heroImage: "/images/heroes/handheld-vacuums.jpg",
+  },
 ];
