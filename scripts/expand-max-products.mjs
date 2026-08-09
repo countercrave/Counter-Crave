@@ -461,7 +461,7 @@ const CATALOG = {
   B01N1NTBJ8: {
     name: "NutriBullet Pro+ Personal Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01N1NTBJ8.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500_.jpg",
     bestFor: "Higher-power personal blending under a mid budget",
     shortVerdict: "Personal NutriBullet-style pick when you want more power than basic cups.",
     score: 8.4,
@@ -474,7 +474,7 @@ const CATALOG = {
   B07GZW9WXH: {
     name: "Oster Pro 1200 Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07GZW9WXH.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "Glass-jar blending with food-processor style extras",
     shortVerdict: "Glass jar blender option for shoppers who dislike plastic pitchers.",
     score: 8.2,
@@ -487,7 +487,7 @@ const CATALOG = {
   B07GZVZJ27: {
     name: "Oster Blender with Food Processor Attachment",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07GZVZJ27.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "Blending plus light chopping in one footprint",
     shortVerdict: "Hybrid pick when counter space is limited and you want blender + chopper utility.",
     score: 8.0,
@@ -500,7 +500,7 @@ const CATALOG = {
   B08MJ5K5L8: {
     name: "Ninja Personal Blender with Cups",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08MJ5K5L8.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500_.jpg",
     bestFor: "Ninja fans who mainly make to-go smoothies",
     shortVerdict: "Personal Ninja cup blender for quick single servings and travel lids.",
     score: 8.1,
@@ -526,7 +526,7 @@ const CATALOG = {
   B00M76N6TS: {
     name: "Hamilton Beach Wave Crusher Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B00M76N6TS.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "Budget ice drinks with a glass jar",
     shortVerdict: "Budget glass-jar blender aimed at icy drinks and basic smoothies.",
     score: 7.6,
@@ -539,7 +539,7 @@ const CATALOG = {
   B098RK8BL7: {
     name: "Ninja Foodi Smoothie Bowl Maker & Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B098RK8BL7.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500_.jpg",
     bestFor: "Thick smoothie bowls and spoonable blends",
     shortVerdict: "Specialist pick when thick bowls matter more than thin drinkable smoothies.",
     score: 8.3,
@@ -1018,7 +1018,7 @@ const CATALOG = {
   B0B7QVJK8Y: {
     name: "NutriBullet Combo Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0B7QVJK8Y.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500_.jpg",
     bestFor: "Personal cups plus a small pitcher in one system",
     shortVerdict: "Combo setup for shoppers who want both single-serve cups and a pitcher option.",
     score: 8.5,
@@ -1070,7 +1070,7 @@ const CATALOG = {
   B0B1M7WRQ4: {
     name: "Ninja Air Fryer Pro 4-in-1 (AF161)",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0B1M7WRQ4.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71UIRKGLtYL._AC_SL1500_.jpg",
     bestFor: "Mid-size Ninja kitchens wanting roast + air fry modes",
     shortVerdict: "Ninja mid-range air fryer option when AF141 feels too small.",
     score: 8.6,
@@ -1096,7 +1096,7 @@ const CATALOG = {
   B09MW1R6Y6: {
     name: "Ultrean Air Fryer 4.2-Qt",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B09MW1R6Y6.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500_.jpg",
     bestFor: "Ultra-budget compact kitchens",
     shortVerdict: "Smaller basket budget air fryer for light everyday use.",
     score: 7.5,
@@ -1174,7 +1174,7 @@ const CATALOG = {
   B08TR59W7Q: {
     name: "Compact Budget Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08TR59W7Q.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
     bestFor: "Dorms and tiny counters under a tight budget",
     shortVerdict: "Small-budget compact fryer for light snacks and reheating.",
     score: 7.3,
@@ -1187,7 +1187,7 @@ const CATALOG = {
   B09Y7B3J1N: {
     name: "Small Kitchen Compact Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B09Y7B3J1N.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500_.jpg",
     bestFor: "Apartment counters under 5 qt needs",
     shortVerdict: "Compact everyday fryer when 6â€“8 qt units will not fit.",
     score: 7.8,
@@ -1213,7 +1213,7 @@ const CATALOG = {
   B07VG5Z5ZQ: {
     name: "Essential Compact Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07VG5Z5ZQ.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500_.jpg",
     bestFor: "Simple weeknight reheating and fries",
     shortVerdict: "No-frills compact fryer for basic frozen foods.",
     score: 7.4,
@@ -1239,7 +1239,7 @@ const CATALOG = {
   B0B7KQ8M1N: {
     name: "Budget Crispy Snack Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0B7KQ8M1N.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
     bestFor: "Frozen snacks and quick sides",
     shortVerdict: "Budget snack-focused fryer for fries, nuggets, and reheating.",
     score: 7.6,
@@ -1252,7 +1252,7 @@ const CATALOG = {
   B008H4SLVX: {
     name: "Cuisinart SmartPower Classic Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B008H4SLVX.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "Classic branded countertop blending",
     shortVerdict: "Traditional countertop blender for everyday fruit drinks and light prep.",
     score: 7.9,
@@ -1265,7 +1265,7 @@ const CATALOG = {
   B00FFSO0FE: {
     name: "Oster Reverse Crush Counterforms Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B00FFSO0FE.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "All-metal drive shoppers who want durability cues",
     shortVerdict: "Oster countertop blender with durability-focused drive design cues.",
     score: 8.0,
@@ -1278,7 +1278,7 @@ const CATALOG = {
   B01H08Y7S2: {
     name: "Oster Professional Smoothie Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01H08Y7S2.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "Smoothie-focused Oster shoppers",
     shortVerdict: "Smoothie-oriented Oster blender alternative in the under-$100 conversation.",
     score: 8.1,

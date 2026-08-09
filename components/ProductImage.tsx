@@ -47,12 +47,12 @@ export function ProductImage({
 
           if (stage === 0 && activeAsin) {
             target.dataset.stage = "1";
-            target.src = `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${activeAsin}&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1`;
+            target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01.PT01._SL1500_.jpg`;
             return;
           }
           if (stage === 1 && activeAsin) {
             target.dataset.stage = "2";
-            target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01.PT01._SL1500_.jpg`;
+            target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01._SL1500_.jpg`;
             return;
           }
           if (stage < 3) {
@@ -74,13 +74,13 @@ export function ProductImage({
 
         if (stage === 0 && activeAsin) {
           target.dataset.stage = "1";
-          target.src = `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${activeAsin}&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1`;
+          target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01.PT01._SL1500_.jpg`;
           return;
         }
 
         if (stage === 1 && activeAsin) {
           target.dataset.stage = "2";
-          target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01.PT01._SL1500_.jpg`;
+          target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01._SL1500_.jpg`;
           return;
         }
 
