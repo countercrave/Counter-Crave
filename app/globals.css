@@ -1028,7 +1028,7 @@ code {
 
 .content-sidebar {
   position: sticky;
-  top: 105px;
+  top: 150px;
 }
 
 .toc {
@@ -1715,8 +1715,8 @@ tbody th {
 /* Sticky TOC & Active Scroll Spy - image-4 style with scroll when long */
 .sticky-toc {
   position: sticky;
-  top: 100px;
-  max-height: calc(100vh - 120px);
+  top: 150px;
+  max-height: calc(100vh - 170px);
   overflow-y: auto;
   overscroll-behavior: contain;
   padding-right: 0.35rem;

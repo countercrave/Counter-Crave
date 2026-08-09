@@ -1,0 +1,64 @@
+{
+  "pageId": "AP-HUB",
+  "title": "Air Purifiers Buying Guides",
+  "slug": "air-purifiers",
+  "canonicalPath": "/air-purifiers/",
+  "description": "Compare top air purifiers for allergies, pet dander, dust, smoke and large rooms with verified HEPA filter specs and live Amazon prices.",
+  "pageType": "Category Hub",
+  "priority": "P1",
+  "cluster": "Air Purifiers",
+  "parentPillar": null,
+  "primaryKeyword": "Air Purifiers",
+  "secondaryKeywords": [
+    "air purifier buying guide",
+    "best air purifiers for home",
+    "hepa air purifiers"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "MOFU",
+  "targetLength": "2,000–3,500",
+  "monetization": "High — product shortlists + Amazon CTAs",
+  "schemaRecommendation": "CollectionPage + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Room coverage, HEPA filter class, CADR ratings, sound levels.",
+  "answerBlockBrief": "Air purifier buying guide and category shortlist.",
+  "requiredTables": "Category overview",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "5 common questions on air purifiers",
+  "summary": "Compare top air purifiers for allergies, pet dander, dust, smoke and large rooms with verified HEPA filter specs and live Amazon prices.",
+  "sections": [
+    {
+      "heading": "Explore Air Purifier Guides",
+      "level": 2,
+      "paragraphs": [
+        "Find the right air purifier for your space, whether you need HEPA particle filtration for seasonal allergies, active carbon for smoke and odors, or automatic sensor controls for bedrooms and large living areas."
+      ],
+      "bullets": [
+        "Pollen & Allergies → <a href=\"/best-home-air-purifiers-for-allergies-and-dust/\">Best Home Air Purifiers for Allergies and Dust</a>"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the most important feature in an air purifier?",
+      "answer": "A high-efficiency True HEPA filter combined with sufficient airflow (CADR) for your room size is the most critical factor for particle removal."
+    },
+    {
+      "question": "How often should I replace air purifier filters?",
+      "answer": "Most manufacturers recommend replacing HEPA filters every 6 to 12 months, while washable pre-filters should be cleaned monthly."
+    }
+  ],
+  "productPageIds": [
+    "AP-R01"
+  ],
+  "relatedPageIds": [
+    "AP-R01"
+  ],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-08-09",
+  "updatedAt": "2026-08-09",
+  "heroImage": "/images/heroes/air-purifiers.jpg",
+  "heroImageAlt": "Air Purifiers Buying Guides — HEPA models for dust, allergies and smoke",
+  "draft": false,
+  "noindex": false
+}

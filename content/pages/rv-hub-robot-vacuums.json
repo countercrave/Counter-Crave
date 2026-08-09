@@ -1,0 +1,67 @@
+{
+  "pageId": "RV-HUB",
+  "title": "Robot Vacuums Buying Guides",
+  "slug": "robot-vacuums",
+  "canonicalPath": "/robot-vacuums/",
+  "description": "Compare top robot vacuums for pet hair, hard floors, under-furniture cleaning, and budget self-emptying docks.",
+  "pageType": "Category Hub",
+  "priority": "P1",
+  "cluster": "Robot Vacuums",
+  "parentPillar": null,
+  "primaryKeyword": "Robot Vacuums",
+  "secondaryKeywords": [
+    "robot vacuum buying guide",
+    "best robot vacuums for pet hair",
+    "robot vacuum under 500"
+  ],
+  "searchIntent": "Commercial Investigation",
+  "funnel": "MOFU",
+  "targetLength": "2,000–3,500",
+  "monetization": "High — product shortlists + Amazon CTAs",
+  "schemaRecommendation": "CollectionPage + ItemList + BreadcrumbList",
+  "evidenceRequirement": "Suction Pa, dock automation, obstacle avoidance AI, battery runtime.",
+  "answerBlockBrief": "Robot vacuum buying guide and category shortlists.",
+  "requiredTables": "Category overview",
+  "ctaGuidance": "Disclosure → Amazon price check",
+  "faqGuidance": "5 common questions on robot vacuums",
+  "summary": "Compare top robot vacuums for pet hair, hard floors, under-furniture cleaning, and budget self-emptying docks.",
+  "sections": [
+    {
+      "heading": "Explore Robot Vacuum Guides",
+      "level": 2,
+      "paragraphs": [
+        "Find the best robot vacuum for your home setup, whether you have shedding dogs, thick carpets, budget constraints, or low-clearance furniture."
+      ],
+      "bullets": [
+        "Pet Hair & Shedding → <a href=\"/best-robot-vacuum-for-pet-hair/\">Best Robot Vacuum for Pet Hair (8 Tested Picks)</a>",
+        "Under $500 Budget → <a href=\"/best-robot-vacuum-under-500/\">7 Best Robot Vacuums Under $500</a>"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are robot vacuums worth it for pet owners?",
+      "answer": "Yes, running a robot vacuum daily prevents pet hair and dander from building up and embedding into carpets."
+    },
+    {
+      "question": "Is LiDAR better than camera navigation for robot vacuums?",
+      "answer": "LiDAR offers faster, more accurate mapping in dark or lit rooms, while camera-based systems excel at object and pet waste recognition."
+    }
+  ],
+  "productPageIds": [
+    "RV-R01",
+    "RV-R02"
+  ],
+  "relatedPageIds": [
+    "RV-R01",
+    "RV-R02"
+  ],
+  "author": "Navjeet Kamboj",
+  "reviewer": null,
+  "publishedAt": "2026-08-09",
+  "updatedAt": "2026-08-09",
+  "heroImage": "/images/heroes/robot-vacuums.jpg",
+  "heroImageAlt": "Robot Vacuums Buying Guides — LiDAR, self-empty docks and pet hair models",
+  "draft": false,
+  "noindex": false
+}
