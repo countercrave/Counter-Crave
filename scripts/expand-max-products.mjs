@@ -284,6 +284,58 @@ const CATALOG = {
     buyIf: "You cook for 2–4 people and want one primary air fryer.",
     skipIf: "You need two foods finished at the same time.",
   },
+  B0FM5KF34G: {
+    name: "Ninja French Door Premier FO101",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0FM5KF34G.01._SL1500_.jpg",
+    bestFor: "Best Overall",
+    shortVerdict: "Among the products in the supplied Amazon data, the Ninja French Door Premier FO101 is the best overall balance because Ninja explicitly states that the cooking surface is made without PFAS and independent testing shows strong multi-purpose cooking performance.",
+    score: 9.5,
+    keySpecs: ["20.3 qt capacity", "5-qt air-fry basket", "Up to 450°F", "PFAS-free cooking surface"],
+    pros: ["Explicit PFAS-free cooking-surface claim", "Fast preheat with 10 cooking functions", "French-door access", "Strong baking and mixed-use performance"],
+    cons: ["Large countertop footprint", "Baking tray is coated"],
+    buyIf: "You want an explicit PFAS-free claim, fast preheating, and french-door convenience.",
+    skipIf: "Countertop space is extremely limited.",
+  },
+  B0CJMV9RZK: {
+    name: "Nuwave Bravo XL Pro",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CJMV9RZK.01._SL1500_.jpg",
+    bestFor: "Best Large-Capacity Pick",
+    shortVerdict: "Best for large households that want a 30-quart oven, wide temperature control (50–500°F), multi-layer cooking, and an integrated smart probe.",
+    score: 9.3,
+    keySpecs: ["30 qt capacity", "50–500°F range", "Smart Cook probe", "Multi-layer cooking"],
+    pros: ["Generous 30-qt capacity", "Wide 50–500°F temperature control", "Integrated smart probe", "Explicit PFAS-free listing claim"],
+    cons: ["Large footprint", "Many presets for simple cooks"],
+    buyIf: "You need 30-quart capacity for multi-layer family cooking.",
+    skipIf: "You cook simple single-portion meals.",
+  },
+  B0H9LRQ3Q5: {
+    name: "VAL CUCINA 26.3 QT Clean Air Fryer Toaster Oven",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://m.media-amazon.com/images/I/71ukegKn+dL._AC_SL1500_.jpg",
+    bestFor: "Best Enamel Interior",
+    shortVerdict: "Best for shoppers who specifically prefer an enamel oven cavity and clear PTFE/PFOA-free manufacturer wording.",
+    score: 9.1,
+    keySpecs: ["26.3 qt (25 L)", "150–450°F range", "Enamel-coated cavity", "10-in-1 functions"],
+    pros: ["Enamel-coated interior cavity", "Explicit no PTFE/PFOA claim", "Fits a 12-inch pizza or 6 slices of toast", "10 cooking functions"],
+    cons: ["Official wording is PTFE/PFOA-free rather than full PFAS-free", "Less independent testing data"],
+    buyIf: "You prefer an enamel interior over nonstick coatings.",
+    skipIf: "You strictly require lab-certified blanket PFAS-free documentation.",
+  },
+  B0F2JN4BFQ: {
+    name: "Nuwave Bravo Pro 21QT",
+    cluster: "Toaster Ovens",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0F2JN4BFQ.01._SL1500_.jpg",
+    bestFor: "Best Value",
+    shortVerdict: "Best value among the four ranked products, featuring a 21-quart capacity, 50–450°F temperature control, and explicit PFAS-free listing claims.",
+    score: 8.9,
+    keySpecs: ["21 qt capacity", "50–450°F range", "10-in-1 functions", "PFAS-free listing claim"],
+    pros: ["Lowest price among ranked picks", "Explicit PFAS-free listing claim", "Precise 50–450°F control", "Useful 21-qt capacity"],
+    cons: ["Less independent lab performance data", "Material details less granular than Ninja"],
+    buyIf: "You want a PFAS-free 21-quart convection air fryer toaster oven under $170.",
+    skipIf: "You need a larger 30-quart cavity.",
+  },
   B0CSZ7WBYW: {
     name: "Ninja Air Fryer Pro 5-Qt (AF141)",
     cluster: "Air Fryers",
@@ -917,6 +969,13 @@ const AF_R27 = [
   "B08DKYBTPH",
 ];
 
+const TO_R09 = [
+  "B0FM5KF34G",
+  "B0CJMV9RZK",
+  "B0H9LRQ3Q5",
+  "B0F2JN4BFQ",
+];
+
 const PAGE_OVERRIDES = {
   "BL-R01": BL,
   "BL-PIL": BL,
@@ -931,6 +990,7 @@ const PAGE_OVERRIDES = {
   "TO-R06": TO_R06,
   "AF-R27": AF_R27,
   "AF-R31": AF_R31,
+  "TO-R09": TO_R09,
 };
 
 function uniqueFirst(list, count) {

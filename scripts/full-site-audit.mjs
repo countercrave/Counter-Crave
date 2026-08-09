@@ -136,7 +136,8 @@ for (const p of publishedPages) {
   for (const m of matches) {
     const clean = m
       .replace(/^href=\\"\/|^\//i, "")
-      .replace(/\\"|\/$/i, "")
+      .replace(/\/\\"|\\"|\/$/gi, "")
+      .replace(/\/$/, "")
       .toLowerCase();
     if (
       clean &&
