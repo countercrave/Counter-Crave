@@ -31,6 +31,7 @@ for (const product of products) {
       ![
         "m.media-amazon.com",
         "images-na.ssl-images-amazon.com",
+        "ws-na.amazon-adsystem.com",
       ].includes(imageUrl.hostname)
     ) {
       errors.push(`${product.trackingKey}: unapproved image host`);

@@ -11,6 +11,7 @@ const associateTag =
 const allowedImageHosts = new Set([
   "m.media-amazon.com",
   "images-na.ssl-images-amazon.com",
+  "ws-na.amazon-adsystem.com",
 ]);
 
 function normalizeAsin(value) {

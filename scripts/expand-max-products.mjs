@@ -747,7 +747,7 @@ const CATALOG = {
   B0GHY7VT3Y: {
     name: "ECOVACS DEEBOT T80S OMNI",
     cluster: "Robot Vacuums",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0GHY7VT3Y.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0GHY7VT3Y.01.PT01._SL1500_.jpg",
     bestFor: "Best overall under $500",
     shortVerdict: "The rare mid-range robot that beats machines costing twice as much: 91% carpet deep-clean, 100% pet-hair pickup, and a hot-water mop washing dock.",
     score: 9.5,
