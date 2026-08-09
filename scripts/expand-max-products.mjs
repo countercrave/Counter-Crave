@@ -40,7 +40,7 @@ const CATALOG = {
   B01N5UPTZS: {
     name: "Breville Smart Oven Air Fryer Pro (BOV900BSS)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01N5UPTZS.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61WFOVr1aqL._AC_SL1500_.jpg",
     bestFor: "Best overall wall oven replacement",
     shortVerdict: "The BOV900BSS replaces a wall oven, toaster, and standalone air fryer in one counter footprint. Breville's Element iQ system routes 1800 watts across five quartz heating elements with dual-speed super convection to eliminate cold spots, while 13 cooking functions handle everything from dehydrating fruit to proofing dough and roasting a 14-lb turkey. The wide interior fits a 9x13 baking pan or 12-cup muffin tray, and the digital LCD screen makes precise adjustments easy. If you want one machine that does it all and have the counter depth for it, this is the gold standard.",
     score: 9.6,
@@ -53,7 +53,7 @@ const CATALOG = {
   B08BXX69K4: {
     name: "Ninja Foodi 10-in-1 XL Pro Air Fry Oven (DT201)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08BXX69K4.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_SL1500_.jpg",
     bestFor: "Families & 2-level batch cooking",
     shortVerdict: "Ninja's XL Pro solves the single-rack bottleneck by using True Surround Convection to circulate high-velocity air across two rack levels simultaneously without needing to rotate pans. With a 90-second preheat, 10 cooking functions, and enough clearance for a 5-lb chicken and sheet pan of vegetables at the same time, it is built for family dinners. The handle-mounted digital display keeps controls at eye level, and both air fry basket and wire racks wipe down quickly.",
     score: 9.3,
@@ -66,7 +66,7 @@ const CATALOG = {
   B01K0W8LTE: {
     name: "Cuisinart AirFryer Toaster Oven (TOA-60)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B01K0W8LTE.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61hCSaFNXjL._AC_SL1500_.jpg",
     bestFor: "Simple everyday use without digital menus",
     shortVerdict: "For home cooks who prefer physical dials to digital menus, the TOA-60 remains a countertop classic. Its 1800-watt heating system and high-velocity fan air fry up to 3 lbs of wings, toast 6 slices of bread, or bake a 4-lb chicken with simple turn-knob operation. The 0.6-cubic-foot nonstick interior wipes clean in seconds, and its quiet fan motor makes it pleasant for open-concept kitchens.",
     score: 8.9,
@@ -105,7 +105,7 @@ const CATALOG = {
   B0CLTK2JF8: {
     name: "Our Place Wonder Oven",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CLTK2JF8.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81-pkyWhPhL._AC_SL1500_.jpg",
     bestFor: "Style-conscious buyers & couples",
     shortVerdict: "The Wonder Oven brings steam infusion technology to countertop air frying, adding a splash of water to keep bread crusty on the outside and moist within while reheating leftovers without drying them out. Its compact 13-quart footprint, PFAS-free nonstick coating, and muted matte color options make it as much a design piece as a cooking appliance for 1–2 person households.",
     score: 8.6,
@@ -118,7 +118,7 @@ const CATALOG = {
   B08759QVN8: {
     name: "Hamilton Beach Sure-Crisp Air Fryer Toaster Oven (31413)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08759QVN8.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/91Jfp1xgKjL._AC_SL1500_.jpg",
     bestFor: "Best budget pick under $100",
     shortVerdict: "Hamilton Beach delivers essential air frying, toasting, baking, and broiling for under $100. Its Sure-Crisp circulation circulates air evenly to brown fries and snacks without needing expensive digital extras. Fits a 12-inch pizza or 6 slices of toast, includes a mesh fry basket and slide-out crumb tray, and operates via simple analog controls.",
     score: 8.2,
@@ -131,7 +131,7 @@ const CATALOG = {
   B0B15Q3HCQ: {
     name: "Ninja Foodi DZ550 10-Qt DualZone Smart XL Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0B15Q3HCQ.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61FrvAw250L._AC_SL1500_.jpg",
     bestFor: "Best overall for family meals with smart thermometer",
     shortVerdict: "RTINGS names the DZ550 the best large air fryer it has tested in 2026, and the reasons stack up fast. Two independent 5-quart zones let Smart Finish land a main and a side on the table at the same moment, while Match Cook syncs both baskets into a full 10-quart batch. The integrated Foodi Smart Thermometer is the killer feature: pick your protein and doneness, and the fryer stops at the exact internal temperature, from rare steak to a 6 lb whole chicken. IQ Boost shifts extra power to the busy basket so big cuts cook fast.",
     score: 9.5,
@@ -144,7 +144,7 @@ const CATALOG = {
   B096X9LGJ1: {
     name: "Ninja Foodi DZ401 10-Qt DualZone XL 2-Basket Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096X9LGJ1.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61A3ePViuoL._AC_SL1500_.jpg",
     bestFor: "Best value 10-quart dual zone air fryer",
     shortVerdict: "The DZ401 is the same 10-quart dual basket workhorse as our top pick minus the thermometer, and it routinely sells 20 to 40 dollars cheaper. It carries a 4.7-star average across more than ten thousand Amazon reviews, and the appeal is obvious: wings in one drawer, fries in the other, both hot at once, with up to 30 percent faster cooking than a full-size convection oven. The nonstick surfaces are 100 percent PFAS-free and the crisper plates go straight in the dishwasher. If you already own a meat thermometer, this is the smart-money buy.",
     score: 9.3,
@@ -157,7 +157,7 @@ const CATALOG = {
   B0CZS6SS3Y: {
     name: "Ninja DoubleStack XL SL401 10-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CZS6SS3Y.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61lLbrNYWmL._AC_SL1500_.jpg",
     bestFor: "Small counter space with 10-quart capacity",
     shortVerdict: "Dual basket air fryers usually hog half the counter. Ninja's answer is to stack the baskets vertically, so the DoubleStack delivers full 10-quart capacity in a tower that is about 40 percent slimmer than side-by-side rivals and still fits under standard cabinets. Removable meal racks split each basket into two levels, letting you cook up to four foods at once: think a 5 lb chicken below and three sides above. Smart Finish and Match Cook carry over from the DualZone line. For apartments and galley kitchens, nothing else this big fits this small.",
     score: 9.1,
@@ -170,7 +170,7 @@ const CATALOG = {
   B0CKP6Y6KB: {
     name: "Typhur Dome 2 AI Smart Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CKP6Y6KB.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/6154mct-b7L._AC_SL1500_.jpg",
     bestFor: "Best premium single-layer air frying",
     shortVerdict: "The Dome 2 rethinks what 'large' means. Instead of a deep bucket, its wide, flat, pizza-oven-inspired chamber spreads food in a single layer, which is exactly how air fryers crisp best. Dual heating elements above and below mean most foods need no flipping and cook up to 30 percent faster, with no preheat required; reviewers crisped a full 12 inch pizza in about 8 minutes. A PFAS-free ceramic basket, self-cleaning mode, whisper-quiet fan, and an app that generates AI recipes from a photo of your ingredients round out the flagship experience. It costs the most here, and it earns it.",
     score: 9.4,
@@ -196,7 +196,7 @@ const CATALOG = {
   B08DKYBTPH: {
     name: "Chefman TurboFry 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08DKYBTPH.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
     bestFor: "Best budget 8-quart XL air fryer",
     shortVerdict: "Chefman proves a family size air fryer does not need to break the bank. The 8-quart TurboFry covers air fry, bake, dehydrate, and a clever Frozen mode that defrosts before it crisps, all through a simple touch panel. Its signature Hi-Fry button cranks the heat to 450 degrees for the final two minutes to put a golden crust on fries and chicken. The XL nonstick basket goes in the dishwasher, and the stainless body looks pricier than it is. Skip it if you want presets galore or dual zones; buy it if you want maximum quarts per dollar.",
     score: 8.5,
@@ -209,7 +209,7 @@ const CATALOG = {
   B0CS3V8M9H: {
     name: "Ninja Air Fryer Pro XL (AF181)",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CS3V8M9H.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500_.jpg",
     bestFor: "Best for maximum crisping and frozen foods",
     shortVerdict: "Ninja's Pro XL is built for one job above all: crunch. MaxCrisp technology blasts 450 degree superheated air around the food, taking frozen fries, nuggets, and wings from freezer to golden in minutes with no thawing. The 6.5 quart basket is the largest in this roundup, swallowing up to 9 lbs of chicken wings for game day, and at 1750 watts it recovers heat instantly when you open the drawer. Both the nonstick basket and crisper plate are dishwasher safe. If frozen snacks and wings are your main use case, this is the pick.",
     score: 9.3,
@@ -222,7 +222,7 @@ const CATALOG = {
   B0C5JHKGFP: {
     name: "Dreo ChefMaker Combi Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0C5JHKGFP.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71T3daFqM0L._AC_SL1500_.jpg",
     bestFor: "Best premium smart air fryer with probe",
     shortVerdict: "The ChefMaker is less an air fryer and more a robot sous-chef. Its CombiCook system pairs a precise temperature probe with a water atomizer that mists food during cooking, then a smart algorithm splits the cook into stages for steakhouse-level doneness, browning, and juiciness at the press of a button. Chef Mode handles ingredient presets, Classic Mode works like a normal 6-quart air fryer, and Probe Mode gives experts full control, while the Dreo app streams step-by-step video recipes. It costs two to three times the others here, and for steak, salmon, and chicken breast it earns it.",
     score: 9.4,
@@ -235,7 +235,7 @@ const CATALOG = {
   B096N3FTZP: {
     name: "Instant Vortex Plus 6QT ClearCook",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096N3FTZP.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71QM4TEKo8L._AC_SL1500_.jpg",
     bestFor: "Best 6-quart air fryer with viewing window",
     shortVerdict: "Instant's 6-quart Vortex Plus fixes the most annoying air fryer habit: yanking the basket open every three minutes to check on dinner. Its ClearCook window and internal light let you watch fries brown in real time without dumping heat. EvenCrisp airflow drives crunchy results with up to 95 percent less oil, six customizable presets remember your go-to recipes, and the nonstick basket and tray go in the dishwasher. From the makers of Instant Pot, it is regularly discounted near 100 dollars, making it the easy pick for anyone who wants to see their food cook.",
     score: 9.1,
@@ -248,7 +248,7 @@ const CATALOG = {
   B0BD4BYR11: {
     name: "COSORI Pro Gen 2 5.8QT",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0BD4BYR11.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81xlEWE3e+L._AC_SL1500_.jpg",
     bestFor: "Best value under $100 with 13 presets",
     shortVerdict: "The Pro line is the air fryer that made COSORI famous, and Gen 2 refines the formula. Thirteen chef-tuned one-touch functions cover steak, seafood, bacon, vegetables, and more, while a built-in NTC sensor holds temperature swings within about 3 degrees for evenly cooked batches. The square 5.8-quart basket uses its corners well, fitting a whole 5 lb chicken where round rivals cannot, and it detaches for the dishwasher. With 100 paper recipes plus over a thousand online, it is the best-rounded 6 qt class air fryer you can regularly grab for under 100 dollars.",
     score: 8.9,
@@ -352,7 +352,7 @@ const CATALOG = {
   B08DKYBTPH: {
     name: "Chefman TurboFry 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08DKYBTPH.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
     bestFor: "Budget shoppers who still want XL capacity",
     shortVerdict: "Capacity-per-dollar pick when the basket size is the priority.",
     score: 8.4,
@@ -430,7 +430,7 @@ const CATALOG = {
   B01FHOWYA2: {
     name: "Ninja Fit Compact Personal Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/710oNE8RCjL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500_.jpg",
     bestFor: "Single-serve smoothies and shake cups",
     shortVerdict: "Compact personal blender with to-go cups and less cleanup than a pitcher.",
     name: "NutriBullet Pro Personal Blender",
@@ -448,7 +448,7 @@ const CATALOG = {
   B004TGLB8S: {
     name: "Hamilton Beach Personal Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B004TGLB8S.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
     bestFor: "Ultra-budget personal blending",
     shortVerdict: "Entry personal blender when you want a travel cup without spending much.",
     score: 7.4,
@@ -513,7 +513,7 @@ const CATALOG = {
   B07FZ8S74R: {
     name: "Magic Bullet Mini Blender",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07FZ8S74R.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61MZfowYoaL._AC_SL1500_.jpg",
     bestFor: "Tiny kitchens and light smoothie habits",
     shortVerdict: "Ultra-compact personal blender for light use and small counters.",
     score: 7.2,
@@ -1083,7 +1083,7 @@ const CATALOG = {
   B08XYS6D24: {
     name: "BELLA Pro Series 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B08XYS6D24.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
     bestFor: "Budget XL capacity",
     shortVerdict: "Large-basket value play for bigger frozen snack batches.",
     score: 8.0,
@@ -1109,7 +1109,7 @@ const CATALOG = {
   B07FDJMC9Q: {
     name: "COSORI Air Fryer Max XL (legacy)",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07FDJMC9Q.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500_.jpg",
     bestFor: "Shoppers who like Cosori but want an alternate listing",
     shortVerdict: "Legacy Cosori-style XL option when TurboBlaze is out of stock.",
     score: 8.1,
@@ -1122,7 +1122,7 @@ const CATALOG = {
   B09N43K4B4: {
     name: "Ninja Foodi Dual-Zone Alternative",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B09N43K4B4.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61A3ePViuoL._AC_SL1500_.jpg",
     bestFor: "Family dual cooking on a Ninja stack",
     shortVerdict: "Dual-zone style alternative when DZ201 pricing spikes.",
     score: 8.5,
@@ -1135,7 +1135,7 @@ const CATALOG = {
   B0BXQ8V8QQ: {
     name: "Dual Basket Air Fryer Value Pick",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0BXQ8V8QQ.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61FrvAw250L._AC_SL1500_.jpg",
     bestFor: "Budget dual-basket experiments",
     shortVerdict: "Value dual-basket style pick for shoppers testing two-zone cooking.",
     score: 7.9,
@@ -1148,7 +1148,7 @@ const CATALOG = {
   B0CQJ8QZ7Y: {
     name: "Ninja DoubleStack XL Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CQJ8QZ7Y.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61rjcZZpkVL._AC_SL1500_.jpg",
     bestFor: "Stacked family cooking in a taller footprint",
     shortVerdict: "Stacked dual-level Ninja concept for bigger households.",
     score: 8.7,
@@ -1161,7 +1161,7 @@ const CATALOG = {
   B0CV4LDK6P: {
     name: "Ninja Crispi Portable Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CV4LDK6P.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500_.jpg",
     bestFor: "Portable / flexible countertop use",
     shortVerdict: "Portable-leaning Ninja option when a fixed XL unit is overkill.",
     score: 8.2,
@@ -1200,7 +1200,7 @@ const CATALOG = {
   B0BSCY5V3K: {
     name: "Starter Air Fryer Under $50 Class",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0BSCY5V3K.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71jSDZe54mL._AC_SL1500_.jpg",
     bestFor: "First-time buyers testing air frying",
     shortVerdict: "Starter-class unit to learn air frying before upgrading.",
     score: 7.2,
@@ -1226,7 +1226,7 @@ const CATALOG = {
   B0C5XKQZ2P: {
     name: "Value Family Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0C5XKQZ2P.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_SL1500_.jpg",
     bestFor: "Family snacks on a mid budget",
     shortVerdict: "Mid-budget family basket option when premium dual-zone is too much.",
     score: 8.0,
@@ -1291,7 +1291,7 @@ const CATALOG = {
   B07YHL6ZBW: {
     name: "Ninja Nutri Personal Blender Duo",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07YHL6ZBW.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500_.jpg",
     bestFor: "Two-cup personal blending households",
     shortVerdict: "Personal duo cup system when two people share smoothie routines.",
     score: 8.0,
@@ -1304,7 +1304,7 @@ const CATALOG = {
   B0CKTYP1JT: {
     name: "Ninja Professional Blender (updated colorway)",
     cluster: "Blenders",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CKTYP1JT.01._SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61rZJywpS-L._AC_SL1500_.jpg",
     bestFor: "BL610-class performance with a current listing variant",
     shortVerdict: "Current-listing variant in the Ninja professional pitcher family.",
     score: 8.7,

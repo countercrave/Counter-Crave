@@ -222,6 +222,7 @@ function DetailedProductCard({
         <ProductImage
           src={product.imageUrl}
           alt={product.imageAlt || name}
+          asin={product.asin}
           width={product.imageWidth}
           height={product.imageHeight}
         />
@@ -404,6 +405,7 @@ export function ProductCards({
                   <ProductImage
                     src={product.imageUrl}
                     alt={product.imageAlt || name}
+                    asin={product.asin}
                     width={product.imageWidth}
                     height={product.imageHeight}
                   />

@@ -3,6 +3,7 @@
 type ProductImageProps = {
   src?: string;
   alt: string;
+  asin?: string;
   width?: number | null;
   height?: number | null;
 };
@@ -10,6 +11,7 @@ type ProductImageProps = {
 export function ProductImage({
   src,
   alt,
+  asin,
   width = 500,
   height = 500,
 }: ProductImageProps) {
@@ -37,17 +39,20 @@ export function ProductImage({
         const target = e.currentTarget;
         if (target.naturalWidth < 15 || target.naturalHeight < 15) {
           const stage = Number.parseInt(target.dataset.stage || "0", 10);
-          const asinMatch = src.match(/\/P\/([A-Z0-9]{10})/i) || src.match(/ASIN=([A-Z0-9]{10})/i);
-          const asin = asinMatch ? asinMatch[1] : null;
+          const activeAsin =
+            asin ||
+            target.src.match(/\/P\/([A-Z0-9]{10})/i)?.[1] ||
+            target.src.match(/ASIN=([A-Z0-9]{10})/i)?.[1] ||
+            null;
 
-          if (stage === 0 && asin) {
+          if (stage === 0 && activeAsin) {
             target.dataset.stage = "1";
-            target.src = `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${asin}&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1`;
+            target.src = `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${activeAsin}&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1`;
             return;
           }
-          if (stage === 1 && asin) {
+          if (stage === 1 && activeAsin) {
             target.dataset.stage = "2";
-            target.src = `https://images-na.ssl-images-amazon.com/images/P/${asin}.01.PT01._SL1500_.jpg`;
+            target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01.PT01._SL1500_.jpg`;
             return;
           }
           if (stage < 3) {
@@ -61,18 +66,21 @@ export function ProductImage({
       onError={(e) => {
         const target = e.currentTarget;
         const stage = Number.parseInt(target.dataset.stage || "0", 10);
-        const asinMatch = src.match(/\/P\/([A-Z0-9]{10})/i) || src.match(/ASIN=([A-Z0-9]{10})/i);
-        const asin = asinMatch ? asinMatch[1] : null;
+        const activeAsin =
+          asin ||
+          target.src.match(/\/P\/([A-Z0-9]{10})/i)?.[1] ||
+          target.src.match(/ASIN=([A-Z0-9]{10})/i)?.[1] ||
+          null;
 
-        if (stage === 0 && asin) {
+        if (stage === 0 && activeAsin) {
           target.dataset.stage = "1";
-          target.src = `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${asin}&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1`;
+          target.src = `https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=${activeAsin}&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1`;
           return;
         }
 
-        if (stage === 1 && asin) {
+        if (stage === 1 && activeAsin) {
           target.dataset.stage = "2";
-          target.src = `https://images-na.ssl-images-amazon.com/images/P/${asin}.01.PT01._SL1500_.jpg`;
+          target.src = `https://images-na.ssl-images-amazon.com/images/P/${activeAsin}.01.PT01._SL1500_.jpg`;
           return;
         }
 
