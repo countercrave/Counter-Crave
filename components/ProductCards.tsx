@@ -148,7 +148,8 @@ function DetailedProductCard({
   showEditorsPick: boolean;
 }) {
   const name = displayName(product);
-  const rank = product.rank ?? index + 1;
+  const isHub = pageId.endsWith("-HUB") || pageId.endsWith("-pil") || pageId.toLowerCase().includes("hub");
+  const rank = isHub ? index + 1 : (product.rank ?? index + 1);
   const analysis = analysisParagraphs(product);
   const about = (product.aboutThisItem || []).filter(Boolean);
   const pros = (product.pros || []).filter(Boolean);
@@ -359,7 +360,8 @@ export function ProductCards({
         <ol className="top-picks-grid">
           {picks.map((product, index) => {
             const name = displayName(product);
-            const rank = product.rank ?? index + 1;
+            const isHub = pageId.endsWith("-HUB") || pageId.endsWith("-pil") || pageId.toLowerCase().includes("hub");
+            const rank = isHub ? index + 1 : (product.rank ?? index + 1);
             const comparisonScore =
               product.comparisonScore != null
                 ? Number(product.comparisonScore)

@@ -667,7 +667,7 @@ const CATALOG = {
   B0DNDVRRXV: {
     name: "Roborock Qrevo Curv S5X",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DNDVRRXV&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/51lIyetCjEL._AC_SL1500_.jpg",
     bestFor: "Best value vacuum-mop combo",
     shortVerdict: "Delivers about 90 percent of the flagship pet hair experience for roughly half the price with a DuoDivide anti-tangle brush and hot-water mop washing.",
     score: 9.2,
@@ -680,7 +680,7 @@ const CATALOG = {
   B0D9ZRH61T: {
     name: "iRobot Roomba Combo 10 Max",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D9ZRH61T&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/71+y6cbZJfL._AC_SL1500_.jpg",
     bestFor: "Best pet-accident avoidance",
     shortVerdict: "iRobot's obstacle AI is specifically trained on pet waste and backed by a replacement promise, paired with dual rubber anti-tangle rollers.",
     score: 9.1,
@@ -693,7 +693,7 @@ const CATALOG = {
   B0DR8NJMCJ: {
     name: "Ecovacs Deebot X8 Pro Omni",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DR8NJMCJ&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61QoZUT0N2L._AC_SL1500_.jpg",
     bestFor: "Best for hard floors",
     shortVerdict: "The OZMO roller washes itself as it mops so muddy paw prints never get smeared across hard floors.",
     score: 9.0,
@@ -706,7 +706,7 @@ const CATALOG = {
   B0D7HG8H24: {
     name: "Narwal Freo Z Ultra",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D7HG8H24&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/714Q2sNv2-L._AC_SL1500_.jpg",
     bestFor: "Quietest for skittish pets",
     shortVerdict: "The quietest premium robot here, including its self-empty cycle, with a certified floating zero-tangle conical brush.",
     score: 8.9,
@@ -719,7 +719,7 @@ const CATALOG = {
   B09H8CWFNK: {
     name: "Shark AI Ultra (AV2501S)",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09H8CWFNK&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/71CpXAMzcvL._AC_SL1500_.jpg",
     bestFor: "Best vacuum-only + allergy pick",
     shortVerdict: "Pairs a self-cleaning brushroll with a bagless true-HEPA base, making it the allergy household's pick under $400.",
     score: 8.8,
@@ -732,7 +732,7 @@ const CATALOG = {
   B0CPFBBHP4: {
     name: "eufy X10 Pro Omni",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0CPFBBHP4&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61NdxkWqIOL._AC_SL1500_.jpg",
     bestFor: "Best budget all-in-one",
     shortVerdict: "The cheapest way to get the full pet-owner package: anti-tangle roller, AI obstacle avoidance and a dock that empties, washes and heat-dries.",
     score: 8.7,
@@ -745,7 +745,7 @@ const CATALOG = {
   B0GHY7VT3Y: {
     name: "ECOVACS DEEBOT T80S OMNI",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0GHY7VT3Y&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61QqsFnb0lL._AC_SL1500_.jpg",
     bestFor: "Best overall under $500",
     shortVerdict: "The rare mid-range robot that beats machines costing twice as much: 91% carpet deep-clean, 100% pet-hair pickup, and a hot-water mop washing dock.",
     score: 9.5,
@@ -758,7 +758,7 @@ const CATALOG = {
   B0DWXBCQVP: {
     name: "Roborock Q10 S5+",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DWXBCQVP&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61KBMtvTenL._AC_SL1500_.jpg",
     bestFor: "Best for carpets & pet hair",
     shortVerdict: "Pairs 10,000 Pa HyperForce suction with a dual anti-tangle system and sonic mop with auto-lift over carpet.",
     score: 9.3,
@@ -771,7 +771,7 @@ const CATALOG = {
   B0F3BXY5M1: {
     name: "Dreame D20 Pro Plus",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0F3BXY5M1&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61-nVRDKkJL._AC_SL1500_.jpg",
     bestFor: "Best value all-rounder",
     shortVerdict: "Wins on sheer hands-off endurance with a 5L dock bag stretching up to 150 days between empties and 13,000 Pa suction.",
     score: 9.1,
@@ -784,7 +784,7 @@ const CATALOG = {
   B0D9VT8NGL: {
     name: "ECOVACS DEEBOT N20 Pro Plus",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0D9VT8NGL&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/71GVQBS98SL._AC_SL1500_.jpg",
     bestFor: "Best budget bagless self-empty",
     shortVerdict: "Solves the hidden cost of self-empty robots with a bagless PureCyclone station that saves about $80 a year in consumables.",
     score: 9.0,
@@ -797,7 +797,7 @@ const CATALOG = {
   B0DWX69JVG: {
     name: "Roborock Q7 M5+",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DWX69JVG&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61EOq1YWmnL._AC_SL1500_.jpg",
     bestFor: "Best budget self-empty combo",
     shortVerdict: "Cheapest reliable LiDAR + self-empty combo from a major brand with 10,000 Pa suction and dual anti-tangle brushes.",
     score: 8.8,
@@ -810,7 +810,7 @@ const CATALOG = {
   B0DR7W6CZM: {
     name: "eufy C10 Auto-Empty",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DR7W6CZM&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61WfEDNqdFL._AC_SL1500_.jpg",
     bestFor: "Best slim / under-furniture pick",
     shortVerdict: "Built around an ultra-slim 2.85-inch body that cleans under beds, sofas, and low furniture where taller LiDAR robots can't fit.",
     score: 8.7,
