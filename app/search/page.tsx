@@ -64,7 +64,7 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
         .slice(0, 40)
     : [];
 
-  const popular = categoryHubs.slice(0, 6);
+  const popular = categoryHubs;
 
   return (
     <main className="container main-content search-page">
@@ -87,6 +87,17 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
             <div className="guide-list">
               {results.map(({ page }) => (
                 <article className="guide-row" key={page.pageId}>
+                  {page.heroImage ? (
+                    <div className="guide-row-image-wrapper">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={page.heroImage}
+                        alt={page.title}
+                        className="guide-card-image"
+                        loading="lazy"
+                      />
+                    </div>
+                  ) : null}
                   <div>
                     <span className="eyebrow">
                       {page.cluster} · {page.pageType}
@@ -112,11 +123,24 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
           <div className="cluster-grid">
             {popular.map((category) => (
               <article className="cluster-card" key={category.slug}>
-                <h3>
-                  <Link href={`/${category.slug}/`}>{category.name}</Link>
-                </h3>
-                <p>{category.description}</p>
-                <Link href={`/${category.slug}/`}>Explore guides</Link>
+                {category.heroImage ? (
+                  <div className="category-card-image-wrapper">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={category.heroImage}
+                      alt={category.name}
+                      className="category-card-image"
+                      loading="lazy"
+                    />
+                  </div>
+                ) : null}
+                <div className="cluster-card-copy">
+                  <h3>
+                    <Link href={`/${category.slug}/`}>{category.name}</Link>
+                  </h3>
+                  <p>{category.description}</p>
+                  <Link href={`/${category.slug}/`}>Explore guides</Link>
+                </div>
               </article>
             ))}
           </div>

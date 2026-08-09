@@ -41,14 +41,14 @@ export const categoryHubs: CategoryHub[] = [
     slug: "mini-choppers",
     short: "Mini Choppers",
     description: "Garlic, onions and small prep without a full processor.",
-    heroImage: "/images/heroes/food-processors.jpg",
+    heroImage: "/images/heroes/mini-choppers.jpg",
   },
   {
     name: "Rice Cookers",
     slug: "rice-cookers",
     short: "Rice Cookers",
     description: "Cup size, sticky rice, brown rice and family models.",
-    heroImage: "/images/heroes/air-fryers.jpg",
+    heroImage: "/images/heroes/rice-cookers.jpg",
   },
   {
     name: "Electric Kettles",
@@ -69,6 +69,20 @@ export const categoryHubs: CategoryHub[] = [
     slug: "waffle-makers",
     short: "Waffle Makers",
     description: "Belgian, classic, mini and flip designs.",
-    heroImage: "/images/heroes/toaster-ovens.jpg",
+    heroImage: "/images/heroes/waffle-makers.jpg",
+  },
+  {
+    name: "Air Purifiers",
+    slug: "air-purifiers",
+    short: "Air Purifiers",
+    description: "HEPA filtration, CADR ratings, smoke, dust and allergy control.",
+    heroImage: "/images/heroes/air-purifiers.jpg",
+  },
+  {
+    name: "Robot Vacuums",
+    slug: "robot-vacuums",
+    short: "Robot Vacuums",
+    description: "LiDAR mapping, anti-tangle brushes, pet hair and self-empty docks.",
+    heroImage: "/images/heroes/robot-vacuums.jpg",
   },
 ];

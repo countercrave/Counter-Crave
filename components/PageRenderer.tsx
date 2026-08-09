@@ -91,26 +91,6 @@ export function PageRenderer({
               </div>
             </div>
 
-            <div className="article-hero-panel">
-              <span className="panel-label">What you will get</span>
-              <ul>
-                {hasBrandProfiles ? (
-                  <>
-                    <li>Ranked brand profiles with flagship models</li>
-                    <li>Product image + brand logo on each brand block</li>
-                    <li>Filterable collections of all evidence products</li>
-                    <li>Amazon links for live price and ratings</li>
-                  </>
-                ) : (
-                  <>
-                    <li>Top three picks first for fast decisions</li>
-                    <li>Up to 20 labeled product recommendations</li>
-                    <li>Specs, about-this-item notes, buy-if / skip-if</li>
-                    <li>Amazon links for live price and customer ratings</li>
-                  </>
-                )}
-              </ul>
-            </div>
           </header>
 
           {page.heroImage ? (
@@ -189,8 +169,6 @@ export function PageRenderer({
               </div>
             </section>
           ) : null}
-
-          <TrustPanel page={page} />
 
           {page.collectionPath ? (
             <p className="collection-jump">
