@@ -641,7 +641,7 @@ const CATALOG = {
   B0DHCJ571Z: {
     name: "Roborock Saros 10R",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0DHCJ571Z&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/619xjRMbkSL._AC_SL1500_.jpg",
     bestFor: "Best overall for pet hair",
     shortVerdict: "The Saros 10R is the closest thing to a hands-free pet hair solution in 2026 with a certified zero-tangle DuoDivide brush and 3.14 inch slim profile.",
     score: 9.6,
@@ -654,7 +654,7 @@ const CATALOG = {
   B0FSJPFDPV: {
     name: "Dreame L40 Ultra Gen 2",
     cluster: "Robot Vacuums",
-    imageUrl: "https://ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0FSJPFDPV&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1",
+    imageUrl: "https://m.media-amazon.com/images/I/61hMADKz9DL._AC_SL1500_.jpg",
     bestFor: "Best for heavy shedders",
     shortVerdict: "Raw power plus a hair-cutting brush makes the L40 Ultra Gen 2 the pick for Huskies, Goldens and long-haired cats with 25,000 Pa suction.",
     score: 9.4,
