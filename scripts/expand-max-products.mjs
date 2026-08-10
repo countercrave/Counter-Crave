@@ -1018,7 +1018,7 @@ const CATALOG = {
   B0CBBR4TLX: {
     name: "Dreo Smart Wall Heater WH719S",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81QbaEAoVHL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71CsSQNfLOL._AC_SL1500_.jpg",
     bestFor: "Best overall",
     shortVerdict: "Wall-mounted, IP24-rated, and app-controlled with an ALCI plug and 120° oscillation. Pre-warm your bathroom from bed before showering.",
     score: 9.5,
@@ -1031,7 +1031,7 @@ const CATALOG = {
   B01NAQO4F1: {
     name: "Lasko CD08200 Ceramic Bathroom Heater",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81tjmCP7hRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/91k0U7afkVL._AC_SL1500_.jpg",
     bestFor: "Best budget",
     shortVerdict: "Tiny, no-nonsense ceramic heater built specifically for bathrooms. One button, an ALCI plug, cool-touch body, and fast 1500W heating.",
     score: 8.6,
@@ -1057,7 +1057,7 @@ const CATALOG = {
   B09YXJMH87: {
     name: "DREO Bathroom Space Heater (B09YXJMH87)",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/9103N74QllL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/815C2NcINvL._AC_SL1500_.jpg",
     bestFor: "Best portable ALCI ceramic",
     shortVerdict: "Quiet and safe portable ceramic heater equipped with an ALCI plug for bathroom safety, fast heating, and precise digital thermostat.",
     score: 9.0,
