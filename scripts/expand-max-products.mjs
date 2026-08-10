@@ -40,7 +40,7 @@ const CATALOG = {
   B01N5UPTZS: {
     name: "Breville Smart Oven Air Fryer Pro (BOV900BSS)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://m.media-amazon.com/images/I/61WFOVr1aqL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61WFOVr1aqL._AC_SL1500.jpg",
     bestFor: "Best overall wall oven replacement",
     shortVerdict: "The BOV900BSS replaces a wall oven, toaster, and standalone air fryer in one counter footprint. Breville's Element iQ system routes 1800 watts across five quartz heating elements with dual-speed super convection to eliminate cold spots, while 13 cooking functions handle everything from dehydrating fruit to proofing dough and roasting a 14-lb turkey. The wide interior fits a 9x13 baking pan or 12-cup muffin tray, and the digital LCD screen makes precise adjustments easy. If you want one machine that does it all and have the counter depth for it, this is the gold standard.",
     score: 9.6,
@@ -53,7 +53,7 @@ const CATALOG = {
   B08BXX69K4: {
     name: "Ninja Foodi 10-in-1 XL Pro Air Fry Oven (DT201)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_SL1500.jpg",
     bestFor: "Families & 2-level batch cooking",
     shortVerdict: "Ninja's XL Pro solves the single-rack bottleneck by using True Surround Convection to circulate high-velocity air across two rack levels simultaneously without needing to rotate pans. With a 90-second preheat, 10 cooking functions, and enough clearance for a 5-lb chicken and sheet pan of vegetables at the same time, it is built for family dinners. The handle-mounted digital display keeps controls at eye level, and both air fry basket and wire racks wipe down quickly.",
     score: 9.3,
@@ -66,7 +66,7 @@ const CATALOG = {
   B01K0W8LTE: {
     name: "Cuisinart AirFryer Toaster Oven (TOA-60)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://m.media-amazon.com/images/I/61hCSaFNXjL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61hCSaFNXjL._AC_SL1500.jpg",
     bestFor: "Simple everyday use without digital menus",
     shortVerdict: "For home cooks who prefer physical dials to digital menus, the TOA-60 remains a countertop classic. Its 1800-watt heating system and high-velocity fan air fry up to 3 lbs of wings, toast 6 slices of bread, or bake a 4-lb chicken with simple turn-knob operation. The 0.6-cubic-foot nonstick interior wipes clean in seconds, and its quiet fan motor makes it pleasant for open-concept kitchens.",
     score: 8.9,
@@ -79,7 +79,7 @@ const CATALOG = {
   B0895GS9NW: {
     name: "COSORI 13-in-1 Air Fryer Toaster Oven Combo 32QT (CS130-AO)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0895GS9NW.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0895GS9NW.01._SL1500.jpg",
     bestFor: "Smart features, app control & rotisserie",
     shortVerdict: "COSORI packs true rotisserie spit cooking, dehydrating, and smart app control into a generous 32-quart capacity at an aggressive price point. The VeSync app lets you monitor cook progress, adjust temperatures from 80°F to 450°F, and access over 100 step-by-step recipes. Includes a rotisserie handle, fork set, wire rack, food tray, and fry basket.",
     score: 9.1,
@@ -92,7 +92,7 @@ const CATALOG = {
   B07SCGY2H6: {
     name: "Ninja Foodi Digital Air Fry Oven (SP101)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07SCGY2H6.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B07SCGY2H6.01._SL1500.jpg",
     bestFor: "Small kitchens needing flip-away storage",
     shortVerdict: "When counter space is at a premium, the SP101 flips up against your backsplash when not in use, reclaiming over 50 percent of its counter footprint. Despite its slim profile, it fits a 13-inch pizza or 9 slices of toast, preheats in just 60 seconds, and air fries with up to 75 percent less fat than deep frying. The removable back panel gives easy access for deep cleaning.",
     score: 8.8,
@@ -105,7 +105,7 @@ const CATALOG = {
   B0CLTK2JF8: {
     name: "Our Place Wonder Oven",
     cluster: "Toaster Ovens",
-    imageUrl: "https://m.media-amazon.com/images/I/81-pkyWhPhL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81-pkyWhPhL._AC_SL1500.jpg",
     bestFor: "Style-conscious buyers & couples",
     shortVerdict: "The Wonder Oven brings steam infusion technology to countertop air frying, adding a splash of water to keep bread crusty on the outside and moist within while reheating leftovers without drying them out. Its compact 13-quart footprint, PFAS-free nonstick coating, and muted matte color options make it as much a design piece as a cooking appliance for 1–2 person households.",
     score: 8.6,
@@ -118,7 +118,7 @@ const CATALOG = {
   B08759QVN8: {
     name: "Hamilton Beach Sure-Crisp Air Fryer Toaster Oven (31413)",
     cluster: "Toaster Ovens",
-    imageUrl: "https://m.media-amazon.com/images/I/91Jfp1xgKjL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/91Jfp1xgKjL._AC_SL1500.jpg",
     bestFor: "Best budget pick under $100",
     shortVerdict: "Hamilton Beach delivers essential air frying, toasting, baking, and broiling for under $100. Its Sure-Crisp circulation circulates air evenly to brown fries and snacks without needing expensive digital extras. Fits a 12-inch pizza or 6 slices of toast, includes a mesh fry basket and slide-out crumb tray, and operates via simple analog controls.",
     score: 8.2,
@@ -131,7 +131,7 @@ const CATALOG = {
   B0B15Q3HCQ: {
     name: "Ninja Foodi DZ550 10-Qt DualZone Smart XL Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61FrvAw250L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61FrvAw250L._AC_SL1500.jpg",
     bestFor: "Best overall for family meals with smart thermometer",
     shortVerdict: "RTINGS names the DZ550 the best large air fryer it has tested in 2026, and the reasons stack up fast. Two independent 5-quart zones let Smart Finish land a main and a side on the table at the same moment, while Match Cook syncs both baskets into a full 10-quart batch. The integrated Foodi Smart Thermometer is the killer feature: pick your protein and doneness, and the fryer stops at the exact internal temperature, from rare steak to a 6 lb whole chicken. IQ Boost shifts extra power to the busy basket so big cuts cook fast.",
     score: 9.5,
@@ -144,7 +144,7 @@ const CATALOG = {
   B096X9LGJ1: {
     name: "Ninja Foodi DZ401 10-Qt DualZone XL 2-Basket Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61A3ePViuoL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61A3ePViuoL._AC_SL1500.jpg",
     bestFor: "Best value 10-quart dual zone air fryer",
     shortVerdict: "The DZ401 is the same 10-quart dual basket workhorse as our top pick minus the thermometer, and it routinely sells 20 to 40 dollars cheaper. It carries a 4.7-star average across more than ten thousand Amazon reviews, and the appeal is obvious: wings in one drawer, fries in the other, both hot at once, with up to 30 percent faster cooking than a full-size convection oven. The nonstick surfaces are 100 percent PFAS-free and the crisper plates go straight in the dishwasher. If you already own a meat thermometer, this is the smart-money buy.",
     score: 9.3,
@@ -157,7 +157,7 @@ const CATALOG = {
   B0CZS6SS3Y: {
     name: "Ninja DoubleStack XL SL401 10-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61lLbrNYWmL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61lLbrNYWmL._AC_SL1500.jpg",
     bestFor: "Small counter space with 10-quart capacity",
     shortVerdict: "Dual basket air fryers usually hog half the counter. Ninja's answer is to stack the baskets vertically, so the DoubleStack delivers full 10-quart capacity in a tower that is about 40 percent slimmer than side-by-side rivals and still fits under standard cabinets. Removable meal racks split each basket into two levels, letting you cook up to four foods at once: think a 5 lb chicken below and three sides above. Smart Finish and Match Cook carry over from the DualZone line. For apartments and galley kitchens, nothing else this big fits this small.",
     score: 9.1,
@@ -170,7 +170,7 @@ const CATALOG = {
   B0CKP6Y6KB: {
     name: "Typhur Dome 2 AI Smart Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/6154mct-b7L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/6154mct-b7L._AC_SL1500.jpg",
     bestFor: "Best premium single-layer air frying",
     shortVerdict: "The Dome 2 rethinks what 'large' means. Instead of a deep bucket, its wide, flat, pizza-oven-inspired chamber spreads food in a single layer, which is exactly how air fryers crisp best. Dual heating elements above and below mean most foods need no flipping and cook up to 30 percent faster, with no preheat required; reviewers crisped a full 12 inch pizza in about 8 minutes. A PFAS-free ceramic basket, self-cleaning mode, whisper-quiet fan, and an app that generates AI recipes from a photo of your ingredients round out the flagship experience. It costs the most here, and it earns it.",
     score: 9.4,
@@ -183,7 +183,7 @@ const CATALOG = {
   B096MZHB7K: {
     name: "Instant Vortex Plus XL 8-Qt ClearCook Dual Basket Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096MZHB7K.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B096MZHB7K.01._SL1500.jpg",
     bestFor: "Best value 8-quart dual basket with windows",
     shortVerdict: "Instant's dual drawer answer to Ninja brings one feature the DualZone line lacks: ClearCook windows with interior lights in both baskets, so you can watch fries brown without dumping heat. SyncCook copies settings across both drawers and SyncFinish lands two different foods at the same time, while EvenCrisp airflow delivers fried texture with up to 95 percent less oil. The 8-quart total handles up to 8 portions, the touchscreen walks you through each stage, and the baskets and trays are dishwasher safe. From the makers of Instant Pot, it is the best dual basket air fryer under 150 dollars most weeks.",
     score: 9.0,
@@ -196,7 +196,7 @@ const CATALOG = {
   B08DKYBTPH: {
     name: "Chefman TurboFry 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500.jpg",
     bestFor: "Best budget 8-quart XL air fryer",
     shortVerdict: "Chefman proves a family size air fryer does not need to break the bank. The 8-quart TurboFry covers air fry, bake, dehydrate, and a clever Frozen mode that defrosts before it crisps, all through a simple touch panel. Its signature Hi-Fry button cranks the heat to 450 degrees for the final two minutes to put a golden crust on fries and chicken. The XL nonstick basket goes in the dishwasher, and the stainless body looks pricier than it is. Skip it if you want presets galore or dual zones; buy it if you want maximum quarts per dollar.",
     score: 8.5,
@@ -209,7 +209,7 @@ const CATALOG = {
   B0CS3V8M9H: {
     name: "Ninja Air Fryer Pro XL (AF181)",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500.jpg",
     bestFor: "Best for maximum crisping and frozen foods",
     shortVerdict: "Ninja's Pro XL is built for one job above all: crunch. MaxCrisp technology blasts 450 degree superheated air around the food, taking frozen fries, nuggets, and wings from freezer to golden in minutes with no thawing. The 6.5 quart basket is the largest in this roundup, swallowing up to 9 lbs of chicken wings for game day, and at 1750 watts it recovers heat instantly when you open the drawer. Both the nonstick basket and crisper plate are dishwasher safe. If frozen snacks and wings are your main use case, this is the pick.",
     score: 9.3,
@@ -222,7 +222,7 @@ const CATALOG = {
   B0C5JHKGFP: {
     name: "Dreo ChefMaker Combi Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71T3daFqM0L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71T3daFqM0L._AC_SL1500.jpg",
     bestFor: "Best premium smart air fryer with probe",
     shortVerdict: "The ChefMaker is less an air fryer and more a robot sous-chef. Its CombiCook system pairs a precise temperature probe with a water atomizer that mists food during cooking, then a smart algorithm splits the cook into stages for steakhouse-level doneness, browning, and juiciness at the press of a button. Chef Mode handles ingredient presets, Classic Mode works like a normal 6-quart air fryer, and Probe Mode gives experts full control, while the Dreo app streams step-by-step video recipes. It costs two to three times the others here, and for steak, salmon, and chicken breast it earns it.",
     score: 9.4,
@@ -235,7 +235,7 @@ const CATALOG = {
   B096N3FTZP: {
     name: "Instant Vortex Plus 6QT ClearCook",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71QM4TEKo8L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71QM4TEKo8L._AC_SL1500.jpg",
     bestFor: "Best 6-quart air fryer with viewing window",
     shortVerdict: "Instant's 6-quart Vortex Plus fixes the most annoying air fryer habit: yanking the basket open every three minutes to check on dinner. Its ClearCook window and internal light let you watch fries brown in real time without dumping heat. EvenCrisp airflow drives crunchy results with up to 95 percent less oil, six customizable presets remember your go-to recipes, and the nonstick basket and tray go in the dishwasher. From the makers of Instant Pot, it is regularly discounted near 100 dollars, making it the easy pick for anyone who wants to see their food cook.",
     score: 9.1,
@@ -248,7 +248,7 @@ const CATALOG = {
   B0BD4BYR11: {
     name: "COSORI Pro Gen 2 5.8QT",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/81xlEWE3e+L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81xlEWE3e+L._AC_SL1500.jpg",
     bestFor: "Best value under $100 with 13 presets",
     shortVerdict: "The Pro line is the air fryer that made COSORI famous, and Gen 2 refines the formula. Thirteen chef-tuned one-touch functions cover steak, seafood, bacon, vegetables, and more, while a built-in NTC sensor holds temperature swings within about 3 degrees for evenly cooked batches. The square 5.8-quart basket uses its corners well, fitting a whole 5 lb chicken where round rivals cannot, and it detaches for the dishwasher. With 100 paper recipes plus over a thousand online, it is the best-rounded 6 qt class air fryer you can regularly grab for under 100 dollars.",
     score: 8.9,
@@ -261,7 +261,7 @@ const CATALOG = {
   B0CDY277D3: {
     name: "Chefman 6QT Dual Basket Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CDY277D3.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CDY277D3.01._SL1500.jpg",
     bestFor: "Best compact 6-quart dual basket with windows",
     shortVerdict: "Dual zone cooking usually means a 10-quart monster; Chefman shrinks it to a 6 quart air fryer that still fits a small counter. Two independent 3-quart baskets, each with its own viewing window, cook a main and a side simultaneously, and Sync Finish lands both at the same moment. The Hi-Fry button spikes the heat toward 450 degrees for a final crisp, a shake reminder keeps fries even, and both nonstick baskets are top-rack dishwasher safe. Regularly on sale near 70 dollars, it is the cheapest way anywhere to get true two-zone cooking.",
     score: 8.8,
@@ -274,7 +274,7 @@ const CATALOG = {
   B0C33CHG99: {
     name: "COSORI TurboBlaze 6-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0C33CHG99.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0C33CHG99.01._SL1500.jpg",
     bestFor: "Everyday households wanting a roomy single basket",
     shortVerdict: "The TurboBlaze keeps winning tests at RTINGS and TechGearLab for one reason: its DC motor. Five fan speeds up to 3600 rpm cook meals up to 46 percent faster than COSORI's previous generation while keeping noise under 53 decibels, quieter than nearly every rival at full power. The 90 to 450 degree range covers everything from proofing dough to blistering wings, the wide square basket fits a whole small chicken, and the PFAS-free ceramic coating wipes clean or rides the dishwasher. At around 120 dollars it is the complete package in the 6-quart class.",
     score: 9.2,
@@ -287,7 +287,7 @@ const CATALOG = {
   B0FM5KF34G: {
     name: "Ninja French Door Premier FO101",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0FM5KF34G.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0FM5KF34G.01._SL1500.jpg",
     bestFor: "Best Overall",
     shortVerdict: "Among the products in the supplied Amazon data, the Ninja French Door Premier FO101 is the best overall balance because Ninja explicitly states that the cooking surface is made without PFAS and independent testing shows strong multi-purpose cooking performance.",
     score: 9.5,
@@ -300,7 +300,7 @@ const CATALOG = {
   B0CJMV9RZK: {
     name: "Nuwave Bravo XL Pro",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CJMV9RZK.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0CJMV9RZK.01._SL1500.jpg",
     bestFor: "Best Large-Capacity Pick",
     shortVerdict: "Best for large households that want a 30-quart oven, wide temperature control (50–500°F), multi-layer cooking, and an integrated smart probe.",
     score: 9.3,
@@ -313,7 +313,7 @@ const CATALOG = {
   B0H9LRQ3Q5: {
     name: "VAL CUCINA 26.3 QT Clean Air Fryer Toaster Oven",
     cluster: "Toaster Ovens",
-    imageUrl: "https://m.media-amazon.com/images/I/71ukegKn+dL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71ukegKn+dL._AC_SL1500.jpg",
     bestFor: "Best Enamel Interior",
     shortVerdict: "Best for shoppers who specifically prefer an enamel oven cavity and clear PTFE/PFOA-free manufacturer wording.",
     score: 9.1,
@@ -326,7 +326,7 @@ const CATALOG = {
   B0F2JN4BFQ: {
     name: "Nuwave Bravo Pro 21QT",
     cluster: "Toaster Ovens",
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0F2JN4BFQ.01._SL1500_.jpg",
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/P/B0F2JN4BFQ.01._SL1500.jpg",
     bestFor: "Best Value",
     shortVerdict: "Best value among the four ranked products, featuring a 21-quart capacity, 50–450°F temperature control, and explicit PFAS-free listing claims.",
     score: 8.9,
@@ -339,7 +339,7 @@ const CATALOG = {
   B0CSZ7WBYW: {
     name: "Ninja Air Fryer Pro 5-Qt (AF141)",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71jfzcXideL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71jfzcXideL._AC_SL1500.jpg",
     bestFor: "Smaller counters and compact kitchens",
     shortVerdict: "Compact Ninja pick when Cosori feels oversized.",
     score: 8.9,
@@ -352,7 +352,7 @@ const CATALOG = {
   B08DKYBTPH: {
     name: "Chefman TurboFry 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500.jpg",
     bestFor: "Budget shoppers who still want XL capacity",
     shortVerdict: "Capacity-per-dollar pick when the basket size is the priority.",
     score: 8.4,
@@ -365,7 +365,7 @@ const CATALOG = {
   B089TQWJKK: {
     name: "Ninja Foodi DZ201 DualZone 8-Qt",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61xMRA3NY4L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61xMRA3NY4L._AC_SL1500.jpg",
     bestFor: "Families cooking two foods at once",
     shortVerdict: "Dual baskets with synced finish times for protein + sides.",
     score: 9.3,
@@ -378,7 +378,7 @@ const CATALOG = {
   B07VHFMZHJ: {
     name: "Instant Vortex Plus 6-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71GPWtT61gL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71GPWtT61gL._AC_SL1500.jpg",
     bestFor: "Shoppers already in the Instant ecosystem",
     shortVerdict: "Straightforward 6-quart workhorse with familiar Instant branding.",
     score: 8.7,
@@ -391,7 +391,7 @@ const CATALOG = {
   B0855B5Z6F: {
     name: "Ninja Professional Plus Blender BN701",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71RbmccXCUL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71RbmccXCUL._AC_SL1500.jpg",
     bestFor: "Frozen drinks and family smoothie batches under $100",
     shortVerdict: "1400-peak-watt pitcher blender with Auto-iQ presets for ice and smoothies.",
     score: 9.1,
@@ -404,7 +404,7 @@ const CATALOG = {
   B00NGV4506: {
     name: "Ninja Professional Blender BL610",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/61DvtaqAWML._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61DvtaqAWML._AC_SL1500.jpg",
     bestFor: "Classic Total Crushing pitcher blending on a budget",
     shortVerdict: "Proven Ninja pitcher blender for ice, frozen fruit and everyday smoothies.",
     score: 8.8,
@@ -430,7 +430,7 @@ const CATALOG = {
   B01FHOWYA2: {
     name: "Ninja Fit Compact Personal Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500.jpg",
     bestFor: "Single-serve smoothies and shake cups",
     shortVerdict: "Compact personal blender with to-go cups and less cleanup than a pitcher.",
     name: "NutriBullet Pro Personal Blender",
@@ -448,7 +448,7 @@ const CATALOG = {
   B004TGLB8S: {
     name: "Hamilton Beach Personal Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "Ultra-budget personal blending",
     shortVerdict: "Entry personal blender when you want a travel cup without spending much.",
     score: 7.4,
@@ -461,7 +461,7 @@ const CATALOG = {
   B01N1NTBJ8: {
     name: "NutriBullet Pro+ Personal Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500.jpg",
     bestFor: "Higher-power personal blending under a mid budget",
     shortVerdict: "Personal NutriBullet-style pick when you want more power than basic cups.",
     score: 8.4,
@@ -474,7 +474,7 @@ const CATALOG = {
   B07GZW9WXH: {
     name: "Oster Pro 1200 Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "Glass-jar blending with food-processor style extras",
     shortVerdict: "Glass jar blender option for shoppers who dislike plastic pitchers.",
     score: 8.2,
@@ -487,7 +487,7 @@ const CATALOG = {
   B07GZVZJ27: {
     name: "Oster Blender with Food Processor Attachment",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "Blending plus light chopping in one footprint",
     shortVerdict: "Hybrid pick when counter space is limited and you want blender + chopper utility.",
     score: 8.0,
@@ -500,7 +500,7 @@ const CATALOG = {
   B08MJ5K5L8: {
     name: "Ninja Personal Blender with Cups",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500.jpg",
     bestFor: "Ninja fans who mainly make to-go smoothies",
     shortVerdict: "Personal Ninja cup blender for quick single servings and travel lids.",
     score: 8.1,
@@ -513,7 +513,7 @@ const CATALOG = {
   B07FZ8S74R: {
     name: "Magic Bullet Mini Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/61MZfowYoaL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61MZfowYoaL._AC_SL1500.jpg",
     bestFor: "Tiny kitchens and light smoothie habits",
     shortVerdict: "Ultra-compact personal blender for light use and small counters.",
     score: 7.2,
@@ -526,7 +526,7 @@ const CATALOG = {
   B00M76N6TS: {
     name: "Hamilton Beach Wave Crusher Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "Budget ice drinks with a glass jar",
     shortVerdict: "Budget glass-jar blender aimed at icy drinks and basic smoothies.",
     score: 7.6,
@@ -539,7 +539,7 @@ const CATALOG = {
   B098RK8BL7: {
     name: "Ninja Foodi Smoothie Bowl Maker & Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500.jpg",
     bestFor: "Thick smoothie bowls and spoonable blends",
     shortVerdict: "Specialist pick when thick bowls matter more than thin drinkable smoothies.",
     score: 8.3,
@@ -552,7 +552,7 @@ const CATALOG = {
   B08R794ZMX: {
     name: "LEVOIT Core 400S-P",
     cluster: "Air Purifiers",
-    imageUrl: "https://m.media-amazon.com/images/I/71twSqT5ZYL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71twSqT5ZYL._AC_SL1500.jpg",
     bestFor: "Best overall",
     shortVerdict: "The Core 400S-P is the easiest model here to recommend to a broad range of households, combining HEPA filtration with air-quality monitoring, auto mode, and smart controls.",
     score: 9.5,
@@ -565,7 +565,7 @@ const CATALOG = {
   B0BN2MGV5H: {
     name: "Blueair Blue Pure 211i Max",
     cluster: "Air Purifiers",
-    imageUrl: "https://m.media-amazon.com/images/I/712FK2wvqRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/712FK2wvqRL._AC_SL1500.jpg",
     bestFor: "Very large rooms",
     shortVerdict: "The Blue Pure 211i Max is the large-space specialist in this group with an up to 3,235 sq ft coverage claim.",
     score: 9.3,
@@ -578,7 +578,7 @@ const CATALOG = {
   B07VVK39F7: {
     name: "LEVOIT Core 300-P",
     cluster: "Air Purifiers",
-    imageUrl: "https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71t-9BTIg9L._AC_SL1500.jpg",
     bestFor: "Bedroom value",
     shortVerdict: "The Core 300-P is the straightforward compact option with an H13 True HEPA filter and quiet 24 dB operation.",
     score: 9.1,
@@ -591,7 +591,7 @@ const CATALOG = {
   B0DT4F8T4L: {
     name: "WINIX 5520",
     cluster: "Air Purifiers",
-    imageUrl: "https://m.media-amazon.com/images/I/71mcoIQSUrL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71mcoIQSUrL._AC_SL1500.jpg",
     bestFor: "Dust + odors",
     shortVerdict: "The WINIX 5520 stands out because its listing pairs True HEPA filtration with a high-deodorization carbon filter.",
     score: 9.0,
@@ -617,7 +617,7 @@ const CATALOG = {
   B0998FWTHP: {
     name: "PuroAir 240",
     cluster: "Air Purifiers",
-    imageUrl: "https://m.media-amazon.com/images/I/61ewmZEiDnL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61ewmZEiDnL._AC_SL1500.jpg",
     bestFor: "Simple automation",
     shortVerdict: "The PuroAir 240 keeps the feature set focused with HEPA filtration, carbon stage, automatic operation, and sleep mode.",
     score: 8.7,
@@ -630,7 +630,7 @@ const CATALOG = {
   B08KPJ76RR: {
     name: "Blueair Blue Pure 511i Max",
     cluster: "Air Purifiers",
-    imageUrl: "https://m.media-amazon.com/images/I/71ot432jYAL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71ot432jYAL._AC_SL1500.jpg",
     bestFor: "Small smart rooms",
     shortVerdict: "The 511i Max brings Blueair's HEPASilent platform into a smaller format with Wi-Fi and automatic operation.",
     score: 8.6,
@@ -641,7 +641,7 @@ const CATALOG = {
   B0DHCJ571Z: {
     name: "Roborock Saros 10R",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/619xjRMbkSL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/619xjRMbkSL._AC_SL1500.jpg",
     bestFor: "Best overall for pet hair",
     shortVerdict: "The Saros 10R is the closest thing to a hands-free pet hair solution in 2026 with a certified zero-tangle DuoDivide brush and 3.14 inch slim profile.",
     score: 9.6,
@@ -654,7 +654,7 @@ const CATALOG = {
   B0FSJPFDPV: {
     name: "Dreame L40 Ultra Gen 2",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61hMADKz9DL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61hMADKz9DL._AC_SL1500.jpg",
     bestFor: "Best for heavy shedders",
     shortVerdict: "Raw power plus a hair-cutting brush makes the L40 Ultra Gen 2 the pick for Huskies, Goldens and long-haired cats with 25,000 Pa suction.",
     score: 9.4,
@@ -667,7 +667,7 @@ const CATALOG = {
   B0DNDVRRXV: {
     name: "Roborock Qrevo Curv S5X",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/51lIyetCjEL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51lIyetCjEL._AC_SL1500.jpg",
     bestFor: "Best value vacuum-mop combo",
     shortVerdict: "Delivers about 90 percent of the flagship pet hair experience for roughly half the price with a DuoDivide anti-tangle brush and hot-water mop washing.",
     score: 9.2,
@@ -680,7 +680,7 @@ const CATALOG = {
   B0D9ZRH61T: {
     name: "iRobot Roomba Combo 10 Max",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/71+y6cbZJfL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+y6cbZJfL._AC_SL1500.jpg",
     bestFor: "Best pet-accident avoidance",
     shortVerdict: "iRobot's obstacle AI is specifically trained on pet waste and backed by a replacement promise, paired with dual rubber anti-tangle rollers.",
     score: 9.1,
@@ -693,7 +693,7 @@ const CATALOG = {
   B0DR8NJMCJ: {
     name: "Ecovacs Deebot X8 Pro Omni",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61QoZUT0N2L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61QoZUT0N2L._AC_SL1500.jpg",
     bestFor: "Best for hard floors",
     shortVerdict: "The OZMO roller washes itself as it mops so muddy paw prints never get smeared across hard floors.",
     score: 9.0,
@@ -706,7 +706,7 @@ const CATALOG = {
   B0D7HG8H24: {
     name: "Narwal Freo Z Ultra",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/714Q2sNv2-L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/714Q2sNv2-L._AC_SL1500.jpg",
     bestFor: "Quietest for skittish pets",
     shortVerdict: "The quietest premium robot here, including its self-empty cycle, with a certified floating zero-tangle conical brush.",
     score: 8.9,
@@ -719,7 +719,7 @@ const CATALOG = {
   B09H8CWFNK: {
     name: "Shark AI Ultra (AV2501S)",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/71CpXAMzcvL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71CpXAMzcvL._AC_SL1500.jpg",
     bestFor: "Best vacuum-only + allergy pick",
     shortVerdict: "Pairs a self-cleaning brushroll with a bagless true-HEPA base, making it the allergy household's pick under $400.",
     score: 8.8,
@@ -732,7 +732,7 @@ const CATALOG = {
   B0CPFBBHP4: {
     name: "eufy X10 Pro Omni",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61NdxkWqIOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61NdxkWqIOL._AC_SL1500.jpg",
     bestFor: "Best budget all-in-one",
     shortVerdict: "The cheapest way to get the full pet-owner package: anti-tangle roller, AI obstacle avoidance and a dock that empties, washes and heat-dries.",
     score: 8.7,
@@ -758,7 +758,7 @@ const CATALOG = {
   B0DWXBCQVP: {
     name: "Roborock Q10 S5+",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61KBMtvTenL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61KBMtvTenL._AC_SL1500.jpg",
     bestFor: "Best for carpets & pet hair",
     shortVerdict: "Pairs 10,000 Pa HyperForce suction with a dual anti-tangle system and sonic mop with auto-lift over carpet.",
     score: 9.3,
@@ -771,7 +771,7 @@ const CATALOG = {
   B0F3BXY5M1: {
     name: "Dreame D20 Pro Plus",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61-nVRDKkJL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61-nVRDKkJL._AC_SL1500.jpg",
     bestFor: "Best value all-rounder",
     shortVerdict: "Wins on sheer hands-off endurance with a 5L dock bag stretching up to 150 days between empties and 13,000 Pa suction.",
     score: 9.1,
@@ -784,7 +784,7 @@ const CATALOG = {
   B0D9VT8NGL: {
     name: "ECOVACS DEEBOT N20 Pro Plus",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/71GVQBS98SL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71GVQBS98SL._AC_SL1500.jpg",
     bestFor: "Best budget bagless self-empty",
     shortVerdict: "Solves the hidden cost of self-empty robots with a bagless PureCyclone station that saves about $80 a year in consumables.",
     score: 9.0,
@@ -797,7 +797,7 @@ const CATALOG = {
   B0DWX69JVG: {
     name: "Roborock Q7 M5+",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61EOq1YWmnL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61EOq1YWmnL._AC_SL1500.jpg",
     bestFor: "Best budget self-empty combo",
     shortVerdict: "Cheapest reliable LiDAR + self-empty combo from a major brand with 10,000 Pa suction and dual anti-tangle brushes.",
     score: 8.8,
@@ -810,7 +810,7 @@ const CATALOG = {
   B0DR7W6CZM: {
     name: "eufy C10 Auto-Empty",
     cluster: "Robot Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61WfEDNqdFL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61WfEDNqdFL._AC_SL1500.jpg",
     bestFor: "Best slim / under-furniture pick",
     shortVerdict: "Built around an ultra-slim 2.85-inch body that cleans under beds, sofas, and low furniture where taller LiDAR robots can't fit.",
     score: 8.7,
@@ -823,7 +823,7 @@ const CATALOG = {
   B005EPRFKO: {
     name: "Hamilton Beach Fresh Grind",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/61CQxOhCChL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61CQxOhCChL._AC_SL1500.jpg",
     bestFor: "Best overall",
     shortVerdict: "A strong balance of compact countertop use, easy cleanup, high review volume, and budget-friendly pricing. Features stainless-steel blades and a removable grinding chamber.",
     score: 9.5,
@@ -836,7 +836,7 @@ const CATALOG = {
   B0DQ9QDTTS: {
     name: "OXO Brew Compact Conical Burr",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/71FAt0iVR0L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71FAt0iVR0L._AC_SL1500.jpg",
     bestFor: "Best compact burr",
     shortVerdict: "The strongest choice here for buyers who want a genuinely compact electric grinder but still prioritize burr consistency and adjustable grind size.",
     score: 9.3,
@@ -849,7 +849,7 @@ const CATALOG = {
   B07Z8G97PY: {
     name: "BLACK+DECKER One-Touch",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/719RWIc4TzL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719RWIc4TzL._AC_SL1500.jpg",
     bestFor: "Best one-touch",
     shortVerdict: "Simple one-touch operation, a strong 4.6-star rating, and a low captured price make it an easy pick for uncomplicated daily grinding.",
     score: 9.1,
@@ -862,7 +862,7 @@ const CATALOG = {
   B08PPGLK8Z: {
     name: "Wancle One-Touch",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/61KJQD05kLL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61KJQD05kLL._AC_SL1500.jpg",
     bestFor: "Best budget",
     shortVerdict: "It was the lowest-priced top pick in the captured results and carried an Overall Pick/Amazon's Choice badge with an included cleaning brush.",
     score: 8.9,
@@ -875,7 +875,7 @@ const CATALOG = {
   B07WYHQBF2: {
     name: "KRUPS Silent Vortex",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/61R78sygoML._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61R78sygoML._AC_SL1500.jpg",
     bestFor: "Best quiet blade",
     shortVerdict: "A useful fit for shared kitchens or early-morning use because the listing emphasizes 5x quieter operation and a removable dishwasher-safe bowl.",
     score: 8.8,
@@ -888,7 +888,7 @@ const CATALOG = {
   B00004SPEU: {
     name: "KRUPS Precision 3 oz",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/61z4ihlNwcL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61z4ihlNwcL._AC_SL1500.jpg",
     bestFor: "Most proven",
     shortVerdict: "The captured result had the largest review count (over 69,000 reviews) among the selected products, making it one of the most established compact blade-grinder options in the set.",
     score: 8.7,
@@ -901,7 +901,7 @@ const CATALOG = {
   B003WIZ5PC: {
     name: "KitchenAid BCG111OB",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/71agOb9tBXL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71agOb9tBXL._AC_SL1500.jpg",
     bestFor: "Best 4 oz capacity",
     shortVerdict: "A straightforward option for buyers who want a little more bean capacity (4 oz) while staying in a compact blade-grinder category.",
     score: 8.6,
@@ -914,7 +914,7 @@ const CATALOG = {
   B00004S9CX: {
     name: "Cuisinart DCG-20N",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/41zp34ktG1L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41zp34ktG1L._AC_SL1500.jpg",
     bestFor: "Best safety interlock",
     shortVerdict: "A compact 2.5 oz choice with a safety interlock lid and simple one-touch operation for users who value uncomplicated controls.",
     score: 8.5,
@@ -927,7 +927,7 @@ const CATALOG = {
   B09C2FPQXQ: {
     name: "Proctor Silex Sound Shield",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/61c+AV5s9gL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61c+AV5s9gL._AC_SL1500.jpg",
     bestFor: "Best sound shield value",
     shortVerdict: "A lower-priced alternative for buyers who want noise-reduction features without moving to the higher price of premium quiet models.",
     score: 8.4,
@@ -940,7 +940,7 @@ const CATALOG = {
   B0000AXEZV: {
     name: "Fahrenheat FUH54",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/812xq7giYIL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/812xq7giYIL._AC_SL1500.jpg",
     bestFor: "Best overall",
     shortVerdict: "The FUH54 is the heater most review sites land on for a standard two-car garage: ceiling-mount, clears the floor, built-in thermostat, and reliable 5,000W / 240V heat.",
     score: 9.6,
@@ -953,7 +953,7 @@ const CATALOG = {
   B003XDTWN2: {
     name: "Dr. Infrared DR-988",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81tjmCP7hRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81tjmCP7hRL._AC_SL1500.jpg",
     bestFor: "Best value / infrared",
     shortVerdict: "The DR-988 splits the difference between spot heat and area heat with a 240V plug-in format, infrared element, and forced-air fan.",
     score: 9.4,
@@ -966,7 +966,7 @@ const CATALOG = {
   B00L5XN6P4: {
     name: "King ECO2S (KB2410)",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81-pkyWhPhL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81-pkyWhPhL._AC_SL1500.jpg",
     bestFor: "Best for big / cold garages",
     shortVerdict: "When 5,000W isn't enough, the King steps up to 10,000W on high (~34,000 BTU) on a dedicated 50-amp 240V circuit.",
     score: 9.3,
@@ -979,7 +979,7 @@ const CATALOG = {
   B0002WRHE8: {
     name: "Mr. Heater Big Buddy",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/41pJdSpUvoL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/41pJdSpUvoL._AC_SL1500.jpg",
     bestFor: "Best propane / no wiring",
     shortVerdict: "No 240V line? Propane is the workaround. Throws up to 18,000 BTU of radiant heat straight at your work zone without electrical wiring.",
     score: 9.1,
@@ -992,7 +992,7 @@ const CATALOG = {
   B004VVJANC: {
     name: "Comfort Zone CZ798",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/71GlE3DkZlL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71GlE3DkZlL._AC_SL1500.jpg",
     bestFor: "Best budget",
     shortVerdict: "Classic steel milkhouse heater that plugs into any standard 120V outlet for 1,500W (~5,100 BTU) of bench or single-bay warmth.",
     score: 8.8,
@@ -1005,7 +1005,7 @@ const CATALOG = {
   B07JXRWJ8D: {
     name: "Heat Storm HS-1500-PHX",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/61flaX-njCL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61flaX-njCL._AC_SL1500.jpg",
     bestFor: "Best 120V wall-mount",
     shortVerdict: "Wall-mounted infrared heater that runs on a normal 120V circuit, keeps the floor clear, and stays cool to the touch.",
     score: 8.7,
@@ -1018,7 +1018,7 @@ const CATALOG = {
   B0CBBR4TLX: {
     name: "Dreo Smart Wall Heater WH719S",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/71CsSQNfLOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71CsSQNfLOL._AC_SL1500.jpg",
     bestFor: "Best overall",
     shortVerdict: "Wall-mounted, IP24-rated, and app-controlled with an ALCI plug and 120° oscillation. Pre-warm your bathroom from bed before showering.",
     score: 9.5,
@@ -1031,7 +1031,7 @@ const CATALOG = {
   B01NAQO4F1: {
     name: "Lasko CD08200 Ceramic Bathroom Heater",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/91k0U7afkVL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/91k0U7afkVL._AC_SL1500.jpg",
     bestFor: "Best budget",
     shortVerdict: "Tiny, no-nonsense ceramic heater built specifically for bathrooms. One button, an ALCI plug, cool-touch body, and fast 1500W heating.",
     score: 8.6,
@@ -1044,7 +1044,7 @@ const CATALOG = {
   B0GB6NRC9W: {
     name: "GiveBest Wall Heater for Bathroom",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81Zls468wnL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81Zls468wnL._AC_SL1500.jpg",
     bestFor: "Best value wall unit",
     shortVerdict: "Delivers 1500W wall-mounted PTC heating with an ALCI plug, IP24 splash rating, ECO mode, and child lock at a competitive value.",
     score: 8.8,
@@ -1057,7 +1057,7 @@ const CATALOG = {
   B09YXJMH87: {
     name: "DREO Bathroom Space Heater (B09YXJMH87)",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/815C2NcINvL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/815C2NcINvL._AC_SL1500.jpg",
     bestFor: "Best portable ALCI ceramic",
     shortVerdict: "Quiet and safe portable ceramic heater equipped with an ALCI plug for bathroom safety, fast heating, and precise digital thermostat.",
     score: 9.0,
@@ -1070,7 +1070,7 @@ const CATALOG = {
   B002QZ11J6: {
     name: "Dr Infrared Heater DR-968",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/51iCKT3c3oL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51iCKT3c3oL._AC_SL1500.jpg",
     bestFor: "Best overall",
     shortVerdict: "Dual quartz + PTC heating element delivers ~5,200 BTU of fast, even room warmth with quiet 39 dB operation and a 3-year warranty.",
     score: 9.6,
@@ -1083,7 +1083,7 @@ const CATALOG = {
   B0775PZDXM: {
     name: "Dr Infrared Heater DR-998",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81tjmCP7hRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81tjmCP7hRL._AC_SL1500.jpg",
     bestFor: "Best for dry winter air",
     shortVerdict: "Combines dual infrared heating with a built-in humidifier and oscillation in a wood furniture cabinet to prevent dry winter air.",
     score: 9.4,
@@ -1096,7 +1096,7 @@ const CATALOG = {
   B07JW4C7BJ: {
     name: "Amazon Basics 1500W Portable Heater",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/81QbaEAoVHL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81QbaEAoVHL._AC_SL1500.jpg",
     bestFor: "Best value",
     shortVerdict: "Affordable 1500W portable heater with remote, thermostat, and full safety cut-offs for small rooms and offices.",
     score: 8.7,
@@ -1109,7 +1109,7 @@ const CATALOG = {
   B077JM5PB9: {
     name: "Dr Infrared Heater DR-238",
     cluster: "Space Heaters",
-    imageUrl: "https://m.media-amazon.com/images/I/51iCKT3c3oL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51iCKT3c3oL._AC_SL1500.jpg",
     bestFor: "Best garage / outdoor",
     shortVerdict: "Weatherproof IP55 carbon-infrared heater designed for wall or ceiling mounting in garages, workshops, and outdoor patios.",
     score: 9.2,
@@ -1122,7 +1122,7 @@ const CATALOG = {
   B0DNJBSMW6: {
     name: "OutIn Fino Portable",
     cluster: "Coffee Grinders",
-    imageUrl: "https://m.media-amazon.com/images/I/71MYMcWy0XL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71MYMcWy0XL._AC_SL1500.jpg",
     bestFor: "Best portable burr",
     shortVerdict: "The most travel-focused option in the selected set, combining rechargeable portability with 28 grind settings and conical burr grinding.",
     score: 8.3,
@@ -1135,7 +1135,7 @@ const CATALOG = {
   B08559H8W2: {
     name: "Shark UltraCyclone Pet Pro Plus CH951",
     cluster: "Handheld Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/71RZ0xA0fmL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71RZ0xA0fmL._AC_SL1500.jpg",
     bestFor: "Best overall",
     shortVerdict: "The best all-around handheld for fast home, car, stair, and upholstery cleanup, combining strong debris pickup with a motorized pet brush.",
     score: 9.5,
@@ -1148,7 +1148,7 @@ const CATALOG = {
   B07CB6RBSP: {
     name: "BISSELL Pet Hair Eraser 2390A",
     cluster: "Handheld Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61a8E6BPJxL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61a8E6BPJxL._AC_SL1500.jpg",
     bestFor: "Best for pet hair",
     shortVerdict: "A strong choice for pet owners who regularly clean sofas, stairs, pet beds, and car upholstery with a motorized brush and 0.7-liter dirt tank.",
     score: 9.3,
@@ -1161,7 +1161,7 @@ const CATALOG = {
   B07T17TDLR: {
     name: "BLACK+DECKER AdvancedClean+ HHVK515J00FF",
     cluster: "Handheld Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/61iy357QKoL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61iy357QKoL._AC_SL1500.jpg",
     bestFor: "Best large dustbin / reach",
     shortVerdict: "A practical choice when bin capacity and reach matter, featuring an extra-large 750 mL dustbin and built-in extending crevice tool.",
     score: 9.1,
@@ -1174,7 +1174,7 @@ const CATALOG = {
   B0CBSV2TNM: {
     name: "Shark WANDVAC WV201BK",
     cluster: "Handheld Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/71nUwIp+f2L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71nUwIp+f2L._AC_SL1500.jpg",
     bestFor: "Best lightweight pick",
     shortVerdict: "The easiest pick to grab for crumbs, desks, shelves, and quick car cleanups with an ultra-light 1.4 lb handheld body and charging dock.",
     score: 8.9,
@@ -1187,7 +1187,7 @@ const CATALOG = {
   B07KG2X2GZ: {
     name: "BLACK+DECKER QuickClean HNVC215B10",
     cluster: "Handheld Vacuums",
-    imageUrl: "https://m.media-amazon.com/images/I/51O-5anSyWL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/51O-5anSyWL._AC_SL1500.jpg",
     bestFor: "Best budget pick",
     shortVerdict: "Offers a simple design, washable components, and wall-mounted charging for basic crumbs, dry spills, and quick car cleanups under $25.",
     score: 8.7,
@@ -1200,7 +1200,7 @@ const CATALOG = {
   B0B7QVJK8Y: {
     name: "NutriBullet Combo Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61TtCrnGgRL._AC_SL1500.jpg",
     bestFor: "Personal cups plus a small pitcher in one system",
     shortVerdict: "Combo setup for shoppers who want both single-serve cups and a pitcher option.",
     score: 8.5,
@@ -1213,7 +1213,7 @@ const CATALOG = {
   B0BKR66QGC: {
     name: "Reynolds Kitchens Air Fryer Liners (50)",
     cluster: "Accessories",
-    imageUrl: "https://m.media-amazon.com/images/I/71AbD2FmLaL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71AbD2FmLaL._AC_SL1500.jpg",
     bestFor: "Trusted-brand parchment cleanup",
     shortVerdict: "Brand-name liners for cleaner baskets with less scrubbing.",
     score: 8.6,
@@ -1226,7 +1226,7 @@ const CATALOG = {
   B0C6Y8NYK1: {
     name: "Disposable Air Fryer Paper Liners (125)",
     cluster: "Accessories",
-    imageUrl: "https://m.media-amazon.com/images/I/81uYPVAVU3L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81uYPVAVU3L._AC_SL1500.jpg",
     bestFor: "High-count everyday frying cleanup",
     shortVerdict: "Bulk liner pack for frequent air frying at a lower per-use cost.",
     score: 8.2,
@@ -1239,7 +1239,7 @@ const CATALOG = {
   B0B6PLG6G2: {
     name: "8-Inch Square Air Fryer Liners (125)",
     cluster: "Accessories",
-    imageUrl: "https://m.media-amazon.com/images/I/710lcyAkSSL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/710lcyAkSSL._AC_SL1500.jpg",
     bestFor: "Square Cosori-style baskets",
     shortVerdict: "Square parchment sized for many 5â€“8 qt square baskets.",
     score: 8.3,
@@ -1252,7 +1252,7 @@ const CATALOG = {
   B0B1M7WRQ4: {
     name: "Ninja Air Fryer Pro 4-in-1 (AF161)",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71UIRKGLtYL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71UIRKGLtYL._AC_SL1500.jpg",
     bestFor: "Mid-size Ninja kitchens wanting roast + air fry modes",
     shortVerdict: "Ninja mid-range air fryer option when AF141 feels too small.",
     score: 8.6,
@@ -1265,7 +1265,7 @@ const CATALOG = {
   B08XYS6D24: {
     name: "BELLA Pro Series 8-Qt Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500.jpg",
     bestFor: "Budget XL capacity",
     shortVerdict: "Large-basket value play for bigger frozen snack batches.",
     score: 8.0,
@@ -1278,7 +1278,7 @@ const CATALOG = {
   B09MW1R6Y6: {
     name: "Ultrean Air Fryer 4.2-Qt",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500.jpg",
     bestFor: "Ultra-budget compact kitchens",
     shortVerdict: "Smaller basket budget air fryer for light everyday use.",
     score: 7.5,
@@ -1291,7 +1291,7 @@ const CATALOG = {
   B07FDJMC9Q: {
     name: "COSORI Air Fryer Max XL (legacy)",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500.jpg",
     bestFor: "Shoppers who like Cosori but want an alternate listing",
     shortVerdict: "Legacy Cosori-style XL option when TurboBlaze is out of stock.",
     score: 8.1,
@@ -1304,7 +1304,7 @@ const CATALOG = {
   B09N43K4B4: {
     name: "Ninja Foodi Dual-Zone Alternative",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61A3ePViuoL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61A3ePViuoL._AC_SL1500.jpg",
     bestFor: "Family dual cooking on a Ninja stack",
     shortVerdict: "Dual-zone style alternative when DZ201 pricing spikes.",
     score: 8.5,
@@ -1317,7 +1317,7 @@ const CATALOG = {
   B0BXQ8V8QQ: {
     name: "Dual Basket Air Fryer Value Pick",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61FrvAw250L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61FrvAw250L._AC_SL1500.jpg",
     bestFor: "Budget dual-basket experiments",
     shortVerdict: "Value dual-basket style pick for shoppers testing two-zone cooking.",
     score: 7.9,
@@ -1330,7 +1330,7 @@ const CATALOG = {
   B0CQJ8QZ7Y: {
     name: "Ninja DoubleStack XL Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/61rjcZZpkVL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61rjcZZpkVL._AC_SL1500.jpg",
     bestFor: "Stacked family cooking in a taller footprint",
     shortVerdict: "Stacked dual-level Ninja concept for bigger households.",
     score: 8.7,
@@ -1343,7 +1343,7 @@ const CATALOG = {
   B0CV4LDK6P: {
     name: "Ninja Crispi Portable Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500.jpg",
     bestFor: "Portable / flexible countertop use",
     shortVerdict: "Portable-leaning Ninja option when a fixed XL unit is overkill.",
     score: 8.2,
@@ -1356,7 +1356,7 @@ const CATALOG = {
   B08TR59W7Q: {
     name: "Compact Budget Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500.jpg",
     bestFor: "Dorms and tiny counters under a tight budget",
     shortVerdict: "Small-budget compact fryer for light snacks and reheating.",
     score: 7.3,
@@ -1369,7 +1369,7 @@ const CATALOG = {
   B09Y7B3J1N: {
     name: "Small Kitchen Compact Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/719F0KSYZqL._AC_SL1500.jpg",
     bestFor: "Apartment counters under 5 qt needs",
     shortVerdict: "Compact everyday fryer when 6â€“8 qt units will not fit.",
     score: 7.8,
@@ -1382,7 +1382,7 @@ const CATALOG = {
   B0BSCY5V3K: {
     name: "Starter Air Fryer Under $50 Class",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71jSDZe54mL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71jSDZe54mL._AC_SL1500.jpg",
     bestFor: "First-time buyers testing air frying",
     shortVerdict: "Starter-class unit to learn air frying before upgrading.",
     score: 7.2,
@@ -1395,7 +1395,7 @@ const CATALOG = {
   B07VG5Z5ZQ: {
     name: "Essential Compact Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71+t6AT-5VL._AC_SL1500.jpg",
     bestFor: "Simple weeknight reheating and fries",
     shortVerdict: "No-frills compact fryer for basic frozen foods.",
     score: 7.4,
@@ -1408,7 +1408,7 @@ const CATALOG = {
   B0C5XKQZ2P: {
     name: "Value Family Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81Mhmz7WZmL._AC_SL1500.jpg",
     bestFor: "Family snacks on a mid budget",
     shortVerdict: "Mid-budget family basket option when premium dual-zone is too much.",
     score: 8.0,
@@ -1421,7 +1421,7 @@ const CATALOG = {
   B0B7KQ8M1N: {
     name: "Budget Crispy Snack Air Fryer",
     cluster: "Air Fryers",
-    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71VzGtbzyFL._AC_SL1500.jpg",
     bestFor: "Frozen snacks and quick sides",
     shortVerdict: "Budget snack-focused fryer for fries, nuggets, and reheating.",
     score: 7.6,
@@ -1434,7 +1434,7 @@ const CATALOG = {
   B008H4SLVX: {
     name: "Cuisinart SmartPower Classic Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "Classic branded countertop blending",
     shortVerdict: "Traditional countertop blender for everyday fruit drinks and light prep.",
     score: 7.9,
@@ -1447,7 +1447,7 @@ const CATALOG = {
   B00FFSO0FE: {
     name: "Oster Reverse Crush Counterforms Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "All-metal drive shoppers who want durability cues",
     shortVerdict: "Oster countertop blender with durability-focused drive design cues.",
     score: 8.0,
@@ -1460,7 +1460,7 @@ const CATALOG = {
   B01H08Y7S2: {
     name: "Oster Professional Smoothie Blender",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/71LfIHdXwOL._AC_SL1500.jpg",
     bestFor: "Smoothie-focused Oster shoppers",
     shortVerdict: "Smoothie-oriented Oster blender alternative in the under-$100 conversation.",
     score: 8.1,
@@ -1473,7 +1473,7 @@ const CATALOG = {
   B07YHL6ZBW: {
     name: "Ninja Nutri Personal Blender Duo",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/81T-xzexEAL._AC_SL1500.jpg",
     bestFor: "Two-cup personal blending households",
     shortVerdict: "Personal duo cup system when two people share smoothie routines.",
     score: 8.0,
@@ -1486,7 +1486,7 @@ const CATALOG = {
   B0CKTYP1JT: {
     name: "Ninja Professional Blender (updated colorway)",
     cluster: "Blenders",
-    imageUrl: "https://m.media-amazon.com/images/I/61rZJywpS-L._AC_SL1500_.jpg",
+    imageUrl: "https://m.media-amazon.com/images/I/61rZJywpS-L._AC_SL1500.jpg",
     bestFor: "BL610-class performance with a current listing variant",
     shortVerdict: "Current-listing variant in the Ninja professional pitcher family.",
     score: 8.7,
