@@ -117,5 +117,5 @@
   "heroImage": "/images/heroes/best-small-air-fryer.png",
   "heroImageAlt": "Best Small Air Fryer — compact air fryer with crispy tots for small kitchens and dorms",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

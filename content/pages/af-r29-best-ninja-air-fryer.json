@@ -135,5 +135,5 @@
   "heroImage": "/images/heroes/best-ninja-air-fryer.png",
   "heroImageAlt": "Best Ninja Air Fryer — DualZone Ninja air fryer with crispy foods",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

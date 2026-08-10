@@ -63,5 +63,5 @@
   "heroImage": "/images/heroes/robot-vacuums.jpg",
   "heroImageAlt": "Robot Vacuums Buying Guides — LiDAR, self-empty docks and pet hair models",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

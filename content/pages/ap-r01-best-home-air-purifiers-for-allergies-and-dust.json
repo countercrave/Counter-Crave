@@ -88,5 +88,5 @@
   "heroImage": "/images/heroes/air-purifiers.jpg",
   "heroImageAlt": "Best Home Air Purifiers for Allergies and Dust 2026 — LEVOIT, Blueair, WINIX, Coway and PuroAir compared",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

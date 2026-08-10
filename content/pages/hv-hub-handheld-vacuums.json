@@ -60,5 +60,5 @@
   "heroImage": "/images/heroes/handheld-vacuums.jpg",
   "heroImageAlt": "Handheld Vacuums Buying Guides — Cordless models for cars, stairs and pet hair",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

@@ -127,5 +127,5 @@
   "heroImage": null,
   "heroImageAlt": null,
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

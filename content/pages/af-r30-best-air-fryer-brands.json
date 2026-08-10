@@ -648,5 +648,5 @@
   "heroImage": "/images/heroes/best-air-fryer-brands.png",
   "heroImageAlt": "Best Air Fryer Brands — lineup of flagship air fryers with crispy fries, wings, vegetables, and muffins",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

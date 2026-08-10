@@ -98,5 +98,5 @@
   "heroImage": "https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_SL1500_.jpg",
   "heroImageAlt": "Air Fryers — Best Air Fryers for Frozen Foods",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

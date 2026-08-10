@@ -60,5 +60,5 @@
   "heroImage": "/images/heroes/air-purifiers.jpg",
   "heroImageAlt": "Air Purifiers Buying Guides — HEPA models for dust, allergies and smoke",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

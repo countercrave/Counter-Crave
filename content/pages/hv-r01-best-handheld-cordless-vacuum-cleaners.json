@@ -101,5 +101,5 @@
   "heroImage": "/images/heroes/handheld-vacuums.jpg",
   "heroImageAlt": "Best Handheld Cordless Vacuum Cleaners 2026 — Shark UltraCyclone, BISSELL Pet Hair Eraser, BLACK+DECKER and WANDVAC compared",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

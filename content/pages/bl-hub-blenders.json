@@ -118,5 +118,5 @@
   "heroImage": "/images/heroes/blenders.jpg",
   "heroImageAlt": "Best blenders for smoothies and everyday use",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

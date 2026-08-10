@@ -91,5 +91,5 @@
   "heroImage": "/images/heroes/best-large-air-fryer.jpg",
   "heroImageAlt": "Best Large Air Fryers 2026 — Ninja, Typhur, Instant, COSORI, and Chefman family-size picks compared",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

@@ -117,5 +117,5 @@
   "heroImage": "/images/heroes/best-non-toxic-air-fryer.png",
   "heroImageAlt": "Best Non-Toxic Air Fryer — healthy cooking with PFAS-free and safer materials",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

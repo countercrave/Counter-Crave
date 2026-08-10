@@ -150,5 +150,5 @@
   "heroImage": null,
   "heroImageAlt": null,
   "draft": true,
-  "noindex": false
+  "noindex": true
 }

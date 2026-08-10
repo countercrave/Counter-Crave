@@ -117,5 +117,5 @@
   "heroImage": "/images/heroes/best-air-fryer-microwave-combo.png",
   "heroImageAlt": "Best Air Fryer Microwave Combo — countertop microwave with air fry crisping",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

@@ -50,16 +50,16 @@ export async function generateMetadata({
       publishedTime: page.publishedAt || undefined,
       modifiedTime: page.updatedAt || undefined,
     },
-    robots: siteConfig.allowIndexing
-      ? {
-          index: !page.draft && !page.noindex,
-          follow: !page.draft && !page.noindex,
-        }
-      : {
-          index: false,
-          follow: false,
-          nocache: true,
-        },
+    robots: {
+      index: false,
+      follow: false,
+      nocache: true,
+      googleBot: {
+        index: false,
+        follow: false,
+        noimageindex: true,
+      },
+    },
   };
 }
 

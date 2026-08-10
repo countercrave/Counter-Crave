@@ -117,5 +117,5 @@
   "heroImage": "/images/heroes/best-air-fryer-for-chicken-breast.png",
   "heroImageAlt": "Best Air Fryer Chicken Breast — juicy sliced chicken breast with vegetables and an air fryer",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

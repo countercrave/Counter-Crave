@@ -117,5 +117,5 @@
   "heroImage": "/images/heroes/best-air-fryer-for-chicken-wings.png",
   "heroImageAlt": "Best Air Fryer Chicken Wings — crispy wings with an air fryer, sauces, and flavor styles",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

@@ -122,5 +122,5 @@
   "heroImage": "/images/heroes/coffee-grinders.jpg",
   "heroImageAlt": "Best coffee grinders for espresso and drip coffee",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

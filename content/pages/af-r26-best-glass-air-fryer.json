@@ -136,5 +136,5 @@
   "heroImage": "/images/heroes/best-glass-air-fryer.png",
   "heroImageAlt": "Best Glass Air Fryer — clear glass basket air fryer with roasted vegetables",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

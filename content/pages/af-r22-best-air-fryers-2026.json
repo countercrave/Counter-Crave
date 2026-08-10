@@ -118,5 +118,5 @@
   "heroImage": "/images/heroes/best-air-fryers-2026.png",
   "heroImageAlt": "Best Air Fryers 2026 — healthier cooking, crispier results with top-rated models compared",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

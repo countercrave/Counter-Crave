@@ -89,5 +89,5 @@
   "heroImage": "/images/heroes/robot-vacuums.jpg",
   "heroImageAlt": "Best Robot Vacuums Under $500 (2026) — ECOVACS T80S OMNI, Roborock Q10 S5+, Dreame D20 Pro Plus compared",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }

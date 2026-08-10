@@ -114,5 +114,5 @@
   "heroImage": "/images/heroes/best-air-fryer-toaster-oven.png",
   "heroImageAlt": "Best Air Fryer Toaster Oven Combo — air fry, toast, bake, and broil in one appliance",
   "draft": false,
-  "noindex": false
+  "noindex": true
 }
