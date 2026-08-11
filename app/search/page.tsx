@@ -49,9 +49,8 @@ function scorePage(
   return score;
 }
 
-export default async function SearchPage({ searchParams }: SearchPageProps) {
-  const { q = "" } = await searchParams;
-  const query = q.trim();
+export default function SearchPage() {
+  const query = "";
   const pages = getAllPages({ includeDrafts: false }).filter(
     (page) => !["Trust", "Legal"].includes(page.cluster),
   );

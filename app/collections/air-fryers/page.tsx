@@ -45,8 +45,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function AirFryerCollectionsPage({ searchParams }: PageProps) {
-  const params = await searchParams;
+export default function AirFryerCollectionsPage() {
   const data = loadCollection();
 
   return (
@@ -76,8 +75,8 @@ export default async function AirFryerCollectionsPage({ searchParams }: PageProp
         products={data.products}
         collections={data.collections}
         brands={data.brands}
-        initialBrand={params.brand || ""}
-        initialCollection={params.collection || "all"}
+        initialBrand=""
+        initialCollection="all"
         brandsArticleHref="/best-air-fryer-brands/"
       />
     </main>

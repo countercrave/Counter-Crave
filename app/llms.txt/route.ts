@@ -1,6 +1,8 @@
 import { getAllPages } from "@/lib/content";
 import { siteConfig } from "@/lib/site";
 
+export const dynamic = "force-static";
+
 export function GET() {
   if (!siteConfig.allowIndexing) {
     return new Response(
