@@ -87,9 +87,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-24",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/best-toaster-oven-air-fryer.jpg",
   "heroImageAlt": "Best Toaster Oven Air Fryer 2026 — Breville, Ninja, Cuisinart, COSORI, Our Place, and Hamilton Beach compared",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }

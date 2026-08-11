@@ -114,9 +114,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-26",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/best-air-fryers-2026.png",
   "heroImageAlt": "Best Air Fryers 2026 — healthier cooking, crispier results with top-rated models compared",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }

@@ -84,9 +84,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-08-09",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/air-purifiers.jpg",
   "heroImageAlt": "Best Home Air Purifiers for Allergies and Dust 2026 — LEVOIT, Blueair, WINIX, Coway and PuroAir compared",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }

@@ -110,9 +110,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-24",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/best-air-fryer-toaster-oven.png",
   "heroImageAlt": "Best Air Fryer Toaster Oven Combo — air fry, toast, bake, and broil in one appliance",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }

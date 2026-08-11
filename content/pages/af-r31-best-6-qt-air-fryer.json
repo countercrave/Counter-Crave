@@ -87,9 +87,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-08-08",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/best-6-qt-air-fryer.jpg",
   "heroImageAlt": "Best 6 Qt Air Fryers 2026 — COSORI, Ninja, Dreo, Instant, and Chefman 6-quart picks compared",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }

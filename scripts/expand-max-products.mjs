@@ -1947,6 +1947,7 @@ const PAGE_OVERRIDES = {
   "BL-R05": BL,
   "BL-R06": BL,
   "AF-R01": AF,
+  "AF-R04": AF,
   "AF-PIL": AF,
   "AF-C01": AF,
   "AF-R20": ACC,

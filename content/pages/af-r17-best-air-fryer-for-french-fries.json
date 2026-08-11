@@ -113,9 +113,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-26",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/best-air-fryer-for-french-fries.png",
   "heroImageAlt": "Best Air Fryer French Fries — crispy golden fries with an air fryer and ketchup",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }

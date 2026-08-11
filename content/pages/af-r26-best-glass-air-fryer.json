@@ -132,9 +132,9 @@
   "author": "Navjeet Kamboj",
   "reviewer": null,
   "publishedAt": "2026-07-26",
-  "updatedAt": "2026-08-10",
+  "updatedAt": "2026-08-11",
   "heroImage": "/images/heroes/best-glass-air-fryer.png",
   "heroImageAlt": "Best Glass Air Fryer — clear glass basket air fryer with roasted vegetables",
   "draft": false,
-  "noindex": true
+  "noindex": false
 }
