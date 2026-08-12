@@ -148,13 +148,6 @@ export default function BestBlenderFoodProcessorComboPage() {
           --cc-max:1180px;
         }
         .cc-shell{width:min(var(--cc-max),calc(100% - 32px));margin:0 auto}
-        .cc-site-header{border-bottom:1px solid var(--cc-line);background:#fff}
-        .cc-site-header .cc-shell{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:70px}
-        .cc-logo{font-size:1.35rem;font-weight:800;letter-spacing:-.03em;color:var(--cc-ink);text-decoration:none}
-        .cc-logo span{color:var(--cc-brand)}
-        .cc-nav{display:flex;gap:22px;flex-wrap:wrap;font-size:.94rem}
-        .cc-nav a{text-decoration:none;color:var(--cc-muted);font-weight:600}
-        .cc-nav a:hover{color:var(--cc-brand)}
         .cc-breadcrumbs{padding:18px 0 0;font-size:.86rem;color:var(--cc-muted)}
         .cc-breadcrumbs a{color:inherit;text-decoration:none}
         .cc-hero{padding:38px 0 28px}
@@ -222,25 +215,11 @@ export default function BestBlenderFoodProcessorComboPage() {
         .cc-main details p{margin:10px 0 0;color:#4e555c}
         .cc-source-list{font-size:.9rem;color:var(--cc-muted)}
         .cc-source-list li{margin:7px 0}
-        .cc-footer{border-top:1px solid var(--cc-line);background:var(--cc-soft);padding:34px 0;color:#5c6268;font-size:.9rem}
-        .cc-footer-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
         @media(max-width:980px){.cc-layout{grid-template-columns:1fr}.cc-sidebar{position:static;order:-1}.cc-toc{columns:2}.cc-picks{grid-template-columns:1fr 1fr}}
-        @media(max-width:700px){.cc-site-header .cc-shell{align-items:flex-start;flex-direction:column;padding:14px 0}.cc-nav{gap:13px}.cc-hero{padding-top:28px}.cc-layout{gap:20px}.cc-picks,.cc-guide-grid,.cc-procon{grid-template-columns:1fr}.cc-review-head{grid-template-columns:1fr}.cc-product-image{min-height:200px}.cc-toc{columns:1}.cc-shell{width:min(var(--cc-max),calc(100% - 22px))}}
+        @media(max-width:700px){.cc-hero{padding-top:28px}.cc-layout{gap:20px}.cc-picks,.cc-guide-grid,.cc-procon{grid-template-columns:1fr}.cc-review-head{grid-template-columns:1fr}.cc-product-image{min-height:200px}.cc-toc{columns:1}.cc-shell{width:min(var(--cc-max),calc(100% - 22px))}}
       ` }} />
 
       <article className="cc-airfryer-guide">
-        <header className="cc-site-header">
-          <div className="cc-shell">
-            <Link className="cc-logo" href="/" aria-label="CounterCrave home">Counter<span>Crave</span></Link>
-            <nav className="cc-nav" aria-label="Primary navigation">
-              <Link href="/">Home</Link>
-              <Link href="/best-blenders/">Kitchen Appliances</Link>
-              <Link href="/best-blenders/">Buying Guides</Link>
-              <Link href="/about/">About</Link>
-            </nav>
-          </div>
-        </header>
-
         <div className="cc-shell">
           <nav className="cc-breadcrumbs" aria-label="Breadcrumb">
             <Link href="/">Home</Link> &nbsp;›&nbsp;
@@ -291,7 +270,7 @@ export default function BestBlenderFoodProcessorComboPage() {
                       <tr><td className="cc-best">2. Most versatile</td><td>Ninja SS401</td><td>1600 peak watts</td><td>72 oz processor pitcher</td><td>Process-in-pitcher + feed chute + discs</td><td>Slicing, grating, smoothie bowls</td><td><a href="https://www.amazon.com/dp/B098RCQVRB" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
                       <tr><td className="cc-best">3. Best value</td><td>Ninja BN801</td><td>1400 peak watts</td><td>72 oz pitcher</td><td>64 oz / 8-cup bowl + chopping &amp; dough blades</td><td>Families and batch prep</td><td><a href="https://www.amazon.com/dp/B08559K7CN" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
                       <tr><td>4. Best premium</td><td>Vitamix Ascent X2 SmartPrep</td><td>1500 W / 2.2 HP platform</td><td>48 oz container</td><td>12-cup attachment + slice/shred discs</td><td>Premium build and longevity</td><td><a href="https://www.amazon.com/dp/B0DY8F5VD1" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
-                      <tr><td>5. Best proven workhorse</td><td>Ninja BL770</td><td>1500 W</td><td>72 oz pitcher</td><td>8-cup bowl + dough blade</td><td>Large batches and dough</td><td><a href="https://www.amazon.com/dp/B00939I7EK" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
+                      <tr><td>5. Best proven workhorse</td><td>Ninja Mega Kitchen System BL770</td><td>1500 W</td><td>72 oz pitcher</td><td>8-cup bowl + dough blade</td><td>Large batches and dough</td><td><a href="https://www.amazon.com/dp/B00939I7EK" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
                       <tr><td>6. Best compact 3-in-1</td><td>Cuisinart BFP-650P1</td><td>1 HP motor</td><td>56 oz jar</td><td>3-cup bowl + feed tube + slice/shred disc</td><td>Small households + travel cups</td><td><a href="https://www.amazon.com/dp/B00MVWGLJO" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
                       <tr><td>7. Best budget glass jar</td><td>Hamilton Beach 58163</td><td>700 peak watts</td><td>40 oz glass jar</td><td>3-cup food chopper</td><td>Basic smoothies and chopping</td><td><a href="https://www.amazon.com/dp/B071CH3TLT" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
                       <tr><td>8. Best smaller processor</td><td>Ninja AMZ493BRN</td><td>1200 W</td><td>72 oz pitcher</td><td>5-cup processor bowl</td><td>Compact meal prep + frozen drinks</td><td><a href="https://www.amazon.com/dp/B08QJSDBY4" rel="sponsored nofollow noopener" target="_blank">Check price</a></td></tr>
@@ -578,13 +557,6 @@ export default function BestBlenderFoodProcessorComboPage() {
             </aside>
           </div>
         </div>
-
-        <footer className="cc-footer">
-          <div className="cc-shell cc-footer-grid">
-            <div><strong>CounterCrave</strong><br />Practical kitchen guides for smarter buying decisions.</div>
-            <div>© 2026 CounterCrave · <Link href="/privacy/">Privacy</Link> · <Link href="/contact/">Contact</Link></div>
-          </div>
-        </footer>
       </article>
     </>
   );

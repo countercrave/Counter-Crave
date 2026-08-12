@@ -18,9 +18,14 @@ type PageProps = {
   params: Promise<{ slug: string[] }>;
 };
 
+const standaloneRoutes = [
+  "best-blender-food-processor-combo",
+  "best-toaster-oven-air-fryer",
+];
+
 export function generateStaticParams() {
   return getAllPages()
-    .filter((page) => !page.draft)
+    .filter((page) => !page.draft && !standaloneRoutes.includes(page.slug))
     .map((page) => ({
       slug: page.slug.split("/").filter(Boolean),
     }));
@@ -30,7 +35,9 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const page = getPageBySlug(slug.join("/"), {
+  const slugStr = slug.join("/");
+  if (standaloneRoutes.includes(slugStr)) return {};
+  const page = getPageBySlug(slugStr, {
     includeDrafts: canShowDrafts(),
   });
 
@@ -65,7 +72,9 @@ export async function generateMetadata({
 
 export default async function ContentRoute({ params }: PageProps) {
   const { slug } = await params;
-  const page = getPageBySlug(slug.join("/"), {
+  const slugStr = slug.join("/");
+  if (standaloneRoutes.includes(slugStr)) notFound();
+  const page = getPageBySlug(slugStr, {
     includeDrafts: canShowDrafts(),
   });
 
