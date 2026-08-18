@@ -1,0 +1,21 @@
+{
+  "generated": "2026-08-18",
+  "amazon_tag": "visitbest07-20",
+  "category_count": 12,
+  "article_count": 108,
+  "product_count": 85,
+  "real_amazon_images": 61,
+  "files": 156,
+  "verified_asins": 85,
+  "image_verification_date": "2026-08-18",
+  "asin_verified_products": 85,
+  "new_in_v3": {
+    "articles": 36,
+    "products": 24,
+    "article_types_added": [
+      "cleaning-and-maintenance",
+      "buying-mistakes",
+      "premium-vs-budget"
+    ]
+  }
+}
