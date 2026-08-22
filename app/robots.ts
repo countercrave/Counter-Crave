@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
-import { absoluteUrl } from "../lib/site";
 
 export default function robots(): MetadataRoute.Robots {
+  const origin = process.env.NEXT_PUBLIC_SITE_URL || "https://countercrave.com";
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: absoluteUrl("/sitemap.xml"),
+    sitemap: `${origin}/sitemap.xml`,
   };
 }
-

@@ -1,0 +1,1638 @@
+{
+ "best-non-toxic-air-fryer": {
+  "category": "air-fryers",
+  "source": 24,
+  "published": 14,
+  "removed": [
+   {
+    "asin": "B0D7D3CZ1S",
+    "title": "Nuwave Bravo XL Pro Air Fryer Toaster Oven w/Grill Combo, 2026 New System",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0H5B8B1W4",
+    "title": "Emphsism 12QT Large Air Fryer, 13-in-1 with 10°F Precision Control, Dual Zone Air Fryer with Removable Divider, 1 x 12QT Mega Zone or 2 Independent 6QT Zones, Sync Finish & Dual Cook, Viewing Window",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B089TQWJKK",
+    "title": "Ninja DZ201 Foodi 8 Quart 6-in-1 DualZone 2-Basket Air Fryer with 2 Independent Frying Baskets, Match Cook & Smart Finish to Roast, Broil, Dehydrate & More for Quick, Easy Meals, Grey",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CSZ7WBYW",
+    "title": "Ninja Air Fryer Pro, 5 Qt, 4-in-1, Grey, AF141",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CJMV9RZK",
+    "title": "Nuwave Bravo XL Pro Air Fryer Toaster Oven, Improved 100% Super Convection",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0GWFQKG5J",
+    "title": "Ninja French Door Premier Air Fry Oven, 10-in-1, Black, FO101BK",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0FB13MRPY",
+    "title": "Ninja Foodi Air Fryer, 10 Qt DualZone Smart XL, 6-in-1, Grey, DZ550GY",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B09B7SB46R",
+    "title": "Emeril Lagasse 26QT French Door Multi-Function Air Fryer Toaster Oven",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0FVPGTCGC",
+    "merged": [
+     "B0FVP7SLRL"
+    ],
+    "title": "Nuwave Brio Plus 7QT Air Fryer, Extra Crispy Results w/Less Oil, PFAS-Free"
+   },
+   {
+    "kept": "B0DJFB6ZKM",
+    "merged": [
+     "B0DJFBDFZK"
+    ],
+    "title": "Ninja Crispi Glass Air Fryer, 4-in-1, Green, FN101SG"
+   }
+  ]
+ },
+ "best-toaster-oven-air-fryer": {
+  "category": "air-fryers",
+  "source": 22,
+  "published": 18,
+  "removed": [
+   {
+    "asin": "B0D4R8G1FX",
+    "title": "Ninja Prestige Smart XL Countertop Oven, 10-in-1, Stainless Steel, DT501",
+    "reason": "does not describe the appliance this guide covers"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0DCCY5JCP",
+    "merged": [
+     "B0D7N8HJRZ"
+    ],
+    "title": "Nuwave Bravo Pro Smart Air Fryer Toaster Oven Countertop Combo"
+   },
+   {
+    "kept": "B0GWFQKG5J",
+    "merged": [
+     "B0GWFWHPC8"
+    ],
+    "title": "Ninja French Door Premier Air Fry Oven, 10-in-1, Black, FO101BK"
+   },
+   {
+    "kept": "B09HSW1YGD",
+    "merged": [
+     "B09HSTRL87"
+    ],
+    "title": "Cuisinart Air Fryer Toaster Oven with Grill, 1800W 8-1 Air Fryer Oven with Bake, Convection Bake, Grill, Broil and Warm Options, Large Capacity, 60-Minute Timer, TOA-70BKS, Black SS"
+   }
+  ]
+ },
+ "best-small-air-fryer": {
+  "category": "air-fryers",
+  "source": 24,
+  "published": 15,
+  "removed": [
+   {
+    "asin": "B0CKP6Y6KB",
+    "title": "Typhur Dome 2 Large AI Smart Air Fryer, 15-in-1 Dual Heating, Self-Cleaning",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0BNDJN73L",
+    "title": "Gourmia Air Fryer - 14 Qt All-in-One Rotisserie Oven with Digital Display, 12 Presets, Roast, Bake, Broil, Dehydrate, Dishwasher Safe Accessories, Stainless Steel",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0DY11H2PJ",
+    "title": "BLACK+DECKER 5-in-1 Microwave Oven Air Fryer Combo, 0.9 Cu.Ft, 900W",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0FMYGX797",
+    "title": "Typhur Sync Air Fryer Oven with Wireless Meat Thermometer Probe, AI Recipes",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0GZ2XJR6N",
+    "title": "Midea Neo Air Fryer Toaster Oven Combo, 12.7 Quarts, Stainless Steel",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B089TQWJKK",
+    "title": "Ninja DZ201 Foodi 8 Quart 6-in-1 DualZone 2-Basket Air Fryer with 2 Independent Frying Baskets, Match Cook & Smart Finish to Roast, Broil, Dehydrate & More for Quick, Easy Meals, Grey",
+    "reason": "outside the size or format this guide covers"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0F9B4YCZF",
+    "merged": [
+     "B0F9B3ZV61"
+    ],
+    "title": "Instant Pot 4Qt Vortex 6-in-1 Mini Air Fryer, Custom Program Options, Air Fry, Broil, Roast, Dehydrate, Bake, Reheat, Black, 4 Quarts"
+   },
+   {
+    "kept": "B0CNY1F31S",
+    "merged": [
+     "B0CNY1YVDD"
+    ],
+    "title": "Chefman Air Fryer – 4 QT Compact Airfryer for Quick & Easy Meals in Minutes, Features Hi-Fry Technology for Extra Crisp, Touchscreen Controls with 4 Presets, Nonstick & Dishwasher Safe Basket - Black"
+   },
+   {
+    "kept": "B0CZPJ1833",
+    "merged": [
+     "B0CYJDVT31"
+    ],
+    "title": "bella Fits-anywhere Slim 4qt Air Fryer, Non-Toxic Ceramic Coating, Blossom"
+   }
+  ]
+ },
+ "best-air-fryer-chicken-wings": {
+  "category": "air-fryers",
+  "source": 59,
+  "published": 48,
+  "removed": [
+   {
+    "asin": "B07KJGR9JZ",
+    "title": "Chefman 4.5 Liter Deep Fryer w/Basket Strainer, XL Jumbo Size, Adjustable Temperature & Timer, Perfect for Fried Chicken, Shrimp, French Fries, Chips & More, Removable Oil-Container, Stainless Steel",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0CC1DFLV4",
+    "title": "Air Fryer Basket for Oven, 2 Pack Stainless Steel Crisper Basket & Tray",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0GSF4XGLZ",
+    "title": "Air Fryer Basket for Oven, 2 Pack Stainless Steel Crisper Basket & Tray",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B074VJVKH5",
+    "title": "Gotham Steel Air Fryer Basket for Oven - 16.5” x 12.5”",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0BZCRKKDC",
+    "title": "Vailnd 125PCS 9inch Square Air Fryer Disposable Liners for 10-12 QT",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0D2BJZKXD",
+    "title": "130 Pcs Disposable Mini Air Fryer Liners for COSORI 2.1 Qt Air Fryer",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0GWF799TB",
+    "title": "Ninja Double Oven Pro Smart XL, 12-in-1, Silver, DCT821",
+    "reason": "does not describe the appliance this guide covers"
+   },
+   {
+    "asin": "B0DWXMH3LL",
+    "title": "GCQ Air Fryer Grill Pan for Gourmia GAF536 GAF556 GAF566 5QT Air Fryer, 8.8''×8.4'' Nonstick Air Fryer Replacement Tray Parts Rack Basket Accessories Grill Plate Crisper Plate with Rubber Bumpers",
+    "reason": "accessory, consumable or off-category item"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0DJFBDFZK",
+    "merged": [
+     "B0DDDD8WD6"
+    ],
+    "title": "Ninja Crispi Glass Air Fryer, 4-in-1, Stone, FN101ST"
+   },
+   {
+    "kept": "B0FVPGTCGC",
+    "merged": [
+     "B0FVNGCSP9"
+    ],
+    "title": "Nuwave Brio Plus 7QT Air Fryer, Extra Crispy Results w/Less Oil, PFAS-Free"
+   },
+   {
+    "kept": "B0FR7HYFNP",
+    "merged": [
+     "B0FR67BCV3"
+    ],
+    "title": "Chefman Crispinator Air Fryer 7-in-1 with 8 Qt Capacity, 450°F Max Temp & TurboFry Pro Technology for Fast, Even Results, Bake, Broil, Dehydrate, Viewing Window, Nonstick Ceramic-Coated Basket"
+   }
+  ]
+ },
+ "best-air-fryer-microwave-combo": {
+  "category": "air-fryers",
+  "source": 20,
+  "published": 8,
+  "removed": [
+   {
+    "asin": "B0GWFQKG5J",
+    "title": "Ninja French Door Premier Air Fry Oven, 10-in-1, Black, FO101BK",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DCCY5JCP",
+    "title": "Nuwave Bravo Pro Smart Air Fryer Toaster Oven Countertop Combo",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08BXX69K4",
+    "title": "Ninja Foodi XL Pro Air Fry Oven, 10-in-1, Stainless Steel, DT201",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0H9T5SD5L",
+    "title": "Nuwave Bravo Pro Convection Air Fryer Combo, 2025 New and Improved",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0C1LDRFSK",
+    "title": "Nuwave Bravo Air Fryer Toaster Countertop Convection Oven Combo",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B09HSWBTN4",
+    "title": "Cuisinart Air Fryer Toaster Oven, 1800W, 8-in-1 with Air Fry, Convection, Broil & Warm, 0.6 Cubic Feet, 60-Minute Timer, TOA-70NAS, Stainless Steel",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DDDD8WD6",
+    "title": "Ninja Crispi Glass Air Fryer, 4-in-1, Grey, FN101GY",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0F2JN4BFQ",
+    "title": "Nuwave Bravo Pro Convection Air Fryer Toaster Oven Combo",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08R12QZS1",
+    "title": "Ninja Foodi Smart Dual Heat Air Fry Oven, 13-in-1, Silver, SP351",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B09B7SB46R",
+    "title": "Emeril Lagasse 26QT French Door Multi-Function Air Fryer Toaster Oven",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0D1CXL52G",
+    "title": "Ninja Flip Toaster Oven & Air Fryer, 8-in-1, Stainless Steel, SP151",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DB2HD138",
+    "title": "Chefman Air Fryer Toaster Oven Combo, Countertop Oven for Quick & Healthy Meals, Bake, Broil, Air Fry, Toast, and Bagel Functions, 450°F Max Temp, 4 Slice Toaster Oven Air Fryer Combo",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": []
+ },
+ "best-air-fryer-toaster-oven-combo": {
+  "category": "air-fryers",
+  "source": 19,
+  "published": 16,
+  "removed": [
+   {
+    "asin": "B0C33CHG99",
+    "title": "Cosori TurboBlaze Air Fryer, 9-in-1, 6 Qt, PFAS-Free Ceramic Coating",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B089TQWJKK",
+    "title": "Ninja DZ201 Foodi 8 Quart 6-in-1 DualZone 2-Basket Air Fryer with 2 Independent Frying Baskets, Match Cook & Smart Finish to Roast, Broil, Dehydrate & More for Quick, Easy Meals, Grey",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B09HSW1YGD",
+    "merged": [
+     "B09HSTRL87"
+    ],
+    "title": "Cuisinart Air Fryer Toaster Oven with Grill, 1800W 8-1 Air Fryer Oven with Bake, Convection Bake, Grill, Broil and Warm Options, Large Capacity, 60-Minute Timer, TOA-70BKS, Black SS"
+   }
+  ]
+ },
+ "best-stainless-steel-air-fryer": {
+  "category": "air-fryers",
+  "source": 21,
+  "published": 21,
+  "removed": [],
+  "merged": []
+ },
+ "best-air-fryers-for-french-fries": {
+  "category": "air-fryers",
+  "source": 24,
+  "published": 23,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0GWFWHPC8",
+    "merged": [
+     "B0GWFQKG5J"
+    ],
+    "title": "Ninja French Door Premier Air Fry Oven, 10-in-1, Cyberspace, FO101BL"
+   }
+  ]
+ },
+ "best-air-fryer-chicken-thighs": {
+  "category": "air-fryers",
+  "source": 61,
+  "published": 42,
+  "removed": [
+   {
+    "asin": "B0GSF4XGLZ",
+    "title": "Air Fryer Basket for Oven, 2 Pack Stainless Steel Crisper Basket & Tray",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0CC1DFLV4",
+    "title": "Air Fryer Basket for Oven, 2 Pack Stainless Steel Crisper Basket & Tray",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0F8B48QNJ",
+    "title": "6.3 Inch Air Fryer Kebab Rack with 30pcs Skewers, Air Fryer Standing Barbecue Rack for More Even Heating, for Meat skewers, Chicken Legs, Wings, Thighs, for Grill, Smoker, Oven",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0DD3322RN",
+    "title": "Air Fryer Basket for Oven, 2 Pack Stainless Steel Crisper Basket & Tray",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B08XN3MKQ1",
+    "title": "Pit Boss 40325 Chicken & Poultry Rub Grill Spices, 12.5 Ounce (Pack of 1), Multicolored",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0F8B34WB9",
+    "title": "6.3 Inch Air Fryer Kebab Rack with 30pcs Skewers, Air Fryer Standing Barbecue Rack for More Even Heating, for Meat skewers, Chicken Legs, Wings, Thighs, for Grill, Smoker, Oven",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0BZ6W4KSY",
+    "title": "Weber Kick'n Chicken Seasoning, 11 oz",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0CTWPL826",
+    "title": "Air Fryer Rack for Ninja Foodi FG551 Smart XL Indoor Grill with Air Fry, 11.6''*7.6'' Stainless Steel Air Fryer Accessories Roasting Steamer Grill Racks Baking Tray，Dishwasher safe",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0DD35LNTV",
+    "title": "Air Fryer Basket for Oven, 2 Pack Stainless Steel Crisper Basket & Tray",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0GVKSP7KK",
+    "title": "Organic Fresh Chicken Thighs | Antibiotic Free | Boneless | Skinless | No Added Hormones; No Added Steroids; No Added Salt; No Artificial Ingredients [ 88 oz, 5.5 lb ]",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B09QTVPVVS",
+    "title": "for Chicken I As Seen on Shark Tank I Cooks Evenly & Makes Meat Juicier I Easy-to-Use & Dishwasher Safe I for Ovens, Smokers, Roasters, Grills, Rotisseries, Air Fryers & Deep Fryers",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0D1PH2VC1",
+    "title": "Canadian Chicken Seasoning | Bold Savory Blend for Grilling & Roasting",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B00JLIJST6",
+    "title": "The Gourmet Collection Seasoning Blends Kickin' Chicken Finger Lickin' Spice Blend-Cooking Seasoning for Fried, Roasted, Broiled, Rotisserie Chicken.",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0FBYL13V5",
+    "title": "McCormick Perfect Pinch Rotisserie Chicken Seasoning, 5 oz (Pack of 2)",
+    "reason": "accessory, consumable or off-category item"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0DW4KG8VM",
+    "merged": [
+     "B0GSGX98KM",
+     "B0GSH5SGNR"
+    ],
+    "title": "Ninja Air Fryer Pro, 5 Qt, 5-in-1, Grey, AF142"
+   },
+   {
+    "kept": "B0FVP7SLRL",
+    "merged": [
+     "B0FVPGTCGC"
+    ],
+    "title": "Nuwave Brio Plus 7QT Air Fryer, Extra Crispy Results w/Less Oil, PFAS-Free"
+   },
+   {
+    "kept": "B0CVRTB2JN",
+    "merged": [
+     "B0CVS67GJ5"
+    ],
+    "title": "Nuwave Brio Plus 8 Qt Air Fryer, PFAS Free, New & Improved, 50-400°F in 5°F"
+   },
+   {
+    "kept": "B0BDFP66JG",
+    "merged": [
+     "B0BDFSD7F9"
+    ],
+    "title": "Cosori Lite 2.1 Qt Small Air Fryer, Ceramic Coating, 4-in-1, 97% less oil"
+   }
+  ]
+ },
+ "best-budget-air-fryer": {
+  "category": "air-fryers",
+  "source": 22,
+  "published": 21,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0CNY1F31S",
+    "merged": [
+     "B0CNY1YVDD"
+    ],
+    "title": "Chefman Air Fryer – 4 QT Compact Airfryer for Quick & Easy Meals in Minutes, Features Hi-Fry Technology for Extra Crisp, Touchscreen Controls with 4 Presets, Nonstick & Dishwasher Safe Basket - Black"
+   }
+  ]
+ },
+ "best-air-fryer-for-two-people": {
+  "category": "air-fryers",
+  "source": 23,
+  "published": 23,
+  "removed": [],
+  "merged": []
+ },
+ "best-air-fryer-toaster-ovens": {
+  "category": "air-fryers",
+  "source": 22,
+  "published": 19,
+  "removed": [
+   {
+    "asin": "B0D4R8G1FX",
+    "title": "Ninja Prestige Smart XL Countertop Oven, 10-in-1, Stainless Steel, DT501",
+    "reason": "does not describe the appliance this guide covers"
+   },
+   {
+    "asin": "B0D4R7DMYN",
+    "title": "Ninja Prestige Smart XL Pro Cook System, 10-in-1, Stainless Steel, DT551",
+    "reason": "does not describe the appliance this guide covers"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0GWFQKG5J",
+    "merged": [
+     "B0GWFWHPC8"
+    ],
+    "title": "Ninja French Door Premier Air Fry Oven, 10-in-1, Black, FO101BK"
+   }
+  ]
+ },
+ "best-dual-basket-air-fryer": {
+  "category": "air-fryers",
+  "source": 20,
+  "published": 16,
+  "removed": [
+   {
+    "asin": "B0C33CHG99",
+    "title": "Cosori TurboBlaze Air Fryer, 9-in-1, 6 Qt, PFAS-Free Ceramic Coating",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B09K6MK5VN",
+    "title": "Instant Pot Vortex Plus XL 8QT ClearCook Air Fryer, Clear Windows, Custom Programming, 8-in-1 Functions that Crisps, Broils, Roasts, Dehydrates, Bakes, Reheats, from the Makers of Instant Pot, Black",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CJMV9RZK",
+    "title": "Nuwave Bravo XL Pro Air Fryer Toaster Oven, Improved 100% Super Convection",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CSZ7WBYW",
+    "title": "Ninja Air Fryer Pro, 5 Qt, 4-in-1, Grey, AF141",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": []
+ },
+ "best-glass-air-fryer-non-toxic": {
+  "category": "air-fryers",
+  "source": 19,
+  "published": 9,
+  "removed": [
+   {
+    "asin": "B0DZ9VFWYN",
+    "title": "Chefman Crispinator Air Fryer 6-in-1 with 8 Qt capacity, 450°F Max Temp with TurboFry Pro Technology for Fast and Even Results, Viewing Window, Nonstick Ceramic Basket",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0H5B8B1W4",
+    "title": "Emphsism 12QT Large Air Fryer, 13-in-1 with 10°F Precision Control, Dual Zone Air Fryer with Removable Divider, 1 x 12QT Mega Zone or 2 Independent 6QT Zones, Sync Finish & Dual Cook, Viewing Window",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0GWFWHPC8",
+    "title": "Ninja French Door Premier Air Fry Oven, 10-in-1, Cyberspace, FO101BL",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B089TQWJKK",
+    "title": "Ninja DZ201 Foodi 8 Quart 6-in-1 DualZone 2-Basket Air Fryer with 2 Independent Frying Baskets, Match Cook & Smart Finish to Roast, Broil, Dehydrate & More for Quick, Easy Meals, Grey",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0BYF8PT3L",
+    "title": "Cuisinart Air Fryer, 6-Quart Basket Large Fryer with 5 Cooking Functions to Roast, Bake, Broil, Air Fry and Keep Warm, 5 Airfryer Presets, Dishwasher-Safe Parts, AIR-200NAS, Stainless Steel & Black",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CSZ7WBYW",
+    "title": "Ninja Air Fryer Pro, 5 Qt, 4-in-1, Grey, AF141",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0DJFBDFZK",
+    "merged": [
+     "B0DJFB6ZKM",
+     "B0DDDD8WD6",
+     "B0GSHFVK59"
+    ],
+    "title": "Ninja Crispi Glass Air Fryer, 4-in-1, Stone, FN101ST"
+   },
+   {
+    "kept": "B0FLG6D6Z3",
+    "merged": [
+     "B0FPPP568C"
+    ],
+    "title": "Ninja Crispi Pro Glass Air Fryer, 6-in-1, Cyberspace, AS101CY"
+   }
+  ]
+ },
+ "best-inexpensive-blender": {
+  "category": "blenders",
+  "source": 24,
+  "published": 22,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B012T634SM",
+    "merged": [
+     "B0BPDG1331"
+    ],
+    "title": "Magic Bullet Blender, Small, Silver, 11 Piece Set"
+   },
+   {
+    "kept": "B0FLMSS7GD",
+    "merged": [
+     "B0FLMGNBQR"
+    ],
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper"
+   }
+  ]
+ },
+ "best-small-blender-for-smoothies": {
+  "category": "blenders",
+  "source": 24,
+  "published": 18,
+  "removed": [
+   {
+    "asin": "B0FLMSS7GD",
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B091F41D3C",
+    "title": "MegaWise 5-in-1 Hand Blender, Powerful Immersion Stick Blender with Titanium Reinforced Blades, 12-Speed Control, Includes Chopper, Beaker, Whisk & Frother for Smoothies & Baby Food",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0BMGSZMW9",
+    "title": "Ninja BN751 Professional Plus DUO Blender, 1400 Peak Watts, 3 Auto-IQ Programs for Smoothies, Frozen Drinks & Nutrient Extractions, 72-oz. Total Crushing Pitcher & (2) 24 oz. To-Go Cups, Black",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B00EI7DPI0",
+    "title": "Hamilton Beach Power Elite Blender For Smoothies With Wave Action System",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0GH8PVFHS",
+    "title": "Ninja UltraCrush Professional Blender, 1000W, 72oz Pitcher, 3 Speeds, BP201",
+    "reason": "outside the size or format this guide covers"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0H28J86XT",
+    "merged": [
+     "B0H289LQSL"
+    ],
+    "title": "VOLYN Mini Electric Blender Smoothie Maker with Straw & Cleaning Brush"
+   }
+  ]
+ },
+ "best-portable-blenders-for-smoothies": {
+  "category": "blenders",
+  "source": 20,
+  "published": 12,
+  "removed": [
+   {
+    "asin": "B01FHOWYA2",
+    "title": "Ninja Fit Compact Personal Blender, 700W, (2) 16oz Cups, QB3001SS",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08QZWDLP4",
+    "title": "Ninja Nutri-Plus Personal Blender, 900PW, (3) 20oz Cups, Silver, BN301",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B07CTBHQZK",
+    "title": "Nutribullet Personal Blender, Shakes, Smoothies, Food Prep, and Frozen Blending, 24 Ounces, 600 Watt, Dark Gray, NBR-0601WM",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08C1DJNR2",
+    "title": "Ninja Foodi Personal Blender & Smoothie Bowl Maker, 1200PW, SS101",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0DB6KW9SQ",
+    "merged": [
+     "B0DB8ZN253",
+     "B0GX28186V",
+     "B0GX29WZFB"
+    ],
+    "title": "Ninja Blast Max Portable Blender, Twist & Go, 22oz, Grey, BC251GY"
+   },
+   {
+    "kept": "B0FSGSYF79",
+    "merged": [
+     "B0FSGDNFJY"
+    ],
+    "title": "Ninja BlendBOSS Personal Blender, 26oz Tumbler, 1200PW, Cyberspace, DB351CY"
+   }
+  ]
+ },
+ "best-immersion-blenders-for-soups-and-sauces": {
+  "category": "blenders",
+  "source": 22,
+  "published": 18,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0FSZT81Z3",
+    "merged": [
+     "B0FSZY4HWQ",
+     "B0FSZSKB92"
+    ],
+    "title": "Turelar Immersion Blender Corded 400W, 2 Speed, Emulsifier, Blend"
+   },
+   {
+    "kept": "B07BKLQR7R",
+    "merged": [
+     "B079NXBWDR",
+     "B07GVZXXJJ"
+    ],
+    "title": "Cuisinart Smart Stick Two-Speed Corded Hand Blender, Powerful Immersion Blender with 300-Watt Motor Blends Shakes, Smoothies, Puree, Baby Food, Soups & Sauces, CSB-175SVP1, Silver"
+   }
+  ]
+ },
+ "best-affordable-blender": {
+  "category": "blenders",
+  "source": 20,
+  "published": 19,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0FLMSS7GD",
+    "merged": [
+     "B0FLMGNBQR"
+    ],
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper"
+   }
+  ]
+ },
+ "blender-for-kitchen": {
+  "category": "blenders",
+  "source": 20,
+  "published": 20,
+  "removed": [],
+  "merged": []
+ },
+ "best-blender-for-smoothies-and-ice": {
+  "category": "blenders",
+  "source": 20,
+  "published": 19,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0FLMSS7GD",
+    "merged": [
+     "B0FLMGNBQR"
+    ],
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper"
+   }
+  ]
+ },
+ "best-blender-for-fruit-smoothies": {
+  "category": "blenders",
+  "source": 24,
+  "published": 22,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0FLMGNBQR",
+    "merged": [
+     "B0FLMSS7GD"
+    ],
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper"
+   },
+   {
+    "kept": "B0FJSN4D58",
+    "merged": [
+     "B0FJSLCM8J"
+    ],
+    "title": "Vitamix Ascent X5 Professional-Grade Blender, 10 Programs, Polar White"
+   }
+  ]
+ },
+ "best-blenders-for-protein-shakes": {
+  "category": "blenders",
+  "source": 24,
+  "published": 21,
+  "removed": [
+   {
+    "asin": "B0D9MDP53M",
+    "title": "Vitamix 2-Speed Immersion Blender + Whisk Attachment, 350-Watt Motor, Black",
+    "reason": "immersion blenders do not fit a smoothie guide"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0FLMSS7GD",
+    "merged": [
+     "B0FLMGNBQR"
+    ],
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper"
+   },
+   {
+    "kept": "B0FSGSYF79",
+    "merged": [
+     "B0FSFVP979"
+    ],
+    "title": "Ninja BlendBOSS Personal Blender, 26oz Tumbler, 1200PW, Cyberspace, DB351CY"
+   }
+  ]
+ },
+ "best-blender-food-processor-combo": {
+  "category": "blenders",
+  "source": 23,
+  "published": 19,
+  "removed": [
+   {
+    "asin": "B0G6FR8V9Y",
+    "title": "Vitamix VX1 Professional-Grade Blender, 64 oz. Container, Black",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B007UXTLFK",
+    "title": "Hamilton Beach Power Elite Blender For Smoothies With Wave Action System",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0FJSN4D58",
+    "title": "Vitamix Ascent X5 Professional-Grade Blender, 10 Programs, Polar White",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B089TP3K77",
+    "title": "Ninja Professional Plus Food Processor, 1000PW, 9-Cup, Grey, BN601",
+    "reason": "does not describe the appliance this guide covers"
+   }
+  ],
+  "merged": []
+ },
+ "best-blender-for-smoothies": {
+  "category": "blenders",
+  "source": 24,
+  "published": 22,
+  "removed": [
+   {
+    "asin": "B0D9MDP53M",
+    "title": "Vitamix 2-Speed Immersion Blender + Whisk Attachment, 350-Watt Motor, Black",
+    "reason": "immersion blenders do not fit a smoothie guide"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0FLMSS7GD",
+    "merged": [
+     "B0FLMGNBQR"
+    ],
+    "title": "Chefman Obliterator 48 oz Countertop Blender for Smoothies, 1380W Motor to Crush Ice, Nuts, and Frozen Fruit with Stainless Steel Blade, Auto Blend Function, Includes Tamper and Scraper"
+   }
+  ]
+ },
+ "best-small-rice-cooker": {
+  "category": "rice-cookers",
+  "source": 19,
+  "published": 16,
+  "removed": [
+   {
+    "asin": "B0831RL6XK",
+    "title": "CUCKOO Micom Fuzzy Logic Rice Cooker, 12-Cup Cooked, Silver, CR-0632F",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0BD4PRBVZ",
+    "title": "Cosori Rice Cooker 10 Cup, Fuzzy Logic, Ceramic Coating Inner Pot,18-in-1",
+    "reason": "outside the size or format this guide covers"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0B4MYBLZQ",
+    "merged": [
+     "B0CKWGX2J6"
+    ],
+    "title": "CUCKOO Micom Fuzzy Logic Rice Cooker, 6-Cup Cooked, White, CR-0375FW"
+   }
+  ]
+ },
+ "best-single-serve-coffee-maker": {
+  "category": "coffee-makers",
+  "source": 59,
+  "published": 47,
+  "removed": [
+   {
+    "asin": "B0GYR3ND59",
+    "title": "2-Way 12-Cup Programmable Brewer Coffee Maker (Silver)",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CSDRZSGG",
+    "title": "Ninja Hot & Iced XL Coffee Maker with Rapid Cold Brew, Black, CM371",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B09715G57M",
+    "merged": [
+     "B0CT43D46H",
+     "B0DWBJ6CM1",
+     "B0FHSC6SPM",
+     "B0CCK2VYTX"
+    ],
+    "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, 3 Brew Sizes, Strong Button Feature, 42oz Removable Reservoir, Black"
+   },
+   {
+    "kept": "B07N3GRVGS",
+    "merged": [
+     "B078NN17K3"
+    ],
+    "title": "Keurig K-Elite Single Serve K-Cup Pod Coffee Maker, with Strength and Temperature Control, Iced Coffee Capability, 8 to 12oz Brew Size, Programmable, Brushed Gold"
+   },
+   {
+    "kept": "B0FMTSRKYL",
+    "merged": [
+     "B0FMSTSYL7",
+     "B0G6NCZ3WK",
+     "B0FMTQ8DL8"
+    ],
+    "title": "Keurig K-Mini Mate Single Serve K-Cup Pod Coffee Maker, Brews Up to 12 oz Cup, Compact Portable Coffee Machine for Small Spaces, Great for Dorms & Offices, Black"
+   },
+   {
+    "kept": "B07GV2S1GS",
+    "merged": [
+     "B07N3G8GRY"
+    ],
+    "title": "Keurig K-Mini Single Serve K-Cup Pod Coffee Maker, 6 to 12oz Brew size, with Cord Storage, Perfect for Small Spaces, Black"
+   },
+   {
+    "kept": "B0DPR511FX",
+    "merged": [
+     "B0GQBYVN9W"
+    ],
+    "title": "Hamilton Beach 2-Way Drip Coffee Maker & Single Serve Coffee Machine"
+   }
+  ]
+ },
+ "best-home-espresso-machines": {
+  "category": "coffee-makers",
+  "source": 60,
+  "published": 54,
+  "removed": [
+   {
+    "asin": "B0H6XD3V4Z",
+    "title": "SECPOEDR3.5Bar Espreeso Machine 4-Cup Compact Coffee Maker Silver Black",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0H6XB6SWH",
+    "title": "3.5Bar Espreeso Machine 4-Cup Compact Coffee Maker 800W Green",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0FXBY6BVL",
+    "merged": [
+     "B0DWBGD2R8"
+    ],
+    "title": "Chefman CraftBrew Espresso Machine, 15-Bar Pump Digital Espresso Maker w/Steam Wand for Latte & Cappuccino, Compact Espresso Coffee Machine w/ 1.5L Removable Water Reservoir - Stainless Black"
+   },
+   {
+    "kept": "B0DRCWSR94",
+    "merged": [
+     "B0CW2XKM78",
+     "B0FM3NF976",
+     "B0DG8X6481"
+    ],
+    "title": "CHULUX Slim Espresso Machine with Milk Frother for Home Cappuccino, Creamy"
+   }
+  ]
+ },
+ "best-grind-and-brew-coffee-maker": {
+  "category": "coffee-makers",
+  "source": 58,
+  "published": 39,
+  "removed": [
+   {
+    "asin": "B0GWQ6TFTQ",
+    "title": "Electric Coffee Grinder, Burr Coffee Bean Grinder with Dual Dosing Modes, 51 Grind Settings Coffee Grinder & 40mm Conical Burr, Digital Timer Display for Espresso, Pour Over, French Press",
+    "reason": "standalone grinder, not a grind-and-brew machine"
+   },
+   {
+    "asin": "B01GJOMWVA",
+    "title": "BLACK+DECKER 12-Cup Drip Coffee Maker with Vortex Brewing",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B07PFLM2LK",
+    "title": "Ninja Coffee Maker, 10-Cup Carafe, Fold-Away Frother, Black, CM401",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DPR511FX",
+    "title": "Hamilton Beach 2-Way Drip Coffee Maker & Single Serve Coffee Machine",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0C3W79PJY",
+    "title": "Hamilton Beach Fresh Grind Electric Coffee Grinder For Up To 12 Cups",
+    "reason": "standalone grinder, not a grind-and-brew machine"
+   },
+   {
+    "asin": "B0HBVJCKKW",
+    "title": "Gevi 14‑Cup Drip Coffee Maker, Programmable With Glass Carafe",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DJFBF3SH",
+    "title": "Ninja Pod and Grounds Coffee Maker, K-Cup Compatible, Stone, PB051ST",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B07S98411N",
+    "title": "Ninja Fresh Brew Coffee Maker, 12 Cup Glass Carafe, Stainless Steel, CE251",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B00MVWGQX0",
+    "title": "Cuisinart Coffee Maker, Programmable, Stainless Steel, 14-Cup Glass Carafe",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0GQBYVN9W",
+    "title": "Hamilton Beach 2-Way Drip Coffee Maker & Single Serve Coffee Machine",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0G87LH335",
+    "title": "Ninja DualBrew Coffee Maker, Grounds & Pods, Stainless Steel, GP161",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0C29LZNLD",
+    "title": "Ninja Pods & Grounds Iced Coffee Maker, K-Cup Pod Compatible, Stone PB041ST",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0792T7RW1",
+    "title": "BUNN CSB2B Speed Brew Elite 10-Cup Coffee Maker, Black/SST",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0BX77VLM6",
+    "title": "Technivorm Moccamaster 49522 KM5 Burr Coffee Grinder, Matte White",
+    "reason": "standalone grinder, not a grind-and-brew machine"
+   },
+   {
+    "asin": "B0BBSN3NXD",
+    "title": "Ninja Specialty Drip Coffee Maker, DualBrew Pro, Black CFP307",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B08DCPFJP6",
+    "merged": [
+     "B08DCK4MPV",
+     "B0CNV1TZJ2"
+    ],
+    "title": "Cuisinart Automatic Grind & Brew 10-Cup Coffee Maker with Blade Grinder, Programmable Coffee Machine Glass Carafe with 1-4 Cup Setting, Brew Pause, Grind-Off Option, DGB-450NAS, Black/Stainless Steel"
+   },
+   {
+    "kept": "B0F3ZSVPPG",
+    "merged": [
+     "B0DQYSR8XD"
+    ],
+    "title": "De'Longhi TrueBrew Drip Coffee Maker, Grinder, 8 to 24 oz, Built-In Grinder"
+   },
+   {
+    "kept": "B0CG2KZDB2",
+    "merged": [
+     "B0CG2P2J88"
+    ],
+    "title": "Café Specialty Grind and Brew Coffee Maker, Single-Serve Option, 10-Cup Thermal Carafe, WiFi Enabled Technology, Smart Home Kitchen Essentials, SCA Certified, Barista-Quality Brew, Matte Black"
+   }
+  ]
+ },
+ "best-pod-coffee-maker": {
+  "category": "coffee-makers",
+  "source": 55,
+  "published": 36,
+  "removed": [
+   {
+    "asin": "B0GYR3ND59",
+    "title": "2-Way 12-Cup Programmable Brewer Coffee Maker (Silver)",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0845Q2TG6",
+    "title": "Dunkin' Best Sellers Coffee Variety Pack, Keurig K-Cup Pods, 60 Count",
+    "reason": "consumable (pods or filters), not a coffee maker"
+   },
+   {
+    "asin": "B0F4RSB2GY",
+    "title": "Café Bustelo Dulce de Leche Artificially Flavored Coffee Pods, 60 Count",
+    "reason": "consumable (pods or filters), not a coffee maker"
+   },
+   {
+    "asin": "B07YF4FNL1",
+    "title": "Dunkin’ Original Blend Medium Roast Coffee, Keurig K-Cup Pods, 88 Count",
+    "reason": "consumable (pods or filters), not a coffee maker"
+   },
+   {
+    "asin": "B0F4RX9B9Q",
+    "title": "Café Bustelo Dark Roast, Single Serve Coffee Pods, 10 Count (Pack of 6)",
+    "reason": "consumable (pods or filters), not a coffee maker"
+   },
+   {
+    "asin": "B0F18JRPKC",
+    "title": "Tastyle Single Serve Coffee Maker with Built-in Detachable Milk Frother",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0GQBYVN9W",
+    "title": "Hamilton Beach 2-Way Drip Coffee Maker & Single Serve Coffee Machine",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0CSDRZSGG",
+    "title": "Ninja Hot & Iced XL Coffee Maker with Rapid Cold Brew, Black, CM371",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08QZSN97Z",
+    "title": "Ninja Specialty Drip Coffee Maker, DualBrew Pro, Black, CFP301",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B09715G57M",
+    "merged": [
+     "B0CT43D46H",
+     "B0FHSC6SPM",
+     "B0CCK2VYTX"
+    ],
+    "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, 3 Brew Sizes, Strong Button Feature, 42oz Removable Reservoir, Black"
+   },
+   {
+    "kept": "B078NN17K3",
+    "merged": [
+     "B0788F3R8X",
+     "B07N3GRVGS"
+    ],
+    "title": "Keurig K-Elite Single Serve K-Cup Pod Coffee Maker, with Strength and Temperature Control, Iced Coffee Capability, 8 to 12oz Brew Size, Programmable, Brushed Slate"
+   },
+   {
+    "kept": "B0892TW82K",
+    "merged": [
+     "B0892V8JT8"
+    ],
+    "title": "Keurig K-Supreme Single Serve K-Cup Pod Coffee Maker, MultiStream Technology, 4 Brew Sizes, 66oz Dual-Position Removable Reservoir, Black"
+   },
+   {
+    "kept": "B0FMTSRKYL",
+    "merged": [
+     "B0FMSTSYL7"
+    ],
+    "title": "Keurig K-Mini Mate Single Serve K-Cup Pod Coffee Maker, Brews Up to 12 oz Cup, Compact Portable Coffee Machine for Small Spaces, Great for Dorms & Offices, Black"
+   },
+   {
+    "kept": "B0C29LZNLD",
+    "merged": [
+     "B0F45BPQM9"
+    ],
+    "title": "Ninja Pods & Grounds Iced Coffee Maker, K-Cup Pod Compatible, Stone PB041ST"
+   },
+   {
+    "kept": "B0GTYB1BZY",
+    "merged": [
+     "B0GHNJS185"
+    ],
+    "title": "KIDISLE Single Serve K Cup & Ground Coffee Maker, Hot & Iced Brew, Gray"
+   },
+   {
+    "kept": "B0G169XRZL",
+    "merged": [
+     "B0GD7ZNPXG"
+    ],
+    "title": "Keurig K-Express Essentials Single-Serve K-Cup Pod Coffee Maker"
+   }
+  ]
+ },
+ "best-small-coffee-maker": {
+  "category": "coffee-makers",
+  "source": 58,
+  "published": 39,
+  "removed": [
+   {
+    "asin": "B07S98411N",
+    "title": "Ninja Fresh Brew Coffee Maker, 12 Cup Glass Carafe, Stainless Steel, CE251",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B01GJOMWYC",
+    "title": "BLACK+DECKER CM1160W-1 CM1160W 12-Cup Programmable Coffeemaker, White/Stainless Steel",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B00LU2I3V0",
+    "title": "BLACK+DECKER 12-Cup Thermal Coffeemaker, Black/Silver, CM2035B",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B01GJOMWVA",
+    "title": "BLACK+DECKER 12-Cup Drip Coffee Maker with Vortex Brewing",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B00LU2I46E",
+    "title": "BLACK+DECKER 12-Cup Grind and Brew Coffee Maker",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0GLQYTWSL",
+    "title": "Cuisinart Personal Brew™ 12-Cup Coffee Maker, Automatic Coffee Machine, Programmable Coffee Maker for Home Brewing Convenience with Adjustable Brew Strength, Stainless Steel/Black, DCC-12",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B00MVWGQX0",
+    "title": "Cuisinart Coffee Maker, Programmable, Stainless Steel, 14-Cup Glass Carafe",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B01EA5ZHIA",
+    "title": "Braun BrewSense 12-Cup Drip Coffee Maker w/ 24 Hour Timer, 2 Brew Styles",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0BPJQS63W",
+    "title": "Technivorm Moccamaster 53923 KBGV Select 10-Cup Coffee Maker, Juniper, 40 ounce, 10-Cup, 1.25L",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0DPNJVG1Z",
+    "title": "Bella 12-Cup Programmable Coffee Maker, LCD, Auto Shutoff, 900W",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B07PFLM2LK",
+    "title": "Ninja Coffee Maker, 10-Cup Carafe, Fold-Away Frother, Black, CM401",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B07684BPLB",
+    "title": "Hamilton Beach FrontFill 12 Cup Programmable Drip Coffee Maker",
+    "reason": "outside the size or format this guide covers"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0FHSC6SPM",
+    "merged": [
+     "B0DWBJ6CM1",
+     "B09715G57M",
+     "B0CT43D46H"
+    ],
+    "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, 3 Brew Sizes, Strong Button Feature, 42oz Removable Reservoir, Evergreen"
+   },
+   {
+    "kept": "B08QD33PZ2",
+    "merged": [
+     "B0BWXKQ73J"
+    ],
+    "title": "Mr. Coffee® 5-Cup Mini Brew Switch Coffee Maker, Black"
+   },
+   {
+    "kept": "B0FMTSRKYL",
+    "merged": [
+     "B0FMSTSYL7",
+     "B0FMTQ8DL8",
+     "B0G6NCZ3WK"
+    ],
+    "title": "Keurig K-Mini Mate Single Serve K-Cup Pod Coffee Maker, Brews Up to 12 oz Cup, Compact Portable Coffee Machine for Small Spaces, Great for Dorms & Offices, Black"
+   }
+  ]
+ },
+ "best-coffee-makers-for-stove-top": {
+  "category": "coffee-makers",
+  "source": 60,
+  "published": 49,
+  "removed": [
+   {
+    "asin": "B0FGZW7M84",
+    "title": "Coghlan's Stainless Steel French Press Coffee Maker – 4-Cup (32 oz), Campfire & Stovetop Safe, Portable & Durable – Fine Mesh Filter, Folding Handle, Dishwasher Safe – For Camping, Home, or Travel",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B0H25BVCYR",
+    "title": "Tastyle BrewKit Single Serve Coffee Maker with Frother for K‑Cup & Ground",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B01GJOMWVA",
+    "title": "BLACK+DECKER 12-Cup Drip Coffee Maker with Vortex Brewing",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B000I1WP7W",
+    "title": "Chemex Pour-Over Glass Coffeemaker - Classic Series - 8-Cup - Exclusive Packaging",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B001J1L59E",
+    "merged": [
+     "B00384IVQ0",
+     "B001J1L58K",
+     "B000YDOMHU"
+    ],
+    "title": "Primula Classic Stovetop Espresso and Coffee Maker, Moka Pot for Italian and Cuban Café Brewing, Greca Coffee Maker, Cafeteras, 6 Espresso Cups, Silver"
+   },
+   {
+    "kept": "B07ZKZXM4B",
+    "merged": [
+     "B08556XV39"
+    ],
+    "title": "Bialetti - New Venus Induction, Stovetop Coffee Maker, Suitable for all Types of Hobs, Stainless Steel, 6 Cups (7.9 Oz), Silver"
+   },
+   {
+    "kept": "B0D173SKFP",
+    "merged": [
+     "B0DMSCZKGZ"
+    ],
+    "title": "Mongdio Stovetop Espresso Maker Moka Pot, Cuban Coffee Maker Stove top coffee maker Moka Italian Espresso Greca Coffee Maker Brewer Percolator, 6 Espresso Cups, 10 oz - Black"
+   },
+   {
+    "kept": "B01HZYPQVG",
+    "merged": [
+     "B07MB6P97L"
+    ],
+    "title": "COLETTI Bozeman Percolator Coffee Pot — NO Aluminum or Plastic [9 cup]"
+   },
+   {
+    "kept": "B0D3XPS6GQ",
+    "merged": [
+     "B0BN3M8DBX"
+    ],
+    "title": "Coffee Pot, Moka Pot Italian Coffee Maker 6 cup/10 OZ Stovetop Espresso Maker for Gas or Electric Ceramic Stovetop Camping Manual Cuban Coffee Percolator for Cappuccino or Latte - Red"
+   }
+  ]
+ },
+ "best-drip-coffee-machine": {
+  "category": "coffee-makers",
+  "source": 54,
+  "published": 52,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0GQBYVN9W",
+    "merged": [
+     "B0DPR511FX"
+    ],
+    "title": "Hamilton Beach 2-Way Drip Coffee Maker & Single Serve Coffee Machine"
+   },
+   {
+    "kept": "B076PFMRGX",
+    "merged": [
+     "B0DK5B7L6V"
+    ],
+    "title": "Bonavita 8 Cup Drip Coffee Maker Machine, One-Touch Pour Over, Auto Pause Brewing with Stainless Steel Double Wall Thermal Carafe, SCA Certified, Dishwasher Safe, BV1901TS"
+   }
+  ]
+ },
+ "best-1-cup-coffee-brewers": {
+  "category": "coffee-makers",
+  "source": 61,
+  "published": 42,
+  "removed": [
+   {
+    "asin": "B07HB3GH6W",
+    "title": "OXO Brew Compact Cold Brew Coffee Maker",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08QD33PZ2",
+    "title": "Mr. Coffee® 5-Cup Mini Brew Switch Coffee Maker, Black",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B002R0EXP4",
+    "title": "Primula Classic Stovetop Espresso and Coffee Maker, Moka Pot for Italian and Cuban Café Brewing, Greca Coffee Maker, Cafeteras, 1 Espresso Cup, Silver",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DY1W2PXY",
+    "title": "Cold Brew Coffee Maker with Reusable Coffee Filter and Insulated Pitcher, 20 Oz Iced Tea Maker for Ground Coffee, Single Serve Machine for Home, Strength Control for Flavor, Black",
+    "reason": "outside the size or format this guide covers"
+   },
+   {
+    "asin": "B07X43VXZV",
+    "title": "KRUPS Simply Brew Compact 5 Cup Coffee Maker: Stainless Steel Design, Pause & Brew, Keep Warm, Reusable Filter, Drip-Free Carafe",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B07S98411N",
+    "title": "Ninja Fresh Brew Coffee Maker, 12 Cup Glass Carafe, Stainless Steel, CE251",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B077K9YW7D",
+    "title": "Cuisinart 14-Cup Coffee Maker, Programmable PerfecTemp Glass Carafe Coffee Machine with 1-4 Cup Setting, Brew Strength Control and Pause, Stainless Steel, DCC-3200BKSNAS, Black",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B01GJOMWVA",
+    "title": "BLACK+DECKER 12-Cup Drip Coffee Maker with Vortex Brewing",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B08DCK4MPV",
+    "title": "Cuisinart Automatic Grind & Brew 12-Cup Coffee Maker with Blade Grinder, Programmable Coffee Machine Glass Carafe with 1-4 Cup Setting, Brew Pause, Grind-Off Option, DGB-400NAS, Black/Stainless Steel",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B00MVWGQX0",
+    "title": "Cuisinart Coffee Maker, Programmable, Stainless Steel, 14-Cup Glass Carafe",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0F9XYNNR1",
+    "title": "Amazon Basics Basket Coffee Filters for 1-4 Cup Coffee Makers, White, 200 Count",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0DZ6QJV33",
+    "title": "Small Coffee Filters, for Kalita Wave 155, 1-2 Cup, 100 Count",
+    "reason": "consumable (pods or filters), not a coffee maker"
+   },
+   {
+    "asin": "B0CZQCTD4K",
+    "title": "Elite Gourmet EHC4128 Automatic 4-Cup Drip Coffee Maker, Black",
+    "reason": "does not match the guide's format or intent"
+   },
+   {
+    "asin": "B0GV293Z4L",
+    "title": "Gevi All In One 10-Cup Grind & Brew Coffee Maker with Built-In Burr Grinder",
+    "reason": "does not match the guide's format or intent"
+   }
+  ],
+  "merged": [
+   {
+    "kept": "B0FMTSRKYL",
+    "merged": [
+     "B0G6NCZ3WK",
+     "B0FMTQ8DL8"
+    ],
+    "title": "Keurig K-Mini Mate Single Serve K-Cup Pod Coffee Maker, Brews Up to 12 oz Cup, Compact Portable Coffee Machine for Small Spaces, Great for Dorms & Offices, Black"
+   },
+   {
+    "kept": "B09715G57M",
+    "merged": [
+     "B0CCK2VYTX"
+    ],
+    "title": "Keurig K-Express Single Serve K-Cup Pod Coffee Maker, 3 Brew Sizes, Strong Button Feature, 42oz Removable Reservoir, Black"
+   },
+   {
+    "kept": "B0GWF71P7B",
+    "merged": [
+     "B0FN9FHHSZ",
+     "B0D7W5N2CN"
+    ],
+    "title": "Hamilton Beach Flexbrew Advanced 5-in-1 Drip & Single Serve Coffee Maker"
+   }
+  ]
+ },
+ "best-vacuum-sealer": {
+  "category": "vacuum-sealers",
+  "source": 20,
+  "published": 19,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0D3ZBFMW6",
+    "merged": [
+     "B0DS1Z2VW1"
+    ],
+    "title": "Chef Preserve Compact Vacuum Sealer for Food (Vacuum Sealer Machine + 30 Reusable Vacuum Bags) Powerful Handheld Vacuum Sealer Machine, Seal Meal Saver, Portable Food Sealer"
+   }
+  ]
+ },
+ "best-built-in-wine-and-beverage-fridge": {
+  "category": "wine-coolers",
+  "source": 18,
+  "published": 18,
+  "removed": [],
+  "merged": []
+ },
+ "best-pizza-oven-for-home": {
+  "category": "pizza-ovens",
+  "source": 19,
+  "published": 17,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0CGMGK7GK",
+    "merged": [
+     "B0CM2YBHZ3"
+    ],
+    "title": "CHEFMAN Indoor Pizza Oven - Makes 12 Inch Pizzas in Minutes, Heats up to 800°F - Countertop Electric Pizza Maker with 5 Touchscreen Presets, Pizza Stone and Peel Included - Stainless Black"
+   },
+   {
+    "kept": "B0GR7QTX4R",
+    "merged": [
+     "B0GR755NQJ"
+    ],
+    "title": "WILLOW Eco Series Electric Indoor Pizza Oven – 1800W, 5 Presets, Heats up to 750°F, Countertop Pizza Maker with 12\" Ceramic Stone for Pizzeria-Style Crust, Scraper and Cutter Included Horno Para Pizza"
+   }
+  ]
+ },
+ "best-wine-cooler-for-the-kitchen": {
+  "category": "wine-coolers",
+  "source": 22,
+  "published": 15,
+  "removed": [
+   {
+    "asin": "B0D5WYPBGZ",
+    "title": "The Memory Company Officially Licensed NFL Wine Bottle Chiller Set - Double Wall Insulated Stainless Steel Cooler & 2 Ceramic Lined 12oz Stemless Tumblers with Lids, Temperature Control Wine Gift Set",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B07WQF3B5L",
+    "title": "S'well Stainless Steel Wine Chiller, Holds 750ml Bottle, Teakwood, Triple Layered Vacuum Insulated Container Keeps Bottles Chilled for Longer, BPA Free Barware",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0H5BV7Q3B",
+    "title": "Wine Chiller Bucket, Stainless Steel Double Wall Wine Cooler",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0B21D16DX",
+    "title": "Gusto Nostro Marble Wine Chiller Bucket - 750ml Wine Bottle Cooler and Champagne Chiller for Party, Kitchen, Bar Cart Decor to Chill & Keep Bottles Cold with Unique Wine Lovers Gift Box (White)",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0D5WYXY77",
+    "title": "The Memory Company Officially Licensed NFL Wine Bottle Chiller Set - Double Wall Insulated Stainless Steel Cooler & 2 Ceramic Lined 12oz Stemless Tumblers with Lids, Temperature Control Wine Gift Set",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B00CH67Y54",
+    "title": "Host Wine Freeze Cup Set of 2 - Plastic Double Wall Insulated Wine Cooling Freezable Drink Vacuum Cup with Freezing Gel, Wine Glasses for Red and White Wine, 8.5 oz Grey - Gift Essentials",
+    "reason": "accessory, consumable or off-category item"
+   },
+   {
+    "asin": "B0G38GW54P",
+    "title": "Wine Bag,Insulated Cooler Bag with Wine Glasses Steel Corkscrew Bottle Opener and Napkins Portable Wine Gift Bag for Picnics,Party,Travel (Gray)",
+    "reason": "accessory, consumable or off-category item"
+   }
+  ],
+  "merged": []
+ },
+ "best-air-fryers-2026": {
+  "category": "air-fryers",
+  "source": 18,
+  "published": 18,
+  "removed": [],
+  "merged": []
+ },
+ "best-air-fryer-for-one-person": {
+  "category": "air-fryers",
+  "source": 20,
+  "published": 18,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0CYJDVT31",
+    "merged": [
+     "B0CZPJ1833"
+    ],
+    "title": "bella Fits-anywhere Slim 4qt Air Fryer, Non-Toxic Coating, Oatmilk"
+   },
+   {
+    "kept": "B0F9B4YCZF",
+    "merged": [
+     "B0F9B3ZV61"
+    ],
+    "title": "Instant Pot 4Qt Vortex 6-in-1 Mini Air Fryer, Custom Program Options, Air Fry, Broil, Roast, Dehydrate, Bake, Reheat, Black, 4 Quarts"
+   }
+  ]
+ },
+ "best-glass-air-fryer": {
+  "category": "air-fryers",
+  "source": 18,
+  "published": 14,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0DDDD8WD6",
+    "merged": [
+     "B0DJFB6ZKM",
+     "B0DJFBDFZK",
+     "B0GSHFVK59"
+    ],
+    "title": "Ninja Crispi Glass Air Fryer, 4-in-1, Grey, FN101GY"
+   },
+   {
+    "kept": "B0FLG6D6Z3",
+    "merged": [
+     "B0FPPP568C"
+    ],
+    "title": "Ninja Crispi Pro Glass Air Fryer, 6-in-1, Cyberspace, AS101CY"
+   }
+  ]
+ },
+ "best-5-quart-air-fryer": {
+  "category": "air-fryers",
+  "source": 20,
+  "published": 20,
+  "removed": [],
+  "merged": []
+ },
+ "best-large-air-fryer": {
+  "category": "air-fryers",
+  "source": 20,
+  "published": 19,
+  "removed": [],
+  "merged": [
+   {
+    "kept": "B0FR7HYFNP",
+    "merged": [
+     "B0FR67BCV3"
+    ],
+    "title": "Chefman Crispinator Air Fryer 7-in-1 with 8 Qt Capacity, 450°F Max Temp & TurboFry Pro Technology for Fast, Even Results, Bake, Broil, Dehydrate, Viewing Window, Nonstick Ceramic-Coated Basket"
+   }
+  ]
+ },
+ "best-air-fryer-for-beginners": {
+  "category": "air-fryers",
+  "source": 13,
+  "published": 13,
+  "removed": [],
+  "merged": []
+ }
+}

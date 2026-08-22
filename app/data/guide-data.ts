@@ -1,4 +1,9 @@
 import { airFryerGuideAdditions } from "./air-fryer-guide-additions";
+import { smallApplianceGuideAdditions } from "./small-appliance-guide-additions";
+import { kitchenGuideAdditions } from "./kitchen-guide-additions";
+import { getListingCounts } from "./catalog";
+import { guideLeadImage } from "./guide-helpers";
+import type { CategorySlug } from "./site-data";
 
 export type GuidePick = {
   productId?: string;
@@ -30,7 +35,7 @@ export type GuideContentSection = {
 export type Guide = {
   slug: string;
   title: string;
-  category: "air-fryers" | "blenders";
+  category: CategorySlug;
   eyebrow: string;
   description: string;
   image: string;
@@ -46,6 +51,7 @@ export type Guide = {
   mistakes: string[];
   faqs: GuideFaq[];
   contentType?: "buying" | "recipe" | "cleaning" | "ideas";
+  isNew?: boolean;
   picksHeading?: string;
   picksIntro?: string;
   contentSections?: GuideContentSection[];
@@ -56,7 +62,7 @@ const updated = "August 22, 2026";
 const coreGuides: Guide[] = [
   {
     slug: "best-air-fryers-2026",
-    title: "Best Air Fryers 2026: 7 Models That Fit Real Kitchens",
+    title: "Best Air Fryers 2026: 18 Models That Fit Real Kitchens",
     category: "air-fryers",
     eyebrow: "Air fryer flagship guide",
     description:
@@ -254,7 +260,7 @@ const coreGuides: Guide[] = [
   },
   {
     slug: "best-air-fryer-for-two-people",
-    title: "Best Air Fryer for 2 People: 23 Relevant Models Compared",
+    title: "Best Air Fryer for 2 People: 23 Models Compared",
     category: "air-fryers",
     eyebrow: "Couples buying guide",
     description:
@@ -952,24 +958,24 @@ const coreGuides: Guide[] = [
     eyebrow: "Cordless blender guide",
     description:
       "Portable means more than a carry loop: compare cup weight, battery cycles, charging protection and realistic frozen-fruit ability.",
-    image: "https://rustans.com/cdn/shop/files/3361436.jpg?v=1748933326&width=1400",
-    imageAlt: "Real nutribullet Flip insulated portable blender",
+    image: "https://m.media-amazon.com/images/I/71mq2bihOPL._AC_SL1500_.jpg",
+    imageAlt: "Ninja Blast Max portable blender",
     updated,
     readTime: "13 min read",
-    verdict: "Choose the nutribullet Flip for insulation or the Ninja Blast Max for a lighter detachable cup.",
+    verdict: "Choose the Ninja Blast Max for the most capable cordless cup, or the smaller Ninja Blast when weight and price matter more.",
     verdictReason:
-      "The Flip keeps a drink cold and packages the blade into an insulated tumbler. The Blast Max lets the vessel separate from the motor base. Neither replaces a full countertop blender for very dense frozen mixtures.",
+      "The Blast Max adds a larger 22-oz vessel and a twist-and-go lid for a full-size smoothie on the move. The original Blast is lighter and cheaper for a single shake. Neither replaces a full countertop blender for very dense frozen mixtures.",
     intro: [
       "A portable blender is a compromise appliance: part blender, part bottle and part rechargeable device. The best model is the one whose compromise matches the trip. An insulated vessel helps a long commute; a detachable motor helps when the finished drink must be lighter; a simple USB-C port matters when you travel with one charger.",
       "Battery marketing should not distract from loading technique. Cordless blenders need enough liquid, smaller frozen pieces and space for ingredients to move. If every smoothie begins at home, a corded personal blender and a separate insulated bottle will usually deliver stronger blending and fewer charging decisions.",
     ],
     picks: [
       {
-        productId: "nutribullet-flip",
-        award: "Best insulated portable blender",
+        productId: "ninja-blast",
+        award: "Best lightweight portable blender",
         reason:
-          "It combines an 11.1V rechargeable system with a stainless insulated tumbler designed to keep the finished drink cold.",
-        watchout: "The integrated format is heavier than carrying only a detached cup.",
+          "The 18-oz cordless Blast is the lightest way to carry a fresh shake, with a USB-rechargeable base and a vessel you drink from directly.",
+        watchout: "The smaller motor wants soft or thawed fruit and plenty of liquid.",
       },
       {
         productId: "ninja-blast-max",
@@ -1029,7 +1035,7 @@ const coreGuides: Guide[] = [
       {
         question: "How many blends does a charge provide?",
         answer:
-          "It varies by model and recipe. The nutribullet Flip advertises 14+ 30-second cycles under its stated conditions; dense loads and repeated cycles can change real results.",
+          "It varies by model and recipe. Makers quote cycle counts under ideal conditions; dense frozen loads and back-to-back blends drain a battery much faster than a soft banana shake.",
       },
       {
         question: "Can I put a portable blender in a gym bag?",
@@ -1050,14 +1056,13 @@ const coreGuides: Guide[] = [
     eyebrow: "In-pot blending guide",
     description:
       "The right hand blender controls suction and splatter, reaches the pot comfortably and cleans faster than transferring hot soup to a pitcher.",
-    image:
-      "https://gallerycrystalcdn.com/product/cache/1200x1200_braun-multiquick-7-el-blender-mq7045x-blender-braun-139136-39-B.jpg",
-    imageAlt: "Real Braun MultiQuick 7 immersion blender and attachments",
+    image: "https://m.media-amazon.com/images/I/71Ch0rJRJdL._AC_SL1500_.jpg",
+    imageAlt: "Braun MultiQuick 7 immersion blender and attachments",
     updated,
     readTime: "14 min read",
-    verdict: "The Braun MultiQuick 7 is the best versatile immersion system; the KitchenAid KHBV53 is the simpler value pick.",
+    verdict: "The Braun MultiQuick 7 is the best versatile immersion system; the Vitamix 5-Speed is the sturdier long-term pick for soup and sauce.",
     verdictReason:
-      "Braun's ActiveBlade and pressure-sensitive control suit cooks who want power and attachments. KitchenAid's removable pan guard and simple trigger make more sense when soup and sauce are the main jobs.",
+      "Braun's ActiveBlade and pressure-sensitive control suit cooks who want power and attachments. The Vitamix keeps things simple with five speeds, a long stainless shaft and a scratch-resistant guard that suits daily pot work.",
     intro: [
       "An immersion blender solves a different problem from a countertop blender. It brings the blade to the pot, avoids transferring hot liquid and can emulsify a sauce in a narrow vessel. Performance depends as much on the bell shape, shaft length and grip as on wattage.",
       "For soup, start with the blade fully submerged and move the head slowly. A powerful motor cannot correct a shallow angle that pulls air into the liquid. Anti-suction geometry, gradual speed control and a comfortable trigger help more than an oversized attachment bundle you will not use.",
@@ -1071,11 +1076,11 @@ const coreGuides: Guide[] = [
         watchout: "The system costs more and requires space for several attachments.",
       },
       {
-        productId: "kitchenaid-khbv53",
-        award: "Best simple value",
+        productId: "vitamix-immersion",
+        award: "Best for daily soup and sauce",
         reason:
-          "A variable trigger, removable arm and pan guard cover the core soup-and-sauce workflow without accessory overload.",
-        watchout: "It is less versatile if whisking and processing are regular needs.",
+          "Five speeds, a 625-watt motor and a scratch-resistant pan guard cover the core soup-and-sauce workflow without an accessory bundle to store.",
+        watchout: "No whisk or chopper in the box, so it is less versatile for baking and prep.",
       },
       {
         productId: "breville-control-grip",
@@ -1109,7 +1114,7 @@ const coreGuides: Guide[] = [
     ],
     decisionRules: [
       "Choose Braun for maximum control and a broad attachment system.",
-      "Choose KitchenAid for straightforward soup and sauce work.",
+      "Choose the Vitamix 5-Speed for straightforward soup and sauce work.",
       "Choose Breville when grip comfort and low suction lead the decision.",
       "Keep the blade submerged and the motor body clear of heat and liquid.",
     ],
@@ -1253,7 +1258,7 @@ const coreGuides: Guide[] = [
     imageAlt: "Real Ninja BN701 kitchen blender",
     updated,
     readTime: "15 min read",
-    verdict: "The Ninja BN701 is the best general kitchen blender for value; the Vitamix 5200 is the long-term performance pick.",
+    verdict: "The Ninja BN701 is the best general kitchen blender for value; the Vitamix VX1 is the long-term performance pick.",
     verdictReason:
       "Ninja covers family smoothies and frozen drinks without premium pricing. Vitamix earns the upgrade when blending is frequent, texture standards are high and manual control matters across soups, sauces and thick mixtures.",
     intro: [
@@ -1269,11 +1274,11 @@ const coreGuides: Guide[] = [
         watchout: "Small batches, noise and under-cabinet height can be drawbacks.",
       },
       {
-        productId: "vitamix-5200",
+        productId: "vitamix-vx1",
         award: "Best long-term performance",
         reason:
-          "Manual speed control, a tamper and strong circulation suit cooks who blend frequently and care about texture across many recipes.",
-        watchout: "The tall classic container and premium price demand a clear use case.",
+          "Variable speed control, a 64-oz container and a professional-grade motor suit cooks who blend frequently and care about texture across many recipes.",
+        watchout: "The tall container and premium price demand a clear use case.",
       },
       {
         productId: "ninja-bn801",
@@ -1352,7 +1357,7 @@ const coreGuides: Guide[] = [
     imageAlt: "Real Ninja BN701 blender in a kitchen",
     updated,
     readTime: "13 min read",
-    verdict: "The Ninja BN701 is the best value for smoothies and ice; choose the Vitamix 5200 for finer texture and thick blends.",
+    verdict: "The Ninja BN701 is the best value for smoothies and ice; choose the Vitamix VX1 for finer texture and thick blends.",
     verdictReason:
       "Ninja's crushing system suits large frozen drinks at a much lower cost. Vitamix provides better manual control and a tamper when the target includes smooth greens, dense frozen mixtures and more than beverages.",
     intro: [
@@ -1368,10 +1373,10 @@ const coreGuides: Guide[] = [
         watchout: "The results can be less refined on fibrous greens and seeds than a premium high-performance blender.",
       },
       {
-        productId: "vitamix-5200",
+        productId: "vitamix-vx1",
         award: "Best high-performance pick",
         reason:
-          "The variable dial and tamper help maintain circulation through thick frozen mixtures while preserving control over texture.",
+          "The variable speed dial keeps thick frozen mixtures circulating while preserving control over the final texture.",
         watchout: "It costs much more and the tall container needs cabinet clearance.",
       },
       {
@@ -1474,7 +1479,7 @@ const coreGuides: Guide[] = [
         watchout: "It is inefficient for one very small serving and takes more sink space.",
       },
       {
-        productId: "vitamix-5200",
+        productId: "vitamix-vx1",
         award: "Best for the smoothest texture",
         reason:
           "Strong circulation and manual speed control are valuable for berry seeds, skins and fibrous combinations.",
@@ -1738,7 +1743,7 @@ const coreGuides: Guide[] = [
   },
   {
     slug: "best-blender-for-smoothies",
-    title: "12 Best Blenders for Smoothies: Start With Your Serving Size",
+    title: "Best Blenders for Smoothies: 22 Models Sorted by Serving Size",
     category: "blenders",
     eyebrow: "Smoothie master guide",
     description:
@@ -1771,10 +1776,10 @@ const coreGuides: Guide[] = [
         watchout: "It lacks variable control and cannot cover family or hot-liquid tasks.",
       },
       {
-        productId: "vitamix-5200",
+        productId: "vitamix-vx1",
         award: "Best premium smoothie texture",
         reason:
-          "A tamper and variable speed help with thick blends, fibrous greens and smooth texture across a broad recipe range.",
+          "Variable speed and a powerful motor handle thick blends, fibrous greens and smooth texture across a broad recipe range.",
         watchout: "The premium cost and tall container are justified only by frequent use.",
       },
     ],
@@ -1837,7 +1842,35 @@ const coreGuides: Guide[] = [
   },
 ];
 
-export const guides: Guide[] = [...coreGuides, ...airFryerGuideAdditions];
+/**
+ * Titles and descriptions were written against the raw search captures. The catalog
+ * removes accessories and colour duplicates, so any count in the copy is corrected here
+ * to the number of models actually published.
+ */
+function withPublishedCounts(guide: Guide): Guide {
+  const counts = getListingCounts(guide.slug);
+  if (!counts || counts.source === counts.published) return guide;
+  const pattern = new RegExp(`\\b${counts.source}\\b`, "g");
+  return {
+    ...guide,
+    title: guide.title.replace(pattern, String(counts.published)),
+    description: guide.description.replace(pattern, String(counts.published)),
+    intro: guide.intro.map((paragraph) => paragraph.replace(pattern, String(counts.published))),
+  };
+}
+
+/** Every guide's lead image is the Amazon photo of its first pick. */
+function withAmazonImage(guide: Guide): Guide {
+  const lead = guideLeadImage(guide);
+  return { ...guide, image: lead.src, imageAlt: lead.alt };
+}
+
+export const guides: Guide[] = [
+  ...coreGuides,
+  ...airFryerGuideAdditions,
+  ...smallApplianceGuideAdditions,
+  ...kitchenGuideAdditions,
+].map(withPublishedCounts).map(withAmazonImage);
 
 export const getGuide = (slug: string) =>
   guides.find((guide) => guide.slug === slug);

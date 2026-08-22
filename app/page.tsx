@@ -1,151 +1,167 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import { GuideCard } from "./components/GuideCard";
-import { KitchenFinder } from "./components/KitchenFinder";
-import { categories } from "./data/site-data";
+import { KitchenFinder, type FinderProduct } from "./components/KitchenFinder";
+import { BuyButton, ProductPlate, SpecStrip } from "./components/ProductPlate";
+import { getCatalogProduct, totalCatalogProducts } from "./data/catalog";
 import { guides } from "./data/guide-data";
-import { totalSourceProductEntries } from "./data/source-products";
-
-export const metadata: Metadata = {
-  title: "CounterCrave Kitchen Guides | Decision-First Appliance Advice",
-  description:
-    "Long-form air fryer and blender guides, product breakdowns, recipes and safe kitchen appliance buying advice.",
-  alternates: { canonical: "/" },
-};
+import { categories, getProduct } from "./data/site-data";
 
 const featuredSlugs = [
-  "best-non-toxic-air-fryer",
-  "best-air-fryer-crispy-tofu-recipe",
+  "best-air-fryers-2026",
+  "best-pizza-oven-for-home",
+  "best-wine-cooler-for-the-kitchen",
   "best-blender-for-smoothies",
-  "best-way-to-clean-air-fryer",
+  "best-single-serve-coffee-maker",
+  "best-built-in-wine-and-beverage-fridge",
 ];
+
+const finderAsins: Record<string, string> = {
+  "cosori-turboblaze": "B0C33CHG99",
+  "ninja-af141": "B0CSZ7WBYW",
+  "ninja-dz401": "B096X9LGJ1",
+  "nutribullet-pro": "B0GS4Z9QXP",
+  "ninja-bn701": "B0855B5Z6F",
+  "braun-multiquick-7": "B085FRKBMF",
+  "ninja-bn801": "B08559K7CN",
+  "keurig-k-express": "B09715G57M",
+  espresso: "B0DQWC47JN",
+  "toshiba-rice": "B091TW6ND5",
+  "nesco-vs12": "B01KCK9W1K",
+  "presto-pizzazz": "B00005IBXJ",
+  "ninja-artisan": "B0DWTFBFWT",
+  "cuisinart-wine": "B08F2JR83Y",
+  "ivation-12": "B0864S2FPR",
+};
+
+const finderProducts: Record<string, FinderProduct> = Object.fromEntries(
+  Object.entries(finderAsins).flatMap(([key, asin]) => {
+    const product = getCatalogProduct(asin);
+    return product ? [[key, { name: product.name, image: product.image, buyUrl: product.amazonUrl }]] : [];
+  }),
+);
 
 const featuredGuides = featuredSlugs
   .map((slug) => guides.find((guide) => guide.slug === slug))
   .filter((guide): guide is (typeof guides)[number] => Boolean(guide));
 
 export default function Home() {
+  const heroPick = getProduct("cosori-turboblaze");
+  const heroCatalog = heroPick ? getCatalogProduct(heroPick.asin) : undefined;
+  const newGuides = guides.filter((guide) => guide.isNew);
+
   return (
     <main id="main-content">
       <section className="home-hero">
         <div className="shell hero-layout">
           <div className="hero-copy">
-            <span className="eyebrow eyebrow-accent">Smarter kitchen buying starts here</span>
-            <h1>Pick the kitchen tool that fits your food—not the loudest feature list.</h1>
+            <span className="eyebrow eyebrow-accent">Kitchen buying guides · {guides.length} guides, {totalCatalogProducts} Amazon listings compared</span>
+            <h1>Buy the appliance that fits your cooking, not the longest feature list.</h1>
             <p className="hero-lede">
-              Long-form, source-checked guides turn basket size, jar shape, cleanup,
-              storage and real recipes into a clear <strong>buy this / skip this</strong> decision.
+              Every guide opens with a straight answer, shows the three models that fit different kitchens,
+              then compares the whole field so you can see why the pick is the pick.
             </p>
             <div className="button-row">
-              <Link href="#finder" className="button">Find my best match</Link>
+              <Link href="#finder" className="button">Find my match</Link>
               <Link href="/guides" className="button button-secondary">Browse all guides</Link>
             </div>
-            <ul className="hero-proof" aria-label="Site promises">
-              <li><span>✓</span> Exact model guidance</li>
-              <li><span>✓</span> Real product images</li>
-              <li><span>✓</span> No invented reviews</li>
+            <ul className="hero-proof" aria-label="What you get">
+              <li>Three picks per guide, each with a reason to skip it</li>
+              <li>Real Amazon product photos and direct listings</li>
+              <li>No invented reviews or star ratings</li>
             </ul>
           </div>
-          <aside className="hero-pick" aria-label="Featured kitchen pick">
-            <div className="hero-pick-topline">
-              <span className="score-badge">Best overall fit</span>
-              <span className="source-status"><i /> Source checked</span>
-            </div>
-            <div className="hero-product-image">
-              <img
-                src="https://m.media-amazon.com/images/I/81R9sA3IyBL._AC_SL1500_.jpg"
-                alt="Real COSORI TurboBlaze six-quart air fryer"
-                fetchPriority="high"
-                decoding="async"
-                referrerPolicy="no-referrer"
-              />
-            </div>
-            <span className="eyebrow">For most 2–4 person kitchens</span>
-            <h2>COSORI TurboBlaze 6-Qt</h2>
-            <p>
-              A broad square basket and manageable footprint create the best all-round
-              balance. Skip it if you need two foods at separate temperatures.
-            </p>
-            <div className="spec-chips">
-              <span>6 qt</span><span>Single basket</span><span>9 functions</span>
-            </div>
-            <Link href="/guides/best-air-fryers-2026" className="text-link">
-              Read the full verdict <span aria-hidden="true">→</span>
-            </Link>
-          </aside>
-        </div>
-        <div className="shell home-stats" aria-label="CounterCrave coverage">
-          <div><strong>{guides.length}</strong><span>long-form guides</span></div>
-          <div><strong>9</strong><span>kitchen categories</span></div>
-          <div><strong>{totalSourceProductEntries}</strong><span>source product placements</span></div>
-          <div><strong>0</strong><span>fabricated testimonials</span></div>
+          {heroPick && (
+            <aside className="hero-pick" aria-label="Most recommended model">
+              <span className="award-sticker">Our most recommended model</span>
+              <ProductPlate src={heroPick.image} alt={heroPick.imageAlt} size="xl" priority />
+              <div className="hero-pick-copy">
+                <span className="brand-line">{heroPick.format}</span>
+                <h2>{heroPick.name}</h2>
+                <SpecStrip items={heroCatalog?.specs.length ? heroCatalog.specs : [heroPick.capacity, heroPick.power]} />
+                <p>{heroPick.bestFor}</p>
+                <div className="button-row">
+                  <BuyButton href={heroPick.buyUrl} />
+                  <Link href="/guides/best-air-fryers-2026" className="text-link">Read the full verdict <span aria-hidden="true">→</span></Link>
+                </div>
+              </div>
+            </aside>
+          )}
         </div>
       </section>
 
-      <section className="section" id="categories">
+      {newGuides.length > 0 && (
+        <section className="section section-flush" id="new">
+          <div className="shell">
+            <div className="section-heading">
+              <div>
+                <span className="eyebrow">Just published</span>
+                <h2>Three new guides: pizza ovens, wine coolers and built-in beverage fridges.</h2>
+              </div>
+              <p>Each one compares the full Amazon field, minus the accessories and duplicates that clutter a search.</p>
+            </div>
+            <div className="guide-grid guide-grid-three">
+              {newGuides.map((guide) => <GuideCard guide={guide} key={guide.slug} />)}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="section section-tint" id="categories">
         <div className="shell">
           <div className="section-heading">
             <div>
-              <span className="eyebrow">Browse by kitchen task</span>
-              <h2>Start with the appliance category. Then narrow by workflow.</h2>
+              <span className="eyebrow">Browse by appliance</span>
+              <h2>Start with the appliance, then narrow by what you cook.</h2>
             </div>
-            <p>
-              Each hub uses category-specific buying criteria instead of repeating the
-              same generic checklist.
-            </p>
+            <p>Each hub explains the three checks that matter for that appliance before you open a single listing.</p>
           </div>
           <div className="category-grid">
-            {categories.map((category) => (
-              <article className="category-card" key={category.slug}>
-                <Link href={`/categories/${category.slug}`} className="category-card-image" aria-label={category.name}>
-                  <img
-                    src={category.image}
-                    alt={category.imageAlt}
-                    loading="lazy"
-                    decoding="async"
-                    referrerPolicy="no-referrer"
-                  />
-                  <span>{category.eyebrow}</span>
-                </Link>
-                <div className="category-card-body">
-                  <h3><Link href={`/categories/${category.slug}`}>{category.name}</Link></h3>
-                  <p>{category.description}</p>
-                  <Link href={`/categories/${category.slug}`} className="text-link">
-                    Explore {category.name} <span aria-hidden="true">→</span>
+            {categories.map((category) => {
+              const count = guides.filter((guide) => guide.category === category.slug).length;
+              return (
+                <article className="category-card" key={category.slug}>
+                  <Link href={`/categories/${category.slug}`} className="category-card-media" aria-label={category.name}>
+                    <img src={category.image} alt={category.imageAlt} loading="lazy" decoding="async" referrerPolicy="no-referrer" />
                   </Link>
-                </div>
-              </article>
-            ))}
+                  <div className="category-card-body">
+                    <span className="eyebrow">{category.eyebrow}</span>
+                    <h3><Link href={`/categories/${category.slug}`}>{category.name}</Link></h3>
+                    <p>{category.description}</p>
+                    <div className="guide-card-meta">
+                      <span>{count} {count === 1 ? "guide" : "guides"}</span>
+                      <Link href={`/categories/${category.slug}`} className="text-link">Open the hub <span aria-hidden="true">→</span></Link>
+                    </div>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
 
-      <section className="section section-tint" id="finder">
+      <section className="section" id="finder">
         <div className="shell">
           <div className="section-heading section-heading-tight">
             <div>
-              <span className="eyebrow">Interactive match finder</span>
-              <h2>Tell us three things. Get a useful starting point.</h2>
+              <span className="eyebrow">Match finder</span>
+              <h2>Tell us three things. Get a starting point.</h2>
             </div>
-            <p>
-              This is a fit recommendation, not a fake universal score. Change any answer
-              and the result updates immediately.
-            </p>
+            <p>This is a fit recommendation, not a score. Change any answer and the result updates.</p>
           </div>
-          <KitchenFinder />
+          <KitchenFinder products={finderProducts} />
         </div>
       </section>
 
-      <section className="section">
+      <section className="section section-tint">
         <div className="shell">
           <div className="section-heading">
             <div>
               <span className="eyebrow">Most useful starting guides</span>
-              <h2>Quick answer first. Tradeoffs immediately after.</h2>
+              <h2>Quick answer first. Tradeoffs right after.</h2>
             </div>
             <Link href="/guides" className="button button-secondary button-small">See every guide</Link>
           </div>
-          <div className="guide-grid guide-grid-featured">
+          <div className="guide-grid guide-grid-three">
             {featuredGuides.map((guide) => <GuideCard guide={guide} key={guide.slug} />)}
           </div>
         </div>
@@ -157,58 +173,21 @@ export default function Home() {
             <span className="eyebrow eyebrow-light">How we narrow the choice</span>
             <h2>A product earns its place by solving a real kitchen constraint.</h2>
             <p>
-              Marketplace rank and preset count do not decide our order. We connect the
-              model&apos;s format to portions, ingredients, space and ownership friction.
+              Marketplace rank and preset count do not decide our order. We connect a model&apos;s
+              format to portions, ingredients, space and the friction of owning it.
             </p>
-            <Link href="/about" className="button button-light">See our complete method</Link>
+            <Link href="/about" className="button button-light">See the full method</Link>
           </div>
           <ol className="method-steps">
-            <li><span>01</span><div><h3>Name the repeated job</h3><p>We start with what the reader cooks weekly, not a rare edge case.</p></div></li>
-            <li><span>02</span><div><h3>Check the real fit</h3><p>Basket floor, jar format, counter clearance and storage all count.</p></div></li>
-            <li><span>03</span><div><h3>Surface the tradeoff</h3><p>Every recommendation includes a clear reason to skip it.</p></div></li>
-            <li><span>04</span><div><h3>Verify at the source</h3><p>Core model details link back to current manufacturer information.</p></div></li>
+            <li><span>1</span><div><h3>Name the repeated job</h3><p>We start with what you cook every week, not a rare edge case.</p></div></li>
+            <li><span>2</span><div><h3>Check the real fit</h3><p>Basket floor, jar shape, venting, counter clearance and storage all count.</p></div></li>
+            <li><span>3</span><div><h3>Clear out the noise</h3><p>Accessories, seasonings and colour duplicates are removed before we compare models.</p></div></li>
+            <li><span>4</span><div><h3>Show the reason to skip</h3><p>Every recommendation names the kitchen it is wrong for.</p></div></li>
           </ol>
         </div>
       </section>
 
       <section className="section">
-        <div className="shell decision-layout">
-          <div className="decision-photo">
-            <img
-              src="https://images.ctfassets.net/gscn32h7ckds/6Qsko0dGXGK8cBtwOhDODa/ed8224bd223523f650ab479f459d87ef/blender_outlet_2_CM.jpg"
-              alt="Real blender with fresh produce on a kitchen counter"
-              loading="lazy"
-              decoding="async"
-              referrerPolicy="no-referrer"
-            />
-            <span>Buy for the recipe you repeat.</span>
-          </div>
-          <div className="decision-copy">
-            <span className="eyebrow">A faster decision framework</span>
-            <h2>Four questions remove most bad options.</h2>
-            <div className="question-list">
-              <details open>
-                <summary>1. What is the hardest weekly task?</summary>
-                <p>Frozen mango is more demanding than a banana shake. Two-temperature dinners are different from reheating pizza. Buy for the real weekly maximum.</p>
-              </details>
-              <details>
-                <summary>2. What is the normal batch—not the holiday batch?</summary>
-                <p>One daily drink belongs in a personal cup. Two air-fryer portions usually fit a broad five- or six-quart basket. Rare guests should not control the purchase.</p>
-              </details>
-              <details>
-                <summary>3. Where will every piece live?</summary>
-                <p>Measure the assembled appliance, the open drawer or lid path, ventilation space and every attachment. Storage is part of product performance.</p>
-              </details>
-              <details>
-                <summary>4. What will make cleanup annoying?</summary>
-                <p>Window seams, stacked blades, gaskets and oversized pitchers can turn a good cook into a poor daily fit. Choose the friction you will actually tolerate.</p>
-              </details>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-tint">
         <div className="shell closing-cta">
           <div>
             <span className="eyebrow">Still comparing?</span>
@@ -217,7 +196,7 @@ export default function Home() {
           </div>
           <div className="button-row">
             <Link href="/guides/best-air-fryers-2026" className="button">Compare air fryers</Link>
-            <Link href="/guides/best-blender-for-smoothies" className="button button-secondary">Compare blenders</Link>
+            <Link href="/guides/best-pizza-oven-for-home" className="button button-secondary">Compare pizza ovens</Link>
           </div>
         </div>
       </section>

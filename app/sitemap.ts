@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
 import { categories } from "./data/site-data";
 import { guides } from "./data/guide-data";
-import { getSiteUrl } from "../lib/site";
+
+const origin = process.env.NEXT_PUBLIC_SITE_URL || "https://countercrave.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const origin = getSiteUrl();
   const updated = new Date("2026-08-22T00:00:00Z");
   return [
     { url: origin, lastModified: updated, changeFrequency: "weekly", priority: 1 },

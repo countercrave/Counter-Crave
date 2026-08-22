@@ -34,15 +34,12 @@ function buyingGuide(config: BuyingGuideConfig): Guide {
     eyebrow: config.eyebrow,
     description: config.description,
     image: fallbackImage,
-    imageAlt: `Real product image for ${config.title}`,
+    imageAlt: config.title,
     updated,
     readTime: "22 min read",
     verdict: config.verdict,
     verdictReason: config.verdictReason,
-    intro: [
-      `${config.audience} The right shortlist starts with usable cooking area, food arrangement and the cleanup routine—not the largest capacity badge or the longest preset list. This guide keeps every relevant model from the supplied article HTML visible, with its original order, exact ASIN and real listing image.`,
-      `${config.decisionLens} Treat marketplace titles as a starting record rather than proof of performance. Confirm the current manual, food-contact materials, electrical requirements, dimensions, warranty and included accessories for the exact ASIN before ordering.`,
-    ],
+    intro: [config.audience, config.decisionLens],
     picks: config.picks.map<GuidePick>((pick) => ({
       sourceAsin: pick.asin,
       award: pick.award,
@@ -66,7 +63,7 @@ const sourceBackedBuyingGuides: Guide[] = [
       "Compare glass, stainless-steel and explicitly PFAS-free cooking systems without confusing an exterior finish, viewing window or marketing phrase with the actual food-contact surface.",
     verdict: "Start with an exact food-contact-material claim, then choose the basket format that fits your meals.",
     verdictReason:
-      "The COSORI Iconic is the clearest conventional-drawer starting point in the supplied set because its title explicitly identifies a stainless-steel exterior and PFAS-free ceramic coating. Choose a Ninja Crispi glass system when visible glass food contact matters more than maximum one-batch capacity.",
+      "The COSORI Iconic is the clearest conventional-drawer starting point because it pairs a stainless-steel exterior with a PFAS-free ceramic coating. Choose a Ninja Crispi glass system when visible glass food contact matters more than maximum one-batch capacity.",
     audience:
       "This guide is for shoppers who want to reduce uncertainty around coatings and food-contact materials while still buying an air fryer that cooks useful portions.",
     decisionLens:
@@ -75,7 +72,7 @@ const sourceBackedBuyingGuides: Guide[] = [
       {
         asin: "B0FJYK886N",
         award: "Best conventional PFAS-aware drawer",
-        reason: "Its supplied title explicitly identifies a 6.5-quart stainless-steel air fryer with PFAS-free ceramic coating.",
+        reason: "A 6.5-quart stainless-steel air fryer with a PFAS-free ceramic coating on the basket.",
         watchout: "Stainless steel may describe the exterior; verify every food-contact component in the current manual.",
       },
       {
@@ -88,7 +85,7 @@ const sourceBackedBuyingGuides: Guide[] = [
         asin: "B0C33CHG99",
         award: "Best familiar all-round format",
         reason: "A six-quart square drawer and an explicit PFAS-free ceramic-coating statement make it a practical mainstream comparison.",
-        watchout: "Confirm the exact coating statement for this ASIN and replacement crisper-plate availability.",
+        watchout: "Confirm the coating statement for this exact model and check that replacement crisper plates are sold.",
       },
     ],
     criteria: [
@@ -110,9 +107,9 @@ const sourceBackedBuyingGuides: Guide[] = [
       "Choosing a fragile or heavy vessel that will be awkward to wash daily.",
     ],
     faqs: [
-      { question: "Does stainless steel mean the entire cooking chamber is stainless?", answer: "Not necessarily. Product titles often describe the exterior finish. Confirm the basket, tray, rack and any coating separately in the exact manual." },
+      { question: "Does stainless steel mean the entire cooking chamber is stainless?", answer: "Not necessarily. Listings often describe only the exterior finish. Confirm the basket, tray, rack and any coating separately in the exact manual." },
       { question: "Is a glass air fryer automatically coating-free?", answer: "The main vessel may be glass, but lids, crisper plates, racks or accessories can use other materials. Verify every food-contact component." },
-      { question: "What does PFAS-free ceramic coating mean?", answer: "It is a manufacturer material claim that should be checked for the exact model. Do not substitute a marketplace summary for the current technical documentation." },
+      { question: "What does PFAS-free ceramic coating mean?", answer: "It is a manufacturer material claim that should be checked for the exact model. Read the current manual rather than a retailer summary." },
       { question: "Which format is easiest to own?", answer: "A square drawer is usually the most familiar. Glass improves visibility but is heavier; oven cavities offer flexibility but create more surfaces to clean." },
     ],
   }),
@@ -124,7 +121,7 @@ const sourceBackedBuyingGuides: Guide[] = [
       "A complete comparison of toaster-oven air fryers by cavity shape, rack positions, door clearance, sheet-pan fit and the cleanup cost of replacing several appliances.",
     verdict: "Choose the Nuwave Bravo XL Pro when adjustment and oven-style capacity matter more than drawer simplicity.",
     verdictReason:
-      "Its source listing leads this exact search and combines air frying, oven functions and a grill format. The Ninja Foodi XL Pro is the better comparison for buyers who want a familiar large air-oven layout, while the Cuisinart TOA-70 keeps controls comparatively direct.",
+      "It combines air frying, oven functions and a grill format in one cavity. The Ninja Foodi XL Pro is the better comparison for buyers who want a familiar large air-oven layout, while the Cuisinart TOA-70 keeps controls comparatively direct.",
     audience: "This guide is for buyers who want toast, baking, broiling and air frying in one countertop cavity.",
     decisionLens: "Interior width, rack geometry and door swing matter more than the advertised quart count because they determine what cookware and food actually fit.",
     picks: [
@@ -180,8 +177,8 @@ const sourceBackedBuyingGuides: Guide[] = [
     slug: "best-air-fryer-chicken-wings",
     title: "Best Air Fryer for Chicken Wings: 59 Models for Crisp, Even Batches",
     eyebrow: "Wing-night air fryer guide",
-    description: "Compare 59 relevant models by basket floor, maximum heat, shake access and batch workflow for wings with crisp skin and fewer pale contact points.",
-    verdict: "The Ninja Air Fryer XL AF181 is the strongest wing-focused format in this supplied set.",
+    description: "Compare 59 air fryers by basket floor, maximum heat, shake access and batch workflow for wings with crisp skin and fewer pale contact points.",
+    verdict: "The Ninja Air Fryer XL AF181 is the strongest wing-focused format in this comparison.",
     verdictReason: "Its 6.5-quart drawer and MaxCrisp positioning suit a loose wing layer better than a narrow compact basket. COSORI TurboBlaze is the more balanced everyday alternative; a dual-basket Chefman helps when two sauces or timings matter.",
     audience: "This guide is for cooks who make wings often enough that basket shape, batch count and shake access deserve more weight than decorative presets.",
     decisionLens: "Wing crispness comes from exposed skin and moving air, so compare floor area and spacing before total quarts. Poultry must reach a safe internal temperature measured with a thermometer.",
@@ -211,11 +208,11 @@ const sourceBackedBuyingGuides: Guide[] = [
     eyebrow: "Microwave combination guide",
     description: "Compare microwave–air-fryer combinations by cavity size, turntable or rack workflow, power, ventilation and whether one appliance can realistically replace two.",
     verdict: "The Toshiba OptiChef Pro Max is the most complete starting point for a true microwave–air-fryer combination.",
-    verdictReason: "Its supplied title explicitly pairs a 1.3-cubic-foot microwave cavity with air-fryer functionality and 1100W microwave power. The smaller Toshiba 1.0-cubic-foot model is the tighter-space alternative; BLACK+DECKER targets simpler value.",
+    verdictReason: "It pairs a 1.3-cubic-foot microwave cavity with air-fryer convection and 1100 W of microwave power. The smaller Toshiba 1.0-cubic-foot model is the tighter-space alternative; BLACK+DECKER targets simpler value.",
     audience: "This guide is for kitchens trying to combine fast microwave reheating with convection-style browning in one countertop footprint.",
     decisionLens: "A combo earns its space only if you will use both modes. Compare interior cookware fit, mode-switching steps and cleanup against keeping two simpler appliances.",
     picks: [
-      { asin: "B0F7XYT78Z", award: "Best full-featured microwave combo", reason: "The 1.3-cubic-foot OptiChef Pro Max provides the roomiest microwave-first format among the leading supplied results.", watchout: "A larger cavity creates a deep, heavy countertop appliance that needs careful ventilation planning." },
+      { asin: "B0F7XYT78Z", award: "Best full-featured microwave combo", reason: "The 1.3-cubic-foot OptiChef Pro Max provides the roomiest microwave-first format among the leading models compared.", watchout: "A larger cavity creates a deep, heavy countertop appliance that needs careful ventilation planning." },
       { asin: "B0DPQTDXWC", award: "Best smaller Toshiba combo", reason: "A 1.0-cubic-foot cavity is easier to place while retaining microwave and air-fryer modes.", watchout: "Smaller interior dimensions limit racks, pans and spread-out crisping area." },
       { asin: "B0DY11H2PJ", award: "Best compact value comparison", reason: "The 0.9-cubic-foot BLACK+DECKER 5-in-1 format targets buyers with less counter depth and simpler needs.", watchout: "Lower microwave wattage can change reheating time, and crisping capacity remains limited." },
     ],
@@ -240,7 +237,7 @@ const sourceBackedBuyingGuides: Guide[] = [
     eyebrow: "Multi-function oven guide",
     description: "Compare 19 air-fryer toaster-oven combos by cavity geometry, rack positions, toast workflow, controls and cleaning access.",
     verdict: "The Nuwave Bravo XL Pro offers the broadest combination workflow; Ninja and Cuisinart are the clearest alternatives.",
-    verdictReason: "Nuwave leads the supplied result set with grill and oven functionality. Ninja's French Door Premier favors wide access, while the Cuisinart TOA-70 suits buyers who prefer a familiar toaster-oven layout.",
+    verdictReason: "Nuwave leads this comparison with grill and oven functionality. Ninja's French Door Premier favors wide access, while the Cuisinart TOA-70 suits buyers who prefer a familiar toaster-oven layout.",
     audience: "This guide is for households that want air frying, toast, baking and broiling without maintaining several countertop appliances.",
     decisionLens: "The best combo is not the one with the most modes; it is the cavity whose racks and pans fit your repeated foods without making every small snack slow to cook and awkward to clean.",
     picks: [
@@ -323,7 +320,7 @@ const sourceBackedBuyingGuides: Guide[] = [
   }),
   buyingGuide({
     slug: "best-air-fryer-chicken-thighs",
-    title: "Best Air Fryer for Chicken Thighs: 61 Relevant Models Compared",
+    title: "Best Air Fryer for Chicken Thighs: 61 Models Compared",
     eyebrow: "Chicken-thigh air fryer guide",
     description: "Compare 61 models by basket width, probe support, rendered-fat cleanup and the space needed to brown bone-in or boneless chicken thighs safely.",
     verdict: "Ninja AF141 is the best practical starting point for two to four chicken thighs.",
@@ -360,7 +357,7 @@ const sourceBackedBuyingGuides: Guide[] = [
     audience: "This guide is for shoppers who want a dependable air-frying workflow at a lower purchase price and are willing to skip premium connectivity or complex presets.",
     decisionLens: "Price changes constantly, so value is judged by format, normal batch, controls, cleaning and part support. Check the current offer only after fit is established.",
     picks: [
-      { asin: "B0CSZ7WBYW", award: "Best balanced budget baseline", reason: "The five-quart single-basket format covers common one- and two-person meals without excess complexity.", watchout: "It may not be the lowest live price, so compare the current exact ASIN after confirming fit." },
+      { asin: "B0CSZ7WBYW", award: "Best balanced budget baseline", reason: "The five-quart single-basket format covers common one- and two-person meals without excess complexity.", watchout: "It is rarely the cheapest listing on the page, so compare the live price once the fit is right." },
       { asin: "B0CYJDVT31", award: "Best space-saving value", reason: "The four-quart slim format prioritizes counter width and straightforward everyday portions.", watchout: "A narrow basket can limit broad foods even when total volume sounds adequate." },
       { asin: "B08DKYBTPH", award: "Best large-basket value comparison", reason: "The eight-quart Chefman targets family portions with a large single drawer and high-heat finish option.", watchout: "The bulky basket needs more sink, storage and counter space." },
     ],
@@ -368,7 +365,7 @@ const sourceBackedBuyingGuides: Guide[] = [
       { title: "Stable fit before price", body: "Define basket shape and batch size first. A discount on the wrong format creates more batches and lower value." },
       { title: "Essential controls", body: "Temperature, time and a clear start or pause workflow matter more than a long preset menu." },
       { title: "Washable parts", body: "A low purchase price is not helpful if the crisper plate is frustrating to remove or a replacement basket is unavailable." },
-      { title: "Exact-model support", body: "Check the warranty, manual and replacement parts for the ASIN rather than relying on brand reputation alone." },
+      { title: "Exact-model support", body: "Check the warranty, manual and replacement parts for the exact model rather than relying on brand reputation alone." },
     ],
     decisionRules: ["Fix your useful capacity before comparing offers.", "Prefer simple controls over unused connectivity.", "Check replacement basket availability.", "Treat sale prices as live data, not permanent guide facts."],
     mistakes: ["Calling the cheapest listing the best value.", "Buying oversized capacity because the price gap is small.", "Ignoring warranty and model suffix.", "Choosing hard-to-clean parts to save a small amount upfront."],
@@ -385,7 +382,7 @@ const sourceBackedBuyingGuides: Guide[] = [
     eyebrow: "Large-cavity oven shortlist",
     description: "A second, cavity-first comparison for shoppers prioritizing toast count, pizza and sheet-pan capacity over compact basket speed.",
     verdict: "Nuwave Bravo XL Pro is the best adjustment-first option; Ninja Foodi XL Pro is the large-batch alternative.",
-    verdictReason: "Both lead the supplied search set and target serious countertop-oven use. Nuwave emphasizes adjustment and grill versatility, while Ninja offers a familiar wide oven layout; Cuisinart is the simpler control comparison.",
+    verdictReason: "Both lead the models compared and target serious countertop-oven use. Nuwave emphasizes adjustment and grill versatility, while Ninja offers a familiar wide oven layout; Cuisinart is the simpler control comparison.",
     audience: "This guide is for buyers treating the appliance as a small oven first and an air fryer second.",
     decisionLens: "Focus on actual pan width, rack count, toast area and door clearance. A very large cavity is worthwhile only when broad foods or multiple servings are normal.",
     picks: [
@@ -445,7 +442,7 @@ const sourceBackedBuyingGuides: Guide[] = [
     verdict: "Ninja Crispi is the clearest glass-system pick; Cuisinart is the conventional glass-basket comparison.",
     verdictReason: "Ninja's glass-container ecosystem is purpose-built around visible cooking and storage. The Cuisinart four-quart model keeps a more conventional drawer-like format, while the Kismile listing is a lower-profile comparison that needs closer support verification.",
     audience: "This guide is for shoppers who specifically want a glass cooking vessel and need to distinguish true glass food contact from a small viewing window.",
-    decisionLens: "A window is not a glass basket. Verify the main vessel, crisper insert, lid or heater interface and any coating separately for the exact ASIN.",
+    decisionLens: "A window is not a glass basket. Verify the main vessel, crisper insert, lid or heater interface and any coating separately for the exact model.",
     picks: [
       { asin: "B0DJFBDFZK", award: "Best glass cooking system", reason: "The Ninja Crispi listing identifies a dedicated glass air-fryer format with a portable power head.", watchout: "Glass containers are heavier and offer less broad cooking floor than some large drawers." },
       { asin: "B0GVPBSXXF", award: "Best conventional glass-basket format", reason: "The Cuisinart listing explicitly calls out a glass basket and ClearView design in a compact four-quart size.", watchout: "Confirm the crisper insert material and the practical one-layer capacity." },
