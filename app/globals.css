@@ -176,6 +176,23 @@ p {
   align-items: center;
   gap: 10px;
   color: var(--enamel);
+  text-decoration: none;
+}
+
+.brand-logo {
+  height: 48px;
+  width: auto;
+  max-width: 250px;
+  object-fit: contain;
+  display: block;
+}
+
+.footer-logo {
+  height: 44px;
+  background: #ffffff;
+  padding: 6px 14px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
 }
 
 .brand-mark {

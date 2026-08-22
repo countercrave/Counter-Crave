@@ -14,17 +14,13 @@ export function SiteHeader() {
     <header className="site-header">
       <div className="shell header-inner">
         <Link href="/" className="brand" aria-label="CounterCrave home">
-          <span className="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 32 32" width="32" height="32" focusable="false">
-              <rect x="3" y="9" width="26" height="16" rx="4" fill="currentColor" />
-              <rect x="8" y="13" width="16" height="6" rx="2" fill="var(--butter)" />
-              <rect x="11" y="5" width="10" height="4" rx="2" fill="currentColor" />
-            </svg>
-          </span>
-          <span className="brand-copy">
-            <strong>CounterCrave</strong>
-            <small>Kitchen buying guides</small>
-          </span>
+          <img
+            src="/logo.png"
+            alt="CounterCrave - Count • Calculate • Crave More"
+            className="brand-logo"
+            width={240}
+            height={50}
+          />
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {primaryLinks.map((link) => (
@@ -54,11 +50,14 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="shell footer-grid">
         <div className="footer-intro">
-          <Link href="/" className="brand brand-light">
-            <span className="brand-copy">
-              <strong>CounterCrave</strong>
-              <small>Kitchen buying guides</small>
-            </span>
+          <Link href="/" className="brand brand-light" aria-label="CounterCrave home">
+            <img
+              src="/logo.png"
+              alt="CounterCrave - Count • Calculate • Crave More"
+              className="brand-logo footer-logo"
+              width={220}
+              height={46}
+            />
           </Link>
           <p>
             Clear appliance recommendations built around portions, counter space,

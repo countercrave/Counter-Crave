@@ -19,7 +19,7 @@ async function render(path = "/") {
 
 const count = (html, pattern) => (html.match(pattern) ?? []).length;
 const nonAmazonImages = (html) =>
-  [...html.matchAll(/<img[^>]+src="([^"]+)"/g)].map((m) => m[1]).filter((src) => !src.startsWith("https://m.media-amazon.com/"));
+  [...html.matchAll(/<img[^>]+src="([^"]+)"/g)].map((m) => m[1]).filter((src) => src !== "/logo.png" && !src.startsWith("https://m.media-amazon.com/"));
 
 test("renders CounterCrave production metadata", async () => {
   const response = await render("/");
