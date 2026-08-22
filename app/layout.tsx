@@ -23,8 +23,12 @@ export const metadata: Metadata = {
     images: ["/countercrave-og.png"],
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.ico" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/apple-icon.png",
   },
 };
 
