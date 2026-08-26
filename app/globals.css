@@ -2403,6 +2403,101 @@ p {
 .bullet-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px 25px; margin: 0; padding: 0; list-style: none; }
 .bullet-grid li { position: relative; padding: 16px 20px 16px 48px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 12px; font-size: 1rem; line-height: 1.55; }
 .bullet-grid li::before { position: absolute; top: 16px; left: 18px; color: var(--paprika); content: "✓"; font-weight: 800; }
+
+/* ------------------------------------------------------------------ editorial tables */
+.table-scroll {
+  overflow-x: auto;
+  margin: 28px 0 36px;
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-lg, 16px);
+  box-shadow: 6px 6px 0 var(--shadow, rgba(20, 26, 24, 0.12));
+}
+
+.diagnostic-table,
+.decision-table,
+table {
+  width: 100%;
+  min-width: 680px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.diagnostic-table thead th,
+.decision-table thead th,
+table thead th {
+  padding: 16px 22px;
+  background: var(--enamel);
+  color: white;
+  font-family: var(--font-mono, "IBM Plex Mono", monospace);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--ink);
+}
+
+.diagnostic-table tbody th,
+.diagnostic-table tbody td,
+.decision-table tbody th,
+.decision-table tbody td,
+table tbody th,
+table tbody td {
+  padding: 18px 22px;
+  border-bottom: 1px solid var(--line-strong, #e2e4df);
+  vertical-align: top;
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: var(--ink-2);
+}
+
+.diagnostic-table tbody th,
+.decision-table tbody th,
+table tbody th {
+  width: 25%;
+  color: var(--ink);
+  font-family: var(--font-display, "Bricolage Grotesque", sans-serif);
+  font-size: 1.05rem;
+  font-weight: 800;
+  border-right: 1px solid var(--line-strong, #e2e4df);
+  background: rgba(14, 79, 71, 0.03);
+}
+
+.diagnostic-table tbody tr:nth-child(even),
+.decision-table tbody tr:nth-child(even),
+table tbody tr:nth-child(even) {
+  background: #fafaf8;
+}
+
+.diagnostic-table tbody tr:hover,
+.decision-table tbody tr:hover,
+table tbody tr:hover {
+  background: var(--butter-soft, #fffbe8);
+  transition: background 150ms ease;
+}
+
+.diagnostic-table tbody tr:last-child > *,
+.decision-table tbody tr:last-child > *,
+table tbody tr:last-child > * {
+  border-bottom: 0;
+}
+
+.diagnostic-table a,
+.decision-table a,
+table a {
+  color: var(--enamel);
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--butter-deep);
+  transition: all 150ms ease;
+}
+
+.diagnostic-table a:hover,
+.decision-table a:hover,
+table a:hover {
+  color: var(--paprika);
+  border-color: var(--paprika);
+}
 .source-list { display: grid; gap: 12px; margin: 0; padding: 0; list-style: none; }
 .source-list li { padding: 17px 20px; background: var(--surface); border-left: 4px solid var(--enamel); border-radius: 0 12px 12px 0; }
 .source-list a { color: var(--enamel); font-weight: 700; }
