@@ -159,12 +159,10 @@ p {
 
 /* ------------------------------------------------------------------ header */
 .site-header {
-  position: sticky;
+  position: relative;
   z-index: 100;
-  top: 0;
   border-bottom: 1px solid var(--line);
   background: rgba(243, 244, 241, 0.92);
-  backdrop-filter: blur(14px);
 }
 
 .header-inner {
@@ -1384,7 +1382,7 @@ p {
 .article-jumpbar {
   position: sticky;
   z-index: 90;
-  top: 79px;
+  top: 0;
   background: var(--enamel-deep);
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
@@ -1457,7 +1455,7 @@ p {
 }
 
 .article-content section {
-  scroll-margin-top: 150px;
+  scroll-margin-top: 75px;
   margin-top: 56px;
 }
 
@@ -1500,7 +1498,7 @@ p {
 }
 
 .article-wide {
-  scroll-margin-top: 150px;
+  scroll-margin-top: 75px;
   margin-top: 64px;
 }
 
@@ -2317,7 +2315,7 @@ p {
 .article-shell-wide > .article-content { width: min(100%, 900px); }
 .article-prose { margin-block: 38px; color: var(--ink-2); font-size: 1.06rem; line-height: 1.82; }
 .article-prose p:first-child::first-letter { float: left; margin: 4px 8px 0 0; color: var(--paprika); font-family: var(--display); font-size: 4rem; font-weight: 800; line-height: .72; }
-.verdict-box { scroll-margin-top: 160px; padding: 31px 34px; background: var(--butter-soft); border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--butter-deep); }
+.verdict-box { scroll-margin-top: 75px; padding: 31px 34px; background: var(--butter-soft); border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: 6px 6px 0 var(--butter-deep); }
 .verdict-box h2 { margin: 10px 0 13px; font-size: clamp(1.75rem, 4vw, 2.65rem); }
 .verdict-box p { color: var(--ink-2); }
 .verdict-links { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 22px; }
@@ -2331,7 +2329,7 @@ p {
 .glance-grid dt { color: var(--ink-3); font-family: var(--mono); font-size: .63rem; font-weight: 600; text-transform: uppercase; }
 .glance-grid dd { margin: 3px 0 0; font-family: var(--display); font-size: 1.08rem; font-weight: 700; }
 
-.recipe-card { scroll-margin-top: 160px; margin: 58px 0; padding: 34px; background: var(--surface); border: 2px solid var(--enamel-deep); border-radius: var(--radius); box-shadow: 7px 7px 0 var(--enamel-soft); }
+.recipe-card { scroll-margin-top: 75px; margin: 58px 0; padding: 34px; background: var(--surface); border: 2px solid var(--enamel-deep); border-radius: var(--radius); box-shadow: 7px 7px 0 var(--enamel-soft); }
 .recipe-card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
 .recipe-card-head h2 { margin-top: 8px; font-size: clamp(1.8rem, 4vw, 2.8rem); }
 .recipe-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 10px; }
@@ -2350,7 +2348,7 @@ p {
 .ingredient-group small { display: block; color: var(--ink-3); font-size: .76rem; }
 .ingredient-group li.checked label > span { color: var(--ink-3); text-decoration: line-through; }
 
-.editorial-section { scroll-margin-top: 155px; margin-block: 70px; }
+.editorial-section { scroll-margin-top: 75px; margin-block: 70px; }
 .editorial-section > h2, .related-section > h2 { max-width: 760px; margin: 9px 0 28px; font-size: clamp(2rem, 4vw, 3.25rem); font-weight: 800; }
 .bullet-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 25px; margin: 0; padding: 0; list-style: none; }
 .bullet-grid li { position: relative; padding: 13px 15px 13px 36px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
@@ -2363,7 +2361,7 @@ p {
 .process-figure img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
 .process-figure figcaption { padding: 13px 17px; color: var(--ink-2); border-top: 1px solid var(--line); font-size: .76rem; }
 .step-grid { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
-.step-grid > li { display: grid; grid-template-columns: 52px 1fr; gap: 18px; padding: 25px 0; border-top: 1px solid var(--line-strong); scroll-margin-top: 155px; }
+.step-grid > li { display: grid; grid-template-columns: 52px 1fr; gap: 18px; padding: 25px 0; border-top: 1px solid var(--line-strong); scroll-margin-top: 75px; }
 .step-grid > li:last-child { border-bottom: 1px solid var(--line-strong); }
 .step-grid > li > span { display: grid; width: 43px; height: 43px; place-items: center; color: white; background: var(--paprika); border: 2px solid var(--ink); border-radius: 50%; box-shadow: 2px 2px 0 var(--ink); font-family: var(--display); font-weight: 800; }
 .step-grid h3 { margin-bottom: 7px; font-size: 1.32rem; }
@@ -2408,7 +2406,7 @@ p {
 .related-grid a:hover { border-color: var(--paprika); }
 .related-grid span { color: var(--paprika); }
 
-.dinner-explorer { scroll-margin-top: 155px; padding: 34px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius); }
+.dinner-explorer { scroll-margin-top: 75px; padding: 34px; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius); }
 .explorer-heading { display: grid; grid-template-columns: 1fr 310px; align-items: end; gap: 30px; }
 .explorer-heading h2 { margin: 8px 0 10px; font-size: clamp(2rem, 4vw, 3.2rem); }
 .explorer-heading p { color: var(--ink-2); }
@@ -2418,15 +2416,25 @@ p {
 .filter-tabs button, .empty-state button { padding: 8px 13px; color: var(--ink-2); background: var(--surface-2); border: 1px solid var(--line-strong); border-radius: 999px; cursor: pointer; font-size: .76rem; font-weight: 700; }
 .filter-tabs button.active { color: white; background: var(--enamel); border-color: var(--enamel); }
 .result-count { margin: 20px 0 12px; color: var(--ink-3); font-size: .78rem; }
-.dinner-list { display: grid; gap: 24px; }
-.dinner-card { display: grid; grid-template-columns: 330px 1fr; overflow: hidden; border: 1px solid var(--line); border-radius: 18px; scroll-margin-top: 155px; }
-.dinner-card-media { position: relative; min-height: 100%; margin: 0; background: var(--surface-2); }
-.dinner-card-media img { width: 100%; height: 100%; object-fit: cover; }
-.dinner-card-media > span { position: absolute; top: 14px; left: 14px; padding: 6px 9px; color: white; background: var(--enamel-deep); border-radius: 5px; font-family: var(--mono); font-size: .59rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
-.dinner-card-body { padding: 25px; }
+.dinner-grouped-view { display: grid; gap: 48px; }
+.dinner-category-group { display: grid; gap: 20px; }
+.category-group-banner { position: relative; overflow: hidden; margin: 16px 0 10px; background: var(--surface-2); border: 2px solid var(--ink); border-radius: var(--radius); box-shadow: var(--shadow); }
+.category-group-banner img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.category-group-banner figcaption { position: absolute; right: 18px; bottom: 18px; display: grid; gap: 2px; padding: 11px 17px; background: rgba(255, 255, 255, 0.96); border: 2px solid var(--ink); border-radius: 12px; box-shadow: 3px 3px 0 var(--ink); backdrop-filter: blur(8px); }
+.category-group-banner figcaption span { color: var(--paprika); font-family: var(--mono); font-size: 0.67rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; }
+.category-group-banner figcaption strong { font-family: var(--display); font-size: 0.92rem; color: var(--ink); }
+.category-group-header { margin: 8px 0 6px; }
+.category-group-header h3 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); color: var(--ink); margin-bottom: 6px; }
+.category-group-header p { color: var(--ink-2); font-size: 0.96rem; margin: 0; }
+.dinner-list { display: grid; gap: 20px; }
+.dinner-card { display: block; background: var(--surface); border: 1px solid var(--line-strong); border-radius: 18px; box-shadow: 0 4px 14px rgba(20, 26, 24, 0.05); transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease; scroll-margin-top: 75px; }
+.dinner-card:hover { border-color: var(--enamel); box-shadow: 0 8px 24px rgba(14, 79, 71, 0.1); }
+.dinner-card-body { padding: 28px 30px; }
+.dinner-badge-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.category-pill { display: inline-flex; align-items: center; padding: 4px 10px; color: white; background: var(--enamel); border-radius: 6px; font-family: var(--mono); font-size: 0.64rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; }
 .dinner-title-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
 .brand-line { color: var(--paprika); font-family: var(--mono); font-size: .62rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; }
-.dinner-title-row h3 { margin-top: 5px; font-size: 1.7rem; }
+.dinner-title-row h3 { margin-top: 3px; font-size: 1.7rem; }
 .time-badge { display: grid; width: 56px; height: 56px; flex: 0 0 56px; place-items: center; align-content: center; color: var(--ink); background: var(--butter); border: 1px solid var(--ink); border-radius: 50%; line-height: 1; }
 .time-badge strong { font-family: var(--display); font-size: 1.2rem; }
 .time-badge span { margin-top: 2px; font-family: var(--mono); font-size: .49rem; text-transform: uppercase; }
@@ -2460,7 +2468,6 @@ p {
   .hub-hero-grid { gap: 45px; }
   .hub-card { grid-template-columns: 38% 1fr; }
   .hub-card-featured { grid-template-columns: 48% 1fr; }
-  .dinner-card { grid-template-columns: 280px 1fr; }
 }
 
 @media (max-width: 800px) {
@@ -2477,10 +2484,9 @@ p {
   .hub-method-grid { gap: 15px; }
   .hub-cta { align-items: flex-start; flex-direction: column; }
   .explorer-heading { grid-template-columns: 1fr; }
-  .dinner-card { grid-template-columns: 1fr; }
-  .dinner-card-media { aspect-ratio: 16 / 8; }
   .safety-note { grid-template-columns: 1fr; gap: 8px; }
   .safety-note a { white-space: normal; }
+  .category-group-banner figcaption { position: static; margin-top: 10px; border-radius: 8px; }
 }
 
 @media (max-width: 600px) {
@@ -2504,7 +2510,6 @@ p {
   .step-grid > li { grid-template-columns: 42px 1fr; gap: 13px; }
   .step-grid > li > span { width: 36px; height: 36px; }
   .step-title-row { align-items: flex-start; flex-direction: column; gap: 0; }
-  .dinner-card-media { aspect-ratio: 4 / 3; }
   .dinner-card-body { padding: 20px; }
   .spec-strip li + li::before { margin-right: 8px; }
   .temperature-grid { grid-template-columns: repeat(2, 1fr); }
