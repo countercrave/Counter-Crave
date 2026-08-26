@@ -15,17 +15,60 @@ import {
   resolvePicks,
 } from "../../data/guide-helpers";
 import { getListing } from "../../data/catalog";
+import { DinnerPage } from "@/components/DinnerPage";
+import { RecipePage } from "@/components/RecipePage";
+import { recipeBySlug, recipes } from "@/content/recipes";
 
 type GuidePageProps = { params: Promise<{ slug: string }> };
 
 const origin = process.env.NEXT_PUBLIC_SITE_URL || "https://countercrave.com";
+const dinnerSlug = "easy-30-minute-dinner-ideas";
 
 export function generateStaticParams() {
-  return guides.map((guide) => ({ slug: guide.slug }));
+  return [
+    ...guides.map((guide) => ({ slug: guide.slug })),
+    { slug: dinnerSlug },
+    ...recipes.map((recipe) => ({ slug: recipe.slug })),
+  ];
 }
 
 export async function generateMetadata({ params }: GuidePageProps): Promise<Metadata> {
   const { slug } = await params;
+
+  if (slug === dinnerSlug) {
+    return {
+      title: "18 Easy 30-Minute Dinner Ideas (Complete Recipes)",
+      description: "Eighteen complete 30-minute dinner recipes with quantities, visual cues, swaps, filters, one-pan choices and official food-safety links.",
+      alternates: { canonical: `/guides/${dinnerSlug}` },
+      keywords: ["easy dinner ideas", "30 minute dinners", "quick dinner recipes", "easy weeknight dinners"],
+      openGraph: {
+        title: "18 Easy 30-Minute Dinner Ideas",
+        description: "Complete recipes—not a gallery of links—with a filterable weeknight dinner system.",
+        url: `/guides/${dinnerSlug}`,
+        images: [{ url: "/images/recipes/30-minute-dinners-hero.webp", width: 1600, height: 900 }],
+      },
+    };
+  }
+
+  const recipe = recipeBySlug.get(slug);
+  if (recipe) {
+    return {
+      title: recipe.metaTitle,
+      description: recipe.description,
+      alternates: { canonical: `/guides/${recipe.slug}` },
+      keywords: [recipe.targetKeyword, ...recipe.secondaryKeywords],
+      openGraph: {
+        type: "article",
+        title: recipe.title,
+        description: recipe.description,
+        url: `/guides/${recipe.slug}`,
+        publishedTime: recipe.published,
+        modifiedTime: recipe.published,
+        images: [{ url: recipe.hero, width: 1600, height: 900, alt: recipe.heroAlt }],
+      },
+    };
+  }
+
   const guide = getGuide(slug);
   if (!guide) return {};
   const lead = guideLeadImage(guide);
@@ -51,6 +94,16 @@ export async function generateMetadata({ params }: GuidePageProps): Promise<Meta
 
 export default async function GuidePage({ params }: GuidePageProps) {
   const { slug } = await params;
+
+  if (slug === dinnerSlug) {
+    return <DinnerPage />;
+  }
+
+  const recipe = recipeBySlug.get(slug);
+  if (recipe) {
+    return <RecipePage recipe={recipe} />;
+  }
+
   const guide = getGuide(slug);
   if (!guide) notFound();
 

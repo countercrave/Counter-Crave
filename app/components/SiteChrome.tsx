@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const primaryLinks = [
+  { href: "/recipes", label: "Recipes" },
   { href: "/categories/air-fryers", label: "Air fryers" },
   { href: "/categories/blenders", label: "Blenders" },
   { href: "/categories/coffee-makers", label: "Coffee" },
@@ -76,6 +77,8 @@ export function SiteFooter() {
         </div>
         <div>
           <h2>Start here</h2>
+          <Link href="/recipes">Recipe lab &amp; hub</Link>
+          <Link href="/guides/easy-30-minute-dinner-ideas">30-Minute dinner ideas</Link>
           <Link href="/guides/best-air-fryers-2026">Best air fryers 2026</Link>
           <Link href="/guides/best-blender-for-smoothies">Best blender for smoothies</Link>
           <Link href="/guides/best-single-serve-coffee-maker">Best single-serve coffee maker</Link>

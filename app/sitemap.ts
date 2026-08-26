@@ -1,13 +1,15 @@
 import type { MetadataRoute } from "next";
 import { categories } from "./data/site-data";
 import { guides } from "./data/guide-data";
+import { recipes } from "@/content/recipes";
 
 const origin = process.env.NEXT_PUBLIC_SITE_URL || "https://countercrave.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const updated = new Date("2026-08-22T00:00:00Z");
+  const updated = new Date("2026-08-26T00:00:00Z");
   return [
     { url: origin, lastModified: updated, changeFrequency: "weekly", priority: 1 },
+    { url: `${origin}/recipes`, lastModified: updated, changeFrequency: "weekly", priority: 0.9 },
     { url: `${origin}/guides`, lastModified: updated, changeFrequency: "weekly", priority: 0.9 },
     { url: `${origin}/about`, lastModified: updated, changeFrequency: "monthly", priority: 0.5 },
     { url: `${origin}/disclosure`, lastModified: updated, changeFrequency: "yearly", priority: 0.3 },
@@ -19,6 +21,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...guides.map((guide) => ({
       url: `${origin}/guides/${guide.slug}`,
+      lastModified: updated,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+    {
+      url: `${origin}/guides/easy-30-minute-dinner-ideas`,
+      lastModified: updated,
+      changeFrequency: "weekly" as const,
+      priority: 0.85,
+    },
+    ...recipes.map((recipe) => ({
+      url: `${origin}/guides/${recipe.slug}`,
       lastModified: updated,
       changeFrequency: "monthly" as const,
       priority: 0.8,
