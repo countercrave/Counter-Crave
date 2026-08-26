@@ -1384,18 +1384,18 @@ p {
 .article-jumpbar {
   position: sticky;
   z-index: 90;
-  top: 74px;
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  background: rgba(243, 244, 241, 0.94);
-  backdrop-filter: blur(12px);
+  top: 79px;
+  background: var(--enamel-deep);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 4px 15px rgba(7, 51, 46, 0.16);
 }
 
 .article-jumpbar-inner {
   display: flex;
+  min-height: 52px;
   align-items: center;
-  gap: 16px;
-  padding-block: 10px;
+  gap: 14px;
   overflow-x: auto;
   scrollbar-width: none;
 }
@@ -1406,35 +1406,43 @@ p {
 
 .article-jumpbar strong {
   flex: 0 0 auto;
-  color: var(--ink-3);
+  color: var(--butter);
   font-family: var(--font-mono);
   font-size: 0.74rem;
+  font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .article-jumpbar nav {
   display: flex;
-  gap: 6px;
+  align-items: center;
+  gap: 8px;
 }
 
 .article-jumpbar a {
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
   border: 1px solid transparent;
   border-radius: 999px;
-  padding: 7px 13px;
-  color: var(--ink-2);
-  font-size: 0.88rem;
+  padding: 6px 14px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.82rem;
   font-weight: 600;
   white-space: nowrap;
-  transition: border-color 150ms ease, background 150ms ease, color 150ms ease;
+  text-decoration: none;
+  transition: all 150ms ease;
 }
 
 .article-jumpbar a:hover,
 .article-jumpbar a:focus-visible {
-  border-color: var(--line-strong);
-  background: var(--surface);
-  color: var(--enamel);
+  border-color: #ffffff;
+  background: #ffffff;
+  color: var(--enamel-deep) !important;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
 }
 
 .article-shell {
@@ -2303,13 +2311,6 @@ p {
 .article-hero-media figcaption { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 20px; color: var(--ink-2); font-size: .78rem; }
 .award-sticker { padding: 7px 10px; color: var(--ink); background: var(--butter); border: 1px solid var(--ink); border-radius: 6px; font-family: var(--mono); font-size: .62rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; transform: rotate(-1deg); }
 .article-hero-media figcaption strong { font-family: var(--display); }
-.article-jumpbar { position: sticky; z-index: 90; top: 84px; background: var(--enamel-deep); box-shadow: 0 4px 15px rgba(7, 51, 46, .13); }
-.article-jumpbar-inner { display: flex; min-height: 51px; align-items: center; gap: 22px; overflow-x: auto; scrollbar-width: none; }
-.article-jumpbar-inner::-webkit-scrollbar { display: none; }
-.article-jumpbar strong { flex: 0 0 auto; color: var(--butter); font-family: var(--mono); font-size: .67rem; letter-spacing: .08em; text-transform: uppercase; }
-.article-jumpbar nav { display: flex; gap: 22px; }
-.article-jumpbar a { flex: 0 0 auto; color: rgba(255, 255, 255, .85); font-size: .76rem; font-weight: 600; text-decoration: none; }
-.article-jumpbar a:hover { color: white; text-decoration: underline; }
 .article-shell { width: min(900px, calc(100% - 40px)); margin: 0 auto; }
 .article-shell-wide { width: min(1120px, calc(100% - 40px)); }
 .article-content { width: min(100%, 820px); margin-inline: auto; padding-block: 70px 20px; }
